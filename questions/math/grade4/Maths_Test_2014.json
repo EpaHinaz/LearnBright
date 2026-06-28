@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 13",
+  "description": "Day 13 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-121",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 4,129 + 3,892?",
+      "options": [
+        "8,021",
+        "7,921",
+        "8,121",
+        "7,021"
+      ],
+      "answer": "8,021",
+      "hint": "Add columns right to left, carrying over the 1s.",
+      "explanation": "9+2=11 (carry 1), 2+9+1=12 (carry 1), 1+8+1=10 (carry 1), 4+3+1=8. Total 8,021.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-122",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 15 × 15?",
+      "options": [
+        "225",
+        "215",
+        "235",
+        "205"
+      ],
+      "answer": "225",
+      "hint": "Break 15 down into 10 + 5 and multiply both by 15.",
+      "explanation": "10 × 15 = 150. 5 × 15 = 75. 150 + 75 = 225.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-123",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 9,600 by 3.",
+      "options": [],
+      "answer": "3200",
+      "hint": "Divide 9 by 3 and 6 by 3.",
+      "explanation": "9 ÷ 3 = 3. 6 ÷ 3 = 2. Add the two zeros back. Result 3,200.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-124",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "If a box contains 12 crayons, how many crayons are in 12 boxes?",
+      "options": [
+        "144",
+        "120",
+        "132",
+        "156"
+      ],
+      "answer": "144",
+      "hint": "Multiply 12 by 12.",
+      "explanation": "12 × 12 = 144.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-125",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "You have $10. You buy a snack for $2.50. How much is left?",
+      "options": [],
+      "answer": "7.50",
+      "hint": "Subtract $2.50 from $10.00.",
+      "explanation": "10.00 - 2.50 = 7.50.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-126",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 4/10 as a decimal?",
+      "options": [
+        "0.4",
+        "0.04",
+        "4.0",
+        "0.44"
+      ],
+      "answer": "0.4",
+      "hint": "The denominator 10 means the digit goes in the tenths place.",
+      "explanation": "4/10 is four tenths, which is written as 0.4.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-127",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 1/6 + 2/6?",
+      "options": [],
+      "answer": "3/6",
+      "hint": "Add the numerators.",
+      "explanation": "1+2 = 3. Denominator 6. Answer 3/6.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-128",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many degrees is a right angle?",
+      "options": [
+        "90",
+        "180",
+        "45",
+        "360"
+      ],
+      "answer": "90",
+      "hint": "A right angle is like the corner of a square.",
+      "explanation": "A right angle is exactly 90 degrees.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-129",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Find the area of a square with sides of 7 cm.",
+      "options": [],
+      "answer": "49",
+      "hint": "Multiply side by side.",
+      "explanation": "7 × 7 = 49 sq cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-130",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which is longer: 1 meter or 90 centimeters?",
+      "options": [
+        "1 meter",
+        "90 centimeters",
+        "They are equal",
+        "Cannot tell"
+      ],
+      "answer": "1 meter",
+      "hint": "1 meter = 100 centimeters.",
+      "explanation": "100 cm > 90 cm.",
+      "dlevel": "medium"
+    }
+  ]
+}

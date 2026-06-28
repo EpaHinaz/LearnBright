@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 17",
+  "description": "Comprehensive math practice questions for Day 17.",
+  "questions": [
+    {
+      "id": "MATHS-161",
+      "q": "What is 8 \u00d7 8?",
+      "passage": "",
+      "options": [
+        "59",
+        "69",
+        "74",
+        "64"
+      ],
+      "answer": "64",
+      "explanation": "The correct answer is 64 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-162",
+      "q": "What is 9 \u00d7 9?",
+      "passage": "",
+      "options": [
+        "86",
+        "81",
+        "91",
+        "76"
+      ],
+      "answer": "81",
+      "explanation": "The correct answer is 81 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-163",
+      "q": "What is 10 \u00d7 10?",
+      "passage": "",
+      "options": [
+        "110",
+        "105",
+        "95",
+        "100"
+      ],
+      "answer": "100",
+      "explanation": "The correct answer is 100 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-164",
+      "q": "Jack has 64 marbles. They buy 27 more marbles. How many marbles does Jack have in total?",
+      "passage": "",
+      "options": [
+        "87",
+        "101",
+        "93",
+        "91"
+      ],
+      "answer": "91",
+      "explanation": "The correct answer is 91 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-165",
+      "q": "Ruby has 65 marbles. They buy 28 more marbles. How many marbles does Ruby have in total?",
+      "passage": "",
+      "options": [
+        "95",
+        "93",
+        "89",
+        "103"
+      ],
+      "answer": "93",
+      "explanation": "The correct answer is 93 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-166",
+      "q": "Evaluate: (5 + 6) - 0",
+      "passage": "",
+      "options": [
+        "9",
+        "23",
+        "14",
+        "11"
+      ],
+      "answer": "11",
+      "explanation": "The correct answer is 11 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-167",
+      "q": "What is the value of 3 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "15",
+        "18",
+        "27",
+        "13"
+      ],
+      "answer": "15",
+      "explanation": "The correct answer is 15 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-168",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "2/4",
+        "1/4",
+        "3/4",
+        "4/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-169",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-170",
+      "q": "Find the perimeter of a rectangle with length 5 cm and width 4 cm.",
+      "passage": "",
+      "options": [
+        "18",
+        "17",
+        "20",
+        "36"
+      ],
+      "answer": "18",
+      "explanation": "The correct answer is 18 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

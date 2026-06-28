@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 15",
+  "description": "Comprehensive math practice questions for Day 15.",
+  "questions": [
+    {
+      "id": "MATHS-141",
+      "q": "What is 9 \u00d7 12?",
+      "passage": "",
+      "options": [
+        "118",
+        "108",
+        "103",
+        "113"
+      ],
+      "answer": "108",
+      "explanation": "The correct answer is 108 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-142",
+      "q": "What is 10 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "75",
+        "80",
+        "70",
+        "65"
+      ],
+      "answer": "70",
+      "explanation": "The correct answer is 70 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-143",
+      "q": "What is 62 + 43?",
+      "passage": "",
+      "options": [
+        "110",
+        "105",
+        "115",
+        "100"
+      ],
+      "answer": "105",
+      "explanation": "The correct answer is 105 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-144",
+      "q": "Sam has 58 marbles. They buy 25 more marbles. How many marbles does Sam have in total?",
+      "passage": "",
+      "options": [
+        "83",
+        "79",
+        "85",
+        "93"
+      ],
+      "answer": "83",
+      "explanation": "The correct answer is 83 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-145",
+      "q": "Anna bought 5 packs of pencils. Each pack has 7 pencils. How many pencils did Anna buy?",
+      "passage": "",
+      "options": [
+        "37",
+        "31",
+        "45",
+        "35"
+      ],
+      "answer": "35",
+      "explanation": "The correct answer is 35 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-146",
+      "q": "Evaluate: (5 + 0) - 1",
+      "passage": "",
+      "options": [
+        "16",
+        "2",
+        "7",
+        "4"
+      ],
+      "answer": "4",
+      "explanation": "The correct answer is 4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-147",
+      "q": "Evaluate: (5 + 1) - 2",
+      "passage": "",
+      "options": [
+        "4",
+        "7",
+        "16",
+        "2"
+      ],
+      "answer": "4",
+      "explanation": "The correct answer is 4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-148",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "2/4",
+        "3/4",
+        "4/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-149",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/4",
+        "4/4",
+        "2/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-150",
+      "q": "Find the perimeter of a rectangle with length 9 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "30",
+        "27",
+        "56",
+        "28"
+      ],
+      "answer": "28",
+      "explanation": "The correct answer is 28 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

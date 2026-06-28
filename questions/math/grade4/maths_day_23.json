@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 07",
+  "description": "Comprehensive math practice questions for Day 07.",
+  "questions": [
+    {
+      "id": "MATHS-061",
+      "q": "What is 36 + 33?",
+      "passage": "",
+      "options": [
+        "79",
+        "69",
+        "64",
+        "74"
+      ],
+      "answer": "69",
+      "explanation": "The correct answer is 69 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-062",
+      "q": "What is 37 + 34?",
+      "passage": "",
+      "options": [
+        "66",
+        "71",
+        "76",
+        "81"
+      ],
+      "answer": "71",
+      "explanation": "The correct answer is 71 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-063",
+      "q": "What is 38 + 35?",
+      "passage": "",
+      "options": [
+        "78",
+        "83",
+        "68",
+        "73"
+      ],
+      "answer": "73",
+      "explanation": "The correct answer is 73 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-064",
+      "q": "Sam has 34 marbles. They buy 17 more marbles. How many marbles does Sam have in total?",
+      "passage": "",
+      "options": [
+        "51",
+        "47",
+        "53",
+        "61"
+      ],
+      "answer": "51",
+      "explanation": "The correct answer is 51 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-065",
+      "q": "Anna has 35 marbles. They buy 18 more marbles. How many marbles does Anna have in total?",
+      "passage": "",
+      "options": [
+        "55",
+        "63",
+        "53",
+        "49"
+      ],
+      "answer": "53",
+      "explanation": "The correct answer is 53 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-066",
+      "q": "Evaluate: (5 + 6) - 2",
+      "passage": "",
+      "options": [
+        "7",
+        "9",
+        "12",
+        "21"
+      ],
+      "answer": "9",
+      "explanation": "The correct answer is 9 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-067",
+      "q": "Evaluate: (5 + 7) - 0",
+      "passage": "",
+      "options": [
+        "12",
+        "15",
+        "24",
+        "10"
+      ],
+      "answer": "12",
+      "explanation": "The correct answer is 12 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-068",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-069",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "2/4",
+        "4/4",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-070",
+      "q": "Find the perimeter of a rectangle with length 5 cm and width 3 cm.",
+      "passage": "",
+      "options": [
+        "15",
+        "18",
+        "32",
+        "16"
+      ],
+      "answer": "16",
+      "explanation": "The correct answer is 16 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

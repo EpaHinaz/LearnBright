@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 14",
+  "description": "Day 14 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-131",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,555 + 4,444?",
+      "options": [
+        "9,999",
+        "8,999",
+        "9,899",
+        "9,989"
+      ],
+      "answer": "9,999",
+      "hint": "Add each place value.",
+      "explanation": "5+4=9 in every column. Total 9,999.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-132",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 24 × 5?",
+      "options": [
+        "120",
+        "110",
+        "130",
+        "100"
+      ],
+      "answer": "120",
+      "hint": "Multiply 20 by 5 and 4 by 5.",
+      "explanation": "100 + 20 = 120.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-133",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 720 by 9.",
+      "options": [],
+      "answer": "80",
+      "hint": "Divide 72 by 9.",
+      "explanation": "72 ÷ 9 = 8. Add the zero. Result 80.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-134",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A toy car costs $12. How much for 6 cars?",
+      "options": [
+        "$72",
+        "$62",
+        "$82",
+        "$70"
+      ],
+      "answer": "$72",
+      "hint": "Multiply 12 by 6.",
+      "explanation": "12 × 6 = 72.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-135",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "You walk 3 km on Monday and 4 km on Tuesday. Total distance?",
+      "options": [],
+      "answer": "7",
+      "hint": "Add 3 + 4.",
+      "explanation": "3+4 = 7 km.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-136",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which is bigger: 1/4 or 1/3?",
+      "options": [
+        "1/3",
+        "1/4",
+        "They are equal",
+        "Neither"
+      ],
+      "answer": "1/3",
+      "hint": "Divide a cake into 3 pieces vs 4 pieces.",
+      "explanation": "Larger denominator means smaller pieces.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-137",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 6/7 - 2/7?",
+      "options": [],
+      "answer": "4/7",
+      "hint": "Subtract numerators.",
+      "explanation": "6-2 = 4. Result 4/7.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-138",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many sides does a pentagon have?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "8"
+      ],
+      "answer": "5",
+      "hint": "Think of the Pentagon building.",
+      "explanation": "A pentagon has 5 sides.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-139",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Perimeter of rectangle with length 6 and width 3.",
+      "options": [],
+      "answer": "18",
+      "hint": "Add 6+6+3+3.",
+      "explanation": "12 + 6 = 18.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-140",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many hours in 2 days?",
+      "options": [
+        "48",
+        "24",
+        "36",
+        "60"
+      ],
+      "answer": "48",
+      "hint": "1 day = 24 hours.",
+      "explanation": "24 × 2 = 48.",
+      "dlevel": "easy"
+    }
+  ]
+}

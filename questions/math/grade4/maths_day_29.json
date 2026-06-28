@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 01",
+  "description": "Comprehensive math practice questions for Day 01.",
+  "questions": [
+    {
+      "id": "MATHS-001",
+      "q": "What is 83 - 18?",
+      "passage": "",
+      "options": [
+        "70",
+        "65",
+        "60",
+        "75"
+      ],
+      "answer": "65",
+      "explanation": "The correct answer is 65 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-002",
+      "q": "What is 19 + 28?",
+      "passage": "",
+      "options": [
+        "42",
+        "52",
+        "57",
+        "47"
+      ],
+      "answer": "47",
+      "explanation": "The correct answer is 47 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-003",
+      "q": "What is 20 + 29?",
+      "passage": "",
+      "options": [
+        "44",
+        "59",
+        "49",
+        "54"
+      ],
+      "answer": "49",
+      "explanation": "The correct answer is 49 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-004",
+      "q": "Jack bought 6 packs of pencils. Each pack has 7 pencils. How many pencils did Jack buy?",
+      "passage": "",
+      "options": [
+        "52",
+        "42",
+        "44",
+        "38"
+      ],
+      "answer": "42",
+      "explanation": "The correct answer is 42 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-005",
+      "q": "Ruby has 17 marbles. They buy 12 more marbles. How many marbles does Ruby have in total?",
+      "passage": "",
+      "options": [
+        "31",
+        "39",
+        "29",
+        "25"
+      ],
+      "answer": "29",
+      "explanation": "The correct answer is 29 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-006",
+      "q": "Evaluate: (5 + 8) - 2",
+      "passage": "",
+      "options": [
+        "23",
+        "11",
+        "14",
+        "9"
+      ],
+      "answer": "11",
+      "explanation": "The correct answer is 11 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-007",
+      "q": "What is the value of 3 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "13",
+        "18",
+        "15",
+        "27"
+      ],
+      "answer": "15",
+      "explanation": "The correct answer is 15 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-008",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "3/4"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-009",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-010",
+      "q": "Find the perimeter of a rectangle with length 7 cm and width 3 cm.",
+      "passage": "",
+      "options": [
+        "40",
+        "19",
+        "22",
+        "20"
+      ],
+      "answer": "20",
+      "explanation": "The correct answer is 20 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    }
+  ]
+}

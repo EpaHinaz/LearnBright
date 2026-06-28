@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 15",
+  "description": "Day 15 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-141",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 7,654 - 2,321?",
+      "options": [
+        "5,333",
+        "5,433",
+        "5,233",
+        "5,323"
+      ],
+      "answer": "5,333",
+      "hint": "Subtract each place value starting from the ones.",
+      "explanation": "4-1=3, 5-2=3, 6-3=3, 7-2=5. The difference is 5,333.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-142",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 16 × 4?",
+      "options": [
+        "64",
+        "54",
+        "74",
+        "44"
+      ],
+      "answer": "64",
+      "hint": "Think of 10 × 4 plus 6 × 4.",
+      "explanation": "10 × 4 = 40. 6 × 4 = 24. 40 + 24 = 64.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-143",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 840 by 7.",
+      "options": [],
+      "answer": "120",
+      "hint": "Divide 84 by 7 and add the zero.",
+      "explanation": "84 ÷ 7 = 12. So 840 ÷ 7 = 120.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-144",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A school bus can seat 40 children. How many buses are needed for 160 children?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "hint": "Divide 160 by 40.",
+      "explanation": "160 ÷ 40 = 4.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-145",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "If you save $5 every week for 10 weeks, how much do you have?",
+      "options": [],
+      "answer": "50",
+      "hint": "Multiply 5 by 10.",
+      "explanation": "5 × 10 = 50.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-146",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 1/2 + 1/4?",
+      "options": [
+        "3/4",
+        "2/4",
+        "1/6",
+        "2/6"
+      ],
+      "answer": "3/4",
+      "hint": "Convert 1/2 to a fraction with 4 as the denominator.",
+      "explanation": "1/2 = 2/4. 2/4 + 1/4 = 3/4.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-147",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 7/8 - 2/8?",
+      "options": [],
+      "answer": "5/8",
+      "hint": "Subtract the numerators.",
+      "explanation": "7 - 2 = 5. Keep the denominator 8.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-148",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many degrees in a circle?",
+      "options": [
+        "360",
+        "180",
+        "90",
+        "270"
+      ],
+      "answer": "360",
+      "hint": "A full rotation is 360 degrees.",
+      "explanation": "A full turn or circle is 360 degrees.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-149",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Perimeter of a square with side 12.",
+      "options": [],
+      "answer": "48",
+      "hint": "Multiply side by 4.",
+      "explanation": "12 × 4 = 48.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-150",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many months in 2 years?",
+      "options": [
+        "24",
+        "12",
+        "36",
+        "48"
+      ],
+      "answer": "24",
+      "hint": "1 year = 12 months.",
+      "explanation": "12 × 2 = 24.",
+      "dlevel": "easy"
+    }
+  ]
+}

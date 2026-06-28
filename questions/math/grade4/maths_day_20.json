@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 10",
+  "description": "Comprehensive math practice questions for Day 10.",
+  "questions": [
+    {
+      "id": "MATHS-091",
+      "q": "What is 45 + 36?",
+      "passage": "",
+      "options": [
+        "86",
+        "91",
+        "76",
+        "81"
+      ],
+      "answer": "81",
+      "explanation": "The correct answer is 81 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-092",
+      "q": "What is 9 \u00d7 8?",
+      "passage": "",
+      "options": [
+        "67",
+        "72",
+        "82",
+        "77"
+      ],
+      "answer": "72",
+      "explanation": "The correct answer is 72 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-093",
+      "q": "What is 47 + 38?",
+      "passage": "",
+      "options": [
+        "95",
+        "80",
+        "85",
+        "90"
+      ],
+      "answer": "85",
+      "explanation": "The correct answer is 85 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-094",
+      "q": "Anna has 43 marbles. They buy 20 more marbles. How many marbles does Anna have in total?",
+      "passage": "",
+      "options": [
+        "63",
+        "73",
+        "59",
+        "65"
+      ],
+      "answer": "63",
+      "explanation": "The correct answer is 63 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-095",
+      "q": "Leo has 44 marbles. They buy 21 more marbles. How many marbles does Leo have in total?",
+      "passage": "",
+      "options": [
+        "65",
+        "67",
+        "75",
+        "61"
+      ],
+      "answer": "65",
+      "explanation": "The correct answer is 65 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-096",
+      "q": "What is the value of 5 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "23",
+        "25",
+        "28",
+        "37"
+      ],
+      "answer": "25",
+      "explanation": "The correct answer is 25 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-097",
+      "q": "Evaluate: (5 + 6) - 0",
+      "passage": "",
+      "options": [
+        "14",
+        "9",
+        "11",
+        "23"
+      ],
+      "answer": "11",
+      "explanation": "The correct answer is 11 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-098",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "3/4",
+        "1/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-099",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "3/4",
+        "1/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-100",
+      "q": "Find the perimeter of a rectangle with length 9 cm and width 3 cm.",
+      "passage": "",
+      "options": [
+        "48",
+        "23",
+        "24",
+        "26"
+      ],
+      "answer": "24",
+      "explanation": "The correct answer is 24 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    }
+  ]
+}

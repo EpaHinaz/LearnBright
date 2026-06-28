@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 28",
+  "description": "Day 28 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-271",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 9,000 - 4,500?",
+      "options": ["4,500", "5,500", "3,500", "4,000"],
+      "answer": "4,500",
+      "hint": "45 is exactly half of 90.",
+      "explanation": "9,000 - 4,500 = 4,500.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-272",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 13 × 4?",
+      "options": ["52", "42", "48", "56"],
+      "answer": "52",
+      "hint": "Double 13, then double it again.",
+      "explanation": "13 × 2 = 26, and 26 × 2 = 52.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-273",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 480 by 6.",
+      "options": [],
+      "answer": "80",
+      "hint": "Think of 48 divided by 6.",
+      "explanation": "48 ÷ 6 = 8. Add the trailing zero to get 80.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-274",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "There are 7 sports teams in a tournament. If each team has 5 players, how many players are in the tournament?",
+      "options": ["35", "30", "40", "45"],
+      "answer": "35",
+      "hint": "Count by fives seven times.",
+      "explanation": "7 teams × 5 players = 35 players.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-275",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A piece of rope is 20 meters long. It is cut into 4 equal pieces. How many meters long is each piece?",
+      "options": [],
+      "answer": "5",
+      "hint": "Divide the total length by the number of pieces.",
+      "explanation": "20 meters ÷ 4 pieces = 5 meters per piece.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-276",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is equivalent to 1/2?",
+      "options": ["2/4", "1/4", "2/3", "3/5"],
+      "answer": "2/4",
+      "hint": "Look for a fraction where the top number is exactly half of the bottom number.",
+      "explanation": "2 is half of 4, so 2/4 scales down evenly to 1/2.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-277",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 8/9 - 5/9. Write your answer as a fraction.",
+      "options": [],
+      "answer": "3/9",
+      "hint": "Subtract the numerators.",
+      "explanation": "8 - 5 = 3. Keep the denominator 9. The result is 3/9.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-278",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is the name of a triangle where all three sides are equal in length?",
+      "options": ["Equilateral triangle", "Isosceles triangle", "Scalene triangle", "Right triangle"],
+      "answer": "Equilateral triangle",
+      "hint": "The word sounds like 'equal lateral' (equal sides).",
+      "explanation": "An equilateral triangle has three identical sides and angles.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-279",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the perimeter of a square when one of its sides is 8 cm long?",
+      "options": [],
+      "answer": "32",
+      "hint": "A square has 4 equal sides. Multiply the side length by 4.",
+      "explanation": "8 cm × 4 sides = 32 cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-280",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many months are there in 3 full years?",
+      "options": ["36", "24", "48", "30"],
+      "answer": "36",
+      "hint": "Multiply 12 months by 3.",
+      "explanation": "12 months/year × 3 years = 36 months.",
+      "dlevel": "easy"
+    }
+  ]
+}

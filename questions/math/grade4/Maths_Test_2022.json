@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 21",
+  "description": "Day 21 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-201",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 1,250 + 1,250?",
+      "options": ["2,500", "2,400", "2,600", "2,250"],
+      "answer": "2,500",
+      "hint": "Double 1,250.",
+      "explanation": "1,250 + 1,250 = 2,500.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-202",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 7 × 9?",
+      "options": ["63", "56", "72", "49"],
+      "answer": "63",
+      "hint": "Know your 9 times tables.",
+      "explanation": "7 × 9 = 63.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-203",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 880 by 8.",
+      "options": [],
+      "answer": "110",
+      "hint": "88 divided by 8 is 11.",
+      "explanation": "880 ÷ 8 = 110.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-204",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A jar holds 50 marbles. If you have 4 jars, how many marbles?",
+      "options": ["200", "150", "250", "100"],
+      "answer": "200",
+      "hint": "4 times 50.",
+      "explanation": "50 × 4 = 200.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-205",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "If one pencil costs $0.50, how much for 6 pencils?",
+      "options": [],
+      "answer": "3",
+      "hint": "Multiply 0.50 by 6.",
+      "explanation": "0.50 × 6 = 3.00.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-206",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 3/8 + 4/8?",
+      "options": ["7/8", "1/8", "7/16", "6/8"],
+      "answer": "7/8",
+      "hint": "Add the numerators.",
+      "explanation": "3+4=7. Denominator remains 8.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-207",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 10/12 - 4/12?",
+      "options": [],
+      "answer": "6/12",
+      "hint": "Subtract the numerators.",
+      "explanation": "10 - 4 = 6. Answer 6/12.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-208",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many sides does a heptagon have?",
+      "options": ["7", "6", "8", "5"],
+      "answer": "7",
+      "hint": "Hepta- means 7.",
+      "explanation": "A heptagon has 7 sides.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-209",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Area of rectangle with length 9 and width 5.",
+      "options": [],
+      "answer": "45",
+      "hint": "9 times 5.",
+      "explanation": "9 × 5 = 45.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-210",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many minutes in 3 hours?",
+      "options": ["180", "150", "200", "120"],
+      "answer": "180",
+      "hint": "60 times 3.",
+      "explanation": "60 × 3 = 180.",
+      "dlevel": "easy"
+    }
+  ]
+}

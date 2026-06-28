@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 17",
+  "description": "Day 17 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-161",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 6,789 + 1,234?",
+      "options": [
+        "8,023",
+        "7,923",
+        "8,123",
+        "8,013"
+      ],
+      "answer": "8,023",
+      "hint": "Add place by place. 9+4=13, carry the 1.",
+      "explanation": "6789 + 1234 = 8023.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-162",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 12 × 12?",
+      "options": [
+        "144",
+        "124",
+        "132",
+        "142"
+      ],
+      "answer": "144",
+      "hint": "This is a basic square number.",
+      "explanation": "12 × 12 = 144.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-163",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 450 by 5.",
+      "options": [],
+      "answer": "90",
+      "hint": "45 divided by 5 is 9.",
+      "explanation": "450 ÷ 5 = 90.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-164",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "There are 5 shelves, each holding 10 books. Total books?",
+      "options": [
+        "50",
+        "15",
+        "40",
+        "60"
+      ],
+      "answer": "50",
+      "hint": "Multiply 5 by 10.",
+      "explanation": "5 × 10 = 50.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-165",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A pen costs $3. You have $20. Cost of 4 pens?",
+      "options": [],
+      "answer": "12",
+      "hint": "Multiply 3 by 4.",
+      "explanation": "3 × 4 = 12.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-166",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 2/5 + 1/5?",
+      "options": [
+        "3/5",
+        "3/10",
+        "1/5",
+        "2/5"
+      ],
+      "answer": "3/5",
+      "hint": "Add the numerators.",
+      "explanation": "2+1=3. Denominator stays 5.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-167",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 9/10 - 3/10?",
+      "options": [],
+      "answer": "6/10",
+      "hint": "Subtract numerators.",
+      "explanation": "9 - 3 = 6. Denominator stays 10.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-168",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many sides on a hexagon?",
+      "options": [
+        "6",
+        "5",
+        "8",
+        "4"
+      ],
+      "answer": "6",
+      "hint": "Hex- means 6.",
+      "explanation": "A hexagon has 6 sides.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-169",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Perimeter of square with side 6.",
+      "options": [],
+      "answer": "24",
+      "hint": "4 sides × 6.",
+      "explanation": "4 × 6 = 24.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-170",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many seconds in a minute?",
+      "options": [
+        "60",
+        "30",
+        "100",
+        "45"
+      ],
+      "answer": "60",
+      "hint": "It is the same as the minutes in an hour.",
+      "explanation": "1 minute = 60 seconds.",
+      "dlevel": "easy"
+    }
+  ]
+}

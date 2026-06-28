@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 22",
+  "description": "Day 22 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-211",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,000 + 3,500?",
+      "options": ["8,500", "8,000", "7,500", "9,000"],
+      "answer": "8,500",
+      "hint": "Add the thousands, then the hundreds.",
+      "explanation": "5000 + 3500 = 8500.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-212",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 8 × 7?",
+      "options": ["56", "48", "64", "63"],
+      "answer": "56",
+      "hint": "Times tables.",
+      "explanation": "8 × 7 = 56.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-213",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 700 by 10.",
+      "options": [],
+      "answer": "70",
+      "hint": "Remove one zero.",
+      "explanation": "700 ÷ 10 = 70.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-214",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "There are 6 groups of 4 children. How many children total?",
+      "options": ["24", "20", "28", "30"],
+      "answer": "24",
+      "hint": "Multiply 6 by 4.",
+      "explanation": "6 × 4 = 24.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-215",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "One book costs $7. How much for 5 books?",
+      "options": [],
+      "answer": "35",
+      "hint": "Multiply 7 by 5.",
+      "explanation": "7 × 5 = 35.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-216",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 2/9 + 4/9?",
+      "options": ["6/9", "6/18", "2/9", "5/9"],
+      "answer": "6/9",
+      "hint": "Add numerators.",
+      "explanation": "2+4=6. Result 6/9.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-217",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 11/15 - 3/15?",
+      "options": [],
+      "answer": "8/15",
+      "hint": "Subtract numerators.",
+      "explanation": "11-3=8. Answer 8/15.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-218",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many sides does an octagon have?",
+      "options": ["8", "6", "10", "7"],
+      "answer": "8",
+      "hint": "Octo- means 8 (like an octopus).",
+      "explanation": "An octagon has 8 sides.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-219",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Perimeter of square with side 9.",
+      "options": [],
+      "answer": "36",
+      "hint": "4 times 9.",
+      "explanation": "4 × 9 = 36.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-220",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many hours in 3 days?",
+      "options": ["72", "48", "60", "96"],
+      "answer": "72",
+      "hint": "24 times 3.",
+      "explanation": "24 × 3 = 72.",
+      "dlevel": "medium"
+    }
+  ]
+}

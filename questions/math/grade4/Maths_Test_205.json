@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 04",
+  "description": "Day 4 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-031",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 8,450 + 1,235?",
+      "options": [
+        "9,685",
+        "9,585",
+        "9,675",
+        "8,685"
+      ],
+      "answer": "9,685",
+      "hint": "Line up the numbers by their place values and add from right to left.",
+      "explanation": "0+5=5, 5+3=8, 4+2=6, 8+1=9. The sum is 9,685.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-032",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 34 × 12?",
+      "options": [
+        "418",
+        "408",
+        "398",
+        "428"
+      ],
+      "answer": "408",
+      "hint": "Multiply 34 by 10, then multiply 34 by 2. Add the two answers together.",
+      "explanation": "34 × 10 = 340. 34 × 2 = 68. 340 + 68 = 408.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-033",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 1,848 by 6.",
+      "options": [],
+      "answer": "308",
+      "hint": "6 goes into 18 three times. What do you do when 6 cannot go into the next digit, 4?",
+      "explanation": "6 goes into 18 exactly 3 times (1800). Bring down 4. 6 goes into 4 zero times. Bring down 8 to make 48. 6 goes into 48 eight times. The quotient is 308.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-034",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A school buys 5 boxes of markers for the art room. If each box contains 24 markers, how many markers did they buy in total?",
+      "options": [
+        "120",
+        "100",
+        "140",
+        "110"
+      ],
+      "answer": "120",
+      "hint": "Multiply the number of boxes by the number of markers in each box.",
+      "explanation": "5 boxes × 24 markers per box = 120 markers.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-035",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Anna has $50.00. She buys a board game for $28.50. How much money does she have left?",
+      "options": [],
+      "answer": "21.50",
+      "hint": "Subtract the cost of the board game from the amount of money Anna started with.",
+      "explanation": "$50.00 - $28.50 = $21.50. You must borrow across the zeros to subtract properly.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-036",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is equivalent to 2/3?",
+      "options": [
+        "4/6",
+        "3/4",
+        "2/6",
+        "5/8"
+      ],
+      "answer": "4/6",
+      "hint": "Multiply both the numerator and the denominator of 2/3 by 2.",
+      "explanation": "To find an equivalent fraction, multiply the top and bottom by the same number. 2×2=4 and 3×2=6. Therefore, 4/6 is equivalent to 2/3.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-037",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Add 7/12 + 4/12. Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "11/12",
+      "hint": "Because the denominators are the same, just add the numerators.",
+      "explanation": "Keep the denominator as 12 and add the numerators: 7 + 4 = 11. The answer is 11/12.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-038",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What describes parallel lines?",
+      "options": [
+        "Lines that never touch or cross",
+        "Lines that cross at a 90-degree angle",
+        "Lines that meet to form a triangle",
+        "Curved lines that intersect once"
+      ],
+      "answer": "Lines that never touch or cross",
+      "hint": "Think of the two sides of a straight railroad track.",
+      "explanation": "Parallel lines are straight lines that are always the same distance apart and will never intersect, no matter how far they are extended.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-039",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the perimeter of a square with a side length of 9 centimeters?",
+      "options": [],
+      "answer": "36",
+      "hint": "A square has 4 equal sides. Add them all together or multiply by 4.",
+      "explanation": "Perimeter of a square = 4 × side. 4 × 9 cm = 36 cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-040",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many ounces are in 2 pounds? (Hint: 1 pound = 16 ounces)",
+      "options": [
+        "32",
+        "24",
+        "18",
+        "48"
+      ],
+      "answer": "32",
+      "hint": "Multiply the number of pounds by 16.",
+      "explanation": "Since 1 pound is 16 ounces, 2 pounds is 2 × 16 = 32 ounces.",
+      "dlevel": "easy"
+    }
+  ]
+}

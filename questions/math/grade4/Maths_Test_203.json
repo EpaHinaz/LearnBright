@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 02",
+  "description": "Day 2 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-011",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,000 - 2,345?",
+      "options": [
+        "2,755",
+        "3,655",
+        "2,655",
+        "2,645"
+      ],
+      "answer": "2,655",
+      "hint": "You will need to regroup (borrow) across the zeros in 5,000.",
+      "explanation": "Regrouping from 5,000 gives 4,999 and an extra 10 ones. 10-5=5, 9-4=5, 9-3=6, 4-2=2. The difference is 2,655.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-012",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 23 × 14?",
+      "options": [
+        "322",
+        "312",
+        "222",
+        "342"
+      ],
+      "answer": "322",
+      "hint": "Multiply 23 by 10, then multiply 23 by 4, and add the results.",
+      "explanation": "23 × 10 = 230. 23 × 4 = 92. 230 + 92 = 322.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-013",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 956 by 4.",
+      "options": [],
+      "answer": "239",
+      "hint": "Use long division. Start by dividing 9 hundreds by 4.",
+      "explanation": "4 goes into 9 twice (8), leaving 1. Bring down 5 to make 15. 4 goes into 15 three times (12), leaving 3. Bring down 6 to make 36. 4 goes into 36 nine times. The quotient is 239.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-014",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A family travels 120 miles in 2 hours. If they travel at the same speed, how far do they travel in 1 hour?",
+      "options": [
+        "120 miles",
+        "60 miles",
+        "50 miles",
+        "240 miles"
+      ],
+      "answer": "60 miles",
+      "hint": "Divide the total distance by the total time to find the distance for one hour.",
+      "explanation": "120 miles ÷ 2 hours = 60 miles per hour. They travel 60 miles in 1 hour.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-015",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A recipe calls for 250 grams of flour. If Marco wants to make 3 batches, how many grams of flour does he need?",
+      "options": [],
+      "answer": "750",
+      "hint": "Multiply the amount of flour for one batch by the number of batches.",
+      "explanation": "250 grams × 3 = 750 grams of flour.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-016",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is larger: 3/4 or 1/4?",
+      "options": [
+        "They are equal",
+        "1/4",
+        "Cannot be determined",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "hint": "If the denominators are the same, look at the numerators.",
+      "explanation": "Because the denominators are the same (4), compare the numerators. 3 is greater than 1, so 3/4 is larger than 1/4.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-017",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Subtract 5/10 - 2/10.",
+      "options": [
+        "3/10",
+        "7/10",
+        "3/0",
+        "7/0"
+      ],
+      "answer": "3/10",
+      "hint": "Subtract the numerators but keep the denominator the same.",
+      "explanation": "5 - 2 = 3. The denominator stays 10, so the answer is 3/10.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-018",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A rectangle has a length of 8 cm and a width of 5 cm. What is its perimeter in cm?",
+      "options": [],
+      "answer": "26",
+      "hint": "Perimeter is the distance around the rectangle. Add all four sides together.",
+      "explanation": "Perimeter = length + length + width + width. 8 + 8 + 5 + 5 = 26 cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-019",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A rectangular garden is 12 meters long and 9 meters wide. What is its area in square meters?",
+      "options": [],
+      "answer": "108",
+      "hint": "Multiply the length by the width to find the area.",
+      "explanation": "Area = length × width. 12 × 9 = 108 square meters.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-020",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many milliliters are in 3 liters?",
+      "options": [
+        "300",
+        "30",
+        "30,000",
+        "3,000"
+      ],
+      "answer": "3,000",
+      "hint": "There are 1,000 milliliters in 1 liter.",
+      "explanation": "To convert liters to milliliters, multiply by 1,000. 3 × 1,000 = 3,000 milliliters.",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 08",
+  "description": "Day 8 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-071",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 8,500 - 4,275?",
+      "options": [
+        "4,225",
+        "4,325",
+        "4,275",
+        "4,125"
+      ],
+      "answer": "4,225",
+      "hint": "You will need to regroup across the zeros in 8,500.",
+      "explanation": "Regroup the 500 to 490 and 10 ones. 10-5=5. 9-7=2. 4-2=2. 8-4=4. The difference is 4,225.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-072",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is the remainder when 45 is divided by 6?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": "3",
+      "hint": "Think of the closest multiple of 6 that is less than 45.",
+      "explanation": "6 × 7 = 42. Since 45 is 3 more than 42, the remainder is 3.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-073",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Multiply 125 by 14.",
+      "options": [],
+      "answer": "1750",
+      "hint": "Multiply 125 by 4, then multiply 125 by 10, and add the results.",
+      "explanation": "125 × 4 = 500. 125 × 10 = 1,250. 500 + 1,250 = 1,750.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-074",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A recipe uses 4 apples to make one pie. If a baker needs to make 8 pies, how many apples does he need?",
+      "options": [
+        "32",
+        "24",
+        "12",
+        "28"
+      ],
+      "answer": "32",
+      "hint": "Multiply the number of apples per pie by the number of pies.",
+      "explanation": "4 apples × 8 pies = 32 apples.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-075",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A school buys 144 pencils to be divided equally among 6 classes. How many pencils does each class receive?",
+      "options": [],
+      "answer": "24",
+      "hint": "Divide the total number of pencils by the number of classes.",
+      "explanation": "144 ÷ 6. 6 goes into 14 two times (12), leaving 2. Bring down 4 to make 24. 6 goes into 24 four times. The answer is 24 pencils per class.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-076",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is smaller: 1/5 or 1/8?",
+      "options": [
+        "1/8",
+        "1/5",
+        "They are equal",
+        "Cannot be compared"
+      ],
+      "answer": "1/8",
+      "hint": "When the numerators are the same (1), the fraction with the larger denominator is the smaller piece.",
+      "explanation": "Imagine cutting a pizza. If you cut it into 8 slices, each slice (1/8) is smaller than if you cut it into 5 slices (1/5). Therefore, 1/8 is smaller.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-077",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 3 minus 1/4? Write your answer as an improper fraction (e.g., a/b).",
+      "options": [],
+      "answer": "11/4",
+      "hint": "First, convert the whole number 3 into a fraction with 4 as the denominator.",
+      "explanation": "3 whole units = 12/4. Now subtract: 12/4 - 1/4 = 11/4. (As a mixed number, this is 2 3/4).",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-078",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What do we call an angle that measures exactly 90 degrees?",
+      "options": [
+        "Right angle",
+        "Acute angle",
+        "Obtuse angle",
+        "Straight angle"
+      ],
+      "answer": "Right angle",
+      "hint": "This angle makes a perfect square corner, like the corner of a book.",
+      "explanation": "A right angle measures exactly 90 degrees.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-079",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the perimeter in centimeters of an equilateral triangle with a side length of 15 cm?",
+      "options": [],
+      "answer": "45",
+      "hint": "An equilateral triangle has 3 sides that are all the same length.",
+      "explanation": "Perimeter = side + side + side. 15 + 15 + 15 = 45 cm. Or 15 × 3 = 45 cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-080",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many pints are in 1 quart?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": "2",
+      "hint": "Think of standard liquid measurements. A quart is a 'quarter' of a gallon, and pints are smaller.",
+      "explanation": "There are 2 cups in a pint, 2 pints in a quart, and 4 quarts in a gallon.",
+      "dlevel": "medium"
+    }
+  ]
+}

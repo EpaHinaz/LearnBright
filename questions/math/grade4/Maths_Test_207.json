@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 06",
+  "description": "Day 6 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-051",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 2,345 + 5,655?",
+      "options": [
+        "8,000",
+        "7,900",
+        "8,100",
+        "7,990"
+      ],
+      "answer": "8,000",
+      "hint": "Add place by place from right to left, and don't forget to carry your tens!",
+      "explanation": "5+5=10 (carry 1). 4+5+1=10 (carry 1). 3+6+1=10 (carry 1). 2+5+1=8. The total is 8,000.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-052",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 52 × 11?",
+      "options": [
+        "572",
+        "552",
+        "672",
+        "562"
+      ],
+      "answer": "572",
+      "hint": "Multiply 52 by 10, then add another 52.",
+      "explanation": "52 × 10 = 520. 52 × 1 = 52. 520 + 52 = 572.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-053",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 3,123 by 3.",
+      "options": [],
+      "answer": "1041",
+      "hint": "Divide each digit by 3, starting from the thousands place.",
+      "explanation": "3 goes into 3 one time. 3 goes into 1 zero times. Bring down 2 to make 12. 3 goes into 12 four times. 3 goes into 3 one time. The quotient is 1041.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-054",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "John reads 15 pages of his book every day. How many pages will he read in one full week (7 days)?",
+      "options": [
+        "105",
+        "95",
+        "115",
+        "120"
+      ],
+      "answer": "105",
+      "hint": "Multiply the number of pages he reads per day by the number of days in a week.",
+      "explanation": "15 pages × 7 days = 105 pages.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-055",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Emma buys 3 notebooks that cost $4 each and 2 pens that cost $2 each. What is the total cost?",
+      "options": [],
+      "answer": "16",
+      "hint": "Find the cost of the notebooks and the cost of the pens separately, then add them together.",
+      "explanation": "Notebooks: 3 × $4 = $12. Pens: 2 × $2 = $4. Total cost: $12 + $4 = $16.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-056",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "The mixed number 1 1/4 is the same as which improper fraction?",
+      "options": [
+        "5/4",
+        "4/4",
+        "3/4",
+        "6/4"
+      ],
+      "answer": "5/4",
+      "hint": "Remember that 1 whole is equal to 4/4.",
+      "explanation": "1 whole equals 4/4. Add the extra 1/4 to get 5/4.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-057",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 1 minus 2/7? Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "5/7",
+      "hint": "Change the 1 whole into a fraction with 7 as the denominator.",
+      "explanation": "1 whole is equal to 7/7. 7/7 - 2/7 = 5/7.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-058",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A triangle with all three sides of equal length is called what?",
+      "options": [
+        "Equilateral triangle",
+        "Isosceles triangle",
+        "Scalene triangle",
+        "Right triangle"
+      ],
+      "answer": "Equilateral triangle",
+      "hint": "Think of the word 'equal'.",
+      "explanation": "An equilateral triangle has three equal sides and three equal angles.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-059",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the perimeter of a rectangle that has a length of 10 cm and a width of 4 cm?",
+      "options": [],
+      "answer": "28",
+      "hint": "Perimeter is the distance all the way around. Add length + length + width + width.",
+      "explanation": "10 + 10 + 4 + 4 = 28 cm. Alternatively, 2 × (10 + 4) = 28 cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-060",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many inches are in 3 feet? (Hint: 1 foot = 12 inches)",
+      "options": [
+        "36",
+        "24",
+        "48",
+        "30"
+      ],
+      "answer": "36",
+      "hint": "Multiply the number of feet by 12.",
+      "explanation": "Since 1 foot is 12 inches, 3 feet is 3 × 12 = 36 inches.",
+      "dlevel": "easy"
+    }
+  ]
+}

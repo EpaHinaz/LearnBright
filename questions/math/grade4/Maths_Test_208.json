@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 07",
+  "description": "Day 7 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-061",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,123 + 2,498?",
+      "options": [
+        "7,621",
+        "7,521",
+        "7,611",
+        "8,621"
+      ],
+      "answer": "7,621",
+      "hint": "Line up the numbers and remember to carry your tens when adding 3 + 8 and 2 + 9.",
+      "explanation": "Starting from the ones place: 3+8=11 (write 1, carry 1). 2+9+1=12 (write 2, carry 1). 1+4+1=6. 5+2=7. The total is 7,621.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-062",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 73 × 24?",
+      "options": [
+        "1,752",
+        "1,652",
+        "1,742",
+        "1,852"
+      ],
+      "answer": "1,752",
+      "hint": "Multiply 73 by 4, then multiply 73 by 20. Add the two partial products together.",
+      "explanation": "73 × 4 = 292. 73 × 20 = 1,460. 292 + 1,460 = 1,752.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-063",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 5,424 by 4.",
+      "options": [],
+      "answer": "1356",
+      "hint": "Use long division. Start by asking how many times 4 goes into 5.",
+      "explanation": "4 goes into 5 one time (1), leaving 1. Bring down 4 to make 14. 4 goes into 14 three times (12), leaving 2. Bring down 2 to make 22. 4 goes into 22 five times (20), leaving 2. Bring down 4 to make 24. 4 goes into 24 six times (24). The quotient is 1356.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-064",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A football stadium has 8,000 seats. If 4,500 people are at the game, how many empty seats are there?",
+      "options": [
+        "3,500",
+        "4,500",
+        "3,000",
+        "2,500"
+      ],
+      "answer": "3,500",
+      "hint": "Subtract the number of people from the total number of seats.",
+      "explanation": "8,000 total seats - 4,500 occupied seats = 3,500 empty seats.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-065",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A ticket to the zoo costs $15 for adults and $10 for children. If a family of 2 adults and 3 children goes to the zoo, what is the total cost in dollars?",
+      "options": [],
+      "answer": "60",
+      "hint": "Find the total cost for the adults, then the total cost for the children, and add them together.",
+      "explanation": "Cost for 2 adults: 2 × $15 = $30. Cost for 3 children: 3 × $10 = $30. Total cost: $30 + $30 = $60.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-066",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is equivalent to 1/3?",
+      "options": [
+        "2/6",
+        "3/6",
+        "2/5",
+        "4/9"
+      ],
+      "answer": "2/6",
+      "hint": "Multiply both the numerator and the denominator by 2.",
+      "explanation": "1 × 2 = 2. 3 × 2 = 6. The equivalent fraction is 2/6.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-067",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Add the mixed numbers: 2 1/4 + 1 2/4. Write your answer as a mixed number using a space (e.g., 3 3/4).",
+      "options": [],
+      "answer": "3 3/4",
+      "hint": "Add the whole numbers together first, then add the fractions.",
+      "explanation": "Whole numbers: 2 + 1 = 3. Fractions: 1/4 + 2/4 = 3/4. Combined, the answer is 3 3/4.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-068",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many lines of symmetry does a non-square rectangle have?",
+      "options": [
+        "2",
+        "4",
+        "0",
+        "1"
+      ],
+      "answer": "2",
+      "hint": "Think about folding a piece of regular printer paper exactly in half so the edges match up.",
+      "explanation": "A rectangle can be folded vertically and horizontally down the middle, giving it 2 lines of symmetry. Unlike a square, diagonal folds will not perfectly match the edges.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-069",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A rectangular bedroom is 14 feet long and 10 feet wide. What is the area of the floor in square feet?",
+      "options": [],
+      "answer": "140",
+      "hint": "To find the area, multiply the length by the width.",
+      "explanation": "Area = Length × Width. 14 feet × 10 feet = 140 square feet.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-070",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many grams are in 4 kilograms?",
+      "options": [
+        "4,000",
+        "400",
+        "40",
+        "40,000"
+      ],
+      "answer": "4,000",
+      "hint": "The prefix 'kilo' means 1,000. So, 1 kilogram is equal to 1,000 grams.",
+      "explanation": "Since 1 kilogram = 1,000 grams, 4 kilograms = 4 × 1,000 = 4,000 grams.",
+      "dlevel": "medium"
+    }
+  ]
+}

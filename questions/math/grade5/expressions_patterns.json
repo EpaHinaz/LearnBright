@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Expressions & Patterns",
+  "description": "Writing and evaluating expressions, and finding patterns.",
+  "questions": [
+    { "q": "Evaluate: 3 × (4 + 2) – 5", "options": ["10", "13", "15", "11"], "answer": "13", "explanation": "3 × 6 – 5 = 18 – 5 = 13." },
+    { "q": "Write an expression for '5 more than 3 times a number n'", "options": [], "answer": "3n+5", "explanation": "3 times n, plus 5 = 3n + 5." },
+    { "q": "What is the rule for: 3, 6, 12, 24, 48…?", "options": ["Add 3", "Multiply by 2", "Add 6", "Multiply by 3"], "answer": "Multiply by 2", "explanation": "Each term is doubled (×2)." },
+    { "q": "If n = 4, what is 5n – 3?", "options": [], "answer": "17", "explanation": "5 × 4 – 3 = 20 – 3 = 17." },
+    { "q": "Which expression equals 20 when x = 5?", "options": ["x + 10", "4x", "3x + 2", "x² – 5"], "answer": "4x", "explanation": "4 × 5 = 20." },
+    { "q": "Pattern: 1, 4, 9, 16, 25. What is the next number?", "options": [], "answer": "36", "explanation": "These are perfect squares. Next is 6² = 36." },
+    { "q": "Simplify: 2 + 3 × 4 (use order of operations)", "options": ["20", "14", "18", "24"], "answer": "14", "explanation": "Multiply first: 3 × 4 = 12. Then 2 + 12 = 14." },
+    { "q": "In the sequence 5, 10, 15, 20, … what is the 8th term?", "options": [], "answer": "40", "explanation": "Multiply position by 5: 8 × 5 = 40." },
+    { "q": "What is the value of 4² + 3²?", "options": [], "answer": "25", "explanation": "4² = 16 and 3² = 9. 16 + 9 = 25." },
+    { "q": "The pattern is: 100, 50, 25, 12.5. What is the rule?", "options": ["Subtract 50", "Divide by 2", "Multiply by 0.5", "Both B and C"], "answer": "Both B and C", "explanation": "Dividing by 2 is the same as multiplying by 0.5." }
+  ]
+}

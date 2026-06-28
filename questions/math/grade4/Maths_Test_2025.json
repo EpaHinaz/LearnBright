@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 24",
+  "description": "Day 24 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-231",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 7,300 + 2,700?",
+      "options": ["10,000", "9,000", "10,100", "9,900"],
+      "answer": "10,000",
+      "hint": "73 + 27 = 100.",
+      "explanation": "7,300 + 2,700 = 10,000.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-232",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5 × 12?",
+      "options": ["60", "55", "65", "50"],
+      "answer": "60",
+      "hint": "Think of 5 × 10 and 5 × 2.",
+      "explanation": "5 × 12 = 60.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-233",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 900 by 3.",
+      "options": [],
+      "answer": "300",
+      "hint": "9 divided by 3 is 3.",
+      "explanation": "900 ÷ 3 = 300.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-234",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "If you have 8 bags of 5 marbles each, how many total?",
+      "options": ["40", "35", "45", "30"],
+      "answer": "40",
+      "hint": "Multiply 8 by 5.",
+      "explanation": "8 × 5 = 40.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-235",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "One notebook costs $4. How much for 9 notebooks?",
+      "options": [],
+      "answer": "36",
+      "hint": "Multiply 4 by 9.",
+      "explanation": "4 × 9 = 36.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-236",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 3/7 + 1/7?",
+      "options": ["4/7", "4/14", "2/7", "3/7"],
+      "answer": "4/7",
+      "hint": "Add numerators.",
+      "explanation": "3+1=4. Denominator is 7.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-237",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 7/9 - 4/9?",
+      "options": [],
+      "answer": "3/9",
+      "hint": "Subtract numerators.",
+      "explanation": "7-4=3. Denominator is 9.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-238",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many sides does a decagon have?",
+      "options": ["10", "8", "12", "9"],
+      "answer": "10",
+      "hint": "Deca- means 10.",
+      "explanation": "A decagon has 10 sides.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-239",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Perimeter of rectangle with length 15 and width 5.",
+      "options": [],
+      "answer": "40",
+      "hint": "15+15+5+5.",
+      "explanation": "30 + 10 = 40.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-240",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many cm in 3 meters?",
+      "options": ["300", "30", "3000", "150"],
+      "answer": "300",
+      "hint": "100 cm per meter.",
+      "explanation": "3 × 100 = 300.",
+      "dlevel": "easy"
+    }
+  ]
+}

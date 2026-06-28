@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Volume & Measurement",
+  "description": "Volume of rectangular prisms and unit conversions.",
+  "questions": [
+    { "q": "A box is 5 cm × 3 cm × 4 cm. Volume in cubic cm?", "options": [], "answer": "60", "explanation": "V = l × w × h = 5 × 3 × 4 = 60 cm³." },
+    { "q": "How many cm are in 2.5 meters?", "options": ["25 cm", "250 cm", "2,500 cm", "0.25 cm"], "answer": "250 cm", "explanation": "1 m = 100 cm. 2.5 × 100 = 250 cm." },
+    { "q": "A cube has sides of 4 cm. What is its volume?", "options": ["12 cm³", "16 cm³", "64 cm³", "48 cm³"], "answer": "64 cm³", "explanation": "4 × 4 × 4 = 64 cm³." },
+    { "q": "3 km = ___ meters", "options": [], "answer": "3000", "explanation": "1 km = 1,000 m. 3 × 1,000 = 3,000 m." },
+    { "q": "A room is 6 m × 4 m × 3 m. What is its volume?", "options": ["13 m³", "72 m³", "48 m³", "60 m³"], "answer": "72 m³", "explanation": "6 × 4 × 3 = 72 m³." },
+    { "q": "How many grams are in 1.5 kilograms?", "options": [], "answer": "1500", "explanation": "1 kg = 1,000 g. 1.5 × 1,000 = 1,500 g." },
+    { "q": "Prism A (2×3×4) and Prism B (1×3×4) are stacked. Total volume?", "options": ["24 cm³", "36 cm³", "48 cm³", "12 cm³"], "answer": "36 cm³", "explanation": "A = 24, B = 12. Total = 36 cm³." },
+    { "q": "500 millilitres = ___ litres", "options": [], "answer": "0.5", "explanation": "1 L = 1,000 mL. 500 ÷ 1,000 = 0.5 L." },
+    { "q": "A swimming pool is 25 m long, 10 m wide, and 2 m deep. Volume in m³?", "options": [], "answer": "500", "explanation": "25 × 10 × 2 = 500 m³." },
+    { "q": "Which is heavier: 2,500 grams or 3 kilograms?", "options": ["2,500 grams", "3 kilograms", "They are equal", "Cannot compare"], "answer": "3 kilograms", "explanation": "3 kg = 3,000 g. 3,000 g > 2,500 g." }
+  ]
+}

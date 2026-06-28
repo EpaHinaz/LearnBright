@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 13",
+  "description": "Comprehensive math practice questions for Day 13.",
+  "questions": [
+    {
+      "id": "MATHS-121",
+      "q": "What is 54 + 39?",
+      "passage": "",
+      "options": [
+        "88",
+        "93",
+        "98",
+        "103"
+      ],
+      "answer": "93",
+      "explanation": "The correct answer is 93 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-122",
+      "q": "What is 55 + 40?",
+      "passage": "",
+      "options": [
+        "100",
+        "95",
+        "105",
+        "90"
+      ],
+      "answer": "95",
+      "explanation": "The correct answer is 95 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-123",
+      "q": "What is 56 + 41?",
+      "passage": "",
+      "options": [
+        "107",
+        "102",
+        "97",
+        "92"
+      ],
+      "answer": "97",
+      "explanation": "The correct answer is 97 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-124",
+      "q": "Leo bought 6 packs of pencils. Each pack has 9 pencils. How many pencils did Leo buy?",
+      "passage": "",
+      "options": [
+        "64",
+        "56",
+        "50",
+        "54"
+      ],
+      "answer": "54",
+      "explanation": "The correct answer is 54 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-125",
+      "q": "Mia bought 7 packs of pencils. Each pack has 10 pencils. How many pencils did Mia buy?",
+      "passage": "",
+      "options": [
+        "80",
+        "72",
+        "66",
+        "70"
+      ],
+      "answer": "70",
+      "explanation": "The correct answer is 70 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-126",
+      "q": "Evaluate: (5 + 4) - 2",
+      "passage": "",
+      "options": [
+        "7",
+        "19",
+        "5",
+        "10"
+      ],
+      "answer": "7",
+      "explanation": "The correct answer is 7 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-127",
+      "q": "What is the value of 3 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "18",
+        "27",
+        "13",
+        "15"
+      ],
+      "answer": "15",
+      "explanation": "The correct answer is 15 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-128",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "3/4",
+        "2/4",
+        "4/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-129",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "2/4",
+        "1/4",
+        "4/4",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-130",
+      "q": "Find the perimeter of a rectangle with length 8 cm and width 3 cm.",
+      "passage": "",
+      "options": [
+        "24",
+        "22",
+        "44",
+        "21"
+      ],
+      "answer": "22",
+      "explanation": "The correct answer is 22 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

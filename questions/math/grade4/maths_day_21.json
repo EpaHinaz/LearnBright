@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 09",
+  "description": "Comprehensive math practice questions for Day 09.",
+  "questions": [
+    {
+      "id": "MATHS-081",
+      "q": "What is 42 + 35?",
+      "passage": "",
+      "options": [
+        "72",
+        "82",
+        "87",
+        "77"
+      ],
+      "answer": "77",
+      "explanation": "The correct answer is 77 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-082",
+      "q": "What is 108 - 27?",
+      "passage": "",
+      "options": [
+        "76",
+        "91",
+        "81",
+        "86"
+      ],
+      "answer": "81",
+      "explanation": "The correct answer is 81 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-083",
+      "q": "What is 7 \u00d7 8?",
+      "passage": "",
+      "options": [
+        "66",
+        "51",
+        "61",
+        "56"
+      ],
+      "answer": "56",
+      "explanation": "The correct answer is 56 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-084",
+      "q": "Jack bought 6 packs of pencils. Each pack has 10 pencils. How many pencils did Jack buy?",
+      "passage": "",
+      "options": [
+        "60",
+        "62",
+        "70",
+        "56"
+      ],
+      "answer": "60",
+      "explanation": "The correct answer is 60 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-085",
+      "q": "Ruby has 41 marbles. They buy 20 more marbles. How many marbles does Ruby have in total?",
+      "passage": "",
+      "options": [
+        "71",
+        "57",
+        "61",
+        "63"
+      ],
+      "answer": "61",
+      "explanation": "The correct answer is 61 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-086",
+      "q": "Evaluate: (5 + 2) - 1",
+      "passage": "",
+      "options": [
+        "9",
+        "6",
+        "4",
+        "18"
+      ],
+      "answer": "6",
+      "explanation": "The correct answer is 6 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-087",
+      "q": "Evaluate: (5 + 3) - 2",
+      "passage": "",
+      "options": [
+        "6",
+        "4",
+        "9",
+        "18"
+      ],
+      "answer": "6",
+      "explanation": "The correct answer is 6 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-088",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-089",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "3/4",
+        "1/3",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-090",
+      "q": "Find the perimeter of a rectangle with length 6 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "24",
+        "21",
+        "44",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The correct answer is 22 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    }
+  ]
+}

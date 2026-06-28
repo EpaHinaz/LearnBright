@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 18",
+  "description": "Comprehensive math practice questions for Day 18.",
+  "questions": [
+    {
+      "id": "MATHS-171",
+      "q": "What is 11 \u00d7 9?",
+      "passage": "",
+      "options": [
+        "104",
+        "94",
+        "109",
+        "99"
+      ],
+      "answer": "99",
+      "explanation": "The correct answer is 99 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-172",
+      "q": "What is 70 + 45?",
+      "passage": "",
+      "options": [
+        "115",
+        "125",
+        "110",
+        "120"
+      ],
+      "answer": "115",
+      "explanation": "The correct answer is 115 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-173",
+      "q": "What is 6 \u00d7 11?",
+      "passage": "",
+      "options": [
+        "61",
+        "66",
+        "71",
+        "76"
+      ],
+      "answer": "66",
+      "explanation": "The correct answer is 66 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-174",
+      "q": "Anna has 67 marbles. They buy 28 more marbles. How many marbles does Anna have in total?",
+      "passage": "",
+      "options": [
+        "105",
+        "97",
+        "91",
+        "95"
+      ],
+      "answer": "95",
+      "explanation": "The correct answer is 95 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-175",
+      "q": "Leo has 68 marbles. They buy 29 more marbles. How many marbles does Leo have in total?",
+      "passage": "",
+      "options": [
+        "107",
+        "97",
+        "99",
+        "93"
+      ],
+      "answer": "97",
+      "explanation": "The correct answer is 97 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-176",
+      "q": "What is the value of 5 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "25",
+        "28",
+        "37",
+        "23"
+      ],
+      "answer": "25",
+      "explanation": "The correct answer is 25 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-177",
+      "q": "Evaluate: (5 + 0) - 2",
+      "passage": "",
+      "options": [
+        "6",
+        "3",
+        "1",
+        "15"
+      ],
+      "answer": "3",
+      "explanation": "The correct answer is 3 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-178",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "4/4",
+        "2/4",
+        "3/4",
+        "1/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-179",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "4/4",
+        "1/4",
+        "2/4",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-180",
+      "q": "Find the perimeter of a rectangle with length 8 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "52",
+        "26",
+        "28",
+        "25"
+      ],
+      "answer": "26",
+      "explanation": "The correct answer is 26 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 12",
+  "description": "Comprehensive math practice questions for Day 12.",
+  "questions": [
+    {
+      "id": "MATHS-111",
+      "q": "What is 7 \u00d7 9?",
+      "passage": "",
+      "options": [
+        "68",
+        "73",
+        "63",
+        "58"
+      ],
+      "answer": "63",
+      "explanation": "The correct answer is 63 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-112",
+      "q": "What is 52 + 39?",
+      "passage": "",
+      "options": [
+        "96",
+        "86",
+        "91",
+        "101"
+      ],
+      "answer": "91",
+      "explanation": "The correct answer is 91 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-113",
+      "q": "What is 118 - 31?",
+      "passage": "",
+      "options": [
+        "87",
+        "92",
+        "82",
+        "97"
+      ],
+      "answer": "87",
+      "explanation": "The correct answer is 87 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-114",
+      "q": "Ruby bought 7 packs of pencils. Each pack has 8 pencils. How many pencils did Ruby buy?",
+      "passage": "",
+      "options": [
+        "52",
+        "66",
+        "58",
+        "56"
+      ],
+      "answer": "56",
+      "explanation": "The correct answer is 56 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-115",
+      "q": "Sam bought 4 packs of pencils. Each pack has 9 pencils. How many pencils did Sam buy?",
+      "passage": "",
+      "options": [
+        "38",
+        "46",
+        "36",
+        "32"
+      ],
+      "answer": "36",
+      "explanation": "The correct answer is 36 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-116",
+      "q": "What is the value of 5 \u00d7 (4 + 3)?",
+      "passage": "",
+      "options": [
+        "35",
+        "33",
+        "38",
+        "47"
+      ],
+      "answer": "35",
+      "explanation": "The correct answer is 35 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-117",
+      "q": "What is the value of 3 \u00d7 (4 + 0)?",
+      "passage": "",
+      "options": [
+        "15",
+        "24",
+        "10",
+        "12"
+      ],
+      "answer": "12",
+      "explanation": "The correct answer is 12 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-118",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "2/4",
+        "3/4",
+        "1/4",
+        "4/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-119",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "3/4"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-120",
+      "q": "Find the perimeter of a rectangle with length 5 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "40",
+        "19",
+        "22",
+        "20"
+      ],
+      "answer": "20",
+      "explanation": "The correct answer is 20 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    }
+  ]
+}

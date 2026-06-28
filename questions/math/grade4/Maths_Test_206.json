@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 05",
+  "description": "Day 5 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-041",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 6,000 - 3,450?",
+      "options": [
+        "2,550",
+        "3,550",
+        "2,650",
+        "3,450"
+      ],
+      "answer": "2,550",
+      "hint": "You will need to regroup (borrow) from the thousands place to subtract.",
+      "explanation": "Regroup 6,000 to 5,900 and 10 tens. 0-0=0. 10-5=5. 9-4=5. 5-3=2. The difference is 2,550.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-042",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 45 × 15?",
+      "options": [
+        "675",
+        "625",
+        "775",
+        "655"
+      ],
+      "answer": "675",
+      "hint": "Multiply 45 by 10, then 45 by 5, and add the two totals together.",
+      "explanation": "45 × 10 = 450. 45 × 5 = 225. 450 + 225 = 675.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-043",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 2,056 by 8.",
+      "options": [],
+      "answer": "257",
+      "hint": "Use long division. How many times does 8 go into 20?",
+      "explanation": "8 goes into 20 two times (16), leaving 4. Bring down 5 to make 45. 8 goes into 45 five times (40), leaving 5. Bring down 6 to make 56. 8 goes into 56 seven times. The quotient is 257.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-044",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A school has 300 students going on a field trip. If each bus can hold 50 students, how many buses are needed?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "hint": "Divide the total number of students by the number of students one bus can hold.",
+      "explanation": "300 ÷ 50 = 6. They will need 6 buses.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-045",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A baker makes 4 batches of cookies. Each batch has 12 cookies. If he sells 30 cookies, how many does he have left?",
+      "options": [],
+      "answer": "18",
+      "hint": "First, find the total number of cookies made. Then subtract the amount sold.",
+      "explanation": "Total cookies = 4 × 12 = 48 cookies. 48 cookies - 30 sold = 18 cookies left.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-046",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Compare the fractions 5/8 and 3/8. Which statement is true?",
+      "options": [
+        "5/8 > 3/8",
+        "5/8 < 3/8",
+        "They are equal",
+        "Cannot be compared"
+      ],
+      "answer": "5/8 > 3/8",
+      "hint": "When the bottom numbers (denominators) are the same, look at the top numbers.",
+      "explanation": "Because the denominators are the same, you can just compare numerators. 5 is greater than 3, so 5/8 is larger.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-047",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 8/10 - 5/10. Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "3/10",
+      "hint": "Keep the denominator exactly the same and subtract the numerators.",
+      "explanation": "The denominator stays 10. Subtract the numerators: 8 - 5 = 3. The fraction is 3/10.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-048",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "An angle measuring exactly 120 degrees is called what kind of angle?",
+      "options": [
+        "Obtuse angle",
+        "Acute angle",
+        "Right angle",
+        "Straight angle"
+      ],
+      "answer": "Obtuse angle",
+      "hint": "It is larger than a right angle (90 degrees) but smaller than a straight line.",
+      "explanation": "An obtuse angle is an angle that measures more than 90 degrees but less than 180 degrees.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-049",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the area of a rectangular field that has a length of 15 meters and a width of 8 meters?",
+      "options": [],
+      "answer": "120",
+      "hint": "Area of a rectangle is found by multiplying its length by its width.",
+      "explanation": "Area = length × width. 15 m × 8 m = 120 square meters.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-050",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What time is 'a quarter past 4'?",
+      "options": [
+        "4:15",
+        "4:30",
+        "4:45",
+        "3:45"
+      ],
+      "answer": "4:15",
+      "hint": "A quarter of an hour is 15 minutes.",
+      "explanation": "One hour is 60 minutes. A quarter of 60 is 15. So a quarter past 4 means 15 minutes after 4:00, which is 4:15.",
+      "dlevel": "easy"
+    }
+  ]
+}

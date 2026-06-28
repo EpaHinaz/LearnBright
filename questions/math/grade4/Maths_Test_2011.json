@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 10",
+  "description": "Day 10 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-091",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 4,321 + 2,111?",
+      "options": [
+        "6,432",
+        "6,332",
+        "6,532",
+        "6,422"
+      ],
+      "answer": "6,432",
+      "hint": "Add the digits in each column starting from the ones place.",
+      "explanation": "1+1=2, 2+1=3, 3+1=4, 4+2=6. The sum is 6,432.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-092",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 67 × 5?",
+      "options": [
+        "335",
+        "325",
+        "345",
+        "315"
+      ],
+      "answer": "335",
+      "hint": "Multiply 60 by 5, then 7 by 5, and add the results together.",
+      "explanation": "60 × 5 = 300. 7 × 5 = 35. 300 + 35 = 335.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-093",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 8,432 by 4.",
+      "options": [],
+      "answer": "2108",
+      "hint": "4 goes into 8 two times. How many times does 4 go into 4, 3, and 2?",
+      "explanation": "4 goes into 8 two times. 4 goes into 4 once. 4 goes into 3 zero times. Bring down 2 to make 32. 4 goes into 32 eight times. The quotient is 2108.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-094",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A classroom has 24 chairs. If 6 chairs are placed in each row, how many rows are there?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "hint": "Divide the total number of chairs by the number of chairs per row.",
+      "explanation": "24 total chairs ÷ 6 chairs per row = 4 rows.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-095",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Sarah has $45. She spends $12 on a book and $8 on a snack. How much money does she have left?",
+      "options": [],
+      "answer": "25",
+      "hint": "Add the expenses first, then subtract from the total amount.",
+      "explanation": "Total spent = $12 + $8 = $20. Remaining = $45 - $20 = $25.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-096",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which of these fractions is greater than 1/2?",
+      "options": [
+        "3/4",
+        "1/4",
+        "2/5",
+        "1/3"
+      ],
+      "answer": "3/4",
+      "hint": "Check which fraction has a numerator that is more than half of its denominator.",
+      "explanation": "Half of 4 is 2. Since 3 is greater than 2, 3/4 is greater than 1/2.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-097",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 9/11 - 4/11. Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "5/11",
+      "hint": "Keep the denominator the same and subtract the numerators.",
+      "explanation": "Denominator stays 11. 9 - 4 = 5. Result is 5/11.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-098",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is the name of a triangle that has two sides of equal length?",
+      "options": [
+        "Isosceles triangle",
+        "Equilateral triangle",
+        "Scalene triangle",
+        "Right triangle"
+      ],
+      "answer": "Isosceles triangle",
+      "hint": "This type of triangle has at least two sides that are the same.",
+      "explanation": "An isosceles triangle is defined as having at least two equal sides.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-099",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A rectangular rug has a perimeter of 20 meters. If the width is 4 meters, what is the length?",
+      "options": [],
+      "answer": "6",
+      "hint": "Perimeter = 2 × (Length + Width). 20 = 2 × (Length + 4).",
+      "explanation": "Divide the perimeter by 2 to get the sum of length and width: 20 ÷ 2 = 10. Since the width is 4, the length must be 10 - 4 = 6 meters.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-100",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many minutes are in 1 hour and 15 minutes?",
+      "options": [
+        "75",
+        "60",
+        "90",
+        "85"
+      ],
+      "answer": "75",
+      "hint": "There are 60 minutes in 1 hour.",
+      "explanation": "1 hour = 60 minutes. 60 + 15 = 75 minutes.",
+      "dlevel": "easy"
+    }
+  ]
+}

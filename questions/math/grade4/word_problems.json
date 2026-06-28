@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "4",
+  "title": "Word Problems",
+  "description": "Multi-step real-world problems using all four operations.",
+  "questions": [
+    { "q": "A box holds 24 cans. A store has 15 boxes. How many cans total?", "options": [], "answer": "360", "explanation": "24 × 15 = 360 cans." },
+    { "q": "Maria earns $8 per hour. She worked 6 hours Saturday and 4 Sunday. Total earned?", "options": ["$48", "$80", "$32", "$64"], "answer": "$80", "explanation": "(6+4) × $8 = 10 × $8 = $80." },
+    { "q": "A bookshelf has 5 shelves with 32 books each. 47 books are removed. How many remain?", "options": [], "answer": "113", "explanation": "5 × 32 = 160. 160 – 47 = 113." },
+    { "q": "Tickets cost $6. The school collected $252. How many tickets sold?", "options": ["36", "38", "42", "40"], "answer": "42", "explanation": "252 ÷ 6 = 42 tickets." },
+    { "q": "The temperature was 68°F, rose 14° by noon, then dropped 9° by evening. Final temp?", "options": [], "answer": "73", "explanation": "68 + 14 – 9 = 73°F." },
+    { "q": "A farmer plants 9 rows of corn (23 each) and 6 rows of beans (18 each). Total plants?", "options": ["207", "315", "189", "285"], "answer": "315", "explanation": "(9×23) + (6×18) = 207 + 108 = 315." },
+    { "q": "Sam has $5,000. He spends $1,275 and $820. How much is left?", "options": [], "answer": "2905", "explanation": "5,000 – 1,275 – 820 = 2,905." },
+    { "q": "A school buys 8 boxes of pencils (144 each), then gives 76 away. How many remain?", "options": [], "answer": "1076", "explanation": "8 × 144 = 1,152. 1,152 – 76 = 1,076." },
+    { "q": "Lena has 48 stickers. She gives 1/4 to her friend. How many does she keep?", "options": ["12", "24", "36", "16"], "answer": "36", "explanation": "1/4 of 48 = 12 given away. 48 – 12 = 36 kept." },
+    { "q": "A car travels 65 miles per hour. How far in 3 hours?", "options": [], "answer": "195", "explanation": "65 × 3 = 195 miles." }
+  ]
+}

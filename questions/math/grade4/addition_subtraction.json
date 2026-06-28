@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "4",
+  "title": "Addition & Subtraction (Large Numbers)",
+  "description": "Adding and subtracting 4- and 5-digit numbers with regrouping.",
+  "questions": [
+    { "q": "12,456 + 7,382 = ?", "options": [], "answer": "19838", "explanation": "12,456 + 7,382 = 19,838." },
+    { "q": "30,000 – 14,567 = ?", "options": [], "answer": "15433", "explanation": "30,000 – 14,567 = 15,433." },
+    { "q": "8,002 – 567 = ?", "options": ["7,435", "7,535", "7,445", "7,345"], "answer": "7,435", "explanation": "8,002 – 567 = 7,435." },
+    { "q": "Estimate 4,891 + 3,126 by rounding to the nearest thousand.", "options": ["7,000", "8,000", "9,000", "6,000"], "answer": "8,000", "explanation": "5,000 + 3,000 = 8,000." },
+    { "q": "25,000 + 13,500 + 2,300 = ?", "options": [], "answer": "40800", "explanation": "25,000 + 13,500 + 2,300 = 40,800." },
+    { "q": "63,417 – 28,309 = ?", "options": ["35,108", "35,208", "34,108", "36,108"], "answer": "35,108", "explanation": "63,417 – 28,309 = 35,108." },
+    { "q": "A school has 4,832 students. 1,245 go home early. How many remain?", "options": [], "answer": "3587", "explanation": "4,832 – 1,245 = 3,587." },
+    { "q": "What is 99,999 + 1?", "options": ["99,999", "100,000", "100,001", "109,999"], "answer": "100,000", "explanation": "99,999 + 1 = 100,000." },
+    { "q": "45,231 + 32,489 = ?", "options": [], "answer": "77720", "explanation": "45,231 + 32,489 = 77,720." },
+    { "q": "The difference between 80,000 and 47,356 is?", "options": [], "answer": "32644", "explanation": "80,000 – 47,356 = 32,644." }
+  ]
+}

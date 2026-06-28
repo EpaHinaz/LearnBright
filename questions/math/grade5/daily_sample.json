@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Daily Math Test - Sample",
+  "description": "Mixed practice: decimals, fractions, and problem solving.",
+  "questions": [
+    { "q": "What is 6 + 7?", "options": ["11","12","13","14"], "answer": "13", "explanation": "6 + 7 = 13." },
+    { "q": "What is 15 - 8?", "options": [], "answer": "7", "explanation": "15 - 8 = 7." },
+    { "q": "Round 4.738 to the nearest hundredth.", "options": [], "answer": "4.74", "explanation": "Thousandths digit is 8 (≥5), round up: 4.74." },
+    { "q": "2.6 × 3 = ?", "options": ["6.8","7.6","7.8","8.6"], "answer": "7.8", "explanation": "26 × 3 = 78, place decimal: 7.8." },
+    { "q": "What is 3/5 of 25?", "options": [], "answer": "15", "explanation": "25 × 3/5 = 75/5 = 15." },
+    { "q": "Simplify: 12/16 (write with /)", "options": [], "answer": "3/4", "explanation": "GCF(12,16)=4. 12÷4=3, 16÷4=4 → 3/4." },
+    { "q": "A box is 4 m × 3 m × 2 m. What is its volume?", "options": ["9 m³","18 m³","24 m³","12 m³"], "answer": "24 m³", "explanation": "V = 4 × 3 × 2 = 24 m³." },
+    { "q": "Evaluate: 4 × (3 + 5) - 6", "options": [], "answer": "26", "explanation": "4 × 8 - 6 = 32 - 6 = 26." },
+    { "q": "What is the mean of 10, 20, 30, 40, 50?", "options": [], "answer": "30", "explanation": "(10+20+30+40+50) ÷ 5 = 150 ÷ 5 = 30." },
+    { "q": "Which point is in Quadrant III? ", "options":["(3,4)","(-2,5)","(-3,-4)","(5,-1)"], "answer": "(-3,-4)", "explanation": "Negative x AND negative y = Quadrant III." }
+  ]
+}

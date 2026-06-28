@@ -1,0 +1,118 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 29",
+  "description": "Day 29 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-281",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,100 + 2,900?",
+      "options": ["8,000", "7,000", "7,900", "8,100"],
+      "answer": "8,000",
+      "hint": "51 + 29 = 80.",
+      "explanation": "5,100 + 2,900 = 8,000.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-282",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 15 × 3?",
+      "options": ["45", "35", "40", "50"],
+      "answer": "45",
+      "hint": "Count by fifteen three times: 15, 30...",
+      "explanation": "15 × 3 = 45.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-283",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 560 by 7.",
+      "options": [],
+      "answer": "80",
+      "hint": "Think of 56 divided by 7.",
+      "explanation": "56 ÷ 7 = 8. Add the trailing zero to get 80.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-284",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A classroom has 4 rows of desks. If there are 8 desks in each row, how many desks are there altogether?",
+      "options": ["32", "28", "36", "24"],
+      "answer": "32",
+      "answer": "32",
+      "hint": "Multiply rows by desks per row.",
+      "explanation": "4 rows × 8 desks = 32 desks.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-285",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Maya starts with $25. She buys 3 greeting cards that cost $2 each. How much money does she have left?",
+      "options": [],
+      "answer": "19",
+      "hint": "Calculate the total cost of the cards first.",
+      "explanation": "3 cards × $2 = $6 spent. Remaining balance is $25 - $6 = $19.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-286",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 7/100 written as a decimal?",
+      "options": ["0.07", "0.7", "7.0", "0.007"],
+      "answer": "0.07",
+      "hint": "The hundredths place is the second digit after the decimal point.",
+      "explanation": "7 hundredths means there is a 7 in the hundredths column, which equals 0.07.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-287",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Add 3/5 + 1/5. Write your answer as a fraction.",
+      "options": [],
+      "answer": "4/5",
+      "hint": "Add the top numbers.",
+      "explanation": "3 + 1 = 4. Keep the denominator 5. The sum is 4/5.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-288",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A flat four-sided shape where opposite sides are parallel and equal in length is called a:",
+      "options": ["Parallelogram", "Triangle", "Hexagon", "Trapezoid"],
+      "answer": "Parallelogram",
+      "hint": "The word contains the word 'parallel'.",
+      "explanation": "A parallelogram is a quadrilateral with two pairs of parallel lines.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-289",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A square garden has a perimeter of 20 meters. What is its total area in square meters?",
+      "options": [],
+      "answer": "25",
+      "hint": "Divide the perimeter by 4 to get the length of one side, then square that number.",
+      "explanation": "Side length = 20 ÷ 4 = 5 meters. Area = 5 × 5 = 25 square meters.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-290",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many pounds are equal to 16 ounces?",
+      "options": ["1", "2", "10", "16"],
+      "answer": "1",
+      "hint": "This is a standard weight baseline definition unit.",
+      "explanation": "There are exactly 16 ounces in 1 pound.",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 18",
+  "description": "Day 18 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-171",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 8,000 - 1,234?",
+      "options": [
+        "6,766",
+        "6,866",
+        "6,756",
+        "7,766"
+      ],
+      "answer": "6,766",
+      "hint": "Regroup across the zeros.",
+      "explanation": "8000 - 1234 = 6766.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-172",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 11 × 11?",
+      "options": [
+        "121",
+        "111",
+        "131",
+        "101"
+      ],
+      "answer": "121",
+      "hint": "Square of 11.",
+      "explanation": "11 × 11 = 121.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-173",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 1,000 by 10.",
+      "options": [],
+      "answer": "100",
+      "hint": "Remove one zero.",
+      "explanation": "1000 ÷ 10 = 100.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-174",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "You have 3 packs of 8 stickers. Total stickers?",
+      "options": [
+        "24",
+        "16",
+        "32",
+        "20"
+      ],
+      "answer": "24",
+      "hint": "Multiply 3 by 8.",
+      "explanation": "3 × 8 = 24.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-175",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A pizza has 8 slices. You eat 3. Slices left?",
+      "options": [],
+      "answer": "5",
+      "hint": "8 minus 3.",
+      "explanation": "8 - 3 = 5.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-176",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Compare 0.1 and 0.01.",
+      "options": [
+        "0.1 is bigger",
+        "0.01 is bigger",
+        "They are equal",
+        "Cannot tell"
+      ],
+      "answer": "0.1 is bigger",
+      "hint": "Compare tenths place.",
+      "explanation": "0.1 is one tenth, 0.01 is one hundredth.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-177",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 5/6 - 1/6?",
+      "options": [],
+      "answer": "4/6",
+      "hint": "Subtract numerators.",
+      "explanation": "5 - 1 = 4. Result 4/6.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-178",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Shape with 4 equal sides and 90 degree corners?",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Pentagon"
+      ],
+      "answer": "Square",
+      "hint": "A rectangle with equal sides.",
+      "explanation": "A square has 4 equal sides and right angles.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-179",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Area of rectangle 5 by 2.",
+      "options": [],
+      "answer": "10",
+      "hint": "Multiply 5 by 2.",
+      "explanation": "5 × 2 = 10.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-180",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many cm in 1 meter?",
+      "options": [
+        "100",
+        "10",
+        "1000",
+        "50"
+      ],
+      "answer": "100",
+      "hint": "Standard conversion.",
+      "explanation": "1 meter = 100 cm.",
+      "dlevel": "easy"
+    }
+  ]
+}

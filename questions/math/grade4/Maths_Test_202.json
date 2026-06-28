@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 01",
+  "description": "Day 1 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-001",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 3,456 + 1,232?",
+      "options": [
+        "4,588",
+        "4,688",
+        "4,678",
+        "4,788"
+      ],
+      "answer": "4,688",
+      "hint": "Start by adding the digits in the ones place, then move to the tens, hundreds, and thousands.",
+      "explanation": "Adding place values from right to left: 6+2=8, 5+3=8, 4+2=6, 3+1=4. The sum is 4,688.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-002",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 45 × 6?",
+      "options": [
+        "240",
+        "260",
+        "280",
+        "270"
+      ],
+      "answer": "270",
+      "hint": "Multiply 40 by 6, then multiply 5 by 6, and add the two answers together.",
+      "explanation": "Using partial products: 40 × 6 = 240. 5 × 6 = 30. 240 + 30 = 270.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-003",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 846 ÷ 3?",
+      "options": [],
+      "answer": "282",
+      "hint": "Use long division. How many times does 3 go into 8?",
+      "explanation": "3 goes into 8 two times (200), remainder 2. Bring down 4 to make 24. 3 goes into 24 eight times (80). Bring down 6. 3 goes into 6 two times. 200 + 80 + 2 = 282.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-004",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A school library has 400 books. The librarian buys 125 more. How many books are there now?",
+      "options": [],
+      "answer": "525",
+      "hint": "Add the number of new books to the number of books already in the library.",
+      "explanation": "400 original books + 125 new books = 525 books in total.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-005",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Sarah buys a notebook for $3.50 and pens for $2.25. If she pays with a $10 bill, how much change does she get?",
+      "options": [
+        "$5.75",
+        "$4.75",
+        "$4.25",
+        "$5.25"
+      ],
+      "answer": "$4.25",
+      "hint": "First, find the total cost of the items. Then, subtract that total from $10.00.",
+      "explanation": "Total cost = $3.50 + $2.25 = $5.75. Change = $10.00 - $5.75 = $4.25.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-006",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which fraction is equivalent to 1/2?",
+      "options": [
+        "1/3",
+        "3/6",
+        "2/5",
+        "4/9"
+      ],
+      "answer": "3/6",
+      "hint": "Multiply both the numerator (top) and denominator (bottom) of 1/2 by the same number.",
+      "explanation": "Multiplying the numerator and denominator of 1/2 by 3 gives 3/6. Both represent a half.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-007",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Add 3/8 + 4/8. Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "7/8",
+      "hint": "When denominators are the same, just add the numerators together and keep the denominator.",
+      "explanation": "Since the denominator (8) is the same, simply add the numerators: 3 + 4 = 7. The fraction is 7/8.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-008",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which of these angles is less than 90 degrees?",
+      "options": [
+        "Right angle",
+        "Straight angle",
+        "Obtuse angle",
+        "Acute angle"
+      ],
+      "answer": "Acute angle",
+      "hint": "Think of a sharp point or a small, 'cute' angle.",
+      "explanation": "An acute angle is strictly less than 90 degrees. A right angle is exactly 90, obtuse is between 90 and 180, and straight is 180 degrees.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-009",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many lines of symmetry does a square have?",
+      "options": [
+        "4",
+        "2",
+        "0",
+        "3"
+      ],
+      "answer": "4",
+      "hint": "Think about how many different ways you can fold a square exactly in half.",
+      "explanation": "A square has 4 lines of symmetry: vertical, horizontal, and two diagonal lines.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-010",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A ribbon is 45 centimeters long. How many millimeters long is it?",
+      "options": [],
+      "answer": "450",
+      "hint": "There are 10 millimeters in 1 centimeter.",
+      "explanation": "To convert centimeters to millimeters, multiply by 10. 45 × 10 = 450 millimeters.",
+      "dlevel": "medium"
+    }
+  ]
+}

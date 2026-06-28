@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 25",
+  "description": "Day 25 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-241",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 8,500 - 2,500?",
+      "options": ["6,000", "5,500", "6,500", "7,000"],
+      "answer": "6,000",
+      "hint": "Subtract 25 from 85.",
+      "explanation": "8,500 - 2,500 = 6,000.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-242",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 4 × 15?",
+      "options": ["60", "50", "55", "65"],
+      "answer": "60",
+      "hint": "Think of 15 doubled, then doubled again.",
+      "explanation": "15 × 2 = 30, and 30 × 2 = 60.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-243",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 360 by 6.",
+      "options": [],
+      "answer": "60",
+      "hint": "What is 36 divided by 6?",
+      "explanation": "36 ÷ 6 = 6. Add the trailing zero to get 60.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-244",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A store has 5 boxes of colored pencils. If each box contains 12 pencils, how many pencils are there in total?",
+      "options": ["60", "50", "55", "65"],
+      "answer": "60",
+      "hint": "Multiply the number of boxes by the number of pencils per box.",
+      "explanation": "5 boxes × 12 pencils = 60 total pencils.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-245",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Leo has $30. He buys 2 toy cars that cost $8 each. How much money does he have left?",
+      "options": [],
+      "answer": "14",
+      "hint": "Find the total cost of the cars first, then subtract from $30.",
+      "explanation": "2 cars × $8 = $16. Total remaining is $30 - $16 = $14.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-246",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 2/6 + 3/6?",
+      "options": ["5/6", "5/12", "1/6", "6/6"],
+      "answer": "5/6",
+      "hint": "Add the numerators together and keep the denominator the same.",
+      "explanation": "2 + 3 = 5. The denominator stays 6, resulting in 5/6.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-247",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 9/10 - 7/10. Write your answer as a fraction (e.g., a/b).",
+      "options": [],
+      "answer": "2/10",
+      "hint": "Subtract the numerators.",
+      "explanation": "9 - 7 = 2. The denominator stays 10, giving 2/10.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-248",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What do you call a geometric shape that has 4 equal sides but no right angles?",
+      "options": ["Rhombus", "Square", "Rectangle", "Trapezoid"],
+      "answer": "Rhombus",
+      "hint": "It looks like a slanted square.",
+      "explanation": "A rhombus has four equal sides, but unlike a square, its corners are not 90 degrees.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-249",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A square playground has an area of 36 square meters. What is its perimeter in meters?",
+      "options": [],
+      "answer": "24",
+      "hint": "Find the side length first by figuring out what number multiplied by itself equals 36.",
+      "explanation": "Since 6 × 6 = 36, each side length is 6 meters. Perimeter = 4 × 6 = 24 meters.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATH-250",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many hours are there in half a day?",
+      "options": ["12", "24", "6", "18"],
+      "answer": "12",
+      "hint": "A whole day contains 24 hours.",
+      "explanation": "24 hours ÷ 2 = 12 hours.",
+      "dlevel": "easy"
+    }
+  ]
+}

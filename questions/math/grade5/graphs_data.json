@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Graphs & Data",
+  "description": "Mean, median, mode, range, and reading graphs.",
+  "questions": [
+    { "q": "What is the MEAN of: 4, 8, 6, 10, 7?", "options": ["6", "7", "8", "35"], "answer": "7", "explanation": "Sum = 35. Count = 5. Mean = 35 ÷ 5 = 7." },
+    { "q": "Find the MEDIAN of: 3, 7, 2, 9, 5 (arrange first).", "options": [], "answer": "5", "explanation": "Arranged: 2, 3, 5, 7, 9. Middle value = 5." },
+    { "q": "In 4, 6, 6, 8, 10, 6 — what is the MODE?", "options": ["4", "6", "8", "10"], "answer": "6", "explanation": "6 appears most often = mode." },
+    { "q": "A student scored 82, 90, 76, and 92 on four tests. Mean score?", "options": [], "answer": "85", "explanation": "(82+90+76+92) ÷ 4 = 340 ÷ 4 = 85." },
+    { "q": "What is the RANGE of: 14, 27, 9, 33, 21?", "options": [], "answer": "24", "explanation": "Range = Max – Min = 33 – 9 = 24." },
+    { "q": "A bar graph shows: Mon=12, Tue=8, Wed=15, Thu=10, Fri=5. Which day had most?", "options": ["Monday", "Tuesday", "Wednesday", "Friday"], "answer": "Wednesday", "explanation": "Wednesday had 15 — the highest bar." },
+    { "q": "Five friends have 3, 5, 7, 9, and 6 books. Mean number of books?", "options": [], "answer": "6", "explanation": "(3+5+7+9+6) ÷ 5 = 30 ÷ 5 = 6." },
+    { "q": "A set has mode 8 and median 8. What might the set be?", "options": ["6, 8, 8, 10", "7, 8, 9, 10", "8, 8, 8, 8", "5, 6, 8, 11"], "answer": "6, 8, 8, 10", "explanation": "6,8,8,10: mode=8 (appears twice), median=(8+8)/2=8. Both conditions met." },
+    { "q": "In a class of 5 students, scores are 70, 85, 90, 95, and 100. What score would bring the mean to exactly 90?", "options": [], "answer": "100", "explanation": "Target sum = 90×6=540. Current sum = 440. 540–440 = 100." },
+    { "q": "Which measure of centre is MOST affected by an outlier (very extreme value)?", "options": ["Mean", "Median", "Mode", "Range"], "answer": "Mean", "explanation": "The mean uses all values in its calculation, so one extreme value can shift it significantly." }
+  ]
+}

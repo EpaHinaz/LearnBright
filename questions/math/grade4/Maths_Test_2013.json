@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 12",
+  "description": "Day 12 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-111",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 5,432 + 2,678?",
+      "options": [
+        "8,110",
+        "8,010",
+        "8,210",
+        "7,110"
+      ],
+      "answer": "8,110",
+      "hint": "Add columns right to left, carrying as needed.",
+      "explanation": "2+8=10, 3+7+1=11, 4+6+1=11, 5+2+1=8. Total is 8,110.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-112",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 42 × 13?",
+      "options": [
+        "546",
+        "536",
+        "556",
+        "526"
+      ],
+      "answer": "546",
+      "hint": "Multiply 42 by 10 and 42 by 3, then add.",
+      "explanation": "420 + 126 = 546.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-113",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 5,000 by 5.",
+      "options": [],
+      "answer": "1000",
+      "hint": "How many times does 5 go into 5?",
+      "explanation": "5 goes into 5 once, followed by three zeros.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-114",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A book has 250 pages. If a student reads 50 pages, how many are left?",
+      "options": [
+        "200",
+        "150",
+        "300",
+        "100"
+      ],
+      "answer": "200",
+      "hint": "Subtract 50 from 250.",
+      "explanation": "250 - 50 = 200.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-115",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "If 4 markers cost $8, how much do 10 markers cost?",
+      "options": [],
+      "answer": "20",
+      "hint": "Find the cost per marker first.",
+      "explanation": "One marker = $2. 10 markers = $20.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-116",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which is greater: 2/5 or 3/5?",
+      "options": [
+        "3/5",
+        "2/5",
+        "They are equal",
+        "Cannot be determined"
+      ],
+      "answer": "3/5",
+      "hint": "Compare the numerators.",
+      "explanation": "3 is greater than 2.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-117",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 8/9 - 3/9. Write as a fraction.",
+      "options": [],
+      "answer": "5/9",
+      "hint": "Subtract the numerators.",
+      "explanation": "8 - 3 = 5. Keep the 9.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-118",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many degrees in a straight line?",
+      "options": [
+        "180",
+        "90",
+        "360",
+        "45"
+      ],
+      "answer": "180",
+      "hint": "A full circle is 360.",
+      "explanation": "A straight angle is 180 degrees.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-119",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the perimeter of a 5 cm by 5 cm square?",
+      "options": [],
+      "answer": "20",
+      "hint": "Add all 4 sides.",
+      "explanation": "5 + 5 + 5 + 5 = 20.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-120",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many quarts are in 2 gallons?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": "8",
+      "hint": "4 quarts = 1 gallon.",
+      "explanation": "4 quarts × 2 = 8 quarts.",
+      "dlevel": "medium"
+    }
+  ]
+}

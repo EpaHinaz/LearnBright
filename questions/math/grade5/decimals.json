@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Decimals & Place Value",
+  "description": "Reading, writing, comparing and rounding decimals to thousandths.",
+  "questions": [
+    { "q": "What is the value of the digit 3 in 4.357?", "options": ["3 ones", "3 tenths", "3 hundredths", "3 thousandths"], "answer": "3 tenths", "explanation": "The first digit after the decimal point is in the tenths place." },
+    { "q": "Write 0.45 as a fraction in simplest form. (use /)", "options": [], "answer": "9/20", "explanation": "0.45 = 45/100 = 9/20." },
+    { "q": "Order least to greatest: 0.5, 0.05, 0.55", "options": ["0.5, 0.05, 0.55", "0.05, 0.5, 0.55", "0.55, 0.5, 0.05", "0.05, 0.55, 0.5"], "answer": "0.05, 0.5, 0.55", "explanation": "0.05 < 0.5 < 0.55." },
+    { "q": "Round 3.748 to the nearest tenth.", "options": [], "answer": "3.7", "explanation": "Hundredths digit is 4 (<5), so round down: 3.7." },
+    { "q": "2.35 + 1.6 = ?", "options": ["3.95", "3.85", "3.41", "4.05"], "answer": "3.95", "explanation": "2.35 + 1.60 = 3.95." },
+    { "q": "5.2 – 2.75 = ?", "options": [], "answer": "2.45", "explanation": "5.20 – 2.75 = 2.45." },
+    { "q": "Which decimal equals 7/10?", "options": ["0.07", "0.7", "7.0", "0.007"], "answer": "0.7", "explanation": "7 ÷ 10 = 0.7." },
+    { "q": "0.6 × 4 = ?", "options": [], "answer": "2.4", "explanation": "6 × 4 = 24, then place the decimal: 2.4." },
+    { "q": "Which is greater: 0.09 or 0.1?", "options": ["0.09", "0.1", "They are equal", "Cannot compare"], "answer": "0.1", "explanation": "0.1 = 0.10 > 0.09." },
+    { "q": "Round 12.645 to the nearest hundredth.", "options": [], "answer": "12.65", "explanation": "Thousandths digit is 5 (≥5), so round up: 12.65." }
+  ]
+}

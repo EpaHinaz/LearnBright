@@ -1,0 +1,117 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 27",
+  "description": "Day 27 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-261",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 3,500 + 4,500?",
+      "options": ["8,000", "7,000", "7,500", "8,500"],
+      "answer": "8,000",
+      "hint": "35 + 45 = 80.",
+      "explanation": "3,500 + 4,500 = 8,000.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-262",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 16 × 5?",
+      "options": ["80", "70", "90", "65"],
+      "answer": "80",
+      "hint": "Multiply 10 by 5 and 6 by 5, then add.",
+      "explanation": "10 × 5 = 50. 6 × 5 = 30. 50 + 30 = 80.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-263",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 240 by 8.",
+      "options": [],
+      "answer": "30",
+      "hint": "Think of 24 divided by 8.",
+      "explanation": "24 ÷ 8 = 3. Bring along the zero to make 30.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-264",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A bakery makes 6 boxes of cookies. Each box holds 6 cookies. How many cookies are there in total?",
+      "options": ["36", "30", "42", "24"],
+      "answer": "36",
+      "hint": "This is a perfect square multiplication rule.",
+      "explanation": "6 boxes × 6 cookies per box = 36 cookies.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-265",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "You go shopping with a $50 bill and buy a pair of shoes for $35. How much change do you receive?",
+      "options": [],
+      "answer": "15",
+      "hint": "Subtract 35 from 50.",
+      "explanation": "$50 - $35 = $15.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-266",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 0.4 + 0.05?",
+      "options": ["0.45", "0.09", "0.54", "0.9"],
+      "answer": "0.45",
+      "hint": "Align the decimal points before adding.",
+      "explanation": "0.40 + 0.05 = 0.45.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-267",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Subtract 7/10 - 2/10. Write your answer as a fraction.",
+      "options": [],
+      "answer": "5/10",
+      "hint": "Subtract the top numbers.",
+      "explanation": "7 - 2 = 5. Keep the denominator 10. The result is 5/10.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-268",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What type of angle measures exactly 90 degrees?",
+      "options": ["Right angle", "Acute angle", "Obtuse angle", "Straight angle"],
+      "answer": "Right angle",
+      "hint": "It forms a perfect 'L' shape.",
+      "explanation": "An angle of exactly 90 degrees is called a right angle.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-269",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is the area of a rectangle that has a length of 11 cm and a width of 3 cm?",
+      "options": [],
+      "answer": "33",
+      "hint": "Area = length × width.",
+      "explanation": "11 cm × 3 cm = 33 square cm.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-270",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many milliliters are in 1 liter?",
+      "options": ["1,000", "100", "500", "10,000"],
+      "answer": "1,000",
+      "hint": "The prefix 'milli-' means one thousandth.",
+      "explanation": "There are 1,000 milliliters in a full liter.",
+      "dlevel": "easy"
+    }
+  ]
+}

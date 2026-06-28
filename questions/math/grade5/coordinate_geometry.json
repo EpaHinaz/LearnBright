@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "5",
+  "title": "Coordinate Plane & Geometry",
+  "description": "Plotting points, quadrants, and shapes on a coordinate grid.",
+  "questions": [
+    { "q": "What are the coordinates of a point 3 right and 5 up from the origin?", "options": ["(5,3)", "(3,5)", "(-3,5)", "(3,-5)"], "answer": "(3,5)", "explanation": "Right = positive x, Up = positive y → (3, 5)." },
+    { "q": "A point at (4, 0) lies on the ___ axis.", "options": [], "answer": "x", "explanation": "When y = 0, the point is on the x-axis." },
+    { "q": "In which quadrant is the point (–3, 4)?", "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"], "answer": "Quadrant II", "explanation": "Negative x, positive y = Quadrant II." },
+    { "q": "The origin has coordinates?", "options": [], "answer": "0,0", "explanation": "The origin is always at (0, 0)." },
+    { "q": "A rectangle has corners at (1,1), (4,1), (4,3), (1,3). What is its area?", "options": ["6 sq units", "8 sq units", "12 sq units", "9 sq units"], "answer": "6 sq units", "explanation": "Width=4–1=3, Height=3–1=2. Area=3×2=6 sq units." },
+    { "q": "What is the distance between (2,5) and (2,9)?", "options": [], "answer": "4", "explanation": "Same x. Distance = |9–5| = 4." },
+    { "q": "Which point is in Quadrant IV?", "options": ["(-2,-3)", "(3,4)", "(4,-5)", "(-1,6)"], "answer": "(4,-5)", "explanation": "Positive x, negative y = Quadrant IV." },
+    { "q": "If you reflect point (3, 7) across the x-axis, what are the new coordinates?", "options": [], "answer": "(3,-7)", "explanation": "Reflecting across the x-axis changes y to –y: (3, –7)." },
+    { "q": "What is the perimeter of a square with corners at (0,0), (4,0), (4,4), (0,4)?", "options": [], "answer": "16", "explanation": "Each side = 4 units. Perimeter = 4 × 4 = 16 units." },
+    { "q": "Point A is at (–3, –3). In which quadrant does it lie?", "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"], "answer": "Quadrant III", "explanation": "Negative x, negative y = Quadrant III." }
+  ]
+}
