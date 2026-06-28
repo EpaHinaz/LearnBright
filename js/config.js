@@ -1,4 +1,4 @@
-export const QUESTIONS_PATH = './questions/';
+export const QUESTIONS_PATH = '.LearnBright/questions/';
 export const MANIFEST_PATH = './questions/manifest.json';
 
 export const SUBJECTS = [
