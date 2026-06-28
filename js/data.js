@@ -23,7 +23,7 @@ function normalizePath(path) {
 
 function joinPath(base, relative) {
   const url = new URL(base, window.location.href);
-  return new URL(relative, url).pathname.replace(/^\//, '');
+  return new URL(relative, url).pathname;
 }
 
 async function fetchJson(path) {
@@ -115,10 +115,11 @@ export async function loadAssignments() {
       if (result.status !== 'fulfilled' || !result.value) return;
       const data = result.value;
       const fileName = files[index];
-      const id = 'json-' + fileName.replace(/[\/\.]/g, '-');
-      const gradeMatch = fileName.match(/grade(\d)/);
+      const normalizedFileName = fileName.replace(/^\//, '');
+      const id = 'json-' + normalizedFileName.replace(/[\/\.]/g, '-');
+      const gradeMatch = normalizedFileName.match(/grade(\d)/);
       const grade = String(data.grade || (gradeMatch ? gradeMatch[1] : '4'));
-      const subject = resolveSubject(data.subject, fileName);
+      const subject = resolveSubject(data.subject, normalizedFileName);
       const questions = Array.isArray(data.questions) ? data.questions.map(q => ({
         type: q.options && q.options.length > 0 ? 'mc' : 'fill',
         text: q.q || '',
@@ -133,7 +134,7 @@ export async function loadAssignments() {
         title: data.title || 'Untitled',
         description: data.description || '',
         passage: data.passage || null,
-        sourceFile: fileName,
+        sourceFile: normalizedFileName,
         questions
       });
     });
