@@ -1,0 +1,129 @@
+{
+
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 14",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-014-01",
+"q": "Which animal is known for having a long neck and eating leaves from tall trees?",
+"type": "mcq",
+"options": ["Zebra", "Giraffe", "Elephant", "Kangaroo"],
+"answer": "Giraffe",
+"explanation": "Giraffes have very long necks that allow them to reach high branches that other animals cannot.",
+"hint": "They have unique brown and tan patterns.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-014-02",
+"q": "What is the capital of Canada?",
+"type": "input",
+"options": [],
+"answer": "Ottawa",
+"explanation": "Ottawa is the capital city of Canada.",
+"hint": "It is located in the province of Ontario.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-014-03",
+"q": "Which part of a plant makes seeds?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Flower",
+"explanation": "Flowers are the parts of plants that are responsible for reproduction and seed production.",
+"hint": "They are usually colorful and smell nice.",
+"dlevel": "medium",
+"objective": "Understand plant biology.",
+"tags": ["plants", "nature"]
+},
+{
+"id": "GK-014-04",
+"q": "What is the hardest natural substance known to man?",
+"type": "input",
+"options": [],
+"answer": "Diamond",
+"explanation": "Diamonds are made of pure carbon and are the hardest known natural mineral.",
+"hint": "It is a very precious stone.",
+"dlevel": "hard",
+"objective": "Learn scientific facts.",
+"tags": ["science", "nature"]
+},
+{
+"id": "GK-014-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Sleeping 10 hours", "Eating too much salt", "Never exercising", "Drinking only soda"],
+"answer": "Sleeping 10 hours",
+"explanation": "Getting enough sleep is vital for your brain and body to grow and stay healthy.",
+"hint": "It is what you do at night.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-014-06",
+"q": "What do we call a person who flies an airplane?",
+"type": "mcq",
+"options": ["Driver", "Pilot", "Captain", "Engineer"],
+"answer": "Pilot",
+"explanation": "A pilot is a person who operates the flying controls of an aircraft.",
+"hint": "They wear a special uniform.",
+"dlevel": "easy",
+"objective": "Understand community jobs.",
+"tags": ["community", "technology"]
+},
+{
+"id": "GK-014-07",
+"q": "Which planet is closest to the Sun?",
+"type": "input",
+"options": [],
+"answer": "Mercury",
+"explanation": "Mercury is the smallest and closest planet to the Sun.",
+"hint": "It has a name like a Roman messenger god.",
+"dlevel": "medium",
+"objective": "Understand facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-014-08",
+"q": "Which of these is a primary color?",
+"type": "mcq",
+"options": ["Green", "Yellow", "Purple", "Brown"],
+"answer": "Yellow",
+"explanation": "Yellow, red, and blue are the three primary colors.",
+"hint": "It is the color of a lemon.",
+"dlevel": "easy",
+"objective": "Understand basic art concepts.",
+"tags": ["art", "everyday science"]
+},
+{
+"id": "GK-014-09",
+"q": "What is the force that pulls things down to Earth?",
+"type": "input",
+"options": [],
+"answer": "Gravity",
+"explanation": "Gravity is the force that attracts a body toward the center of the earth.",
+"hint": "It starts with the letter 'G'.",
+"dlevel": "medium",
+"objective": "Learn basic science concepts.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-014-10",
+"q": "Which of these is a community helper who keeps us safe?",
+"type": "mcq",
+"options": ["Police Officer", "Baker", "Artist", "Author"],
+"answer": "Police Officer",
+"explanation": "Police officers are responsible for maintaining public order and safety.",
+"hint": "They wear a uniform and carry a badge.",
+"dlevel": "easy",
+"objective": "Identify community helpers.",
+"tags": ["community", "safety"]
+}
+]
+}

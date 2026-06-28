@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-06",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-131",
+      "q": "Which adjective correctly completes this sentence? 'Of all the paintings in the school art gallery, Sofia's landscape is the ______.'",
+      "options": [
+        "vibrant",
+        "more vibrant",
+        "most vibrant",
+        "vibrantest"
+      ],
+      "answer": "most vibrant",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-132",
+      "q": "Identify the proper noun in this sentence: 'Last summer, our family drove all the way to Boston to watch a baseball game.'",
+      "options": [
+        "summer",
+        "family",
+        "Boston",
+        "baseball"
+      ],
+      "answer": "Boston",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-133",
+      "q": "What is the correct way to write the plural possessive form of 'students'?",
+      "options": [
+        "students'",
+        "student's",
+        "students's",
+        "studentes"
+      ],
+      "answer": "students'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-134",
+      "q": "What is a synonym for the word 'deliberate' as used in this sentence? 'The chess player made a deliberate move after studying the board for five minutes.'",
+      "options": [
+        "accidental",
+        "intentional",
+        "speedy",
+        "careless"
+      ],
+      "answer": "intentional",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-135",
+      "q": "What does the prefix 'mis-' mean in the word 'misunderstand'?",
+      "options": [
+        "again",
+        "wrongly",
+        "not",
+        "before"
+      ],
+      "answer": "wrongly",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-136",
+      "q": "Read the text: 'The red panda lives in the high mountain forests of Asia. These small animals spend most of their lives high up in bamboo trees. Red pandas have thick, reddish-brown fur that keeps them warm in the cold mountain air. They also have a long, bushy tail that helps them balance perfectly while walking along narrow tree branches. Interestingly, red pandas use their tails like blankets to wrap around themselves when they sleep during the chilly winter nights.' What is the main idea of this text?",
+      "options": [
+        "Bamboo trees grow very tall in the mountains of Asia.",
+        "Red pandas have special physical traits that help them live in cold mountain forests.",
+        "Red pandas are excellent jumpers when escaping from danger.",
+        "Mountain air is very chilly during winter nights."
+      ],
+      "answer": "Red pandas have special physical traits that help them live in cold mountain forests.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-137",
+      "q": "Based on the red panda passage, how do these animals use their tails while they are sleeping?",
+      "options": [
+        "They use them to signal to other pandas in the forest.",
+        "They wave them back and forth to keep insects away.",
+        "They wrap them around themselves like a warm blanket.",
+        "They hang upside down from strong tree branches."
+      ],
+      "answer": "They wrap them around themselves like a warm blanket.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-138",
+      "q": "Which sentence uses capitalization correctly?",
+      "options": [
+        "We went to the local Library on maple street to find books.",
+        "We went to the local library on Maple Street to find books.",
+        "We went to the local library on maple street to find books.",
+        "We went to the Local Library on Maple Street to find books."
+      ],
+      "answer": "We went to the local library on Maple Street to find books.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-139",
+      "q": "Identify the sentence that has a punctuation mistake.",
+      "options": [
+        "\"Look at that shooting star!\" yelled Jackson.",
+        "Do you know when the computer lab opens.",
+        "Maya bought crayons, paper, and glue for her project.",
+        "The principal smiled as she walked into the classroom."
+      ],
+      "answer": "Do you know when the computer lab opens.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-140",
+      "q": "Choose the correct verb form for this sentence to maintain subject-verb agreement: 'Neither the players nor the coach ______ expecting the game to be canceled.'",
+      "options": [
+        "was",
+        "were",
+        "are",
+        "been"
+      ],
+      "answer": "was",
+      "dlevel": "medium"
+    }
+  ]
+}

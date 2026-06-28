@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 19",
+  "description": "Medium difficulty testing. Focus on advanced subject-verb agreement, root word modifications, and identifying specific structural components.",
+  "questions": [
+    {
+      "id": "ELA-181",
+      "q": "Which verb correctly completes the sentence to ensure subject-verb agreement? 'The box of old books and vintage magazines ___ sitting on the top shelf of the hallway closet.'",
+      "passage": "",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "are being"
+      ],
+      "answer": "is",
+      "explanation": "The true subject is the singular noun 'box', not the plural nouns in the prepositional phrase ('books', 'magazines'). Therefore, it requires the singular verb 'is'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-182",
+      "q": "Identify the possessive pronoun that correctly replaces the underlined words: 'That new science project belongs to **you and your brother**.'",
+      "passage": "",
+      "options": [
+        "yours",
+        "yours'",
+        "ours",
+        "theirs"
+      ],
+      "answer": "yours",
+      "explanation": "'Yours' is the correct second-person plural possessive pronoun to show that something belongs to the people being spoken to.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-183",
+      "q": "What is the function of the underlined prepositional phrase? 'We hid our bikes **behind the large wooden shed**.'",
+      "passage": "",
+      "options": [
+        "It explains *when* the bikes were hidden.",
+        "It explains *where* the bikes were hidden.",
+        "It explains *how* the bikes were hidden.",
+        "It describes the appearance of the bikes."
+      ],
+      "answer": "It explains *where* the bikes were hidden.",
+      "explanation": "'Behind the large wooden shed' functions as an adverbial prepositional phrase indicating the location of the action.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-184",
+      "q": "Determine the meaning of the underlined word using structural analysis: 'The athlete's movements were completely **effortless** as she cleared the high hurdle jump.'",
+      "passage": "",
+      "options": [
+        "requiring a massive amount of hard work",
+        "requiring or showing no apparent trouble or strain",
+        "completed before anyone else could start",
+        "done incorrectly due to a lack of focus"
+      ],
+      "answer": "requiring or showing no apparent trouble or strain",
+      "explanation": "The root 'effort' joined by the suffix '-less' (without) means completed easily without showing strain or difficulty.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-185",
+      "q": "Choose the best synonym for the word **obsolete**.",
+      "passage": "",
+      "options": [
+        "brand new",
+        "out of date",
+        "highly fragile",
+        "extremely quick"
+      ],
+      "answer": "out of date",
+      "explanation": "'Obsolete' means no longer produced or used because it is out of date.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-186",
+      "q": "What is the main idea of this informative text about coral reefs?",
+      "passage": "Coral reefs are often called the rainforests of the sea because they are incredibly diverse ecosystems. Although reefs cover less than one percent of the entire ocean floor, they provide vital shelter, food, and protection for over twenty-five percent of all known marine life. Giant sea turtles, colorful clownfish, and predatory sharks all depend on coral reefs to survive. Additionally, these ocean structures act as barriers that shield coastal beaches from being eroded by strong waves. Protecting reefs is essential for the preservation of ocean health.",
+      "options": [
+        "Reefs cover less than one percent of the ocean floor.",
+        "Coral reefs are highly diverse, essential ecosystems that protect marine life and coastlines.",
+        "Clownfish and sea turtles live together inside small coral formations.",
+        "Strong ocean waves can easily erode coastal beaches over time."
+      ],
+      "answer": "Coral reefs are highly diverse, essential ecosystems that protect marine life and coastlines.",
+      "explanation": "The text systematically covers why reefs are important, how much life they support, and how they protect shores, making their environmental importance the central point.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-187",
+      "q": "According to the passage, how do coral reefs benefit coastal landmasses and beaches?",
+      "passage": "Coral reefs are often called the rainforests of the sea because they are incredibly diverse ecosystems. Although reefs cover less than one percent of the entire ocean floor, they provide vital shelter, food, and protection for over twenty-five percent of all known marine life. Giant sea turtles, colorful clownfish, and predatory sharks all depend on coral reefs to survive. Additionally, these ocean structures act as barriers that shield coastal beaches from being eroded by strong waves. Protecting reefs is essential for the preservation of ocean health.",
+      "options": [
+        "They bring more sand to the shoreline during storms.",
+        "They block dangerous predators from reaching swimming areas.",
+        "They act as physical barriers that protect shores from wave erosion.",
+        "They lower the temperature of the water near beaches."
+      ],
+      "answer": "They act as physical barriers that protect shores from wave erosion.",
+      "explanation": "The text directly states: 'these ocean structures act as barriers that shield coastal beaches from being eroded by strong waves.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-188",
+      "q": "Which sentence contains an editing error in punctuation?",
+      "passage": "",
+      "options": [
+        "We need to buy flour, sugar, and butter before we bake.",
+        "Wow, that fireworks show was completely spectacular!",
+        "The package arrived on Monday but, it was heavily damaged.",
+        "Since you finished your dinner, you may have dessert."
+      ],
+      "answer": "The package arrived on Monday but, it was heavily damaged.",
+      "explanation": "The comma should be placed *before* the coordinating conjunction 'but' when linking two independent clauses, never right after it.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-189",
+      "q": "Choose the sentence that demonstrates perfect capitalization.",
+      "passage": "",
+      "options": [
+        "Every Tuesday, Captain Miller sails his boat across Lake Michigan.",
+        "Every tuesday, captain Miller sails his boat across lake Michigan.",
+        "Every Tuesday, Captain Miller sails his Boat across Lake Michigan.",
+        "Every Tuesday, captain Miller sails his boat across Lake michigan."
+      ],
+      "answer": "Every Tuesday, Captain Miller sails his boat across Lake Michigan.",
+      "explanation": "Requires capitalization for the day of the week ('Tuesday'), professional title before a name ('Captain Miller'), and specific lake name ('Lake Michigan').",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-190",
+      "q": "Identify the choice that represents a run-on sentence.",
+      "passage": "",
+      "options": [
+        "The phone rang loudly, so I answered it immediately.",
+        "The sun dipped below the horizon the sky turned bright purple.",
+        "Although the test was difficult, Brandon earned an A.",
+        "Listen carefully to the instructions before starting."
+      ],
+      "answer": "The sun dipped below the horizon the sky turned bright purple.",
+      "explanation": "This choice improperly joins two complete independent clauses together without any punctuation or connecting words.",
+      "dlevel": "medium"
+    }
+  ]
+}

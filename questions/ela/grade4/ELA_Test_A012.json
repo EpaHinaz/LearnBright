@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 10",
+  "description": "Final review of baseline standards, including coordinating conjunctions, multiple-meaning vocabulary, and main idea identification.",
+  "questions": [
+    {
+      "id": "ELA-091",
+      "q": "What part of speech is the underlined word? 'We walked **through** the dark tunnel to reach the hidden valley.'",
+      "passage": "",
+      "options": [
+        "Adverb",
+        "Preposition",
+        "Conjunction",
+        "Verb"
+      ],
+      "answer": "Preposition",
+      "explanation": "'Through' acts as a preposition indicating direction or movement relative to the tunnel.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-092",
+      "q": "Which word correctly completes the sentence? 'The two ___ washed all the muddy trucks in the driveway.'",
+      "passage": "",
+      "options": [
+        "man",
+        "men",
+        "mens",
+        "manes"
+      ],
+      "answer": "men",
+      "explanation": "'Men' is the correct irregular plural form of 'man'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-093",
+      "q": "Which definition fits the word **current** as it is used in this sentence? 'The powerful ocean current pulled the floating wooden raft away from the sandy shore.'",
+      "passage": "",
+      "options": [
+        "Up to date or happening right now.",
+        "A flow of water moving continuously in a certain direction.",
+        "The flow of electricity through a wire.",
+        "A type of dried small fruit used in baking."
+      ],
+      "answer": "A flow of water moving continuously in a certain direction.",
+      "explanation": "The context words 'ocean' and 'pulled the floating wooden raft' indicate that 'current' refers to moving water.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-094",
+      "q": "Choose the best synonym for the word **vacant**.",
+      "passage": "",
+      "options": [
+        "busy",
+        "empty",
+        "clean",
+        "crowded"
+      ],
+      "answer": "empty",
+      "explanation": "'Vacant' means unoccupied or containing nothing, making 'empty' its direct synonym.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-095",
+      "q": "What is the meaning of the word **preview**?",
+      "passage": "",
+      "options": [
+        "To view something after it finishes.",
+        "To view something before it is widely available.",
+        "To view something multiple times.",
+        "To fail to view something accurately."
+      ],
+      "answer": "To view something before it is widely available.",
+      "explanation": "The prefix 'pre-' means before, so 'preview' means to look at something beforehand.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-096",
+      "q": "What is the main idea of this historical paragraph?",
+      "passage": "Long before digital computers existed, ancient people invented clever devices to keep track of numbers. The abacus, which contains sliding beads on parallel rods, was developed thousands of years ago in places like China and Rome. Merchants used it to calculate prices and totals instantly. This simple instrument was incredibly efficient and allowed people to add, subtract, and multiply large figures with high accuracy. It laid the early groundwork for modern calculating technology.",
+      "options": [
+        "Merchants used the abacus to trade goods.",
+        "The abacus was an effective ancient tool used for mathematical calculations.",
+        "Ancient China and Rome were centers of trade.",
+        "Modern computers rely on sliding wooden beads."
+      ],
+      "answer": "The abacus was an effective ancient tool used for mathematical calculations.",
+      "explanation": "The paragraph explains what the abacus is, where it came from, and how it successfully helped people calculate numbers.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-097",
+      "q": "Based on the text, who specifically used the abacus to calculate totals?",
+      "passage": "Long before digital computers existed, ancient people invented clever devices to keep track of numbers. The abacus, which contains sliding beads on parallel rods, was developed thousands of years ago in places like China and Rome. Merchants used it to calculate prices and totals instantly. This simple instrument was incredibly efficient and allowed people to add, subtract, and multiply large figures with high accuracy. It laid the early groundwork for modern calculating technology.",
+      "options": [
+        "Computer engineers",
+        "Ancient kings",
+        "Trading merchants",
+        "Modern schoolteachers"
+      ],
+      "answer": "Trading merchants",
+      "explanation": "The text directly states: 'Merchants used it to calculate prices and totals instantly.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-098",
+      "q": "Which sentence is a run-on sentence?",
+      "passage": "",
+      "options": [
+        "The bird chirped all morning, but now it is quiet.",
+        "I finished my project early now I can read my book.",
+        "Since it was a nice day, we walked to the community park.",
+        "Did you see the full moon over the mountains last night?"
+      ],
+      "answer": "I finished my project early now I can read my book.",
+      "explanation": "This option contains two independent clauses joined together without any punctuation or conjunction.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-099",
+      "q": "Choose the sentence that demonstrates correct capitalization.",
+      "passage": "",
+      "options": [
+        "On labor day, we always have a family barbecue.",
+        "On Labor Day, we always have a family barbecue.",
+        "On Labor day, we always have a Family barbecue.",
+        "On labor day, we always have a Family barbecue."
+      ],
+      "answer": "On Labor Day, we always have a family barbecue.",
+      "explanation": "'Labor Day' is a specific holiday name and must be capitalized completely. 'Family' is a common noun and should be lowercase.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-100",
+      "q": "What is the function of the underlined prepositional phrase? 'The kids raced **down the steep hill** on their bicycles.'",
+      "passage": "",
+      "options": [
+        "It describes *when* the kids raced.",
+        "It describes *where* the kids raced.",
+        "It describes *why* the kids raced.",
+        "It describes *how* the kids felt."
+      ],
+      "answer": "It describes *where* the kids raced.",
+      "explanation": "'Down the steep hill' explains the location or path of the racing action.",
+      "dlevel": "easy"
+    }
+  ]
+}

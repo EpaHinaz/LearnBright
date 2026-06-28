@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-03",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-101",
+      "q": "Which option demonstrates the correct plural spelling of the word 'property'?",
+      "options": [
+        "propertys",
+        "properties",
+        "properties'",
+        "propertis"
+      ],
+      "answer": "properties",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-102",
+      "q": "Identify the coordinating conjunction that best shows a cause-and-effect relationship: 'The historical museum was closed early for repairs, ___ we explored the old park instead.'",
+      "options": [
+        "but",
+        "or",
+        "so",
+        "for"
+      ],
+      "answer": "so",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-103",
+      "q": "What is the correct form of the verb for this future-tense sentence? 'By next week, our school community ___ the building of the new greenhouse.'",
+      "options": [
+        "finished",
+        "will finish",
+        "has finished",
+        "finishes"
+      ],
+      "answer": "will finish",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-104",
+      "q": "What is an antonym for the word 'cluttered'?",
+      "options": [
+        "messy",
+        "organized",
+        "crowded",
+        "dirty"
+      ],
+      "answer": "organized",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-105",
+      "q": "Use context clues to find the correct definition of 'concept': 'The computer coding lesson was hard, but once Leo understood the core concept, writing the program became simple.'",
+      "options": [
+        "a basic rule or idea",
+        "a physical machine",
+        "a serious mistake",
+        "a long break from school"
+      ],
+      "answer": "a basic rule or idea",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-106",
+      "q": "Read the text: 'The invention of the printing press by Johannes Gutenberg in the 1440s transformed the world. Before this invention, books had to be copied entirely by hand, which took months and made them incredibly expensive. The printing press used moveable metal pieces to press ink onto paper quickly. This allowed factories to make thousands of copies of books in a short time. As a result, books became affordable, and millions of ordinary people finally learned how to read.' What is the author's primary purpose in writing this text?",
+      "options": [
+        "To explain how to purchase a rare, antique book.",
+        "To inform readers about how the printing press worked and its massive impact on history.",
+        "To persuade schools to teach students how to press ink onto paper.",
+        "To describe the daily life of Johannes Gutenberg during the 1440s."
+      ],
+      "answer": "To inform readers about how the printing press worked and its massive impact on history.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-107",
+      "q": "Based on the printing press text, what historical sequence or change occurred after the press was invented?",
+      "options": [
+        "Books became much harder to find and more expensive.",
+        "People stopped learning how to write by hand entirely.",
+        "Books became affordable, which led to millions of people learning to read.",
+        "Factories closed down because they no longer needed ink."
+      ],
+      "answer": "Books became affordable, which led to millions of people learning to read.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-108",
+      "q": "Which sentence is a complete sentence and does NOT contain any fragments or run-on errors?",
+      "options": [
+        "Although the weather forecast predicted heavy snow all weekend.",
+        "The digital clock chimed at midnight, everyone woke up immediately.",
+        "Our neighborhood community planted twenty young oak trees along the avenue.",
+        "Walking briskly through the science lab without safety goggles."
+      ],
+      "answer": "Our neighborhood community planted twenty young oak trees along the avenue.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-109",
+      "q": "Identify the sentence that uses capitalization correctly.",
+      "options": [
+        "My cousin lives in San Francisco, which is right next to the Pacific ocean.",
+        "My cousin lives in San francisco, which is right next to the Pacific Ocean.",
+        "My cousin lives in San Francisco, which is right next to the Pacific Ocean.",
+        "My cousin lives in san francisco, which is right next to the pacific ocean."
+      ],
+      "answer": "My cousin lives in San Francisco, which is right next to the Pacific Ocean.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-110",
+      "q": "Choose the option that correctly identifies the underlined word: 'The children cheered <u>enthusiastically</u> when their favorite band took the stage.'",
+      "options": [
+        "adjective",
+        "adverb",
+        "preposition",
+        "conjunction"
+      ],
+      "answer": "adverb",
+      "dlevel": "medium"
+    }
+  ]
+}

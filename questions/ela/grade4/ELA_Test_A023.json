@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 21",
+  "description": "Graduation into advanced and hard difficulty. Focuses on complex subject-verb agreement, subtle context clues, and high-level analytical comprehension.",
+  "questions": [
+    {
+      "id": "ELA-201",
+      "q": "Which verb form correctly ensures subject-verb agreement in this complex sentence? 'The structural analysis of these ancient ruins, along with several pottery artifacts, ___ that a thriving community lived here.'",
+      "passage": "",
+      "options": [
+        "prove",
+        "proves",
+        "proving",
+        "have proven"
+      ],
+      "answer": "proves",
+      "explanation": "The true grammatical subject is 'analysis' (singular). Parenthetical phrases introduced by 'along with' do not change the number of the subject, so the singular verb 'proves' is required.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-202",
+      "q": "Identify the sentence that uses relative pronouns flawlessly without any structural error.",
+      "passage": "",
+      "options": [
+        "The historic artifact who we examined yesterday was found in Greece.",
+        "The historic artifact which we examined yesterday was found in Greece.",
+        "The historic artifact whom we examined yesterday was found in Greece.",
+        "The historic artifact where we examined yesterday was found in Greece."
+      ],
+      "answer": "The historic artifact which we examined yesterday was found in Greece.",
+      "explanation": "'Which' is the correct relative pronoun to use when referring to inanimate objects or non-human things.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-203",
+      "q": "Choose the option that shows the correct past perfect form of the irregular verb 'speak'.",
+      "passage": "",
+      "options": [
+        "The diplomat had spoke to the council before the voting process began.",
+        "The diplomat had spoken to the council before the voting process began.",
+        "The diplomat has spoken to the council before the voting process began.",
+        "The diplomat did spoke to the council before the voting process began."
+      ],
+      "answer": "The diplomat had spoken to the council before the voting process began.",
+      "explanation": "The past perfect tense is formed using the helping verb 'had' combined with the past participle 'spoken'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-204",
+      "q": "Using context clues from the sentence, determine the precise meaning of the underlined word: 'The judge commended the witness for her **candid** testimony, noting that her absolute honesty helped solve the difficult case.'",
+      "passage": "",
+      "options": [
+        "confusing and long",
+        "truthful, open, and sincere",
+        "fearful and whispered",
+        "rehearsed or fake"
+      ],
+      "answer": "truthful, open, and sincere",
+      "explanation": "The context clue 'noting that her absolute honesty helped' shows that 'candid' means truthful, frank, or sincere.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-205",
+      "q": "Which word is an antonym for the word **audacious**?",
+      "passage": "",
+      "options": [
+        "bold",
+        "timid",
+        "reckless",
+        "intelligent"
+      ],
+      "answer": "timid",
+      "explanation": "'Audacious' means bold, daring, or fearless; its direct antonym is 'timid' (shy or fearful).",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-206",
+      "q": "What is the primary inference that can be drawn from the text regarding how bioluminescence helps deep-sea organisms survive?",
+      "passage": "Down in the bathypelagic zone of the ocean, thousands of feet below the surface, absolute darkness reigns because sunlight cannot penetrate the dense water. To survive here, many marine organisms have evolved bioluminescence, which is the biological ability to produce their own light through internal chemical reactions. For instance, the anglerfish dangles a glowing bulb directly above its massive jaws. This bright light attracts curious smaller fish in the dark, drawing them straight into an inescapable trap. Without this light adaptation, finding food in the deep ocean would be nearly impossible.",
+      "options": [
+        "Bioluminescence allows deep-sea creatures to warm up in freezing waters.",
+        "Bioluminescence helps creatures hunt by acting as a lure to attract prey in darkness.",
+        "Bioluminescence makes deep-sea fish invisible to large predators.",
+        "Bioluminescence helps marine plants complete photosynthesis underground."
+      ],
+      "answer": "Bioluminescence helps creatures hunt by acting as a lure to attract prey in darkness.",
+      "explanation": "The text explains how the anglerfish uses its light to attract curious fish into its jaws, directly illustrating an evolutionary hunting strategy in pitch darkness.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-207",
+      "q": "What does the word **penetrate** mean based on its context within the passage?",
+      "passage": "Down in the bathypelagic zone of the ocean, thousands of feet below the surface, absolute darkness reigns because sunlight cannot penetrate the dense water. To survive here, many marine organisms have evolved bioluminescence, which is the biological ability to produce their own light through internal chemical reactions. For instance, the anglerfish dangles a glowing bulb directly above its massive jaws. This bright light attracts curious smaller fish in the dark, drawing them straight into an inescapable trap. Without this light adaptation, finding food in the deep ocean would be nearly impossible.",
+      "options": [
+        "To bounce off a clean surface",
+        "To pass through or pierce into something",
+        "To evaporate quickly into the air",
+        "To dissolve completely in a liquid"
+      ],
+      "answer": "To pass through or pierce into something",
+      "explanation": "The phrase 'sunlight cannot penetrate the dense water' implies that sunlight cannot pass through or enter deep into the water columns.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-208",
+      "q": "Which sentence is punctuated flawlessly, properly managing restrictive or non-restrictive elements?",
+      "passage": "",
+      "options": [
+        "Dr. Eleanor Vance who studied volcanoes for twenty years spoke at our school.",
+        "Dr. Eleanor Vance, who studied volcanoes for twenty years, spoke at our school.",
+        "Dr. Eleanor Vance, who studied volcanoes for twenty years spoke at our school.",
+        "Dr. Eleanor Vance who studied volcanoes for twenty years, spoke at our school."
+      ],
+      "answer": "Dr. Eleanor Vance, who studied volcanoes for twenty years, spoke at our school.",
+      "explanation": "The phrase 'who studied volcanoes for twenty years' is a non-restrictive relative clause that provides non-essential information about a specific person, so it must be enclosed in commas.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-209",
+      "q": "Identify the sentence that contains a subtle error in its grammar or sentence structure.",
+      "passage": "",
+      "options": [
+        "Every one of the student musicians has practiced the complex piece.",
+        "The team fought bravely, but they lost the match in the final minute.",
+        "We saw two deer standing silently near the edge of the woods.",
+        "Walking down the street, the towering skyscraper came into view."
+      ],
+      "answer": "Walking down the street, the towering skyscraper came into view.",
+      "explanation": "This sentence contains a dangling modifier. The opening phrase 'Walking down the street' describes an action, but the subject that follows is 'the towering skyscraper', making it sound like the skyscraper was walking.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-210",
+      "q": "What is the function of the subordinating conjunction in this complex sentence? '**Although** the experimental rover faced extreme terrain damage, it successfully transmitted geological data from Mars.'",
+      "passage": "",
+      "options": [
+        "To establish a relationship of time.",
+        "To introduce a condition that must happen first.",
+        "To show a concession, contrast, or obstacle.",
+        "To explain the physical cause of an event."
+      ],
+      "answer": "To show a concession, contrast, or obstacle.",
+      "explanation": "The subordinating conjunction 'Although' is used to present a concession or contrast between the damage faced and the success achieved.",
+      "dlevel": "hard"
+    }
+  ]
+}

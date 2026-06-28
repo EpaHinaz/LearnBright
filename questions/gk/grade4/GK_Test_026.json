@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 26",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-026-01",
+"q": "Which of these animals is a mammal that lives in the water?",
+"type": "mcq",
+"options": ["Shark", "Dolphin", "Goldfish", "Octopus"],
+"answer": "Dolphin",
+"explanation": "Dolphins are mammals, meaning they breathe air, give birth to live young, and nurse their babies, unlike fish.",
+"hint": "They are very smart and known for jumping out of the water.",
+"dlevel": "medium",
+"objective": "Classify animals.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-026-02",
+"q": "What is the capital city of Mexico?",
+"type": "input",
+"options": [],
+"answer": "Mexico City",
+"explanation": "Mexico City is the capital and largest city of Mexico.",
+"hint": "It shares its name with the country.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-026-03",
+"q": "Which part of a plant uses sunlight to make food?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Leaf",
+"explanation": "Leaves contain chlorophyll, which allows plants to convert sunlight into energy, a process called photosynthesis.",
+"hint": "They are usually flat and green.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-026-04",
+"q": "What do we call the path a planet takes around the Sun?",
+"type": "input",
+"options": [],
+"answer": "Orbit",
+"explanation": "An orbit is the curved path of a celestial object or spacecraft around a star, planet, or moon.",
+"hint": "It starts with 'O'.",
+"dlevel": "hard",
+"objective": "Understand solar system dynamics.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-026-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Sleeping 8-10 hours", "Eating only junk food", "Watching TV all day", "Skipping breakfast"],
+"answer": "Sleeping 8-10 hours",
+"explanation": "Getting enough sleep is essential for the brain and body to rest, grow, and function properly.",
+"hint": "This helps you feel refreshed in the morning.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-026-06",
+"q": "Which community helper is trained to put out fires?",
+"type": "mcq",
+"options": ["Doctor", "Teacher", "Firefighter", "Baker"],
+"answer": "Firefighter",
+"explanation": "Firefighters protect the community by extinguishing fires and responding to emergency situations.",
+"hint": "They ride in big red trucks.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "safety"]
+},
+{
+"id": "GK-026-07",
+"q": "What is the largest ocean on Earth?",
+"type": "input",
+"options": [],
+"answer": "Pacific Ocean",
+"explanation": "The Pacific Ocean is the largest and deepest of the Earth's oceanic divisions.",
+"hint": "It covers about 30% of the Earth's surface.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "oceans"]
+},
+{
+"id": "GK-026-08",
+"q": "Which gas makes up most of the Earth's atmosphere?",
+"type": "mcq",
+"options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+"answer": "Nitrogen",
+"explanation": "Nitrogen accounts for approximately 78% of the Earth's atmosphere.",
+"hint": "It is not the gas we breathe in.",
+"dlevel": "hard",
+"objective": "Understand Earth's science.",
+"tags": ["science", "earth"]
+},
+{
+"id": "GK-026-09",
+"q": "What is the force that pulls us toward the center of the Earth?",
+"type": "input",
+"options": [],
+"answer": "Gravity",
+"explanation": "Gravity is the natural force that attracts any object with mass toward the Earth.",
+"hint": "It keeps our feet on the ground.",
+"dlevel": "medium",
+"objective": "Understand scientific forces.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-026-10",
+"q": "Which of these is a musical instrument?",
+"type": "mcq",
+"options": ["Piano", "Bicycle", "Lamp", "Computer"],
+"answer": "Piano",
+"explanation": "A piano is a musical instrument that produces sound by striking strings with hammers.",
+"hint": "It has black and white keys.",
+"dlevel": "easy",
+"objective": "Recognize instruments.",
+"tags": ["music", "art"]
+}
+]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 27",
+  "description": "Hard-level ELA diagnostics targeting complex subordinating clauses, structural affixes, and structural inference tracking.",
+  "questions": [
+    {
+      "id": "ELA-261",
+      "q": "Identify the subordinating conjunction that introduces a condition: 'We will cancel the outdoor tracking simulation ___ the wind speeds exceed forty miles per hour.'",
+      "passage": "",
+      "options": [
+        "although",
+        "unless",
+        "if",
+        "until"
+      ],
+      "answer": "if",
+      "explanation": "'If' is a conditional subordinating conjunction that sets up a specific prerequisite or condition for canceling the simulation.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-262",
+      "q": "Which adjective correctly completes the complex comparison? 'Of the three automated testing scripts we ran, the Python module proved to be the ___.'",
+      "passage": "",
+      "options": [
+        "more efficient",
+        "most efficientest",
+        "most efficient",
+        "efficientest"
+      ],
+      "answer": "most efficient",
+      "explanation": "When comparing three or more things, use the superlative modifier 'most' before long adjectives like 'efficient'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-263",
+      "q": "What is the function of the underlined adverb in this complex sentence? 'The structural joints of the spacecraft were **meticulously** inspected before launch.'",
+      "passage": "",
+      "options": [
+        "It describes *when* the inspection occurred.",
+        "It describes *where* the inspection occurred.",
+        "It describes the precise *manner* or care taken during the action.",
+        "It describes the physical size of the spacecraft."
+      ],
+      "answer": "It describes the precise *manner* or care taken during the action.",
+      "explanation": "The adverb 'meticulously' modifies the verb 'inspected' by explaining the exact manner (with great attention to detail) in which the task was done.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-264",
+      "q": "Use context clues to determine the meaning of the underlined word: 'The archeologist noted that the inscriptions were **obscure**, requiring hours of analysis beneath specialized lights to unlock their hidden meaning.'",
+      "passage": "",
+      "options": [
+        "clear and easily read",
+        "difficult to see, understand, or interpret",
+        "written with bright gold ink",
+        "carved into soft clay boards"
+      ],
+      "answer": "difficult to see, understand, or interpret",
+      "explanation": "The context clues 'requiring hours of analysis' and 'unlock their hidden meaning' indicate that the text was faint, unclear, or obscure.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-265",
+      "q": "Which word is a synonym for **resilient**?",
+      "passage": "",
+      "options": [
+        "fragile",
+        "able to recover quickly from difficulties",
+        "highly dangerous",
+        "ancient or historical"
+      ],
+      "answer": "able to recover quickly from difficulties",
+      "explanation": "'Resilient' describes an object or person capable of withstanding shock or recovering quickly from difficult conditions.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-266",
+      "q": "What can you infer about why Rosetta stone artifacts are so critically important to modern historians?",
+      "passage": "For centuries, the beautiful hieroglyphics carved onto ancient Egyptian monuments remained an unreadable mystery to historians. In 1799, soldiers discovered a unique stone slab near the town of Rosetta. This artifact contained a single royal decree written in three distinct scripts: ancient Egyptian hieroglyphics, Demotic script, and ancient Greek. Because scholars could already read Greek, they used it as a structural key to translate the hieroglyphic symbols word for word. This single discovery allowed historians to decode thousands of ancient documents, unlocking Egypt's lost history.",
+      "options": [
+        "The stone was made out of a rare, expensive black volcanic rock.",
+        "It provided a matching translation that allowed scholars to decode the Egyptian language.",
+        "It proved that ancient Greeks conquered Egypt using massive armies.",
+        "It contained instructions on how to build royal stone pyramids."
+      ],
+      "answer": "It provided a matching translation that allowed scholars to decode the Egyptian language.",
+      "explanation": "The passage explains that because the same message was written in Greek and hieroglyphics, scholars could use Greek as a 'structural key' to translate and decode the language.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-267",
+      "q": "What is the meaning of the word **decree** based on its context within the passage?",
+      "passage": "For centuries, the beautiful hieroglyphics carved onto ancient Egyptian monuments remained an unreadable mystery to historians. In 1799, soldiers discovered a unique stone slab near the town of Rosetta. This artifact contained a single royal decree written in three distinct scripts: ancient Egyptian hieroglyphics, Demotic script, and ancient Greek. Because scholars could already read Greek, they used it as a structural key to translate the hieroglyphic symbols word for word. This single discovery allowed historians to decode thousands of ancient documents, unlocking Egypt's lost history.",
+      "options": [
+        "An official order, law, or statement issued by a ruler",
+        "A collection of fictional bedtime stories",
+        "A mathematical formula used in construction",
+        "A map showing hidden desert burial vaults"
+      ],
+      "answer": "An official order, law, or statement issued by a ruler",
+      "explanation": "The modifier 'royal' pairing with 'decree' shows that it represents an official command or declaration issued by a monarch.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-268",
+      "q": "Which sentence demonstrates flawless punctuation and comma placement with introductory participial phrases?",
+      "passage": "",
+      "options": [
+        "Realizing they were out of testing time the engineer submitted the code framework.",
+        "Realizing they were out of testing time, the engineer submitted the code framework.",
+        "Realizing, they were out of testing time the engineer submitted the code framework.",
+        "Realizing they were out of testing time the engineer, submitted the code framework."
+      ],
+      "answer": "Realizing they were out of testing time, the engineer submitted the code framework.",
+      "explanation": "An introductory participial phrase ('Realizing they were out of testing time') must be followed by a comma before joining the main independent clause.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-269",
+      "q": "Identify the sentence that contains a subtle capitalization error.",
+      "passage": "",
+      "options": [
+        "The professor is an expert in Middle Eastern history.",
+        "We crossed the Mississippi River during our summer trip.",
+        "My cousin loves studying the history of the roman Empire.",
+        "We are attending a lecture by Dr. Alan Grant tomorrow."
+      ],
+      "answer": "My cousin loves studying the history of the roman Empire.",
+      "explanation": "The word 'roman' is a proper adjective referring to Rome and must be capitalized as 'Roman' in 'Roman Empire'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-270",
+      "q": "Choose the coordinating conjunction that best reveals a cause-and-effect relationship between two independent clauses: 'The automated testing matrix failed repeatedly, ___ the engineering squad stayed up all night to rewrite the algorithm.'",
+      "passage": "",
+      "options": [
+        "for",
+        "yet",
+        "or",
+        "so"
+      ],
+      "answer": "so",
+      "explanation": "'So' introduces a clause that shows the direct result or effect of the preceding clause.",
+      "dlevel": "hard"
+    }
+  ]
+}

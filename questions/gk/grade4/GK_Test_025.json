@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 25",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-025-01",
+"q": "Which of these animals is a reptile that has a hard shell on its back?",
+"type": "mcq",
+"options": ["Frog", "Turtle", "Rabbit", "Snake"],
+"answer": "Turtle",
+"explanation": "Turtles are reptiles covered by a bony or cartilaginous shell that acts as a shield against predators.",
+"hint": "It moves slowly and has a hard back.",
+"dlevel": "easy",
+"objective": "Classify animals.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-025-02",
+"q": "What is the capital city of Japan?",
+"type": "input",
+"options": [],
+"answer": "Tokyo",
+"explanation": "Tokyo is the capital of Japan and one of the most populous cities in the world.",
+"hint": "It is in Asia.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-025-03",
+"q": "Which part of the plant helps anchor it in the soil?",
+"type": "mcq",
+"options": ["Flower", "Leaf", "Root", "Stem"],
+"answer": "Root",
+"explanation": "Roots grow deep into the ground to keep the plant stable and to absorb water and minerals.",
+"hint": "They are the 'feet' of the plant.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-025-04",
+"q": "What do we call a person who flies an airplane?",
+"type": "input",
+"options": [],
+"answer": "Pilot",
+"explanation": "A pilot is a person trained to operate the flight controls of an aircraft.",
+"hint": "The word starts with 'P'.",
+"dlevel": "medium",
+"objective": "Understand career roles.",
+"tags": ["community", "technology"]
+},
+{
+"id": "GK-025-05",
+"q": "Which of these is a healthy habit for your teeth?",
+"type": "mcq",
+"options": ["Eating sugar all day", "Brushing twice a day", "Never flossing", "Drinking only soda"],
+"answer": "Brushing twice a day",
+"explanation": "Regular brushing is essential to prevent cavities and keep your gums healthy.",
+"hint": "Do this in the morning and before bed.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-025-06",
+"q": "Which community helper helps to keep our city clean?",
+"type": "mcq",
+"options": ["Teacher", "Doctor", "Sanitation worker", "Pilot"],
+"answer": "Sanitation worker",
+"explanation": "Sanitation workers collect garbage and recycling to keep our communities clean and healthy.",
+"hint": "They collect the trash.",
+"dlevel": "medium",
+"objective": "Understand community roles.",
+"tags": ["community", "environment"]
+},
+{
+"id": "GK-025-07",
+"q": "What is the name of the planet known for its beautiful rings?",
+"type": "input",
+"options": [],
+"answer": "Saturn",
+"explanation": "Saturn is the sixth planet from the Sun and is famous for its massive, visible ring system.",
+"hint": "It is a gas giant.",
+"dlevel": "medium",
+"objective": "Understand the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-025-08",
+"q": "Which of these is a source of light and heat for Earth?",
+"type": "mcq",
+"options": ["Moon", "Sun", "Mars", "Jupiter"],
+"answer": "Sun",
+"explanation": "The Sun is a star at the center of our solar system that provides light and heat to support life on Earth.",
+"hint": "It is the center of our solar system.",
+"dlevel": "easy",
+"objective": "Understand basic science concepts.",
+"tags": ["science", "space"]
+},
+{
+"id": "GK-025-09",
+"q": "What is the boiling point of water in Celsius?",
+"type": "input",
+"options": [],
+"answer": "100",
+"explanation": "Water turns to steam at 100 degrees Celsius.",
+"hint": "It is a three-digit number.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-025-10",
+"q": "Which season is known for falling leaves and cooler weather?",
+"type": "mcq",
+"options": ["Summer", "Autumn", "Winter", "Spring"],
+"answer": "Autumn",
+"explanation": "Autumn (or fall) is the season when trees shed their leaves and temperatures begin to drop.",
+"hint": "Also known as 'Fall'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 24",
+  "description": "Hard-level ELA diagnostics. Focuses on correlative conjunctions, deep textual inferences, and identifying structural syntax errors.",
+  "questions": [
+    {
+      "id": "ELA-231",
+      "q": "Which correlative conjunction pair correctly completes the sentence? '___ the captain ___ the crew members expected to find the lost shipwreck so quickly.'",
+      "passage": "",
+      "options": [
+        "Neither / nor",
+        "Neither / or",
+        "Either / nor",
+        "Whether / nor"
+      ],
+      "answer": "Neither / nor",
+      "explanation": "'Neither' and 'nor' are correlative conjunctions that must be paired together to express a negative relationship.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-232",
+      "q": "Choose the option that shows correct subject-verb agreement when using 'either/or' structures with different singular and plural subjects.",
+      "passage": "",
+      "options": [
+        "Either the principal or the teachers is going to lead the meeting.",
+        "Either the principal or the teachers are going to lead the meeting.",
+        "Either the principal or the teachers hosting the meeting today.",
+        "Either the principal or the teachers has led the meeting."
+      ],
+      "answer": "Either the principal or the teachers are going to lead the meeting.",
+      "explanation": "When subjects are linked by 'either/or', the verb must agree with the noun closest to it. 'Teachers' is plural, so it requires 'are'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-233",
+      "q": "What is the meaning of the word **countenance** as used in this sentence? 'The old sailor's weathered **countenance** immediately softened when he saw his family waiting along the dock.'",
+      "passage": "",
+      "options": [
+        "An official count of historical ships.",
+        "A person's face or facial expression.",
+        "A type of warm winter jacket.",
+        "The mechanical navigation tools on a vessel."
+      ],
+      "answer": "A person's face or facial expression.",
+      "explanation": "The context clue 'immediately softened when he saw' refers to a visible emotional shift in the sailor's face or expression.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-240",
+      "q": "Choose the adverb that describes the *frequency* of an action.",
+      "passage": "",
+      "options": [
+        "yesterday",
+        "seldom",
+        "outside",
+        "patiently"
+      ],
+      "answer": "seldom",
+      "explanation": "'Seldom' indicates how often (frequency) an action takes place, meaning rarely.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-234",
+      "q": "Choose the best synonym for the word **subterranean**.",
+      "passage": "",
+      "options": [
+        "above ground",
+        "underground",
+        "rapidly moving",
+        "highly dangerous"
+      ],
+      "answer": "underground",
+      "explanation": "The prefix 'sub-' means under, and the root 'terra' means earth/ground; 'subterranean' translates directly to underground.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-235",
+      "q": "Which suffix can be added to the adjective 'austere' to create a noun meaning 'severity or strictness of manner'?",
+      "passage": "",
+      "options": [
+        "-ity",
+        "-ment",
+        "-ful",
+        "-ness"
+      ],
+      "answer": "-ity",
+      "explanation": "Adding the suffix '-ity' to 'austere' (with minor spelling adjustment) creates the noun 'austerity'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-236",
+      "q": "What can you infer about why early human civilizations consistently grew up near major rivers?",
+      "passage": "The ancient Indus Valley civilization flourished thousands of years ago because of its advanced engineering marvels. These ancient city-builders constructed complex grid networks of brick streets and developed the world's first indoor plumbing systems. Major rivers provided a reliable supply of fresh water for drinking, washing, and irrigating fields of wheat and barley. Additionally, the flowing waters allowed merchants to transport trading goods rapidly using wooden boats. This strategic access to river resources allowed their urban population to grow exponentially.",
+      "options": [
+        "Rivers kept populations safe from jungle animal attacks.",
+        "Rivers provided indispensable resources for farming, drinking water, and commercial trade traffic.",
+        "Ancient populations only knew how to construct buildings out of mud blocks.",
+        "Ocean travel was strictly banned by ancient regional laws."
+      ],
+      "answer": "Rivers provided indispensable resources for farming, drinking water, and commercial trade traffic.",
+      "explanation": "The text lists fresh drinking water, agricultural irrigation, and mercantile transit via boat as key advantages provided by the rivers.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-237",
+      "q": "What is the meaning of the word **irrigating** based on its usage in the text?",
+      "passage": "The ancient Indus Valley civilization flourished thousands of years ago because of its advanced engineering marvels. These ancient city-builders constructed complex grid networks of brick streets and developed the world's first indoor plumbing systems. Major rivers provided a reliable supply of fresh water for drinking, washing, and irrigating fields of wheat and barley. Additionally, the flowing waters allowed merchants to transport trading goods rapidly using wooden boats. This strategic access to river resources allowed their urban population to grow exponentially.",
+      "options": [
+        "Flooding fields by accident during storms",
+        "Supplying dry land or crops with water through artificial means",
+        "Harvesting grain plants before winter arrives",
+        "Clearing away wild weeds from fields"
+      ],
+      "answer": "Supplying dry land or crops with water through artificial means",
+      "explanation": "The context linking 'fresh water' to 'fields of wheat and barley' shows that irrigating means watering agricultural crops.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-238",
+      "q": "Which of these sentences contains a clear grammatical error involving a dangling modifier?",
+      "passage": "",
+      "options": [
+        "While cooking dinner, the smoke alarm began to beep loudly.",
+        "While I was cooking dinner, the smoke alarm began to beep loudly.",
+        "The smoke alarm beeped loudly while we were cooking dinner.",
+        "Before cooking dinner, Marcus checked the smoke alarm battery."
+      ],
+      "answer": "While cooking dinner, the smoke alarm began to beep loudly.",
+      "explanation": "The introductory phrase 'While cooking dinner' lacks a clear subject. As written, it implies that the smoke alarm itself was cooking dinner.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-239",
+      "q": "Identify the punctuation mistake: 'The three boys' jackets were identical, but John's jacket was missing it's hood.'",
+      "passage": "",
+      "options": [
+        "The plural possessive 'boys'' is written incorrectly.",
+        "The singular possessive 'John's' misses an apostrophe.",
+        "It should use 'its' instead of the contraction 'it's' to show possession.",
+        "The comma before 'but' should be removed."
+      ],
+      "answer": "It should use 'its' instead of the contraction 'it's' to show possession.",
+      "explanation": "The hood belongs to the jacket, requiring the possessive pronoun 'its'. 'It's' means 'it is', which does not fit grammatically.",
+      "dlevel": "hard"
+    }
+  ]
+}

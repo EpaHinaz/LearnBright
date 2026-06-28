@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 18",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-018-01",
+"q": "Which of these animals is known for its black and white stripes?",
+"type": "mcq",
+"options": ["Horse", "Tiger", "Zebra", "Leopard"],
+"answer": "Zebra",
+"explanation": "Zebras are African equids known for their distinctive black-and-white striped coats.",
+"hint": "They look like a horse but with patterns.",
+"dlevel": "easy",
+"objective": "Identify common animals and their characteristics.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-018-02",
+"q": "What is the capital city of Japan?",
+"type": "input",
+"options": [],
+"answer": "Tokyo",
+"explanation": "Tokyo is the bustling capital city of Japan.",
+"hint": "It is in Asia.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-018-03",
+"q": "Which of these is a gas that we need to breathe in to survive?",
+"type": "mcq",
+"options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+"answer": "Oxygen",
+"explanation": "Oxygen is the gas that humans and many animals need to breathe in order to live.",
+"hint": "It is all around us in the air.",
+"dlevel": "easy",
+"objective": "Understand basic biological needs.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-018-04",
+"q": "What is the name of the planet we live on?",
+"type": "input",
+"options": [],
+"answer": "Earth",
+"explanation": "Earth is the third planet from the Sun and the only known place in the universe to harbor life.",
+"hint": "It is also known as the 'Blue Planet'.",
+"dlevel": "easy",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-018-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Drinking soda", "Eating junk food", "Exercising regularly", "Staying up all night"],
+"answer": "Exercising regularly",
+"explanation": "Regular exercise is important for maintaining a healthy heart and strong muscles.",
+"hint": "Think about moving your body to get your heart rate up.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-018-06",
+"q": "Who is the community helper that helps keep our teeth healthy?",
+"type": "mcq",
+"options": ["Doctor", "Dentist", "Teacher", "Firefighter"],
+"answer": "Dentist",
+"explanation": "A dentist is a health professional who specializes in the care of teeth and gums.",
+"hint": "They use tools to clean your teeth.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "health"]
+},
+{
+"id": "GK-018-07",
+"q": "What do we call the water that falls from the sky?",
+"type": "input",
+"options": [],
+"answer": "Rain",
+"explanation": "Rain is liquid water in the form of droplets that have condensed from atmospheric water vapor and then fall under gravity.",
+"hint": "It makes the ground wet.",
+"dlevel": "medium",
+"objective": "Understand basic weather patterns.",
+"tags": ["weather", "nature"]
+},
+{
+"id": "GK-018-08",
+"q": "Which continent is the Sahara Desert located in?",
+"type": "mcq",
+"options": ["Asia", "Africa", "South America", "Europe"],
+"answer": "Africa",
+"explanation": "The Sahara Desert is the largest hot desert in the world, covering much of North Africa.",
+"hint": "It is a very large continent.",
+"dlevel": "hard",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-018-09",
+"q": "What is the force that acts between two surfaces that are sliding across each other?",
+"type": "input",
+"options": [],
+"answer": "Friction",
+"explanation": "Friction is the force that opposes the motion of one surface over another.",
+"hint": "It starts with 'F'.",
+"dlevel": "hard",
+"objective": "Understand scientific forces.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-018-10",
+"q": "Which of these is a type of musical instrument?",
+"type": "mcq",
+"options": ["Violin", "Bicycle", "Television", "Computer"],
+"answer": "Violin",
+"explanation": "A violin is a string instrument that is played with a bow.",
+"hint": "It produces beautiful sounds.",
+"dlevel": "easy",
+"objective": "Recognize types of instruments.",
+"tags": ["music", "art"]
+}
+]
+}

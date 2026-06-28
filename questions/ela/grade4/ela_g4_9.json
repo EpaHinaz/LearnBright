@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-01",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-081",
+      "q": "Identify the helping verb in this sentence: 'The soccer players have practiced their drills for an hour.'",
+      "options": [
+        "have",
+        "practiced",
+        "their",
+        "for"
+      ],
+      "answer": "have",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-082",
+      "q": "Choose the correct pronoun to complete the sentence: 'The teacher praised ___ for our excellent teamwork on the history project.'",
+      "options": [
+        "we",
+        "us",
+        "them",
+        "they"
+      ],
+      "answer": "us",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-083",
+      "q": "Which sentence shows the correct use of a singular noun?",
+      "options": [
+        "The childs ran across the playground.",
+        "The children ran across the playground.",
+        "The child ran across the playground.",
+        "The childrens ran across the playground."
+      ],
+      "answer": "The child ran across the playground.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-084",
+      "q": "What is an antonym for the word 'expand'?",
+      "options": [
+        "grow",
+        "shrink",
+        "stretch",
+        "fill"
+      ],
+      "answer": "shrink",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-085",
+      "q": "Use context clues to find the meaning of the word 'timid': 'The timid kitten hid behind the couch whenever a visitor walked into the living room.'",
+      "options": [
+        "playful",
+        "brave",
+        "shy and fearful",
+        "loud"
+      ],
+      "answer": "shy and fearful",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-086",
+      "q": "Read the text: 'The tropical rainforest is home to more species of plants and animals than any other place on Earth. It has four layers: the emergent layer at the top, the canopy, the understory, and the forest floor at the bottom. The canopy layer acts like a giant green umbrella, blocking out most of the sunlight. Because it is so dense with leaves and branches, many unique animals like monkeys, sloths, and colorful parrots live entirely in the canopy.' What is the main idea of this text?",
+      "options": [
+        "Parrots are the most colorful birds in the rainforest.",
+        "The rainforest has unique layers, especially a dense canopy where many animals live.",
+        "The forest floor does not receive any sunlight at all.",
+        "Monkeys and sloths like to climb tall green trees."
+      ],
+      "answer": "The rainforest has unique layers, especially a dense canopy where many animals live.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-087",
+      "q": "Based on the rainforest text, why is the canopy layer compared to an umbrella?",
+      "options": [
+        "It protects animals from heavy tropical rainstorms.",
+        "It is shaped like a circle and is very bright.",
+        "It blocks out most of the sunlight with its dense leaves.",
+        "It is made of colorful feathers from the parrots."
+      ],
+      "answer": "Blocks out most of the sunlight with its dense leaves.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-088",
+      "q": "Which sentence has correct capitalization?",
+      "options": [
+        "We are going to visit aunt Sarah for Thanksgiving.",
+        "We are going to visit Aunt Sarah for thanksgiving.",
+        "We are going to visit Aunt Sarah for Thanksgiving.",
+        "We are going to visit aunt sarah for Thanksgiving."
+      ],
+      "answer": "We are going to visit Aunt Sarah for Thanksgiving.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-089",
+      "q": "Identify the punctuation error in this sentence: 'Do you want to play tennis after school, or do you have a music lesson.'",
+      "options": [
+        "It needs an exclamation mark.",
+        "It should end with a question mark instead of a period.",
+        "The comma after 'school' should be a semicolon.",
+        "There should be quotation marks around 'tennis'."
+      ],
+      "answer": "It should end with a question mark instead of a period.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-090",
+      "q": "Choose the correct form of the verb to show subject-verb agreement: 'Each of the students ___ a specific job during our science lab.'",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "are having"
+      ],
+      "answer": "has",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "4",
+  "title": "Geometry Basics",
+  "description": "Lines, angles, shapes, perimeter and area.",
+  "questions": [
+    { "q": "How many lines of symmetry does a square have?", "options": ["2", "4", "1", "8"], "answer": "4", "explanation": "A square has 4 lines of symmetry: 2 through midpoints, 2 diagonal." },
+    { "q": "An angle measuring exactly 90° is called a...", "options": ["Acute", "Right", "Obtuse", "Straight"], "answer": "Right", "explanation": "90° = right angle." },
+    { "q": "A triangle with ALL sides equal is called an ___ triangle.", "options": [], "answer": "equilateral", "explanation": "Equilateral means all three sides are equal." },
+    { "q": "Perimeter of a rectangle 8 cm × 5 cm?", "options": ["13 cm", "26 cm", "40 cm", "18 cm"], "answer": "26 cm", "explanation": "P = 2(l+w) = 2(8+5) = 26 cm." },
+    { "q": "What shape has exactly 5 sides?", "options": ["Hexagon", "Pentagon", "Octagon", "Heptagon"], "answer": "Pentagon", "explanation": "Pentagon = 5 sides." },
+    { "q": "Area of a rectangle 9 cm × 4 cm in sq cm.", "options": [], "answer": "36", "explanation": "A = l × w = 9 × 4 = 36 sq cm." },
+    { "q": "Parallel lines...", "options": ["Always cross", "Never meet", "Meet at a right angle", "Make a triangle"], "answer": "Never meet", "explanation": "Parallel lines stay the same distance apart and never meet." },
+    { "q": "A square has sides of 7 cm. Area in sq cm?", "options": [], "answer": "49", "explanation": "7 × 7 = 49 sq cm." },
+    { "q": "An angle greater than 90° but less than 180° is called...", "options": ["Acute", "Right", "Obtuse", "Reflex"], "answer": "Obtuse", "explanation": "Obtuse angles are between 90° and 180°." },
+    { "q": "How many sides does a hexagon have?", "options": [], "answer": "6", "explanation": "Hexagon = 6 sides (think of a honeycomb)." }
+  ]
+}

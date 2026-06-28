@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 26",
+  "description": "Comprehensive math practice questions for Day 26.",
+  "questions": [
+    {
+      "id": "MATHS-251",
+      "q": "What is 118 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "826",
+        "836",
+        "821",
+        "831"
+      ],
+      "answer": "826",
+      "explanation": "The correct answer is 826 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-252",
+      "q": "What is 8 \u00d7 12?",
+      "passage": "",
+      "options": [
+        "101",
+        "96",
+        "106",
+        "91"
+      ],
+      "answer": "96",
+      "explanation": "The correct answer is 96 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-253",
+      "q": "What is 9 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "63",
+        "68",
+        "73",
+        "58"
+      ],
+      "answer": "63",
+      "explanation": "The correct answer is 63 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-254",
+      "q": "Anna had $181. After buying a game, Anna has $66 left. How much did the game cost?",
+      "passage": "",
+      "options": [
+        "125",
+        "111",
+        "117",
+        "115"
+      ],
+      "answer": "115",
+      "explanation": "The correct answer is 115 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-255",
+      "q": "Leo bought 6 packs of pencils. Each pack has 8 pencils. How many pencils did Leo buy?",
+      "passage": "",
+      "options": [
+        "50",
+        "48",
+        "44",
+        "58"
+      ],
+      "answer": "48",
+      "explanation": "The correct answer is 48 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-256",
+      "q": "What is the value of 5 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "23",
+        "37",
+        "25",
+        "28"
+      ],
+      "answer": "25",
+      "explanation": "The correct answer is 25 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-257",
+      "q": "Solve: 50 - (2 \u00d7 8)",
+      "passage": "",
+      "options": [
+        "37",
+        "34",
+        "46",
+        "32"
+      ],
+      "answer": "34",
+      "explanation": "The correct answer is 34 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-258",
+      "q": "Which fraction is equivalent to 2/4?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/2",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-259",
+      "q": "Which fraction is equivalent to 2/4?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/2",
+        "1/3",
+        "2/3"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-260",
+      "q": "Find the perimeter of a rectangle with length 7 cm and width 4 cm.",
+      "passage": "",
+      "options": [
+        "21",
+        "44",
+        "24",
+        "22"
+      ],
+      "answer": "22",
+      "explanation": "The correct answer is 22 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    }
+  ]
+}

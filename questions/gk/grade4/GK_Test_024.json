@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 24",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-024-01",
+"q": "Which of these animals is known for having a pouch to carry its baby?",
+"type": "mcq",
+"options": ["Tiger", "Lion", "Kangaroo", "Zebra"],
+"answer": "Kangaroo",
+"explanation": "Kangaroos are marsupials, and mothers carry their young, known as joeys, in a pouch on their belly.",
+"hint": "It is famous for hopping.",
+"dlevel": "easy",
+"objective": "Identify common animal traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-024-02",
+"q": "What is the capital city of Australia?",
+"type": "input",
+"options": [],
+"answer": "Canberra",
+"explanation": "Canberra was chosen as the capital of Australia as a compromise between the two largest cities, Sydney and Melbourne.",
+"hint": "It starts with a 'C'.",
+"dlevel": "hard",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-024-03",
+"q": "Which part of a plant helps it breathe by taking in gases?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Leaf",
+"explanation": "Leaves have tiny pores that allow the plant to take in carbon dioxide and release oxygen.",
+"hint": "They are usually flat and green.",
+"dlevel": "medium",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-024-04",
+"q": "What do we call a person who designs houses and buildings?",
+"type": "input",
+"options": [],
+"answer": "Architect",
+"explanation": "An architect creates the plans and designs for buildings to ensure they are safe and functional.",
+"hint": "The word starts with 'A'.",
+"dlevel": "medium",
+"objective": "Understand different career roles.",
+"tags": ["community", "technology"]
+},
+{
+"id": "GK-024-05",
+"q": "Which of these is a healthy habit to keep your heart strong?",
+"type": "mcq",
+"options": ["Sitting all day", "Running and playing outside", "Eating only sugar", "Never sleeping"],
+"answer": "Running and playing outside",
+"explanation": "Physical exercise like running helps to strengthen the heart and lungs.",
+"hint": "It is a fun physical activity.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-024-06",
+"q": "Which community helper works at a fire station?",
+"type": "mcq",
+"options": ["Teacher", "Firefighter", "Doctor", "Librarian"],
+"answer": "Firefighter",
+"explanation": "Firefighters work at fire stations, keeping their gear ready to respond to emergencies.",
+"hint": "They use water to stop fires.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "safety"]
+},
+{
+"id": "GK-024-07",
+"q": "What is the name of the planet closest to the Sun?",
+"type": "input",
+"options": [],
+"answer": "Mercury",
+"explanation": "Mercury is the smallest planet in the solar system and orbits closest to the Sun.",
+"hint": "It has a name that starts with 'M'.",
+"dlevel": "medium",
+"objective": "Understand the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-024-08",
+"q": "Which of these is a material that does NOT conduct electricity well?",
+"type": "mcq",
+"options": ["Copper", "Wood", "Iron", "Gold"],
+"answer": "Wood",
+"explanation": "Wood is an insulator, meaning electricity does not flow through it easily.",
+"hint": "It comes from trees.",
+"dlevel": "hard",
+"objective": "Understand basic physics concepts.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-024-09",
+"q": "How many minutes are in an hour?",
+"type": "input",
+"options": [],
+"answer": "60",
+"explanation": "There are exactly 60 minutes in one hour.",
+"hint": "It is a round number.",
+"dlevel": "easy",
+"objective": "Understand basic time measurement.",
+"tags": ["science", "math"]
+},
+{
+"id": "GK-024-10",
+"q": "Which season is known for being the hottest?",
+"type": "mcq",
+"options": ["Summer", "Autumn", "Winter", "Spring"],
+"answer": "Summer",
+"explanation": "Summer is the warmest season, usually characterized by long, sunny days.",
+"hint": "It starts with 'S'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

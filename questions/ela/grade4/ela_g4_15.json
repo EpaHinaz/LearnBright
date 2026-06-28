@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-07",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-141",
+      "q": "Identify the adverb in the following sentence: 'The heavy tractor moved slowly down the dirt road.'",
+      "options": [
+        "heavy",
+        "moved",
+        "slowly",
+        "dirt"
+      ],
+      "answer": "slowly",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-142",
+      "q": "Which conjunction best completes this sentence? 'You must finish your math homework, ___ you cannot watch the science movie tonight.'",
+      "options": [
+        "or",
+        "but",
+        "and",
+        "for"
+      ],
+      "answer": "or",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-143",
+      "q": "Choose the correct past-tense verb to complete the sentence: 'Last winter, the thick ice on the lake ______ under the heavy weight of the snow.'",
+      "options": [
+        "cracks",
+        "cracked",
+        "cracking",
+        "will crack"
+      ],
+      "answer": "cracked",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-144",
+      "q": "What is an antonym for the word 'frequent'?",
+      "options": [
+        "often",
+        "common",
+        "rare",
+        "regular"
+      ],
+      "answer": "rare",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-145",
+      "q": "Use context clues to find the meaning of 'abandoned': 'The children found an old, abandoned treehouse in the deep woods that had not been used for twenty years.'",
+      "options": [
+        "brand new",
+        "left behind and empty",
+        "busy and crowded",
+        "safely guarded"
+      ],
+      "answer": "left behind and empty",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-146",
+      "q": "Read the text: 'The first operational communication satellite, Telstar 1, was launched into space in 1962. It revolutionized how information was shared by transmitting the very first live television signals across the Atlantic Ocean between Europe and North America. Before Telstar, it was impossible to watch overseas news as it happened. Although this historic satellite only functioned for a few months, it paved the way for the global networks, internet connections, and television systems that we rely on every single day.' What is the author's primary purpose in writing this text?",
+      "options": [
+        "To teach readers how to assemble a small satellite.",
+        "To inform readers about the history and importance of the Telstar 1 satellite.",
+        "To convince people to watch more international television programs.",
+        "To describe what Europe looked like during the early 1960s."
+      ],
+      "answer": "To inform readers about the history and importance of the Telstar 1 satellite.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-147",
+      "q": "Based on the Telstar 1 text, what major change did this satellite bring to communication?",
+      "options": [
+        "It made television screen sizes much larger.",
+        "It allowed live television signals to travel across the ocean for the first time.",
+        "It helped weather stations predict heavy storms accurately.",
+        "It reduced the cost of manufacturing computers in North America."
+      ],
+      "answer": "It allowed live television signals to travel across the ocean for the first time.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-148",
+      "q": "Which option corrects this run-on sentence? 'The wind blew hard the old fence fell over.'",
+      "options": [
+        "The wind blew hard, the old fence fell over.",
+        "The wind blew hard, and the old fence fell over.",
+        "The wind blew hard because the old fence fell over.",
+        "The wind blew hard so, the old fence fell over."
+      ],
+      "answer": "The wind blew hard, and the old fence fell over.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-149",
+      "q": "Identify the sentence fragment that is missing a subject.",
+      "options": [
+        "The modern laptop on the desk.",
+        "Swam across the pool in record time.",
+        "Our community garden grew tall sunflowers.",
+        "Because it was freezing outside yesterday."
+      ],
+      "answer": "Swam across the pool in record time.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-150",
+      "q": "Which sentence uses the possessive form of a noun correctly?",
+      "options": [
+        "The two puppy's toys were scattered all over the rug.",
+        "The two puppies' toys were scattered all over the rug.",
+        "The two puppies toys' were scattered all over the rug.",
+        "The two puppieses toys were scattered all over the rug."
+      ],
+      "answer": "The two puppies' toys were scattered all over the rug.",
+      "dlevel": "medium"
+    }
+  ]
+}

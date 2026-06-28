@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "Writing & Punctuation",
+  "description": "Commas, apostrophes, quotation marks, and sentence structure.",
+  "questions": [
+    { "q": "Where does the apostrophe go? 'The dogs bone was buried.'", "options": ["dogs' bone", "dog's bone", "dogs bone'", "dog's' bone"], "answer": "dog's bone", "explanation": "Singular possessive: the bone belonging to one dog = dog's bone." },
+    { "q": "Which sentence uses commas CORRECTLY in a list?", "options": ["I bought apples oranges, and bananas.", "I bought apples, oranges, and bananas.", "I, bought apples, oranges and bananas.", "I bought apples oranges and bananas."], "answer": "I bought apples, oranges, and bananas.", "explanation": "Use commas to separate items in a list." },
+    { "q": "Which punctuation mark ends a question?", "options": [], "answer": "?", "explanation": "A question mark (?) ends a sentence that asks something." },
+    { "q": "What is the TOPIC SENTENCE in: 'Dogs make great pets. They are loyal and fun. Many families enjoy having one.'", "options": ["They are loyal and fun.", "Dogs make great pets.", "Many families enjoy having one.", "All of the above"], "answer": "Dogs make great pets.", "explanation": "The topic sentence states the main idea — usually the first sentence." },
+    { "q": "Which is a COMPLETE sentence?", "options": ["Running in the park.", "The bird sang.", "After the long day.", "Because it rained."], "answer": "The bird sang.", "explanation": "'The bird sang' has a subject (bird) + predicate (sang)." },
+    { "q": "Correct the capitalization: 'last summer, my family visited washington, d.c.'", "options": [], "answer": "Last summer, my family visited Washington, D.C.", "explanation": "Sentence-starting words and proper nouns must be capitalized." },
+    { "q": "Which sentence shows CORRECT use of quotation marks?", "options": ["She said, I am happy.", "She said, \"I am happy.\"", "She said I am \"happy.\"", "\"She said, I am happy.\""], "answer": "She said, \"I am happy.\"", "explanation": "Quotation marks go around the exact words someone says." },
+    { "q": "What type of writing tells a story from the writer's own life?", "options": ["Fiction", "Persuasive essay", "Personal narrative", "Report"], "answer": "Personal narrative", "explanation": "A personal narrative tells a story from the writer's own experience." },
+    { "q": "A CONCLUDING SENTENCE at the end of a paragraph should...", "options": ["Introduce a new topic", "Restate or wrap up the main idea", "Ask the reader a question", "List more details"], "answer": "Restate or wrap up the main idea", "explanation": "A concluding sentence brings the paragraph to a close by restating the main point." },
+    { "q": "Which joining word (conjunction) shows CONTRAST?", "options": ["and", "so", "but", "because"], "answer": "but", "explanation": "'But' joins two ideas that contrast each other." }
+  ]
+}

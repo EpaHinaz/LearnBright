@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 03",
+  "description": "Focus on verb tenses, multiple-meaning words, chronological sequencing, and sentence corrections.",
+  "questions": [
+    {
+      "id": "ELA-021",
+      "q": "Which verb correctly completes the sentence in the past tense? 'Yesterday, Clara ___ a beautiful picture of a coral reef during art class.'",
+      "passage": "",
+      "options": [
+        "draws",
+        "drew",
+        "drawn",
+        "drawing"
+      ],
+      "answer": "drew",
+      "explanation": "'Drew' is the irregular past tense form of the verb 'draw'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-022",
+      "q": "Identify the helping verb in the following sentence: 'The brave astronauts have traveled deep into space.'",
+      "passage": "",
+      "options": [
+        "brave",
+        "have",
+        "traveled",
+        "deep"
+      ],
+      "answer": "have",
+      "explanation": "'Have' is the helping (auxiliary) verb that works with the main action verb 'traveled' to form the present perfect tense.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-023",
+      "q": "Choose the correct form of the verb to ensure subject-verb agreement: 'The pack of wolves ___ loudly through the dark forest.'",
+      "passage": "",
+      "options": [
+        "howls",
+        "howl",
+        "howling",
+        "are howl"
+      ],
+      "answer": "howls",
+      "explanation": "The subject 'pack' is a singular collective noun, so it requires the singular verb form 'howls'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-024",
+      "q": "Which definition fits the word **bark** as it is used in this sentence? 'We noticed that the rough bark of the ancient oak tree was peeling away.'",
+      "passage": "",
+      "options": [
+        "The loud sound made by a guard dog.",
+        "To shout out orders in an angry voice.",
+        "The tough protective outer layer of a tree trunk.",
+        "A small sailing ship used long ago."
+      ],
+      "answer": "The tough protective outer layer of a tree trunk.",
+      "explanation": "The context clues 'ancient oak tree' show that 'bark' refers to the tree's outer covering.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-025",
+      "q": "What does the prefix **pre-** mean in words like 'preheat' or 'preview'?",
+      "passage": "",
+      "options": [
+        "again",
+        "not",
+        "before",
+        "wrongly"
+      ],
+      "answer": "before",
+      "explanation": "The prefix 'pre-' means before, so 'preheat' means to heat up beforehand.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-026",
+      "q": "What happened immediately after the pioneer family crossed the muddy river?",
+      "passage": "In May of 1845, a pioneer family packed their canvas wagon to head west. First, they traveled across wide prairies for three long weeks. Next, they arrived at a rushing, muddy river where they had to carefully float their wagon across. Immediately after reaching the other side safely, they set up camp and cooked a hot meal. Finally, they began the steep climb up into the rocky mountains before winter arrived.",
+      "options": [
+        "They traveled across wide prairies.",
+        "They climbed into the rocky mountains.",
+        "They packed their canvas wagon.",
+        "They set up camp and cooked a hot meal."
+      ],
+      "answer": "They set up camp and cooked a hot meal.",
+      "explanation": "The text states: 'Immediately after reaching the other side safely, they set up camp and cooked a hot meal.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-027",
+      "q": "Which word from the passage signals the final step in the pioneer family's journey?",
+      "passage": "In May of 1845, a pioneer family packed their canvas wagon to head west. First, they traveled across wide prairies for three long weeks. Next, they arrived at a rushing, muddy river where they had to carefully float their wagon across. Immediately after reaching the other side safely, they set up camp and cooked a hot meal. Finally, they began the steep climb up into the rocky mountains before winter arrived.",
+      "options": [
+        "First",
+        "Next",
+        "Finally",
+        "Immediately"
+      ],
+      "answer": "Finally",
+      "explanation": "The transition word 'Finally' explicitly introduces the last step in their journey sequence.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-028",
+      "q": "Which sentence has a mistake in its grammar or usage?",
+      "passage": "",
+      "options": [
+        "He doesn't want any homework tonight.",
+        "The children were playing outside in the rain.",
+        "She seen that movie three times already.",
+        "We went to the grocery store to buy apples."
+      ],
+      "answer": "She seen that movie three times already.",
+      "explanation": "'Seen' cannot stand alone as a main verb without a helping verb like 'has' or 'had'. It should be 'She has seen' or 'She saw'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-029",
+      "q": "Choose the sentence that is written correctly without any errors.",
+      "passage": "",
+      "options": [
+        "Me and my brother love to play basketball.",
+        "My brother and I love to play basketball.",
+        "My brother and me love to play basketball.",
+        "I and my brother love to play basketball."
+      ],
+      "answer": "My brother and I love to play basketball.",
+      "explanation": "When used as a compound subject, 'My brother and I' is grammatically correct, placing the first-person pronoun last and using the subject form 'I'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-030",
+      "q": "What is the function of the coordinating conjunction in this sentence? 'Sam wanted to buy the video game, **but** he did not have enough money saved.'",
+      "passage": "",
+      "options": [
+        "To show a choice between two things.",
+        "To add more information to a thought.",
+        "To show a contrast or conflict.",
+        "To explain the reason for something."
+      ],
+      "answer": "To show a contrast or conflict.",
+      "explanation": "The conjunction 'but' is used to connect two contrasting or conflicting ideas.",
+      "dlevel": "easy"
+    }
+  ]
+}

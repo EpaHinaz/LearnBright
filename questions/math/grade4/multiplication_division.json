@@ -1,0 +1,18 @@
+{
+  "subject": "Math",
+  "grade": "4",
+  "title": "Multiplication & Division",
+  "description": "Multi-digit multiplication and division strategies.",
+  "questions": [
+    { "q": "What is 37 × 6?", "options": [], "answer": "222", "explanation": "(30×6)+(7×6) = 180+42 = 222." },
+    { "q": "48 ÷ 6 = ?", "options": ["6", "7", "8", "9"], "answer": "8", "explanation": "6 × 8 = 48." },
+    { "q": "A baker makes 24 muffins per tray. How many in 7 trays?", "options": [], "answer": "168", "explanation": "24 × 7 = 168." },
+    { "q": "Which equation shows the distributive property for 4 × 23?", "options": ["4+23", "4×20 + 4×3", "40+23", "4×20×3"], "answer": "4×20 + 4×3", "explanation": "4×23 = 4×20 + 4×3 = 80+12 = 92." },
+    { "q": "96 ÷ 8 = ?", "options": [], "answer": "12", "explanation": "8 × 12 = 96." },
+    { "q": "What is 125 × 4?", "options": ["425", "500", "520", "450"], "answer": "500", "explanation": "125 × 4 = 500." },
+    { "q": "Find the missing number: __ × 9 = 63", "options": [], "answer": "7", "explanation": "7 × 9 = 63." },
+    { "q": "132 stickers shared equally among 4 friends. How many each?", "options": ["31", "33", "36", "28"], "answer": "33", "explanation": "132 ÷ 4 = 33." },
+    { "q": "What is 56 ÷ 7?", "options": [], "answer": "8", "explanation": "7 × 8 = 56." },
+    { "q": "A classroom has 8 rows of 9 desks. How many desks in total?", "options": ["63", "71", "72", "81"], "answer": "72", "explanation": "8 × 9 = 72." }
+  ]
+}

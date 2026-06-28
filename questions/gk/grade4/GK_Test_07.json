@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 07",
+"description": "A mix of fun and educational questions covering space, nature, human health, geography, and inventions for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-007-01",
+"q": "What is the center of our solar system?",
+"type": "mcq",
+"options": ["The Moon", "Earth", "The Sun", "Jupiter"],
+"answer": "The Sun",
+"explanation": "The Sun is a star at the center of the solar system, providing light and heat to all the planets.",
+"hint": "It is the bright object in the sky during the day.",
+"dlevel": "easy",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-007-02",
+"q": "Which of these animals is known as an amphibian?",
+"type": "mcq",
+"options": ["Snake", "Frog", "Shark", "Eagle"],
+"answer": "Frog",
+"explanation": "Amphibians are cold-blooded animals that start their lives in water and then live on land.",
+"hint": "They say 'ribbit'.",
+"dlevel": "easy",
+"objective": "Identify common animals and their categories.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-007-03",
+"q": "What is the primary gas that humans need to exhale?",
+"type": "input",
+"options": [],
+"answer": "Carbon dioxide",
+"explanation": "Humans breathe in oxygen and breathe out carbon dioxide as a waste product.",
+"hint": "Plants use this gas for photosynthesis.",
+"dlevel": "hard",
+"objective": "Understand basic human body functions.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-007-04",
+"q": "Which country is home to the Great Pyramid of Giza?",
+"type": "mcq",
+"options": ["China", "Mexico", "Egypt", "Italy"],
+"answer": "Egypt",
+"explanation": "The Great Pyramid of Giza is one of the Seven Wonders of the Ancient World, located in Egypt.",
+"hint": "It is famous for pharaohs and mummies.",
+"dlevel": "medium",
+"objective": "Recognize important world landmarks.",
+"tags": ["geography", "landmarks"]
+},
+{
+"id": "GK-007-05",
+"q": "How many hours are in one full day?",
+"type": "input",
+"options": [],
+"answer": "24",
+"explanation": "A full rotation of the Earth takes 24 hours.",
+"hint": "It is double twelve.",
+"dlevel": "easy",
+"objective": "Learn basic units of time.",
+"tags": ["science", "fun facts"]
+},
+{
+"id": "GK-007-06",
+"q": "Who is famously credited with inventing the airplane?",
+"type": "mcq",
+"options": ["The Wright Brothers", "Henry Ford", "Alexander Graham Bell", "Albert Einstein"],
+"answer": "The Wright Brothers",
+"explanation": "Orville and Wilbur Wright achieved the first powered, controlled flight in 1903.",
+"hint": "They built a flyer in North Carolina.",
+"dlevel": "medium",
+"objective": "Identify famous inventions.",
+"tags": ["technology", "history"]
+},
+{
+"id": "GK-007-07",
+"q": "What do we call the collection of books in a school or city?",
+"type": "mcq",
+"options": ["Museum", "Library", "Bookstore", "Gallery"],
+"answer": "Library",
+"explanation": "A library is a place where books, magazines, and other materials are kept for people to read or borrow.",
+"hint": "It is a quiet place full of stories.",
+"dlevel": "easy",
+"objective": "Learn about community resources.",
+"tags": ["community", "books"]
+},
+{
+"id": "GK-007-08",
+"q": "Which part of your body helps you think?",
+"type": "input",
+"options": [],
+"answer": "Brain",
+"explanation": "The brain is the control center of the body that allows us to think, learn, and move.",
+"hint": "It is protected by your skull.",
+"dlevel": "easy",
+"objective": "Understand the function of major human body organs.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-007-09",
+"q": "What is the largest country in the world by land area?",
+"type": "mcq",
+"options": ["USA", "Canada", "Russia", "China"],
+"answer": "Russia",
+"explanation": "Russia spans across both Europe and Asia and is the largest country by area.",
+"hint": "It is very cold and huge.",
+"dlevel": "hard",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-007-10",
+"q": "Which of these is NOT a healthy habit?",
+"type": "mcq",
+"options": ["Brushing teeth", "Getting enough sleep", "Sitting still for 10 hours", "Eating vegetables"],
+"answer": "Sitting still for 10 hours",
+"explanation": "Being active is important for health; sitting still for too long without movement is not healthy.",
+"hint": "Your body needs to move to stay fit.",
+"dlevel": "medium",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+}
+]
+}

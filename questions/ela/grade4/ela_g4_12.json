@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-04",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-111",
+      "q": "Choose the correct comparative adjective to complete the sentence: 'The engineering team found that the new aluminum alloy was much ______ than the standard steel plate.'",
+      "options": [
+        "light",
+        "lighter",
+        "lightest",
+        "more lighter"
+      ],
+      "answer": "lighter",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-112",
+      "q": "Identify the proper noun that needs to be capitalized in this sentence: 'Next tuesday, our class will study the microscopic organisms found in pond water.'",
+      "options": [
+        "class",
+        "microscopic",
+        "organisms",
+        "tuesday"
+      ],
+      "answer": "tuesday",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-113",
+      "q": "Which helping verb correctly completes the past-progressive sentence? 'The local historical society ______ preserving the old log cabin when the heavy storm hit.'",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "was",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-114",
+      "q": "What is a synonym for the word 'brilliant' as used in this context? 'The telescope captured a brilliant flash of light as a distant meteor broke apart.'",
+      "options": [
+        "smart",
+        "intense",
+        "slow",
+        "ancient"
+      ],
+      "answer": "intense",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-115",
+      "q": "Which suffix can be added to the base word 'protect' to make a noun meaning 'the act of guarding something'?",
+      "options": [
+        "-less",
+        "-ion",
+        "-ful",
+        "-able"
+      ],
+      "answer": "-ion",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-116",
+      "q": "Read the text: 'Coral reefs are some of the most diverse ecosystems on Earth. Though they look like colorful underwater plants, coral reefs are actually made of tiny animals called coral polyps. These polyps build hard limestone skeletons around themselves for safety. Over hundreds of years, millions of these skeletons pile up to form vast underwater structures. Reefs provide essential shelter and food for a quarter of all marine life, including sea turtles, bright clownfish, and hidden crabs.' What is the main idea of this text?",
+      "options": [
+        "Sea turtles depend on ocean water to stay warm.",
+        "Coral reefs are diverse ocean structures built by tiny animals that support many marine species.",
+        "Limestone is a hard substance used by marine animals to hide from predators.",
+        "Clownfish are the most common animals living inside deep ocean ecosystems."
+      ],
+      "answer": "Coral reefs are diverse ocean structures built by tiny animals that support many marine species.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-117",
+      "q": "Based on the coral reef text, what are coral reefs actually made of?",
+      "options": [
+        "Rare tropical plants that grow deep under the ocean surface.",
+        "Massive piles of ocean sand and smooth rocks.",
+        "The accumulated limestone skeletons of tiny animals called polyps.",
+        "Skeletons left behind by sea turtles over hundreds of years."
+      ],
+      "answer": "The accumulated limestone skeletons of tiny animals called polyps.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-118",
+      "q": "Which sentence has a capitalization error?",
+      "options": [
+        "My cousin lives near the Mississippi River.",
+        "We bought fresh apples from the farmer's market on Sunday.",
+        "Last month, Dr. Evans gave a presentation about space exploration.",
+        "We are going to study the declaration of independence tomorrow."
+      ],
+      "answer": "We are going to study the declaration of independence tomorrow.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-119",
+      "q": "Identify the punctuation mistake in this sentence: 'The computer programmer designed a new app, it tracks daily weather patterns.'",
+      "options": [
+        "It is a run-on sentence that uses a comma instead of a period or conjunction.",
+        "The word 'app' should have quotation marks around it.",
+        "It needs a question mark at the end.",
+        "There should be an exclamation point after 'programmer'."
+      ],
+      "answer": "It is a run-on sentence that uses a comma instead of a period or conjunction.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-120",
+      "q": "Choose the option that shows correct subject-verb agreement with a compound subject: 'The lead scientist and her assistant ______ the data every morning.'",
+      "options": [
+        "examines",
+        "examine",
+        "examining",
+        "has examined"
+      ],
+      "answer": "examine",
+      "dlevel": "medium"
+    }
+  ]
+}

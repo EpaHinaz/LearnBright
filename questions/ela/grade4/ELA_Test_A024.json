@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 22",
+  "description": "Hard-level ELA practice. Focusing on double comparisons, multiple-meaning vocabulary in historical context, and detecting organizational text structures.",
+  "questions": [
+    {
+      "id": "ELA-212",
+      "q": "Identify the sentence error in this choice: 'The old locomotive was more louder than the modern electric train.'",
+      "passage": "",
+      "options": [
+        "It contains a dangling modifier.",
+        "It contains a double comparative error.",
+        "It lacks subject-verb agreement.",
+        "It represents a sentence fragment."
+      ],
+      "answer": "It contains a double comparative error.",
+      "explanation": "Combining the modifier 'more' with the comparative suffix '-er' ('more louder') is grammatically incorrect.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-211",
+      "q": "Choose the sentence that handles the plural form of nouns ending in 'o' correctly.",
+      "passage": "",
+      "options": [
+        "The echo's inside the ancient stone cavern frightened the explorers.",
+        "The echoes inside the ancient stone cavern frightened the explorers.",
+        "The echoies inside the ancient stone cavern frightened the explorers.",
+        "The echose inside the ancient stone cavern frightened the explorers."
+      ],
+      "answer": "The echoes inside the ancient stone cavern frightened the explorers.",
+      "explanation": "'Echoes' is the correct plural spelling of 'echo'. Pluralizing it does not require an apostrophe.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-213",
+      "q": "What is the meaning of the word **channel** as used in this specific historical text? 'Pioneers discovered that a deep, natural **channel** dug into the rock allowed shipping boats to bypass the dangerous rapids safely.'",
+      "passage": "",
+      "options": [
+        "A specific television station or broadcasting frequency.",
+        "A wide strait or narrow body of water that forms a clear pathway.",
+        "To direct one's focus or energy toward a specific goal.",
+        "A regular pathway for passing along official government communications."
+      ],
+      "answer": "A wide strait or narrow body of water that forms a clear pathway.",
+      "explanation": "The context clues 'shipping boats to bypass' and 'natural channel dug into the rock' establish that this refers to a waterway.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-214",
+      "q": "Choose the best synonym for the word **formidable**.",
+      "passage": "",
+      "options": [
+        "weak and small",
+        "challenging, powerful, or intimidating",
+        "beautifully designed",
+        "written long ago"
+      ],
+      "answer": "challenging, powerful, or intimidating",
+      "explanation": "'Formidable' describes something that inspires fear or respect through being impressively large, powerful, or intense.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-215",
+      "q": "Which suffix can be appended to the verb 'reconcile' to form a noun meaning 'the restoration of friendly relations'?",
+      "passage": "",
+      "options": [
+        "-ation",
+        "-ment",
+        "-ful",
+        "-ness"
+      ],
+      "answer": "-ation",
+      "explanation": "Adding '-ation' to 'reconcile' (with spelling adjustment) yields 'reconciliation', the noun form.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-216",
+      "q": "What is the primary text structure used by the author to organize this historical passage?",
+      "passage": "The historic building of the Transcontinental Railroad posed immense challenges for workers in the 1860s. To solve the problem of crossing the solid granite Sierra Nevada mountains, engineering crews had to clear paths using dangerous explosives. Because winter blizzards dropped over thirty feet of heavy snow on the summits, workers constructed massive wooden snow sheds over the tracks to prevent avalanches from destroying the line. Consequently, trains could safely travel across the country, reducing a dangerous six-month wagon journey down to just six days.",
+      "options": [
+        "Chronological order or timeline structure",
+        "Cause and effect / Problem and solution",
+        "Compare and contrast of two items",
+        "Spatial layout and physical description"
+      ],
+      "answer": "Cause and effect / Problem and solution",
+      "explanation": "The text lists architectural and physical problems (granite mountains, snow blizzards) and the engineering solutions used to solve them, using transition words like 'To solve' and 'Consequently'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-217",
+      "q": "According to the passage, what specific solution was invented to counter the threat of massive mountain blizzards?",
+      "passage": "The historic building of the Transcontinental Railroad posed immense challenges for workers in the 1860s. To solve the problem of crossing the solid granite Sierra Nevada mountains, engineering crews had to clear paths using dangerous explosives. Because winter blizzards dropped over thirty feet of heavy snow on the summits, workers constructed massive wooden snow sheds over the tracks to prevent avalanches from destroying the line. Consequently, trains could safely travel across the country, reducing a dangerous six-month wagon journey down to just six days.",
+      "options": [
+        "They stopped railroad construction work until spring.",
+        "They blasted deep tunnels beneath the mountain bases.",
+        "They built massive wooden snow sheds directly over the tracks.",
+        "They replaced iron train wheels with specialized steel blades."
+      ],
+      "answer": "They built massive wooden snow sheds directly over the tracks.",
+      "explanation": "The text explicitly states: 'workers constructed massive wooden snow sheds over the tracks to prevent avalanches from destroying the line.'",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-218",
+      "q": "Which sentence displays flawless capitalization across proper adjectives?",
+      "passage": "",
+      "options": [
+        "We ordered traditional Italian pasta and french pastries at the international market.",
+        "We ordered traditional Italian pasta and French pastries at the international market.",
+        "We ordered traditional italian pasta and French pastries at the international market.",
+        "We ordered traditional Italian Pasta and French Pastries at the international market."
+      ],
+      "answer": "We ordered traditional Italian pasta and French pastries at the international market.",
+      "explanation": "Proper adjectives derived from proper nouns ('Italian' and 'French') must be capitalized, while common nouns like 'pasta' and 'pastries' should remain lowercase.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-219",
+      "q": "Identify the sentence that contains a punctuation mistake involving coordinating conjunctions linking independent clauses.",
+      "passage": "",
+      "options": [
+        "The rain stopped, and the bright sun emerged.",
+        "The team practiced every night, yet they lost the final game.",
+        "Marcus wanted to go to the theater but he forgot his wallet.",
+        "She studied diligently for her final exam, so she earned an A."
+      ],
+      "answer": "Marcus wanted to go to the theater but he forgot his wallet.",
+      "explanation": "When a coordinating conjunction ('but') links two independent clauses, a comma must be placed right before the conjunction.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-220",
+      "q": "What is the function of the inverted subject-verb structure in this sentence? 'Into the deep dark cave slithered the massive python.'",
+      "passage": "",
+      "options": [
+        "It changes the statement into a direct question.",
+        "It places dramatic focus and emphasis on the action and description.",
+        "It indicates that the action will happen in the future.",
+        "It removes the need for a true grammatical subject."
+      ],
+      "answer": "It places dramatic focus and emphasis on the action and description.",
+      "explanation": "Inverted structures ('Into the cave slithered...') are literary techniques used to emphasize imagery or action by delaying the subject.",
+      "dlevel": "hard"
+    }
+  ]
+}

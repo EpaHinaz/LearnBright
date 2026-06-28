@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 04",
+"description": "A mix of fun and educational questions covering space, human body, community, and global facts for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-004-01",
+"q": "What is the largest planet in our solar system?",
+"type": "mcq",
+"options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+"answer": "Jupiter",
+"explanation": "Jupiter is the largest planet in our solar system, with a mass more than two and a half times that of all the other planets combined.",
+"hint": "It is the fifth planet from the Sun.",
+"dlevel": "easy",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-004-02",
+"q": "How many bones are in the adult human body?",
+"type": "input",
+"options": [],
+"answer": "206",
+"explanation": "An adult human has 206 bones in their skeleton.",
+"hint": "It is a number between 200 and 210.",
+"dlevel": "hard",
+"objective": "Learn basic facts about the human body.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-004-03",
+"q": "Which of these is a primary color?",
+"type": "mcq",
+"options": ["Green", "Orange", "Purple", "Red"],
+"answer": "Red",
+"explanation": "The three primary colors are red, yellow, and blue.",
+"hint": "It is the color of a ripe strawberry.",
+"dlevel": "easy",
+"objective": "Identify basic concepts in art.",
+"tags": ["art", "everyday science"]
+},
+{
+"id": "GK-004-04",
+"q": "What do bees collect from flowers to make honey?",
+"type": "input",
+"options": [],
+"answer": "Nectar",
+"explanation": "Bees collect nectar from flowers, which they then process into honey.",
+"hint": "It is a sweet liquid produced by plants.",
+"dlevel": "medium",
+"objective": "Identify common animals and their activities.",
+"tags": ["nature", "animals"]
+},
+{
+"id": "GK-004-05",
+"q": "Which continent is the coldest?",
+"type": "mcq",
+"options": ["Africa", "Australia", "Antarctica", "Europe"],
+"answer": "Antarctica",
+"explanation": "Antarctica is the coldest, windiest, and driest continent on Earth.",
+"hint": "It is located at the very bottom of the globe.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-004-06",
+"q": "Who invented the light bulb?",
+"type": "mcq",
+"options": ["Albert Einstein", "Thomas Edison", "Isaac Newton", "Alexander Graham Bell"],
+"answer": "Thomas Edison",
+"explanation": "Thomas Edison is famously credited with developing the first commercially practical incandescent light bulb.",
+"hint": "His last name sounds like 'ed-i-son'.",
+"dlevel": "medium",
+"objective": "Identify famous inventors.",
+"tags": ["technology", "history"]
+},
+{
+"id": "GK-004-07",
+"q": "Which of these is a healthy snack?",
+"type": "mcq",
+"options": ["Candy", "Potato chips", "Fresh fruit", "Soda"],
+"answer": "Fresh fruit",
+"explanation": "Fresh fruit contains natural vitamins, fiber, and nutrients, making it a healthy choice.",
+"hint": "It grows on trees or plants and is sweet.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-004-08",
+"q": "What do we call a person who travels into space?",
+"type": "input",
+"options": [],
+"answer": "Astronaut",
+"explanation": "An astronaut is a person trained to command, pilot, or serve as a crew member of a spacecraft.",
+"hint": "The word starts with 'Astro'.",
+"dlevel": "easy",
+"objective": "Understand roles in space exploration.",
+"tags": ["space", "technology"]
+},
+{
+"id": "GK-004-09",
+"q": "What is the capital of the United States?",
+"type": "mcq",
+"options": ["New York City", "Los Angeles", "Washington D.C.", "Chicago"],
+"answer": "Washington D.C.",
+"explanation": "Washington D.C. is the capital city of the United States.",
+"hint": "It is named after the first US president.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-004-10",
+"q": "Which type of animal is a shark?",
+"type": "mcq",
+"options": ["Mammal", "Fish", "Reptile", "Amphibian"],
+"answer": "Fish",
+"explanation": "Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton.",
+"hint": "They have gills to breathe underwater.",
+"dlevel": "hard",
+"objective": "Classify animals.",
+"tags": ["animals", "science"]
+}
+]
+}

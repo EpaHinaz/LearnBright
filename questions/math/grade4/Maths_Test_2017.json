@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 16",
+  "description": "Day 16 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-151",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 9,876 - 1,234?",
+      "options": [
+        "8,642",
+        "8,542",
+        "8,742",
+        "7,642"
+      ],
+      "answer": "8,642",
+      "hint": "Subtract digit by digit.",
+      "explanation": "6-4=2, 7-3=4, 8-2=6, 9-1=8. Result 8,642.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-152",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 35 × 3?",
+      "options": [
+        "105",
+        "95",
+        "115",
+        "125"
+      ],
+      "answer": "105",
+      "hint": "Multiply 30 by 3 and 5 by 3.",
+      "explanation": "90 + 15 = 105.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-153",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 600 by 12.",
+      "options": [],
+      "answer": "50",
+      "hint": "60 divided by 12 is 5.",
+      "explanation": "60 ÷ 12 = 5, so 600 ÷ 12 = 50.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-154",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A bakery makes 8 trays of muffins. Each tray has 6 muffins. Total?",
+      "options": [
+        "48",
+        "42",
+        "54",
+        "36"
+      ],
+      "answer": "48",
+      "hint": "Multiply 8 by 6.",
+      "explanation": "8 × 6 = 48.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-155",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "A shirt costs $20. How much for 3 shirts?",
+      "options": [],
+      "answer": "60",
+      "hint": "Multiply 20 by 3.",
+      "explanation": "20 × 3 = 60.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-156",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which is bigger: 0.5 or 0.25?",
+      "options": [
+        "0.5",
+        "0.25",
+        "They are equal",
+        "Neither"
+      ],
+      "answer": "0.5",
+      "hint": "0.5 is 50/100, 0.25 is 25/100.",
+      "explanation": "0.5 is greater than 0.25.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-157",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Add 4/12 + 5/12.",
+      "options": [],
+      "answer": "9/12",
+      "hint": "Add numerators.",
+      "explanation": "4+5=9. Result 9/12.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-158",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "A shape with 3 sides is a:",
+      "options": [
+        "Triangle",
+        "Rectangle",
+        "Square",
+        "Circle"
+      ],
+      "answer": "Triangle",
+      "hint": "Tri- means 3.",
+      "explanation": "A triangle has 3 sides.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-159",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Area of rectangle 8 by 4.",
+      "options": [],
+      "answer": "32",
+      "hint": "Multiply 8 × 4.",
+      "explanation": "8 × 4 = 32.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-160",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many minutes in 2 hours?",
+      "options": [
+        "120",
+        "60",
+        "180",
+        "240"
+      ],
+      "answer": "120",
+      "hint": "1 hour = 60 mins.",
+      "explanation": "60 × 2 = 120.",
+      "dlevel": "easy"
+    }
+  ]
+}

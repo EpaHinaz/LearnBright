@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "5",
+  "title": "Vocabulary: Context Clues & Word Roots",
+  "description": "Using context, Greek/Latin roots, prefixes, and suffixes to unlock word meaning.",
+  "questions": [
+    { "q": "The root 'bio' means life. What does BIOGRAPHY mean?", "options": ["A story about nature", "A written account of someone's life", "A science experiment", "A history of countries"], "answer": "A written account of someone's life", "explanation": "Bio (life) + graphy (writing) = a written account of someone's life." },
+    { "q": "The prefix 'pre-' means before. What does PREVIEW mean? (two words)", "options": [], "answer": "to see before", "explanation": "Pre (before) + view (see) = to see something before its official release." },
+    { "q": "'The scientist made a significant discovery that changed medicine forever.' SIGNIFICANT most likely means...", "options": ["small and unimportant", "important and meaningful", "strange and unusual", "old and outdated"], "answer": "important and meaningful", "explanation": "Context: changed medicine forever — something that has that effect is significant (important)." },
+    { "q": "The suffix '-tion' turns a verb into a noun. Which is correct?", "options": ["'Educate' becomes 'educating'", "'Educate' becomes 'education'", "'Educate' becomes 'educator'", "'Educate' becomes 'educational'"], "answer": "'Educate' becomes 'education'", "explanation": "Adding -tion makes a noun: educate → education." },
+    { "q": "The root 'aqua' means water. Give one example word using this root.", "options": [], "answer": "aquarium", "explanation": "Aquarium, aquatic, aqueduct — all contain 'aqua' (water)." },
+    { "q": "'Despite the turbulent storm, the pilot landed safely.' TURBULENT most likely means...", "options": ["calm and peaceful", "rough and violent", "long and slow", "dark and cold"], "answer": "rough and violent", "explanation": "Context: a dangerous storm a pilot had to land through = turbulent = rough/chaotic." },
+    { "q": "Which word uses the prefix 'mis-' (meaning wrongly or badly)?", "options": ["Mistake", "Mister", "Mist", "Miss"], "answer": "Mistake", "explanation": "Mis (wrongly) + take = mistake, meaning to take an action wrongly or incorrectly." },
+    { "q": "The root 'port' means to carry. What does TRANSPORT mean? (two words)", "options": [], "answer": "to carry across", "explanation": "Trans (across) + port (carry) = transport = to carry something from one place to another." },
+    { "q": "'The scientist was meticulous about recording data, checking every number twice.' METICULOUS most likely means...", "options": ["careless and fast", "very careful and precise", "bored and distracted", "quick and creative"], "answer": "very careful and precise", "explanation": "Checking every number twice shows extreme care = meticulous." },
+    { "q": "The root 'terr' means earth or land. What does TERRITORY mean?", "options": ["A type of weather", "A large ocean", "An area of land", "A type of animal"], "answer": "An area of land", "explanation": "Terr (earth/land) + itory = territory = an area of land belonging to someone." }
+  ]
+}

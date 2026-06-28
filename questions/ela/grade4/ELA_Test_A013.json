@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 11",
+  "description": "Transition to medium difficulty. Advanced pronouns, contextual clues, inferential reading, and sentence editing.",
+  "questions": [
+    {
+      "id": "ELA-101",
+      "q": "Which intensive pronoun correctly completes the sentence to add emphasis? 'The young artist designed the entire mural ___ without any help.'",
+      "passage": "",
+      "options": [
+        "himself",
+        "themselves",
+        "hisself",
+        "myself"
+      ],
+      "answer": "himself",
+      "explanation": "'Himself' is the correct singular third-person intensive pronoun matching 'The young artist'. 'Hisself' is grammatically incorrect.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-102",
+      "q": "Identify the proper possessive construction: 'The blueprints belong to the two architects. They are the ___ blueprints.'",
+      "passage": "",
+      "options": [
+        "architect's",
+        "architects'",
+        "architectes",
+        "architects's"
+      ],
+      "answer": "architects'",
+      "explanation": "For a regular plural noun ending in 's' (architects), indicate possession by placing the apostrophe after the final 's'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-103",
+      "q": "What is the function of the helping verb 'has' in the sentence: 'Gabriella has completed her reading assignment.'",
+      "passage": "",
+      "options": [
+        "It shows that the action will happen in the future.",
+        "It indicates that the action is happening right now.",
+        "It helps show that the action was finished before the present moment.",
+        "It changes the sentence into an open question."
+      ],
+      "answer": "It helps show that the action was finished before the present moment.",
+      "explanation": "The helping verb 'has' works with 'completed' to form the present perfect tense, indicating an action completed prior to now.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-104",
+      "q": "Using context clues, determine the meaning of the underlined word: 'The scientist explained that the liquid was highly **volatile**, meaning it could evaporate or change states very rapidly.'",
+      "passage": "",
+      "options": [
+        "stable",
+        "unstable and fast-changing",
+        "frozen solid",
+        "safe to drink"
+      ],
+      "answer": "unstable and fast-changing",
+      "explanation": "The text defines the word inline: 'meaning it could evaporate or change states very rapidly.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-105",
+      "q": "Which word is the best synonym for **perplexed**?",
+      "passage": "",
+      "options": [
+        "excited",
+        "confused",
+        "terrified",
+        "satisfied"
+      ],
+      "answer": "confused",
+      "explanation": "'Perplexed' means full of confusion or uncertainty, making 'confused' the correct choice.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-106",
+      "q": "What can you infer about why the red panda spends daytime high up in the tree branches?",
+      "passage": "Deep within the misty bamboo forests of the Himalayan mountains, a red panda curls its bushy, ringed tail around its face to sleep. This cat-sized creature spends almost all its daylight hours high up in the canopy, hidden safely away from large predators like snow leopards. Its reddish-brown fur coats its back, blending perfectly with the moss-covered tree limbs. When dusk approaches, the nocturnal animal wakes up, moving down to the dark forest floor to forage silently for its favorite food: fresh bamboo shoots.",
+      "options": [
+        "It needs to stay close to its primary food supply.",
+        "It is safer from predators that hunt on the ground.",
+        "The air is warmer at the top of the forest canopy.",
+        "It is practicing climbing to teach its young."
+      ],
+      "answer": "It is safer from predators that hunt on the ground.",
+      "explanation": "The text states it stays high up 'hidden safely away from large predators like snow leopards.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-107",
+      "q": "What is the meaning of the word **forage** based on its context within the passage?",
+      "passage": "Deep within the misty bamboo forests of the Himalayan mountains, a red panda curls its bushy, ringed tail around its face to sleep. This cat-sized creature spends almost all its daylight hours high up in the canopy, hidden safely away from large predators like snow leopards. Its reddish-brown fur coats its back, blending perfectly with the moss-covered tree limbs. When dusk approaches, the nocturnal animal wakes up, moving down to the dark forest floor to forage silently for its favorite food: fresh bamboo shoots.",
+      "options": [
+        "To search or hunt for food resources",
+        "To build a secure shelter for winter",
+        "To run away from imminent danger",
+        "To play games with other animals"
+      ],
+      "answer": "To search or hunt for food resources",
+      "explanation": "The phrase 'forage silently for its favorite food: fresh bamboo shoots' establishes that foraging involves searching out sustenance.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-108",
+      "q": "Which sentence has correct punctuation and contains no errors?",
+      "passage": "",
+      "options": [
+        "Yes, we are going to Chicago Illinois on July 4.",
+        "Yes we are going to Chicago, Illinois, on July 4.",
+        "Yes, we are going to Chicago, Illinois, on July 4.",
+        "Yes, we are going to Chicago, Illinois on July 4."
+      ],
+      "answer": "Yes, we are going to Chicago, Illinois, on July 4.",
+      "explanation": "Commas are required after an introductory word (Yes) and to set off the state name (Illinois) when it follows a city name.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-109",
+      "q": "Identify the sentence that represents a sentence fragment.",
+      "passage": "",
+      "options": [
+        "The computer on the desk was broken.",
+        "Because the severe weather delayed our morning flight.",
+        "We decided to stay inside until the rain cleared up.",
+        "Open the window to let the cool breeze inside."
+      ],
+      "answer": "Because the severe weather delayed our morning flight.",
+      "explanation": "This option is a dependent clause starting with 'Because' and lacks an independent clause to complete the thought, making it a fragment.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-110",
+      "q": "Choose the irregular plural form that is written incorrectly.",
+      "passage": "",
+      "options": [
+        "mice",
+        "teeth",
+        "gooses",
+        "feet"
+      ],
+      "answer": "gooses",
+      "explanation": "The correct irregular plural form of 'goose' is 'geese'. 'Gooses' is incorrect.",
+      "dlevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 20",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-020-01",
+"q": "Which animal is known for having a very long neck and eating leaves from tall trees?",
+"type": "mcq",
+"options": ["Elephant", "Giraffe", "Zebra", "Lion"],
+"answer": "Giraffe",
+"explanation": "Giraffes have incredibly long necks that help them reach food high up in trees that other animals cannot reach.",
+"hint": "It has brown spots and is very tall.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-020-02",
+"q": "What is the capital city of France?",
+"type": "input",
+"options": [],
+"answer": "Paris",
+"explanation": "Paris is the capital of France, world-famous for its art, culture, and the Eiffel Tower.",
+"hint": "It is often called the 'City of Light'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-020-03",
+"q": "Which organ in the human body do we use to think?",
+"type": "mcq",
+"options": ["Heart", "Lungs", "Brain", "Stomach"],
+"answer": "Brain",
+"explanation": "The brain is the command center for the entire body, enabling us to think, feel, and move.",
+"hint": "It is protected inside your skull.",
+"dlevel": "easy",
+"objective": "Understand the function of major human body organs.",
+"tags": ["human body", "health"]
+},
+{
+"id": "GK-020-04",
+"q": "What is the name of the force that pulls things toward the center of the Earth?",
+"type": "input",
+"options": [],
+"answer": "Gravity",
+"explanation": "Gravity is the fundamental force that keeps us on the ground and causes things to fall.",
+"hint": "The word starts with 'G'.",
+"dlevel": "hard",
+"objective": "Understand basic scientific forces.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-020-05",
+"q": "Which of these is a healthy habit?",
+"type": "mcq",
+"options": ["Eating candy for every meal", "Brushing your teeth regularly", "Staying up late every night", "Playing video games all day"],
+"answer": "Brushing your teeth regularly",
+"explanation": "Brushing your teeth twice a day helps keep them clean and healthy by removing food particles and plaque.",
+"hint": "You should do this every morning and night.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "safety"]
+},
+{
+"id": "GK-020-06",
+"q": "Which invention allows us to talk to someone on the other side of the world?",
+"type": "mcq",
+"options": ["Telephone", "Lightbulb", "Bicycle", "Camera"],
+"answer": "Telephone",
+"explanation": "The telephone was invented to allow instant voice communication across long distances.",
+"hint": "We use them every day to connect with others.",
+"dlevel": "easy",
+"objective": "Identify important technological inventions.",
+"tags": ["technology", "inventions"]
+},
+{
+"id": "GK-020-07",
+"q": "What is the largest continent in the world?",
+"type": "input",
+"options": [],
+"answer": "Asia",
+"explanation": "Asia is the largest continent by both land area and population.",
+"hint": "It is located to the east of Europe.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-020-08",
+"q": "Which gas do plants release for humans to breathe?",
+"type": "mcq",
+"options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Helium"],
+"answer": "Oxygen",
+"explanation": "During photosynthesis, plants release oxygen into the atmosphere, which is vital for human life.",
+"hint": "It is the gas we inhale.",
+"dlevel": "hard",
+"objective": "Understand plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-020-09",
+"q": "What is the boiling point of water in degrees Celsius?",
+"type": "input",
+"options": [],
+"answer": "100",
+"explanation": "Water boils at 100 degrees Celsius at sea level.",
+"hint": "It is a triple-digit number.",
+"dlevel": "hard",
+"objective": "Understand basic scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-020-10",
+"q": "Which community helper is responsible for keeping the peace and enforcing laws?",
+"type": "mcq",
+"options": ["Police Officer", "Baker", "Artist", "Author"],
+"answer": "Police Officer",
+"explanation": "Police officers are trained to maintain public order and safety within a community.",
+"hint": "They often drive cars with sirens.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "safety"]
+}
+]
+}

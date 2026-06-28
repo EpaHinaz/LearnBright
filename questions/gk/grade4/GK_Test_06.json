@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 05",
+"description": "A mix of fun and educational questions covering science, geography, environment, and daily life for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-005-01",
+"q": "What is the hardest mineral found on Earth?",
+"type": "mcq",
+"options": ["Quartz", "Diamond", "Talc", "Gold"],
+"answer": "Diamond",
+"explanation": "Diamond is the hardest known natural material on the Mohs scale.",
+"hint": "It is often used in jewelry.",
+"dlevel": "hard",
+"objective": "Learn basic facts about earth and science.",
+"tags": ["science", "nature"]
+},
+{
+"id": "GK-005-02",
+"q": "Which ocean is located between Africa and Australia?",
+"type": "mcq",
+"options": ["Atlantic Ocean", "Arctic Ocean", "Indian Ocean", "Pacific Ocean"],
+"answer": "Indian Ocean",
+"explanation": "The Indian Ocean is the third-largest of the world's oceanic divisions.",
+"hint": "It is named after the country of India.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "oceans"]
+},
+{
+"id": "GK-005-03",
+"q": "What is the process called when water turns into steam or vapor?",
+"type": "input",
+"options": [],
+"answer": "Evaporation",
+"explanation": "Evaporation is when liquid water changes into gas form due to heat.",
+"hint": "It starts with 'E'.",
+"dlevel": "hard",
+"objective": "Understand basic everyday science.",
+"tags": ["science", "weather"]
+},
+{
+"id": "GK-005-04",
+"q": "Which food group provides calcium for strong bones?",
+"type": "mcq",
+"options": ["Fruits", "Dairy", "Grains", "Vegetables"],
+"answer": "Dairy",
+"explanation": "Dairy products like milk, cheese, and yogurt are excellent sources of calcium.",
+"hint": "Think of things that come from cows.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-005-05",
+"q": "What is the name of the imaginary line that divides the Earth into Northern and Southern Hemispheres?",
+"type": "input",
+"options": [],
+"answer": "Equator",
+"explanation": "The equator is the line at 0 degrees latitude that circles the Earth.",
+"hint": "It sounds like 'equal'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-005-06",
+"q": "Which of these animals is nocturnal (active at night)?",
+"type": "mcq",
+"options": ["Owl", "Dog", "Cow", "Chicken"],
+"answer": "Owl",
+"explanation": "Nocturnal animals are active during the night and sleep during the day.",
+"hint": "It is a bird known for saying 'hoo'.",
+"dlevel": "easy",
+"objective": "Identify animal behaviors.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-005-07",
+"q": "What is the main purpose of a traffic light?",
+"type": "mcq",
+"options": ["To make the road pretty", "To control traffic flow and safety", "To test your eyes", "To tell you the time"],
+"answer": "To control traffic flow and safety",
+"explanation": "Traffic lights coordinate the movement of cars to prevent accidents.",
+"hint": "It has red, yellow, and green colors.",
+"dlevel": "easy",
+"objective": "Identify community safety rules.",
+"tags": ["safety", "community"]
+},
+{
+"id": "GK-005-08",
+"q": "Which gas do plants absorb from the air?",
+"type": "input",
+"options": [],
+"answer": "Carbon dioxide",
+"explanation": "Plants take in carbon dioxide to perform photosynthesis and release oxygen.",
+"hint": "Humans breathe this out.",
+"dlevel": "medium",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-005-09",
+"q": "Which of these is a form of renewable energy?",
+"type": "mcq",
+"options": ["Coal", "Oil", "Natural Gas", "Solar"],
+"answer": "Solar",
+"explanation": "Solar energy comes from the sun and is constantly renewed.",
+"hint": "It comes from the sunlight.",
+"dlevel": "medium",
+"objective": "Understand environmental science.",
+"tags": ["environment", "technology"]
+},
+{
+"id": "GK-005-10",
+"q": "Which sport uses a racket and a shuttlecock?",
+"type": "mcq",
+"options": ["Tennis", "Badminton", "Baseball", "Basketball"],
+"answer": "Badminton",
+"explanation": "Badminton is a game played with rackets and a shuttlecock over a net.",
+"hint": "It is often played by two or four people.",
+"dlevel": "easy",
+"objective": "Recognize popular sports.",
+"tags": ["sports", "fun facts"]
+}
+]
+}

@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-06-26",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-031",
+      "q": "Which article correctly completes the sentence? 'We saw ___ unusual owl sitting on the high branch of the pine tree.'",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "answer": "an",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-032",
+      "q": "Identify the common noun in this sentence: 'Principal Jackson gave a thoughtful speech to the entire school.'",
+      "options": [
+        "Jackson",
+        "speech",
+        "Principal",
+        "thoughtful"
+      ],
+      "answer": "speech",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-033",
+      "q": "What is the correct way to write the singular possessive form of 'teacher'?",
+      "options": [
+        "teachers'",
+        "teacher's",
+        "teachers",
+        "teacherses"
+      ],
+      "answer": "teacher's",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-034",
+      "q": "What is a synonym for the word 'courteous'?",
+      "options": [
+        "loud",
+        "polite",
+        "helpful",
+        "fast"
+      ],
+      "answer": "polite",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-035",
+      "q": "What does the suffix '-ful' mean in the word 'hopeful'?",
+      "options": [
+        "without",
+        "full of",
+        "the study of",
+        "one who does"
+      ],
+      "answer": "full of",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-036",
+      "q": "Read the text: 'The platypus is a very unusual animal found in eastern Australia. Even though it is a mammal, it lays eggs instead of giving birth to live babies. It has webbed feet and a broad bill like a duck, but its body is covered in thick, brown fur like an otter. The platypus uses its flat tail to store fat and to help it steer smoothly while swimming underwater.' What is the author's primary purpose in writing this text?",
+      "options": [
+        "To convince readers to buy a pet platypus.",
+        "To describe the unique physical features of the platypus.",
+        "To explain how platypuses build their homes under water.",
+        "To tell a magical legend about an Australian animal."
+      ],
+      "answer": "To describe the unique physical features of the platypus.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-037",
+      "q": "Based on the platypus text, how does the platypus use its flat tail?",
+      "options": [
+        "To dig deep tunnels in the muddy riverbanks.",
+        "To protect itself from larger predators.",
+        "To store body fat and help steer while swimming.",
+        "To keep its eggs warm inside the nest."
+      ],
+      "answer": "To store body fat and help steer while swimming.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-038",
+      "q": "Which sentence is correctly punctuated with commas?",
+      "options": [
+        "No, I have not seen the missing puzzle piece anywhere.",
+        "No I have not seen, the missing puzzle piece anywhere.",
+        "No I have not seen the missing, puzzle piece anywhere.",
+        "No, I have not seen, the missing puzzle piece anywhere."
+      ],
+      "answer": "No, I have not seen the missing puzzle piece anywhere.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-039",
+      "q": "Choose the sentence that fixes the run-on sentence correctly: 'The storm raged outside the lights flickered twice.'",
+      "options": [
+        "The storm raged outside, the lights flickered twice.",
+        "The storm raged outside, and the lights flickered twice.",
+        "The storm raged outside because the lights flickered twice.",
+        "The storm raged outside since the lights flickered twice."
+      ],
+      "answer": "The storm raged outside, and the lights flickered twice.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-040",
+      "q": "Which word is an adjective in the following sentence? 'The children built a gigantic sandcastle on the beach.'",
+      "options": [
+        "built",
+        "gigantic",
+        "sandcastle",
+        "beach"
+      ],
+      "answer": "gigantic",
+      "dlevel": "easy"
+    }
+  ]
+}

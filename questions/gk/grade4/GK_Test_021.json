@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 21",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-021-01",
+"q": "Which of these animals is known to be the fastest land animal?",
+"type": "mcq",
+"options": ["Cheetah", "Tiger", "Lion", "Zebra"],
+"answer": "Cheetah",
+"explanation": "The cheetah can reach speeds of up to 70 miles per hour in short bursts, making it the fastest land animal.",
+"hint": "It has black spots and is a big cat.",
+"dlevel": "easy",
+"objective": "Identify common animal traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-021-02",
+"q": "What is the capital city of Egypt?",
+"type": "input",
+"options": [],
+"answer": "Cairo",
+"explanation": "Cairo is the bustling capital city of Egypt, located near the famous pyramids.",
+"hint": "It is in North Africa.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-021-03",
+"q": "Which part of the plant grows underground and absorbs water?",
+"type": "mcq",
+"options": ["Flower", "Leaf", "Stem", "Root"],
+"answer": "Root",
+"explanation": "Roots anchor the plant in the soil and absorb water and nutrients necessary for growth.",
+"hint": "They are hidden beneath the earth.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-021-04",
+"q": "What do we call an animal that eats only plants?",
+"type": "input",
+"options": [],
+"answer": "Herbivore",
+"explanation": "An herbivore is an animal adapted to eat plant material as its main food source.",
+"hint": "The word starts with 'H'.",
+"dlevel": "medium",
+"objective": "Classify animals by diet.",
+"tags": ["animals", "science"]
+},
+{
+"id": "GK-021-05",
+"q": "Which of these is important for a balanced and healthy diet?",
+"type": "mcq",
+"options": ["Eating only sweets", "Eating a variety of fruits and vegetables", "Skipping breakfast", "Drinking only sugary soda"],
+"answer": "Eating a variety of fruits and vegetables",
+"explanation": "Fruits and vegetables provide essential vitamins and minerals that our bodies need to stay healthy.",
+"hint": "These are colorful foods from nature.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-021-06",
+"q": "Which community helper works in a hospital and cares for patients?",
+"type": "mcq",
+"options": ["Teacher", "Nurse", "Chef", "Artist"],
+"answer": "Nurse",
+"explanation": "Nurses are healthcare professionals who work to provide patient care and support doctors.",
+"hint": "They check your temperature and heart rate.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "health"]
+},
+{
+"id": "GK-021-07",
+"q": "What is the name of the planet closest to the Sun?",
+"type": "input",
+"options": [],
+"answer": "Mercury",
+"explanation": "Mercury is the smallest planet in our solar system and is the closest to the Sun.",
+"hint": "It has a name like a Roman god.",
+"dlevel": "medium",
+"objective": "Understand the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-021-08",
+"q": "Which of these materials is a conductor of electricity?",
+"type": "mcq",
+"options": ["Plastic", "Wood", "Metal", "Rubber"],
+"answer": "Metal",
+"explanation": "Metals like copper and aluminum are good conductors because they allow electricity to flow through them easily.",
+"hint": "Pots and pans are often made of this.",
+"dlevel": "hard",
+"objective": "Understand basic physics concepts.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-021-09",
+"q": "What is the primary gas in the Earth's atmosphere?",
+"type": "input",
+"options": [],
+"answer": "Nitrogen",
+"explanation": "Nitrogen makes up about 78% of the Earth's atmosphere.",
+"hint": "It is not oxygen.",
+"dlevel": "hard",
+"objective": "Understand Earth's science.",
+"tags": ["science", "earth"]
+},
+{
+"id": "GK-021-10",
+"q": "Which season comes after winter?",
+"type": "mcq",
+"options": ["Summer", "Autumn", "Spring", "Fall"],
+"answer": "Spring",
+"explanation": "Spring follows winter and is known for blooming flowers and warming weather.",
+"hint": "The word starts with 'S'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

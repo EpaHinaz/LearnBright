@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-06-27",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-041",
+      "q": "Choose the correct past-tense verb to complete the sentence: 'Last night, the campfire ______ brightly in the dark woods.'",
+      "options": [
+        "glows",
+        "glowing",
+        "glowed",
+        "will glow"
+      ],
+      "answer": "glowed",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-042",
+      "q": "Which option contains a comparative adjective?",
+      "options": [
+        "This is the sharpest pencil in the box.",
+        "My backpack is heavier than yours.",
+        "The blue whale is a massive mammal.",
+        "She ran quickly across the green soccer field."
+      ],
+      "answer": "My backpack is heavier than yours.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-043",
+      "q": "Identify the helping verb in this sentence: 'The astronauts are preparing for their long journey to space.'",
+      "options": [
+        "are",
+        "preparing",
+        "for",
+        "journey"
+      ],
+      "answer": "are",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-044",
+      "q": "What is an antonym for the word 'cautious'?",
+      "options": [
+        "careful",
+        "quiet",
+        "reckless",
+        "friendly"
+      ],
+      "answer": "reckless",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-045",
+      "q": "Use context clues to find the meaning of 'sluggish': 'After staying up late to watch the lunar eclipse, Leo felt sluggish all morning.'",
+      "options": [
+        "energetic",
+        "slow and tired",
+        "extremely smart",
+        "excited"
+      ],
+      "answer": "slow and tired",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-046",
+      "q": "Read the text: 'The Great Wall of China is one of the largest building projects ever completed. Construction began over 2,000 years ago to protect the country from invaders. Thousands of workers used stone, brick, and packed earth to build it. The wall stretches across deserts, grasslands, and steep mountains. Today, it is a famous historic site that welcomes millions of visitors from all over the world.' What is the main idea of this text?",
+      "options": [
+        "The Great Wall of China stretches across steep mountains.",
+        "The Great Wall of China is a massive, historic structure built long ago for protection.",
+        "Workers used stones and bricks to build walls.",
+        "Grasslands and deserts can be found in China."
+      ],
+      "answer": "The Great Wall of China is a massive, historic structure built long ago for protection.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-047",
+      "q": "Based on the Great Wall text, why did construction on the wall originally begin?",
+      "options": [
+        "To create a safe pathway across the steep mountains.",
+        "To provide jobs for thousands of construction workers.",
+        "To protect the country from invading forces.",
+        "To attract millions of tourists from around the world."
+      ],
+      "answer": "To protect the country from invading forces.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-048",
+      "q": "Which sentence uses quotation marks correctly?",
+      "options": [
+        "\"The science fair starts at noon,\" reminded Mr. Silva.",
+        "The science fair starts at noon, \"reminded Mr. Silva.\"",
+        "\"The science fair starts at noon\" reminded Mr. Silva.",
+        "\"The science fair starts at noon,\" reminded \"Mr. Silva.\""
+      ],
+      "answer": "\"The science fair starts at noon,\" reminded Mr. Silva.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-049",
+      "q": "Identify the capitalized word that should NOT be capitalized: 'Next Monday, my Class is visiting the local history museum.'",
+      "options": [
+        "Next",
+        "Monday",
+        "Class",
+        "history"
+      ],
+      "answer": "Class",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-050",
+      "q": "Choose the correct pronoun to complete this sentence: 'Carlos and ______ built a solar-powered robot for our science project.'",
+      "options": [
+        "me",
+        "I",
+        "him",
+        "us"
+      ],
+      "answer": "I",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "5",
+  "title": "Research & Writing Skills",
+  "description": "Evaluating sources, essay structure, and writing conventions.",
+  "questions": [
+    { "q": "Which source is MOST RELIABLE for a science report on climate change?", "options": ["A social media post", "A NASA scientific article", "A random personal blog", "A TV advertisement"], "answer": "A NASA scientific article", "explanation": "NASA is a credible, expert scientific organization. Its articles are fact-checked." },
+    { "q": "What is the PURPOSE of a THESIS STATEMENT?", "options": ["Entertain the reader", "List all the evidence", "State the main argument of an essay", "Summarise another author's work"], "answer": "State the main argument of an essay", "explanation": "A thesis statement tells readers the central argument the essay will support." },
+    { "q": "In an argumentative essay, what do you call the evidence that supports your claim?", "options": [], "answer": "evidence", "explanation": "Evidence (facts, data, examples) is used to support a claim." },
+    { "q": "Text that presents events in TIME ORDER uses which structure?", "options": ["Compare and contrast", "Problem and solution", "Chronological order", "Cause and effect"], "answer": "Chronological order", "explanation": "Chronological order arranges events by time (first, next, then, finally)." },
+    { "q": "What is PLAGIARISM?", "options": ["Writing in cursive", "Using someone else's words without giving credit", "Making spelling errors", "Writing a very short essay"], "answer": "Using someone else's words without giving credit", "explanation": "Plagiarism = copying or using another person's work without proper attribution." },
+    { "q": "Which transition word BEST shows a contrast or opposing idea?", "options": ["Furthermore", "In addition", "However", "Therefore"], "answer": "However", "explanation": "'However' signals that the next idea contrasts with the previous one." },
+    { "q": "To PARAPHRASE means to restate something in your ___ words.", "options": [], "answer": "own", "explanation": "Paraphrasing = reading something and restating it completely in your own words." },
+    { "q": "Which is the BEST concluding sentence for a paragraph about recycling?", "options": ["Recycling is hard work.", "There are many types of plastic.", "Clearly, recycling is one of the simplest ways we can protect our environment.", "People throw away too much trash."], "answer": "Clearly, recycling is one of the simplest ways we can protect our environment.", "explanation": "A strong conclusion restates the main idea and gives it broader significance." },
+    { "q": "In a well-organised paragraph, which comes FIRST?", "options": ["Supporting details", "A concluding sentence", "The topic sentence", "Evidence and examples"], "answer": "The topic sentence", "explanation": "A paragraph begins with a topic sentence that states the main idea." },
+    { "q": "What is the difference between a PRIMARY and SECONDARY source?", "options": ["Primary sources are always better", "A primary source is original (e.g. diary, interview); secondary is a summary by someone else (e.g. textbook)", "Secondary sources have more information", "There is no real difference"], "answer": "A primary source is original (e.g. diary, interview); secondary is a summary by someone else (e.g. textbook)", "explanation": "Primary = original first-hand account. Secondary = someone else's interpretation or summary of primary sources." }
+  ]
+}

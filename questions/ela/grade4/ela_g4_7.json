@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-06-29",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-061",
+      "q": "Identify the action verb in this sentence: 'The red fox jumped over the fallen log.'",
+      "options": [
+        "fox",
+        "jumped",
+        "over",
+        "fallen"
+      ],
+      "answer": "jumped",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-062",
+      "q": "Choose the correct pronoun to complete the sentence: 'Jessica and ___ walked to the neighborhood park together.'",
+      "options": [
+        "me",
+        "us",
+        "I",
+        "them"
+      ],
+      "answer": "I",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-063",
+      "q": "Which word is a preposition in this sentence? 'The dog napped peacefully under the kitchen table.'",
+      "options": [
+        "peacefully",
+        "under",
+        "kitchen",
+        "table"
+      ],
+      "answer": "under",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-064",
+      "q": "What is an antonym for the word 'clumsy'?",
+      "options": [
+        "graceful",
+        "heavy",
+        "slow",
+        "careless"
+      ],
+      "answer": "graceful",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-065",
+      "q": "What is the meaning of 'microscope' based on the prefix 'micro-'?",
+      "options": [
+        "a tool used to look at large things",
+        "a tool used to look at tiny things",
+        "a tool used to look at far away things",
+        "a tool used to look at bright things"
+      ],
+      "answer": "a tool used to look at tiny things",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-066",
+      "q": "Read the text: 'The desert is an environment that gets very little rain each year. Plants that live there must adapt to survive without much water. The cactus is a great example. It has thick, fleshy stems that can store water for a long time. Instead of thin leaves, a cactus has sharp spines. These spines protect the plant from thirsty animals and help prevent water from evaporating into the hot desert air.' What is the main idea of this text?",
+      "options": [
+        "Deserts are hot places where it never rains.",
+        "Cacti have sharp spines that can hurt animals.",
+        "The cactus is adapted in special ways to survive dry desert conditions.",
+        "Animals in the desert are always looking for water."
+      ],
+      "answer": "The cactus is adapted in special ways to survive dry desert conditions.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-067",
+      "q": "Based on the text, how do sharp spines help a cactus survive?",
+      "options": [
+        "They absorb sunlight from the desert sky.",
+        "They protect it from animals and help prevent water loss.",
+        "They attract insects that help the plant grow.",
+        "They dig deep down into the desert ground to find water."
+      ],
+      "answer": "They protect it from animals and help prevent water loss.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-068",
+      "q": "Which sentence uses capitalization rules correctly?",
+      "options": [
+        "We learned about the statue of liberty in history class.",
+        "We learned about the Statue of liberty in History class.",
+        "We learned about the Statue of Liberty in history class.",
+        "We learned about the statue of Liberty in history Class."
+      ],
+      "answer": "We learned about the Statue of Liberty in history class.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-069",
+      "q": "Identify the error in this sentence: 'The heavy rain flooded the street, it washed away the chalk drawings.'",
+      "options": [
+        "It is a sentence fragment.",
+        "It is a run-on sentence.",
+        "It has a subject-verb agreement error.",
+        "It uses the wrong verb tense."
+      ],
+      "answer": "It is a run-on sentence.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-070",
+      "q": "Choose the correct article to complete the sentence: 'An apple a day keeps the doctor away, but ___ banana is also a healthy choice.'",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "answer": "a",
+      "dlevel": "easy"
+    }
+  ]
+}

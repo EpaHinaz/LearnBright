@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "Vocabulary & Word Meaning",
+  "description": "Context clues, synonyms, antonyms, and figurative language.",
+  "questions": [
+    { "q": "'The ancient ruins were so fragile visitors could not touch them.' What does FRAGILE mean?", "options": ["Strong and heavy", "Easily broken", "Very old", "Brightly colored"], "answer": "Easily broken", "explanation": "Context: not allowed to touch = fragile = easily broken." },
+    { "q": "What is a SYNONYM for BRAVE?", "options": ["Fearful", "Courageous", "Timid", "Weak"], "answer": "Courageous", "explanation": "Courageous and brave both mean not afraid of danger." },
+    { "q": "What is the ANTONYM of GENEROUS?", "options": ["Kind", "Giving", "Stingy", "Helpful"], "answer": "Stingy", "explanation": "Stingy (unwilling to give) is the opposite of generous." },
+    { "q": "'It's raining cats and dogs.' What kind of language is this? (two words)", "options": [], "answer": "figurative language", "explanation": "This is an idiom — a type of figurative language." },
+    { "q": "'The wind howled through the trees.' This is an example of…", "options": ["Simile", "Metaphor", "Personification", "Alliteration"], "answer": "Personification", "explanation": "Wind (non-human) is given a human action (howling)." },
+    { "q": "What does the root 'AUD' mean? (as in: audience, audible)", "options": ["See", "Hear", "Touch", "Speak"], "answer": "Hear", "explanation": "'Aud' comes from Latin meaning 'to hear'." },
+    { "q": "'She was so hungry she could eat a horse.' This is an example of…", "options": ["Metaphor", "Simile", "Personification", "Hyperbole"], "answer": "Hyperbole", "explanation": "A wild exaggeration for effect = hyperbole." },
+    { "q": "Complete the simile: 'As brave as a ___.'", "options": [], "answer": "lion", "explanation": "As brave as a lion — a common simile for courage." },
+    { "q": "'The pizza was a treasure chest of flavours.' This is an example of…", "options": ["Simile", "Metaphor", "Alliteration", "Hyperbole"], "answer": "Metaphor", "explanation": "Direct comparison without 'like' or 'as' = metaphor." },
+    { "q": "What does the suffix '-ful' mean in 'helpful' and 'joyful'?", "options": ["Without", "Full of", "Against", "Before"], "answer": "Full of", "explanation": "-ful means 'full of': helpful = full of help, joyful = full of joy." }
+  ]
+}

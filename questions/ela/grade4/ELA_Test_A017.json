@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 15",
+  "description": "Medium difficulty evaluation. Subject-verb inversion, multiple-meaning words, and structural text clues.",
+  "questions": [
+    {
+      "id": "ELA-141",
+      "q": "Choose the verb that ensures proper subject-verb agreement: 'Down in the deep valley, among the tall pine trees, ___ a hidden cabin.'",
+      "passage": "",
+      "options": [
+        "stand",
+        "stands",
+        "standing",
+        "are standing"
+      ],
+      "answer": "stands",
+      "explanation": "This sentence uses an inverted structure. The real subject is 'a hidden cabin' (singular), which requires the singular verb 'stands'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-142",
+      "q": "Identify the proper plural form of the noun 'crisis'.",
+      "passage": "",
+      "options": [
+        "crisises",
+        "crises",
+        "crisis",
+        "crisiseses"
+      ],
+      "answer": "crises",
+      "explanation": "Nouns of Greek origin ending in '-is' form their plural by changing '-is' to '-es'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-143",
+      "q": "Which definition fits the word **novel** as it is used in this sentence? 'The engineer proposed a **novel** solution to the complex energy problem, surprising everyone with her unique idea.'",
+      "passage": "",
+      "options": [
+        "A long printed book that tells a fictional story.",
+        "New, original, and different from anything seen before.",
+        "A historical document preserved in a library.",
+        "An official rule passed by a city council."
+      ],
+      "answer": "New, original, and different from anything seen before.",
+      "explanation": "The context clue 'surprising everyone with her unique idea' indicates that 'novel' functions here as an adjective meaning new and original.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-144",
+      "q": "Choose the best synonym for the word **sluggish**.",
+      "passage": "",
+      "options": [
+        "energetic",
+        "slow-moving",
+        "slime-covered",
+        "intelligent"
+      ],
+      "answer": "slow-moving",
+      "explanation": "'Sluggish' means lacking energy or moving slowly.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-145",
+      "q": "What does the suffix **-ist** mean in words like 'biologist' or 'guitarist'?",
+      "passage": "",
+      "options": [
+        "the study of something",
+        "a person who practices or performs a specific activity",
+        "without any skill",
+        "to become similar to"
+      ],
+      "answer": "a person who practices or performs a specific activity",
+      "explanation": "The suffix '-ist' designates an individual who does or specializes in a field or instrument.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-146",
+      "q": "What is the main idea of this descriptive passage?",
+      "passage": "Marsupials are an unusual group of mammals famous for how they raise their newborn babies. Unlike other mammals, a marsupial mother gives birth to a tiny, undeveloped joey that is about the size of a jellybean. Immediately after birth, this fragile baby must crawl up into its mother's specialized external pouch. Inside the warm pouch, the joey attaches to its mother's milk supply and stays protected for several months. Kangaroos, koalas, and opossums are all marsupials that rely on this unique pouch system to survive.",
+      "options": [
+        "Kangaroos and koalas are highly popular animals.",
+        "Marsupials are unique mammals that protect and feed their developing young inside a pouch.",
+        "Joey babies are born looking exactly like tiny jellybeans.",
+        "Mammals use different methods to find food in winter."
+      ],
+      "answer": "Marsupials are unique mammals that protect and feed their developing young inside a pouch.",
+      "explanation": "The entire passage describes the defining biological system of marsupials: giving birth to undeveloped young and raising them inside a protective pouch.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-147",
+      "q": "According to the passage, what specific action must a newborn joey take immediately after birth?",
+      "passage": "Marsupials are an unusual group of mammals famous for how they raise their newborn babies. Unlike other mammals, a marsupial mother gives birth to a tiny, undeveloped joey that is about the size of a jellybean. Immediately after birth, this fragile baby must crawl up into its mother's specialized external pouch. Inside the warm pouch, the joey attaches to its mother's milk supply and stays protected for several months. Kangaroos, koalas, and opossums are all marsupials that rely on this unique pouch system to survive.",
+      "options": [
+        "It must look for food along the ground.",
+        "It must crawl into its mother's external pouch.",
+        "It must run away from dangerous forest predators.",
+        "It must fall into a deep sleep for weeks."
+      ],
+      "answer": "It must crawl into its mother's external pouch.",
+      "explanation": "The passage directly states: 'Immediately after birth, this fragile baby must crawl up into its mother's specialized external pouch.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-148",
+      "q": "Which sentence contains a punctuation error regarding an introductory element?",
+      "passage": "",
+      "options": [
+        "Suddenly, the power grid went completely dark.",
+        "In the middle of the night the loud alarm woke us up.",
+        "Smiling proudly, the boy accepted his award.",
+        "To win the race, Sarah practiced running every day."
+      ],
+      "answer": "In the middle of the night the loud alarm woke us up.",
+      "explanation": "An introductory prepositional phrase of four or more words ('In the middle of the night') should be followed by a comma.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-149",
+      "q": "Choose the sentence that is edited completely correctly.",
+      "passage": "",
+      "options": [
+        "The boys soccer team won their final game on thursday.",
+        "The boys' soccer team won their final game on Thursday.",
+        "The boy's soccer team won their final game on thursday.",
+        "The boys soccer team won there final game on Thursday."
+      ],
+      "answer": "The boys' soccer team won their final game on Thursday.",
+      "explanation": "Requires a plural possessive apostrophe ('boys''), correct spelling of 'their', and capitalization for the day of the week ('Thursday').",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-150",
+      "q": "Identify the relative clause in this sentence: 'The library book that you recommended was fascinating.'",
+      "passage": "",
+      "options": [
+        "The library book",
+        "that you recommended",
+        "was fascinating",
+        "book that you"
+      ],
+      "answer": "that you recommended",
+      "explanation": "'That you recommended' is the relative clause modifying the noun 'book'.",
+      "dlevel": "medium"
+    }
+  ]
+}

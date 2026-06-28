@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "5",
+  "title": "Advanced Grammar",
+  "description": "Complex sentences, clauses, verb tense, and conventions.",
+  "questions": [
+    { "q": "Identify the DEPENDENT clause: 'Although it was raining, we went to the park.'", "options": ["we went to the park", "Although it was raining", "it was raining", "went to the park"], "answer": "Although it was raining", "explanation": "'Although it was raining' cannot stand alone as a sentence — it is dependent." },
+    { "q": "Which sentence is in PAST PERFECT tense?", "options": ["She will have finished.", "She had finished before dinner.", "She finished early.", "She has finished the work."], "answer": "She had finished before dinner.", "explanation": "Past perfect = had + past participle (had finished)." },
+    { "q": "Change to PASSIVE VOICE: 'The chef cooked the meal.' The meal was ___ by the chef.", "options": [], "answer": "cooked", "explanation": "Passive voice: The meal was cooked by the chef." },
+    { "q": "Which sentence uses a RELATIVE CLAUSE?", "options": ["I like cats.", "The book that I borrowed was great.", "She runs every morning.", "They played outside."], "answer": "The book that I borrowed was great.", "explanation": "'that I borrowed' is a relative clause that modifies 'the book'." },
+    { "q": "Identify the SUBJECT in: 'Across the field ran the white horses.'", "options": ["Across the field", "ran", "the white horses", "white"], "answer": "the white horses", "explanation": "The white horses are performing the action — they are the subject." },
+    { "q": "Fill in with correct subject-verb agreement: 'The team ___ playing well.' (is / are)", "options": [], "answer": "is", "explanation": "'Team' is a collective noun treated as singular in American English = 'is playing.'" },
+    { "q": "What type of sentence is: 'Can you help me, or shall I ask someone else?'", "options": ["Simple", "Compound", "Complex", "Compound-complex"], "answer": "Compound", "explanation": "Two independent clauses joined by 'or' = compound sentence." },
+    { "q": "Which correctly uses a SEMICOLON?", "options": ["I love pizza; and pasta.", "She studied hard; she passed.", "He ran fast; to school.", "We left; early."], "answer": "She studied hard; she passed.", "explanation": "A semicolon joins two closely related independent clauses." },
+    { "q": "What is the FUTURE PERFECT tense of 'finish'?", "options": ["will finish", "finished", "will have finished", "had finished"], "answer": "will have finished", "explanation": "Future perfect = will have + past participle (will have finished)." },
+    { "q": "Which sentence contains an APPOSITIVE phrase?", "options": ["The dog barked loudly.", "My sister, a talented artist, won the contest.", "We went to the store.", "He finished his homework."], "answer": "My sister, a talented artist, won the contest.", "explanation": "'a talented artist' is an appositive — it renames 'my sister' and is set off by commas." }
+  ]
+}

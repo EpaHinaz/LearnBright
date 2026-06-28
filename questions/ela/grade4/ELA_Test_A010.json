@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 08",
+  "description": "Focus on subject-verb agreement, context clues, identifying sequences, and punctuation in direct speech.",
+  "questions": [
+    {
+      "id": "ELA-071",
+      "q": "Which verb forms correctly complete the sentence? 'Neither the teacher nor the students ___ able to find the missing keys.'",
+      "passage": "",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "am"
+      ],
+      "answer": "were",
+      "explanation": "When a subject is connected using 'neither/nor', the verb agrees with the closer noun. 'Students' is plural, so it requires 'were'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-072",
+      "q": "Identify the helping verb in this sentence: 'We are going to visit the science center next week.'",
+      "passage": "",
+      "options": [
+        "are",
+        "going",
+        "visit",
+        "next"
+      ],
+      "answer": "are",
+      "explanation": "'Are' is the helping verb paired with the participle 'going' to create the continuous verb phrase.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-073",
+      "q": "What is the meaning of the underlined word? 'The deep canyon was so **immense** that our entire city could fit inside it.'",
+      "passage": "",
+      "options": [
+        "tiny",
+        "vast and huge",
+        "scary",
+        "beautiful"
+      ],
+      "answer": "vast and huge",
+      "explanation": "The hyperbole that an 'entire city could fit inside it' indicates that 'immense' means vast and huge.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-074",
+      "q": "Choose the synonym for **abolish**.",
+      "passage": "",
+      "options": [
+        "create",
+        "destroy",
+        "eliminate",
+        "protect"
+      ],
+      "answer": "eliminate",
+      "explanation": "To abolish means to formally put an end to something, which matches the definition of 'eliminate'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-075",
+      "q": "Which suffix turning a verb into a noun means 'the act or state of'?",
+      "passage": "",
+      "options": [
+        "-less",
+        "-ment",
+        "-able",
+        "-ly"
+      ],
+      "answer": "-ment",
+      "explanation": "The suffix '-ment' is added to verbs to form nouns meaning the act or state of processing (e.g., excitement, amusement).",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-076",
+      "q": "What did the firefighters do immediately after attaching the long yellow hose to the fire hydrant?",
+      "passage": "When the alarm rang out, the fire crew leaped into action. First, they threw on their heavy protective gear and quickly jumped onto the red truck. Next, they drove through town with sirens blaring loudly. Upon arriving at the smoky house, they attached a long yellow hose to the nearest fire hydrant. Immediately after hooking up the water line, they rushed into the burning building to search for trapped pets. Finally, they sprayed water onto the flames until the fire was completely extinguished.",
+      "options": [
+        "They put on their heavy protective gear.",
+        "They rushed into the building to search for pets.",
+        "They sprayed water onto the hot flames.",
+        "They turned on the loud sirens."
+      ],
+      "answer": "They rushed into the building to search for pets.",
+      "explanation": "The text states that 'Immediately after hooking up the water line, they rushed into the burning building to search for trapped pets.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-077",
+      "q": "What is the author's primary purpose for writing this detailed paragraph?",
+      "passage": "When the alarm rang out, the fire crew leaped into action. First, they threw on their heavy protective gear and quickly jumped onto the red truck. Next, they drove through town with sirens blaring loudly. Upon arriving at the smoky house, they attached a long yellow hose to the nearest fire hydrant. Immediately after hooking up the water line, they rushed into the burning building to search for trapped pets. Finally, they sprayed water onto the flames until the fire was completely extinguished.",
+      "options": [
+        "To persuade readers to volunteer as local firefighters.",
+        "To inform readers about the step-by-step actions firefighters take during an emergency.",
+        "To entertain readers with a fictional story about a funny dog.",
+        "To argue that firefighting is the most dangerous career path."
+      ],
+      "answer": "To inform readers about the step-by-step actions firefighters take during an emergency.",
+      "explanation": "The text uses chronological order to show the real steps and operations performed by firefighters when responding to a call.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-078",
+      "q": "Which sentence handles quotation marks and commas correctly for dialogue?",
+      "passage": "",
+      "options": [
+        "\"Let's find some seashells\" suggested Liam.",
+        "\"Let's find some seashells,\" suggested Liam.",
+        "\"Let's find some seashells\", suggested Liam.",
+        "Let's find some seashells, \"suggested Liam.\""
+      ],
+      "answer": "\"Let's find some seashells,\" suggested Liam.",
+      "explanation": "A comma is used to separate spoken dialogue from the tag, and it must be placed inside the closing quotation marks.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-079",
+      "q": "Identify the grammatically correct sentence from the choices below.",
+      "passage": "",
+      "options": [
+        "The herd of cows graze on the grass.",
+        "The herd of cows grazes on the grass.",
+        "The herd of cows grazing on the grass.",
+        "The herd of cows are grazing on the grass."
+      ],
+      "answer": "The herd of cows grazes on the grass.",
+      "explanation": "'Herd' is a singular collective subject, which requires the singular verb form 'grazes'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-080",
+      "q": "Which word is an adverb that describes *when* an action happened?",
+      "passage": "",
+      "options": [
+        "outside",
+        "yesterday",
+        "quietly",
+        "always"
+      ],
+      "answer": "yesterday",
+      "explanation": "'Yesterday' answers the question 'when' something took place.",
+      "dlevel": "easy"
+    }
+  ]
+}

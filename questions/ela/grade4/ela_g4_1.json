@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - Day 01",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-001",
+      "q": "Which word in the sentence is a proper noun? 'Yesterday, Leo went to the zoo to see the elephants.'",
+      "options": [
+        "zoo",
+        "Leo",
+        "elephants",
+        "Yesterday"
+      ],
+      "answer": "Leo",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-002",
+      "q": "Choose the correct plural form of the noun in parentheses: 'The wild (wolf) howled at the bright moon.'",
+      "options": [
+        "wolfs",
+        "wolves",
+        "wolfes",
+        "wolvies"
+      ],
+      "answer": "wolves",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-003",
+      "q": "Identify the action verb in this sentence: 'Sarah quickly painted a beautiful picture of a sunset.'",
+      "options": [
+        "painted",
+        "beautiful",
+        "quickly",
+        "sunset"
+      ],
+      "answer": "painted",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-004",
+      "q": "What is a synonym for the word 'vast' as used in this sentence? 'The spaceship traveled through the vast expanse of outer space.'",
+      "options": [
+        "huge",
+        "tiny",
+        "dark",
+        "cold"
+      ],
+      "answer": "huge",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-005",
+      "q": "What does the prefix 'un-' mean in the word 'unhappy'?",
+      "options": [
+        "again",
+        "very",
+        "not",
+        "before"
+      ],
+      "answer": "not",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-006",
+      "q": "Read the text: 'The honeybee is an incredible insect. It flies from flower to flower collecting sweet nectar. While doing this, the bee drops pollen, which helps new plants grow. Back at the hive, the bees work together to turn the nectar into delicious honey to feed their colony.' What is the main idea of this passage?",
+      "options": [
+        "Honeybees live in a large hive.",
+        "Honeybees play an important role by collecting nectar and helping plants grow.",
+        "Nectar is a sweet liquid found inside colorful flowers.",
+        "Bees are insects that can fly long distances."
+      ],
+      "answer": "Honeybees play an important role by collecting nectar and helping plants grow.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-007",
+      "q": "Based on the honeybee passage, what do bees do with the nectar they collect?",
+      "options": [
+        "They use it to make pollen.",
+        "They give it to other insects.",
+        "They turn it into honey to feed the colony.",
+        "They drop it on flowers to help them grow."
+      ],
+      "answer": "They turn it into honey to feed the colony.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-008",
+      "q": "Which sentence uses capitalization correctly?",
+      "options": [
+        "last Friday, my brother and i played soccer at the park.",
+        "Last Friday, my brother and I played soccer at the park.",
+        "Last friday, my brother and I played Soccer at the park.",
+        "Last Friday, my Brother and I played soccer at the Park."
+      ],
+      "answer": "Last Friday, my brother and I played soccer at the park.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-009",
+      "q": "Identify the punctuation mistake in this sentence: 'Wow that was an amazing science experiment!'",
+      "options": [
+        "It needs a comma after 'Wow'.",
+        "It needs a question mark at the end.",
+        "It needs quotation marks around 'science'.",
+        "It should not have an exclamation point."
+      ],
+      "answer": "It needs a comma after 'Wow'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-010",
+      "q": "Choose the sentence that is a complete sentence and grammatically correct.",
+      "options": [
+        "Running down the track as fast as he could.",
+        "The boys played basketball until it got dark.",
+        "Because the rain wouldn't stop pouring.",
+        "My new bicycle with the bright red shiny frame."
+      ],
+      "answer": "The boys played basketball until it got dark.",
+      "dlevel": "easy"
+    }
+  ]
+}

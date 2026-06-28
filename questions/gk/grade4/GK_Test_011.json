@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 11",
+"description": "A mix of fun and educational questions covering geography, nature, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-011-01",
+"q": "Which of these animals can live on both land and in water?",
+"type": "mcq",
+"options": ["Lion", "Frog", "Eagle", "Rabbit"],
+"answer": "Frog",
+"explanation": "Frogs are amphibians, which means they spend part of their life in water and part on land.",
+"hint": "They start as tadpoles in water.",
+"dlevel": "easy",
+"objective": "Classify common animals.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-011-02",
+"q": "What is the largest country in South America?",
+"type": "input",
+"options": [],
+"answer": "Brazil",
+"explanation": "Brazil is the largest country in South America by both land area and population.",
+"hint": "It is famous for the Amazon Rainforest.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-011-03",
+"q": "Which part of the plant grows underground and holds it in place?",
+"type": "mcq",
+"options": ["Leaf", "Stem", "Root", "Flower"],
+"answer": "Root",
+"explanation": "Roots anchor the plant in the soil and absorb water and nutrients.",
+"hint": "They are usually hidden under the dirt.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "nature"]
+},
+{
+"id": "GK-011-04",
+"q": "What is the main source of vitamin D that we get from being outside?",
+"type": "input",
+"options": [],
+"answer": "Sunlight",
+"explanation": "Our bodies produce vitamin D when our skin is exposed to sunlight.",
+"hint": "It comes from the bright star in the sky.",
+"dlevel": "hard",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "science"]
+},
+{
+"id": "GK-011-05",
+"q": "Which of these is a liquid state of matter?",
+"type": "mcq",
+"options": ["Ice", "Steam", "Water", "Rock"],
+"answer": "Water",
+"explanation": "Water is a liquid at room temperature, while ice is a solid and steam is a gas.",
+"hint": "You drink it when you are thirsty.",
+"dlevel": "easy",
+"objective": "Understand basic states of matter.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-011-06",
+"q": "Who is responsible for teaching students in a classroom?",
+"type": "mcq",
+"options": ["Doctor", "Teacher", "Engineer", "Chef"],
+"answer": "Teacher",
+"explanation": "A teacher helps students learn new subjects and skills.",
+"hint": "They work in a school.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "school"]
+},
+{
+"id": "GK-011-07",
+"q": "Which planet is famous for its beautiful rings?",
+"type": "input",
+"options": [],
+"answer": "Saturn",
+"explanation": "Saturn is the sixth planet from the Sun and is most famous for its spectacular ring system.",
+"hint": "It is a gas giant.",
+"dlevel": "medium",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-011-08",
+"q": "Which of these is a healthy snack choice?",
+"type": "mcq",
+"options": ["Candy bar", "Carrot sticks", "Potato chips", "Soda"],
+"answer": "Carrot sticks",
+"explanation": "Carrot sticks are a vegetable and contain vitamins that are good for your eyes and body.",
+"hint": "It is an orange vegetable.",
+"dlevel": "easy",
+"objective": "Identify healthy food choices.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-011-09",
+"q": "What instrument is used to measure temperature?",
+"type": "input",
+"options": [],
+"answer": "Thermometer",
+"explanation": "A thermometer is used to measure how hot or cold something is.",
+"hint": "The word starts with 'Thermo'.",
+"dlevel": "medium",
+"objective": "Identify scientific tools.",
+"tags": ["science", "technology"]
+},
+{
+"id": "GK-011-10",
+"q": "Which gas do plants release during the day?",
+"type": "mcq",
+"options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+"answer": "Oxygen",
+"explanation": "During photosynthesis, plants release oxygen into the air, which humans and animals need to breathe.",
+"hint": "It is the gas we breathe in to live.",
+"dlevel": "hard",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+}
+]
+}

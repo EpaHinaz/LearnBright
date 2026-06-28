@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 23",
+  "description": "Hard-level challenge questions focusing on perfect tense integration, complex pronoun alignment, and evaluating authorial intent.",
+  "questions": [
+    {
+      "id": "ELA-221",
+      "q": "Which helping verb correctly completes the past perfect continuous construction? 'By the time the severe storm hit the coast, the ocean scientists ___ monitoring wave patterns for twelve hours.'",
+      "passage": "",
+      "options": [
+        "have been",
+        "had been",
+        "were being",
+        "will have been"
+      ],
+      "answer": "had been",
+      "explanation": "The past perfect continuous tense ('had been monitoring') describes an ongoing action that began and was continuing up to another point in the past.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-222",
+      "q": "Choose the sentence that correctly aligns pronouns to avoid any ambiguity.",
+      "passage": "David and his brother went to the store, and he bought a new bicycle.",
+      "options": [
+        "David and his brother went to the store, and he bought a new bicycle.",
+        "When David and his brother went to the store, David bought a new bicycle.",
+        "They went to the store together and he bought a bicycle.",
+        "David went to the store with his brother, and he picked out a bicycle."
+      ],
+      "answer": "When David and his brother went to the store, David bought a new bicycle.",
+      "explanation": "Using the noun 'David' instead of the ambiguous pronoun 'he' eliminates confusion over who actually bought the bicycle.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-223",
+      "q": "Identify the superlative adjective form that is grammatically incorrect.",
+      "passage": "",
+      "options": [
+        "worst",
+        "farthest",
+        "most beautiful",
+        "baddest"
+      ],
+      "answer": "baddest",
+      "explanation": "The correct irregular superlative form of 'bad' is 'worst'. 'Baddest' is non-standard English.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-224",
+      "q": "Determine the meaning of the underlined word using context clues: 'The old factory was completely **dilapidated**; its windows were shattered, the roof slumped inward, and the wooden walls were rotting away.'",
+      "passage": "",
+      "options": [
+        "modern and clean",
+        "in a state of ruin, decay, or severe disrepair",
+        "highly secure and guarded",
+        "painted with bright colors"
+      ],
+      "answer": "in a state of ruin, decay, or severe disrepair",
+      "explanation": "The context clues 'windows were shattered', 'roof slumped inward', and 'walls were rotting' all indicate structural ruin and decay.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-225",
+      "q": "Which word is an antonym for the word **meticulous**?",
+      "passage": "",
+      "options": [
+        "careful",
+        "careless",
+        "organized",
+        "intelligent"
+      ],
+      "answer": "careless",
+      "explanation": "'Meticulous' means showing immense attention to detail; its direct opposite is 'careless'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-226",
+      "q": "What is the author's primary purpose for writing this explanatory scientific passage?",
+      "passage": "Photosynthesis is the fundamental biological process that sustains almost all life on Earth. Inside a plant's green leaves, specialized cell structures called chloroplasts act as solar-powered factories. These microscopic units capture bright sunlight and combine it with water drawn from roots and carbon dioxide absorbed from the surrounding air. Through a precise chemical reaction, the plant transforms these elements into glucose sugar for food and releases pure oxygen gas into the atmosphere. This critical exchange balances our global atmosphere.",
+      "options": [
+        "To persuade readers to plant more flower gardens.",
+        "To inform readers about the scientific mechanics of photosynthesis.",
+        "To entertain readers with a story about magical growing trees.",
+        "To argue that plants are more important than animals."
+      ],
+      "answer": "To inform readers about the scientific mechanics of photosynthesis.",
+      "explanation": "The passage uses objective, technical language to explain step-by-step how plants scientifically process sunlight, water, and carbon dioxide.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-227",
+      "q": "Based on the text, what specific sugary substance does a plant create to serve as its own food supply?",
+      "passage": "Photosynthesis is the fundamental biological process that sustains almost all life on Earth. Inside a plant's green leaves, specialized cell structures called chloroplasts act as solar-powered factories. These microscopic units capture bright sunlight and combine it with water drawn from roots and carbon dioxide absorbed from the surrounding air. Through a precise chemical reaction, the plant transforms these elements into glucose sugar for food and releases pure oxygen gas into the atmosphere. This critical exchange balances our global atmosphere.",
+      "options": [
+        "Chloroplast fluid",
+        "Carbon dioxide gas",
+        "Glucose sugar",
+        "Pure oxygen oil"
+      ],
+      "answer": "Glucose sugar",
+      "explanation": "The text directly states: 'the plant transforms these elements into glucose sugar for food...'",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-228",
+      "q": "Which sentence handles semicolons and commas correctly to link related independent clauses?",
+      "passage": "",
+      "options": [
+        "The computer lab was locked, therefore, we could not finish our automation code.",
+        "The computer lab was locked; therefore, we could not finish our automation code.",
+        "The computer lab was locked therefore; we could not finish our automation code.",
+        "The computer lab was locked, therefore we could not finish our automation code."
+      ],
+      "answer": "The computer lab was locked; therefore, we could not finish our automation code.",
+      "explanation": "When linking two independent clauses with a conjunctive adverb ('therefore'), a semicolon must precede the adverb and a comma must follow it.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-229",
+      "q": "Identify the sentence that represents a complex sentence, containing both an independent clause and at least one dependent clause.",
+      "passage": "",
+      "options": [
+        "The storm rumbled across the valley all evening.",
+        "The storm rumbled across the valley, and it knocked out the power grid.",
+        "Because the storm rumbled across the valley, the outdoor game was postponed.",
+        "The storm rumbled across the valley, knocked out power, and flooded streets."
+      ],
+      "answer": "Because the storm rumbled across the valley, the outdoor game was postponed.",
+      "explanation": "This sentence contains a dependent clause starting with a subordinating conjunction ('Because...') joined to a complete independent clause.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-230",
+      "q": "Choose the collective noun that correctly completes the phrase: 'We observed a highly organized ___ of ants working together to carry a leaf.'",
+      "passage": "",
+      "options": [
+        "pack",
+        "colony",
+        "flock",
+        "herd"
+      ],
+      "answer": "colony",
+      "explanation": "'Colony' is the correct specialized collective noun used to describe a group of ants.",
+      "dlevel": "hard"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-02",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-091",
+      "q": "Identify the preposition in this sentence: 'The curious squirrel climbed slowly up the tall maple tree.'",
+      "options": [
+        "curious",
+        "slowly",
+        "up",
+        "tall"
+      ],
+      "answer": "up",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-092",
+      "q": "Choose the correct pronoun to complete the sentence: 'The science teacher gave Leo and ___ a magnifying glass to inspect the rock.'",
+      "options": [
+        "I",
+        "me",
+        "we",
+        "he"
+      ],
+      "answer": "me",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-093",
+      "q": "Which sentence contains a superlative adjective?",
+      "options": [
+        "The red team ran faster than the blue team.",
+        "This is the coldest winter we have ever experienced.",
+        "A large brown bear walked through the campsite.",
+        "Elena spoke softly during the library presentation."
+      ],
+      "answer": "This is the coldest winter we have ever experienced.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-094",
+      "q": "What is a synonym for the word 'fatigue' as used in this sentence? 'After hiking up the steep mountain trail all morning, the climbers felt overwhelming fatigue.'",
+      "options": [
+        "excitement",
+        "tiredness",
+        "happiness",
+        "hunger"
+      ],
+      "answer": "tiredness",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-095",
+      "q": "What is the meaning of the word 'preheat'?",
+      "options": [
+        "to heat after cooking",
+        "to heat at a low temperature",
+        "to heat before using",
+        "to heat multiple times"
+      ],
+      "answer": "to heat before using",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-096",
+      "q": "Read the text: 'The bald eagle is a famous symbol of freedom in the United States, but it almost disappeared entirely. By the 1960s, hunting and water pollution left very few bald eagles alive in the wild. To save them, the government passed laws to protect their forest nesting areas and banned dangerous chemicals. Because of these helpful actions, the bald eagle population recovered beautifully, and they were taken off the endangered species list in 2007.' What is the main idea of this text?",
+      "options": [
+        "Bald eagles build their large nests high up in forest trees.",
+        "The bald eagle population successfully recovered thanks to protective laws and environmental actions.",
+        "Hunting was a popular activity in the United States during the 1960s.",
+        "The bald eagle became an official national symbol a long time ago."
+      ],
+      "answer": "The bald eagle population successfully recovered thanks to protective laws and environmental actions.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-097",
+      "q": "Based on the bald eagle text, what happened in the year 2007?",
+      "options": [
+        "The government banned hunting across the country.",
+        "Bald eagles were officially removed from the endangered species list.",
+        "Water pollution became a severe problem for the birds.",
+        "The bald eagle was chosen as a national symbol."
+      ],
+      "answer": "Bald eagles were officially removed from the endangered species list.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-098",
+      "q": "Which sentence contains a run-on error that needs a conjunction or punctuation?",
+      "options": [
+        "The moon shone brightly down upon the peaceful, quiet lake.",
+        "We wanted to see the planetarium show but the tickets were sold out.",
+        "Lucas loves playing the trumpet he practices every single afternoon.",
+        "Because it was raining outside, the recess monitors kept us indoors."
+      ],
+      "answer": "Lucas loves playing the trumpet he practices every single afternoon.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-099",
+      "q": "Identify the sentence that has correct punctuation and capitalization.",
+      "options": [
+        "\"Are you ready for the spelling bee\" asked Maya.",
+        "\"Are you ready for the spelling bee?\" asked Maya.",
+        "\"are you ready for the spelling bee?\" asked maya.",
+        "\"Are you ready for the spelling bee? asked Maya.\""
+      ],
+      "answer": "\"Are you ready for the spelling bee?\" asked Maya.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-100",
+      "q": "Choose the correct form of the verb to ensure subject-verb agreement: 'The basket of colorful autumn apples ___ sitting on the wooden kitchen counter.'",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "answer": "is",
+      "dlevel": "easy"
+    }
+  ]
+}

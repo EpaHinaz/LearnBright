@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 28",
+  "description": "Hard-level ELA evaluation files. Concentrates on plural possessive syntax variants, technical vocabulary context, and target tracking analysis.",
+  "questions": [
+    {
+      "id": "ELA-271",
+      "q": "What is the correct plural spelling of the irregular noun 'vertex'?",
+      "passage": "",
+      "options": [
+        "vertexes",
+        "vertices",
+        "vertexis",
+        "verticies"
+      ],
+      "answer": "vertices",
+      "explanation": "Nouns of Latin origin ending in '-tex' form their plurals by changing the ending to '-tices'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-272",
+      "q": "Identify the prepositional phrase that modifies an adjective in this sentence: 'The software developer was completely certain of her automated test logic.'",
+      "passage": "",
+      "options": [
+        "The software developer",
+        "was completely certain",
+        "of her automated test logic",
+        "automated test logic"
+      ],
+      "answer": "of her automated test logic",
+      "explanation": "'Of her automated test logic' is a prepositional phrase modifying the predicate adjective 'certain'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-273",
+      "q": "Which relative pronoun completes the objective position within the clause? 'The historic leader ___ the council selected to head the delegation has arrived.'",
+      "passage": "",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "answer": "whom",
+      "explanation": "'Whom' is the objective pronoun used when the person is the object of the action within the relative clause.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-274",
+      "q": "Using structural analysis and context clues, find the meaning of the underlined word: 'The dark clouds began to **dissipate**, allowing bright blue sky and warm sunshine to break through.'",
+      "passage": "",
+      "options": [
+        "to gather or pack tightly together",
+        "to break up and scatter or disappear completely",
+        "to pour down heavy sheets of water",
+        "to drop the temperature below freezing"
+      ],
+      "answer": "to break up and scatter or disappear completely",
+      "explanation": "The context clue 'allowing bright blue sky... to break through' indicates that the cloud cover was breaking up or dissolving.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-275",
+      "q": "Choose the best antonym for the word **exorbitant**.",
+      "passage": "",
+      "options": [
+        "expensive",
+        "reasonable",
+        "hidden",
+        "enormous"
+      ],
+      "answer": "reasonable",
+      "explanation": "'Exorbitant' means unreasonably high or excessive (usually regarding prices); its opposite is 'reasonable'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-276",
+      "q": "What primary inference can be drawn from the text regarding the defensive adaptations of the pufferfish?",
+      "passage": "The pufferfish utilizes a remarkable combination of physiological adaptations to survive inside competitive coral reef habitats. Because it is a clumsy, slow-moving swimmer, it is an easy target for fast ocean predators like sharks. To counter this threat, the pufferfish instantly fills its highly elastic stomach with water until it swells into a massive, unswallowable ball. Additionally, its skin is covered in sharp, toxic spikes that emerge completely when inflated. These dual defense systems make it a dangerous choice for predators.",
+      "options": [
+        "The pufferfish uses speed to escape from fast reef predators.",
+        "Its physical inflation and toxic spikes compensate for its lack of swimming speed.",
+        "Pufferfish hunt smaller fish by inflating themselves into balls.",
+        "The elastic stomach allows the pufferfish to store excess food for months."
+      ],
+      "answer": "Its physical inflation and toxic spikes compensate for its lack of swimming speed.",
+      "explanation": "The text notes that because it is a slow swimmer, it uses inflation and hidden spikes to protect itself from predators it cannot outswim.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-277",
+      "q": "What does the word **elastic** mean based on its context within the passage?",
+      "passage": "The pufferfish utilizes a remarkable combination of physiological adaptations to survive inside competitive coral reef habitats. Because it is a clumsy, slow-moving swimmer, it is an easy target for fast ocean predators like sharks. To counter this threat, the pufferfish instantly fills its highly elastic stomach with water until it swells into a massive, unswallowable ball. Additionally, its skin is covered in sharp, toxic spikes that emerge completely when inflated. These dual defense systems make it a dangerous choice for predators.",
+      "options": [
+        "Fragile and easily torn apart",
+        "Capable of stretching or expanding and returning to shape",
+        "Frozen solid or completely rigid",
+        "Poisonous to touch or eat"
+      ],
+      "answer": "Capable of stretching or expanding and returning to shape",
+      "explanation": "The context clue 'fills... stomach with water until it swells into a massive ball' demonstrates that an elastic stomach stretches or expands.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-278",
+      "q": "Which sentence contains a comma splice error that should be resolved with a coordinating conjunction or semicolon?",
+      "passage": "",
+      "options": [
+        "The primary database crashed, so the automated test suite paused.",
+        "The primary database crashed, the automated test suite paused.",
+        "Because the primary database crashed, the automated test suite paused.",
+        "The primary database crashed; consequently, the test suite paused."
+      ],
+      "answer": "The primary database crashed, the automated test suite paused.",
+      "explanation": "This choice splices two independent thoughts together using only a comma, creating a comma splice error.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-279",
+      "q": "Choose the sentence that demonstrates perfect structural alignment and contains absolutely no spelling or grammatical errors.",
+      "passage": "",
+      "options": [
+        "Each of the software testers have submitted their automated log files.",
+        "Each of the software testers has submitted his or her automated log file.",
+        "Each of the software testers checking their automated log files now.",
+        "Each of the software testers have submitted there automated log files."
+      ],
+      "answer": "Each of the software testers has submitted his or her automated log file.",
+      "explanation": "The indefinite pronoun 'Each' is grammatically singular, which requires the singular verb 'has' and singular possessive tracking pronouns ('his or her').",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-280",
+      "q": "What is the function of the underlined intensive pronoun? 'The lead programmer **herself** wrote the entire source code for the simulation script.'",
+      "passage": "",
+      "options": [
+        "It acts as the indirect object receiving the code.",
+        "It emphasizes that the programmer completed the action personally without assistance.",
+        "It links two separate clauses together.",
+        "It shows that the action will take place in the future."
+      ],
+      "answer": "It emphasizes that the programmer completed the action personally without assistance.",
+      "explanation": "An intensive pronoun ('herself') directly follows its noun to emphasize that the person performed the action independently.",
+      "dlevel": "hard"
+    }
+  ]
+}

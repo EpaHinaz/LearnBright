@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 28",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-028-01",
+"q": "Which animal is famous for being the 'King of the Jungle'?",
+"type": "mcq",
+"options": ["Tiger", "Lion", "Bear", "Elephant"],
+"answer": "Lion",
+"explanation": "Lions are widely known as the 'King of the Jungle' due to their strength and the impressive mane on the males.",
+"hint": "It is a member of the cat family.",
+"dlevel": "easy",
+"objective": "Identify common animals and their nicknames.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-028-02",
+"q": "What is the capital of Italy?",
+"type": "input",
+"options": [],
+"answer": "Rome",
+"explanation": "Rome is the capital of Italy and is known for its incredible history and ancient ruins.",
+"hint": "It is home to the Colosseum.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-028-03",
+"q": "Which part of the plant absorbs water and minerals from the soil?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Root",
+"explanation": "Roots are responsible for anchoring the plant and pulling water and nutrients up from the ground.",
+"hint": "They grow under the dirt.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-028-04",
+"q": "What do we call the imaginary line that divides Earth into the Northern and Southern Hemispheres?",
+"type": "input",
+"options": [],
+"answer": "Equator",
+"explanation": "The equator is an imaginary circle around the Earth that divides it into two halves.",
+"hint": "It starts with 'E'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-028-05",
+"q": "Which of these is a healthy snack for your body?",
+"type": "mcq",
+"options": ["Chocolate bar", "Apple", "Potato chips", "Soda"],
+"answer": "Apple",
+"explanation": "Apples are a fruit filled with vitamins and fiber, making them a much healthier choice than processed snacks.",
+"hint": "It is crunchy and grows on trees.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-028-06",
+"q": "Which community helper works in a library?",
+"type": "mcq",
+"options": ["Doctor", "Librarian", "Firefighter", "Chef"],
+"answer": "Librarian",
+"explanation": "Librarians manage the library and help people find books, resources, and information.",
+"hint": "They work with books.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "school"]
+},
+{
+"id": "GK-028-07",
+"q": "What is the name of the nearest star to Earth?",
+"type": "input",
+"options": [],
+"answer": "Sun",
+"explanation": "The Sun is the closest star to Earth and provides the light and energy needed for life.",
+"hint": "We see it during the day.",
+"dlevel": "medium",
+"objective": "Understand basic facts about space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-028-08",
+"q": "Which of these is a non-renewable energy source?",
+"type": "mcq",
+"options": ["Solar", "Wind", "Coal", "Hydro"],
+"answer": "Coal",
+"explanation": "Coal is a fossil fuel that takes millions of years to form and cannot be replaced once it is used up.",
+"hint": "It is a black rock.",
+"dlevel": "hard",
+"objective": "Understand energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-028-09",
+"q": "What is the boiling point of water in degrees Celsius?",
+"type": "input",
+"options": [],
+"answer": "100",
+"explanation": "Water boils at 100 degrees Celsius at sea level.",
+"hint": "It is a 3-digit number.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-028-10",
+"q": "Which season comes right after winter?",
+"type": "mcq",
+"options": ["Spring", "Summer", "Autumn", "Fall"],
+"answer": "Spring",
+"explanation": "Spring follows winter, bringing warmer weather and the blooming of flowers.",
+"hint": "It starts with 'S'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - Day 03",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-021",
+      "q": "Identify the adverb in the following sentence: 'The sneaky cat walked softly across the wooden floor.'",
+      "options": [
+        "sneaky",
+        "walked",
+        "softly",
+        "wooden"
+      ],
+      "answer": "softly",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-022",
+      "q": "Choose the correct preposition to complete the sentence: 'Oliver placed his library book ______ his backpack so it wouldn't get wet.'",
+      "options": [
+        "underneath",
+        "inside",
+        "through",
+        "between"
+      ],
+      "answer": "inside",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-023",
+      "q": "What type of conjunction is used in this sentence? 'You can study for your spelling test, or you can read your book.'",
+      "options": [
+        "coordinating conjunction",
+        "subordinating conjunction",
+        "prepositional conjunction",
+        "relative conjunction"
+      ],
+      "answer": "coordinating conjunction",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-024",
+      "q": "In which sentence does the word 'bark' mean the outer covering of a tree trunk?",
+      "options": [
+        "We could hear the neighborhood dog bark all night long.",
+        "The seal started to bark when the trainer walked by.",
+        "The rough bark of the oak tree scraped against my hand.",
+        "Don't let the puppy bark while the baby is sleeping."
+      ],
+      "answer": "The rough bark of the oak tree scraped against my hand.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-025",
+      "q": "What does the suffix '-less' mean in the word 'fearless'?",
+      "options": [
+        "full of",
+        "without",
+        "state of being",
+        "capable of"
+      ],
+      "answer": "without",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-026",
+      "q": "Read the text: 'In 1752, Benjamin Franklin wanted to prove that lightning was a form of electricity. He tied a metal key to the string of a silk kite and flew it during a thunderstorm. When lightning struck near the kite, an electric charge traveled down the wet string to the key. This dangerous experiment helped him invent the lightning rod, which protects tall buildings from fires caused by lightning strikes.' What can you infer about Benjamin Franklin from this text?",
+      "options": [
+        "He was afraid of storms and rain.",
+        "He was a curious thinker who took risks to understand science.",
+        "He wanted to build tall skyscrapers.",
+        "He preferred flying kites over doing scientific work."
+      ],
+      "answer": "He was a curious thinker who took risks to understand science.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-027",
+      "q": "According to the passage about Benjamin Franklin, what is the direct benefit of a lightning rod?",
+      "options": [
+        "It makes thunderstorms disappear quickly.",
+        "It helps kites fly higher in the sky.",
+        "It safely protects tall buildings from fires.",
+        "It creates clean electricity for homes."
+      ],
+      "answer": "It protects tall buildings from fires.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-028",
+      "q": "Identify the sentence that has incorrect punctuation.",
+      "options": [
+        "Do you know where the music room is located?",
+        "Wow, that painting looks incredibly realistic!",
+        "My mom bought apples, bananas and oranges.",
+        "I went to bed early because I was exhausted"
+      ],
+      "answer": "I went to bed early because I was exhausted",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-029",
+      "q": "Which of these sentences is written with correct capitalization?",
+      "options": [
+        "We are going to visit Mount Rushmore during our Summer vacation.",
+        "We are going to visit mount rushmore during our summer vacation.",
+        "We are going to visit Mount Rushmore during our summer vacation.",
+        "We are going to visit mount Rushmore during our summer vacation."
+      ],
+      "answer": "We are going to visit Mount Rushmore during our summer vacation.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-030",
+      "q": "Choose the correct helping verb to complete the past-tense sentence: 'Liam and Marcus ______ practicing their duet on the piano all afternoon.'",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "were",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Mathematics",
+  "title": "Mathematics Test - 20",
+  "description": "Day 20 Grade 4 Mathematics Practice",
+  "questions": [
+    {
+      "id": "MATH-191",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 3,333 + 6,666?",
+      "options": [
+        "9,999",
+        "8,999",
+        "9,899",
+        "9,989"
+      ],
+      "answer": "9,999",
+      "hint": "Add digits.",
+      "explanation": "3+6=9. 9999.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-192",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "What is 6 × 6?",
+      "options": [
+        "36",
+        "30",
+        "42",
+        "24"
+      ],
+      "answer": "36",
+      "hint": "Times table.",
+      "explanation": "36.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-193",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Divide 100 by 2.",
+      "options": [],
+      "answer": "50",
+      "hint": "Half of 100.",
+      "explanation": "50.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-194",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "You have 5 boxes of 2 donuts each. Total?",
+      "options": [
+        "10",
+        "7",
+        "25",
+        "5"
+      ],
+      "answer": "10",
+      "hint": "5 × 2.",
+      "explanation": "10.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-195",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Price is $5. Buy 6? Total?",
+      "options": [],
+      "answer": "30",
+      "hint": "5 × 6.",
+      "explanation": "30.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-196",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "Which is bigger: 0.1 or 0.11?",
+      "options": [
+        "0.11",
+        "0.1",
+        "Equal",
+        "None"
+      ],
+      "answer": "0.11",
+      "hint": "0.10 vs 0.11.",
+      "explanation": "0.11 is larger.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATH-197",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "What is 3/7 + 2/7?",
+      "options": [],
+      "answer": "5/7",
+      "hint": "Add numerators.",
+      "explanation": "5/7.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-198",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many corners in a triangle?",
+      "options": [
+        "3",
+        "4",
+        "0",
+        "2"
+      ],
+      "answer": "3",
+      "hint": "Same as sides.",
+      "explanation": "3 corners.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-199",
+      "subject": "Mathematics",
+      "type": "input",
+      "q": "Area 4 by 4 square.",
+      "options": [],
+      "answer": "16",
+      "hint": "4 × 4.",
+      "explanation": "16.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATH-200",
+      "subject": "Mathematics",
+      "type": "mcq",
+      "q": "How many days in 1 week?",
+      "options": [
+        "7",
+        "5",
+        "10",
+        "6"
+      ],
+      "answer": "7",
+      "hint": "Standard.",
+      "explanation": "7.",
+      "dlevel": "easy"
+    }
+  ]
+}

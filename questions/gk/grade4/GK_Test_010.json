@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 10",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-010-01",
+"q": "Which animal is the tallest in the world?",
+"type": "mcq",
+"options": ["Elephant", "Giraffe", "Horse", "Camel"],
+"answer": "Giraffe",
+"explanation": "The giraffe is the tallest land animal on Earth thanks to its long neck and long legs.",
+"hint": "It has a long neck and spots on its coat.",
+"dlevel": "easy",
+"objective": "Identify common animals and their traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-010-02",
+"q": "What is the capital of France?",
+"type": "input",
+"options": [],
+"answer": "Paris",
+"explanation": "Paris is the capital and most populous city of France.",
+"hint": "It is famous for the Eiffel Tower.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-010-03",
+"q": "Which of these is a gas that humans need to breathe in?",
+"type": "mcq",
+"options": ["Nitrogen", "Carbon dioxide", "Oxygen", "Helium"],
+"answer": "Oxygen",
+"explanation": "Humans and many other animals need oxygen to survive.",
+"hint": "It is the gas that keeps us alive.",
+"dlevel": "easy",
+"objective": "Identify basic biological needs.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-010-04",
+"q": "What do we call the path a planet takes around the Sun?",
+"type": "input",
+"options": [],
+"answer": "Orbit",
+"explanation": "An orbit is the curved path that a celestial object takes around a star or planet.",
+"hint": "It is a word that starts with 'O'.",
+"dlevel": "hard",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-010-05",
+"q": "Which of these helps keep your bones strong?",
+"type": "mcq",
+"options": ["Calcium", "Sugar", "Iron", "Vitamin C"],
+"answer": "Calcium",
+"explanation": "Calcium is a mineral that is essential for building and maintaining strong bones.",
+"hint": "You get a lot of it from dairy products like milk.",
+"dlevel": "medium",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-010-06",
+"q": "What is the primary material used in making paper?",
+"type": "mcq",
+"options": ["Plastic", "Metal", "Wood pulp", "Glass"],
+"answer": "Wood pulp",
+"explanation": "Most paper is made from wood fibers that are processed into pulp.",
+"hint": "It comes from trees.",
+"dlevel": "medium",
+"objective": "Understand materials in our everyday life.",
+"tags": ["environment", "everyday science"]
+},
+{
+"id": "GK-010-07",
+"q": "Which continent is home to the Sahara Desert?",
+"type": "mcq",
+"options": ["Asia", "Africa", "South America", "Australia"],
+"answer": "Africa",
+"explanation": "The Sahara is the largest hot desert in the world and covers much of North Africa.",
+"hint": "It is a very hot and sandy continent.",
+"dlevel": "hard",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-010-08",
+"q": "How many minutes are in one hour?",
+"type": "input",
+"options": [],
+"answer": "60",
+"explanation": "There are 60 minutes in every hour.",
+"hint": "It is the same number as the seconds in a minute.",
+"dlevel": "easy",
+"objective": "Learn basic measurement of time.",
+"tags": ["science", "fun facts"]
+},
+{
+"id": "GK-010-09",
+"q": "What do we call a person who treats sick animals?",
+"type": "mcq",
+"options": ["Doctor", "Teacher", "Veterinarian", "Nurse"],
+"answer": "Veterinarian",
+"explanation": "A veterinarian is a professional who practices animal medicine.",
+"hint": "It is often shortened to 'vet'.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "animals"]
+},
+{
+"id": "GK-010-10",
+"q": "Which force makes a magnet stick to a refrigerator?",
+"type": "input",
+"options": [],
+"answer": "Magnetism",
+"explanation": "Magnetism is a force of attraction that allows magnets to stick to certain metal surfaces.",
+"hint": "It sounds like 'magnet'.",
+"dlevel": "medium",
+"objective": "Understand basic scientific forces.",
+"tags": ["science", "technology"]
+}
+]
+}

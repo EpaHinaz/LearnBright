@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 01",
+"description": "A mix of fun and educational questions covering nature, geography, science, health, and general world facts for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-001",
+"q": "Which of these animals is a mammal?",
+"type": "mcq",
+"options": ["Frog", "Shark", "Dolphin", "Eagle"],
+"answer": "Dolphin",
+"explanation": "Dolphins are mammals because they breathe air, give birth to live young, and feed their babies milk.",
+"hint": "Think about animals that live in the ocean but need to come to the surface to breathe air.",
+"dlevel": "easy",
+"objective": "Identify common animals and their characteristics.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-002",
+"q": "What is the largest continent on Earth?",
+"type": "mcq",
+"options": ["Africa", "Asia", "Europe", "North America"],
+"answer": "Asia",
+"explanation": "Asia is the largest continent in both land area and population.",
+"hint": "It is the continent where many of the world's most populous countries are located.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-003",
+"q": "What is the process called when plants use sunlight to make food?",
+"type": "input",
+"options": [],
+"answer": "Photosynthesis",
+"explanation": "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+"hint": "It is a long word that starts with 'Photo'.",
+"dlevel": "hard",
+"objective": "Understand how plants live and grow.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-004",
+"q": "Which organ in the human body pumps blood?",
+"type": "mcq",
+"options": ["Lungs", "Brain", "Heart", "Stomach"],
+"answer": "Heart",
+"explanation": "The heart is a muscular organ that pumps blood through the body's circulatory system.",
+"hint": "It beats inside your chest.",
+"dlevel": "easy",
+"objective": "Understand the function of major human body organs.",
+"tags": ["human body", "health"]
+},
+{
+"id": "GK-005",
+"q": "Which planet is known as the 'Red Planet'?",
+"type": "mcq",
+"options": ["Venus", "Mars", "Jupiter", "Saturn"],
+"answer": "Mars",
+"explanation": "Mars appears reddish due to iron oxide, or rust, on its surface.",
+"hint": "It is the fourth planet from the Sun.",
+"dlevel": "medium",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-006",
+"q": "How many days are in a leap year?",
+"type": "input",
+"options": [],
+"answer": "366",
+"explanation": "A standard year has 365 days, but a leap year has one extra day in February, making it 366 days total.",
+"hint": "Add one day to the number of days in a normal year.",
+"dlevel": "hard",
+"objective": "Learn basic measurement of time.",
+"tags": ["science", "fun facts"]
+},
+{
+"id": "GK-007",
+"q": "Which landmark is located in Paris, France?",
+"type": "mcq",
+"options": ["Statue of Liberty", "Eiffel Tower", "Great Wall of China", "Colosseum"],
+"answer": "Eiffel Tower",
+"explanation": "The Eiffel Tower is a famous wrought-iron lattice tower on the Champ de Mars in Paris.",
+"hint": "It is a very tall metal structure that is a symbol of France.",
+"dlevel": "easy",
+"objective": "Recognize important world landmarks.",
+"tags": ["geography", "landmarks"]
+},
+{
+"id": "GK-008",
+"q": "What should you wear when riding a bicycle to stay safe?",
+"type": "mcq",
+"options": ["Sunglasses", "A helmet", "Gloves", "A scarf"],
+"answer": "A helmet",
+"explanation": "Wearing a helmet protects your head from injuries in case of a fall.",
+"hint": "It protects the most important part of your body.",
+"dlevel": "easy",
+"objective": "Identify healthy and safe habits.",
+"tags": ["safety", "health"]
+},
+{
+"id": "GK-009",
+"q": "What is the hardest natural substance on Earth?",
+"type": "mcq",
+"options": ["Gold", "Iron", "Diamond", "Rock"],
+"answer": "Diamond",
+"explanation": "Diamond is composed of carbon and is the hardest known natural mineral.",
+"hint": "It is a very expensive gemstone often found in jewelry.",
+"dlevel": "medium",
+"objective": "Learn basic facts about nature and science.",
+"tags": ["nature", "science"]
+},
+{
+"id": "GK-010",
+"q": "Which gas do humans need to breathe in to stay alive?",
+"type": "input",
+"options": [],
+"answer": "Oxygen",
+"explanation": "Oxygen is a gas that all humans and animals need to breathe to survive.",
+"hint": "It starts with the letter 'O'.",
+"dlevel": "medium",
+"objective": "Identify basic biological needs.",
+"tags": ["human body", "science"]
+}
+]
+}

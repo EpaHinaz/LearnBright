@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 06",
+  "description": "Focus on conjunctions, multiple-meaning words, identifying main ideas, and correcting fragment errors.",
+  "questions": [
+    {
+      "id": "ELA-051",
+      "q": "Which conjunction best combines these two thoughts? 'We wanted to go camping. The weather forecast predicted a heavy thunderstorm.'",
+      "passage": "",
+      "options": [
+        "and",
+        "but",
+        "so",
+        "or"
+      ],
+      "answer": "but",
+      "explanation": "'But' is the best choice because it introduces a contrasting obstacle to the camping plans.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-052",
+      "q": "Identify the pronoun that functions as an object pronoun in this sentence: 'The principal handed them the championship trophy during the assembly.'",
+      "passage": "",
+      "options": [
+        "them",
+        "principal",
+        "trophy",
+        "handed"
+      ],
+      "answer": "them",
+      "explanation": "'Them' is an object pronoun receiving the action of the verb indirectly.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-053",
+      "q": "What is the meaning of the underlined word? 'We need to **scale** the high rock wall to reach the observation deck.'",
+      "passage": "",
+      "options": [
+        "A tool used to weigh things",
+        "The small bony plates on a fish",
+        "To climb up to the top of something",
+        "A series of musical notes"
+      ],
+      "answer": "To climb up to the top of something",
+      "explanation": "The context 'high rock wall' and 'reach the observation deck' makes it clear that 'scale' means to climb.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-054",
+      "q": "Choose the best synonym for the word **cautious**.",
+      "passage": "",
+      "options": [
+        "brave",
+        "careful",
+        "reckless",
+        "speedy"
+      ],
+      "answer": "careful",
+      "explanation": "'Cautious' means showing care to avoid danger or mistakes, making 'careful' the synonym.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-055",
+      "q": "What is the meaning of the prefix in the word **reread**?",
+      "passage": "",
+      "options": [
+        "not read",
+        "read incorrectly",
+        "read again",
+        "read before"
+      ],
+      "answer": "read again",
+      "explanation": "The prefix 're-' means again, so 'reread' means to read a text a second time.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-056",
+      "q": "What is the main idea of this informative text?",
+      "passage": "The International Space Station, or ISS, is a remarkable laboratory orbiting high above the Earth. Astronauts from all over the globe live and work on the ISS for months at a time. Inside this floating lab, scientists perform unique experiments that cannot be done on Earth because of gravity. They study how microgravity affects human bones, try growing plants without soil, and test new technologies. The discoveries made on the ISS help pave the way for future human travel to Mars.",
+      "options": [
+        "Astronauts stay on the ISS for many months.",
+        "The ISS is an orbiting laboratory where scientists conduct unique research.",
+        "Plants can easily grow without soil in space.",
+        "Future missions will take humans directly to Mars."
+      ],
+      "answer": "The ISS is an orbiting laboratory where scientists conduct unique research.",
+      "explanation": "The text focuses on the role of the ISS as an operational space station and space laboratory for unique experiments.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-057",
+      "q": "According to the passage, why must these specific experiments be completed on the ISS rather than on Earth?",
+      "passage": "The International Space Station, or ISS, is a remarkable laboratory orbiting high above the Earth. Astronauts from all over the globe live and work on the ISS for months at a time. Inside this floating lab, scientists perform unique experiments that cannot be done on Earth because of gravity. They study how microgravity affects human bones, try growing plants without soil, and test new technologies. The discoveries made on the ISS help pave the way for future human travel to Mars.",
+      "options": [
+        "Earth lacks the proper scientific equipment.",
+        "Gravity on Earth interferes with the specific conditions needed.",
+        "There is not enough laboratory space on Earth.",
+        "Astronauts prefer working away from home."
+      ],
+      "answer": "Gravity on Earth interferes with the specific conditions needed.",
+      "explanation": "The passage notes that experiments 'cannot be done on Earth because of gravity.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-058",
+      "q": "Which of these options represents a complete sentence?",
+      "passage": "",
+      "options": [
+        "The old car with a flat tire.",
+        "Because she forgot her house keys.",
+        "Underneath the dark basement stairs.",
+        "The bird built a nest out of twigs."
+      ],
+      "answer": "The bird built a nest out of twigs.",
+      "explanation": "This option contains both a subject (The bird) and a predicate (built a nest out of twigs) and states a complete thought.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-059",
+      "q": "Identify the correction needed: 'mr. Henderson teaches fourth grade at Oak Creek Elementary School.'",
+      "passage": "",
+      "options": [
+        "The word 'Elementary' should be lowercase.",
+        "The word 'mr.' should be capitalized as 'Mr.'.",
+        "The word 'teaches' should be capitalized.",
+        "The sentence needs an exclamation point."
+      ],
+      "answer": "The word 'mr.' should be capitalized as 'Mr.'.",
+      "explanation": "Titles used before names are proper nouns and must be capitalized.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-060",
+      "q": "Choose the proper noun that names a specific place from this list.",
+      "passage": "",
+      "options": [
+        "continent",
+        "Australia",
+        "desert",
+        "mountain range"
+      ],
+      "answer": "Australia",
+      "explanation": "'Australia' is the name of a specific country/continent and is a proper noun.",
+      "dlevel": "easy"
+    }
+  ]
+}

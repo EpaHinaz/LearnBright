@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - Day 02",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-011",
+      "q": "Which pronoun should replace the underlined words? '<u>The students</u> handed in their art projects on time.'",
+      "options": [
+        "He",
+        "We",
+        "They",
+        "Them"
+      ],
+      "answer": "They",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-012",
+      "q": "Which option shows the correct subject-verb agreement?",
+      "options": [
+        "The puppies barks at the mail carrier.",
+        "The puppy bark at the mail carrier.",
+        "The puppies bark at the mail carrier.",
+        "The puppy barking at the mail carrier."
+      ],
+      "answer": "The puppies bark at the mail carrier.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-013",
+      "q": "Choose the correct adjective to complete the sentence: 'The runner felt even ______ after completing the long race.'",
+      "options": [
+        "tired",
+        "tiredest",
+        "more tired",
+        "most tired"
+      ],
+      "answer": "more tired",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-014",
+      "q": "What is an antonym for the word 'ancient'?",
+      "options": [
+        "old",
+        "modern",
+        "broken",
+        "heavy"
+      ],
+      "answer": "modern",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-015",
+      "q": "Use context clues to find the meaning of 'furious': 'When Maya discovered that her little brother had colored all over her homework, she was furious.'",
+      "options": [
+        "excited",
+        "extremely angry",
+        "very confused",
+        "tired"
+      ],
+      "answer": "extremely angry",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-016",
+      "q": "Read the text: 'The planet Mars is known as the Red Planet because its ground is covered in iron oxide, which is like rust. Mars is much colder than Earth because it is further away from the sun. Scientists have sent robotic rovers to explore Mars. These rovers drive across the rocky deserts, take photographs, and test the soil to see if water ever existed on the planet.' What is the author's primary purpose in writing this text?",
+      "options": [
+        "To persuade readers to move to Mars.",
+        "To tell a funny story about a robot on a journey.",
+        "To inform readers about the physical traits and exploration of Mars.",
+        "To explain how to build a spaceship."
+      ],
+      "answer": "To inform readers about the physical traits and exploration of Mars.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-017",
+      "q": "According to the Mars passage, why do scientists send robotic rovers to Mars?",
+      "options": [
+        "To search for missing spaceships.",
+        "To plant trees in the desert.",
+        "To take pictures and check the soil for signs of past water.",
+        "To heat up the planet so humans can visit."
+      ],
+      "answer": "To take pictures and check the soil for signs of past water.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-018",
+      "q": "Which sentence is a run-on sentence that needs to be fixed?",
+      "options": [
+        "I love coding on computers, and I practice every single day.",
+        "The lightning flashed brightly across the dark sky.",
+        "We went to the grocery store we bought apples and milk.",
+        "After finishing breakfast, Chloe walked to the bus stop."
+      ],
+      "answer": "We went to the grocery store we bought apples and milk.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-019",
+      "q": "Choose the option that correctly combines these two short sentences into one compound sentence: 'The weather was cold. We decided to drink hot cocoa.'",
+      "options": [
+        "The weather was cold but we decided to drink hot cocoa.",
+        "The weather was cold, so we decided to drink hot cocoa.",
+        "Because the weather was cold so we decided to drink hot cocoa.",
+        "The weather was cold we decided to drink hot cocoa."
+      ],
+      "answer": "The weather was cold, so we decided to drink hot cocoa.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-020",
+      "q": "Which sentence uses possessive nouns correctly?",
+      "options": [
+        "The childrens toys were left outside in the grass.",
+        "The children's toys were left outside in the grass.",
+        "The childrens' toys were left outside in the grass.",
+        "The childrens toys' were left outside in the grass."
+      ],
+      "answer": "The children's toys were left outside in the grass.",
+      "dlevel": "easy"
+    }
+  ]
+}

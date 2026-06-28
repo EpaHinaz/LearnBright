@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 02",
+"description": "A mix of fun and educational questions covering animals, geography, space, technology, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-002",
+"q": "Which of these animals is known for having a long trunk?",
+"type": "mcq",
+"options": ["Giraffe", "Elephant", "Zebra", "Lion"],
+"answer": "Elephant",
+"explanation": "Elephants use their trunks for breathing, smelling, touching, grasping, and producing sound.",
+"hint": "It is the largest land animal.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical features.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-002",
+"q": "What is the capital city of Japan?",
+"type": "mcq",
+"options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+"answer": "Tokyo",
+"explanation": "Tokyo is the capital city of Japan and one of the most populated cities in the world.",
+"hint": "It is a major island nation in East Asia.",
+"dlevel": "medium",
+"objective": "Learn basic world geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-003",
+"q": "Which invention helped people communicate over long distances by voice?",
+"type": "mcq",
+"options": ["Lightbulb", "Telephone", "Airplane", "Compass"],
+"answer": "Telephone",
+"explanation": "The telephone allows people to transmit and receive sound or voice across long distances.",
+"hint": "Alexander Graham Bell is often associated with this.",
+"dlevel": "easy",
+"objective": "Identify important inventions that changed communication.",
+"tags": ["technology", "inventions"]
+},
+{
+"id": "GK-004",
+"q": "What is the name of our home galaxy?",
+"type": "input",
+"options": [],
+"answer": "Milky Way",
+"explanation": "The Milky Way is the galaxy that contains our Solar System.",
+"hint": "It sounds like a popular candy bar.",
+"dlevel": "medium",
+"objective": "Understand basic facts about the solar system and space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-005",
+"q": "Which fruit is famous for keeping the doctor away if you eat one every day?",
+"type": "mcq",
+"options": ["Banana", "Orange", "Apple", "Grape"],
+"answer": "Apple",
+"explanation": "There is a famous proverb that says, 'An apple a day keeps the doctor away.'",
+"hint": "It can be red, green, or yellow.",
+"dlevel": "easy",
+"objective": "Identify healthy food choices.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-006",
+"q": "What is the largest ocean on Earth?",
+"type": "input",
+"options": [],
+"answer": "Pacific Ocean",
+"explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions.",
+"hint": "It covers more than 30% of the Earth's surface.",
+"dlevel": "hard",
+"objective": "Learn basic geography facts about oceans.",
+"tags": ["geography", "oceans"]
+},
+{
+"id": "GK-007",
+"q": "Which type of weather usually involves lightning and thunder?",
+"type": "mcq",
+"options": ["Sunny", "Cloudy", "Thunderstorm", "Snowy"],
+"answer": "Thunderstorm",
+"explanation": "Thunderstorms are storms that produce lightning and thunder.",
+"hint": "It sounds like 'thunder' is in the name.",
+"dlevel": "easy",
+"objective": "Understand basic weather patterns.",
+"tags": ["weather", "nature"]
+},
+{
+"id": "GK-008",
+"q": "What is the main purpose of wearing sunscreen?",
+"type": "mcq",
+"options": ["To smell good", "To protect skin from the sun", "To stay warm", "To look fashionable"],
+"answer": "To protect skin from the sun",
+"explanation": "Sunscreen helps protect your skin from harmful UV rays that can cause sunburn.",
+"hint": "Think about what you wear when you go to the beach.",
+"dlevel": "medium",
+"objective": "Identify healthy habits and safety.",
+"tags": ["health", "safety"]
+},
+{
+"id": "GK-009",
+"q": "How many continents are there on Earth?",
+"type": "input",
+"options": [],
+"answer": "7",
+"explanation": "The seven continents are Africa, Antarctica, Asia, Europe, North America, Australia, and South America.",
+"hint": "It is the same number as the days in a week.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-010",
+"q": "Which animal is known as the 'King of the Jungle'?",
+"type": "mcq",
+"options": ["Tiger", "Lion", "Elephant", "Bear"],
+"answer": "Lion",
+"explanation": "The lion is traditionally called the king of the jungle because of its status as an apex predator.",
+"hint": "It has a large mane of hair around its neck.",
+"dlevel": "hard",
+"objective": "Identify animals and their common associations.",
+"tags": ["animals", "nature"]
+}
+]
+}

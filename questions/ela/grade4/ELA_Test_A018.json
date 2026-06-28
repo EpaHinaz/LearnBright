@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 16",
+  "description": "Medium difficulty testing focusing on helping verbs, precise context clues, structural suffixes, and punctuation rules within letters.",
+  "questions": [
+    {
+      "id": "ELA-151",
+      "q": "Which helping verb correctly completes the sentence to show continuous action? 'The construction workers ___ building a new skyscraper downtown all summer.'",
+      "passage": "",
+      "options": [
+        "was",
+        "were",
+        "have",
+        "has"
+      ],
+      "answer": "were",
+      "explanation": "The plural subject 'workers' paired with past continuous action requires the plural helping verb 'were'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-152",
+      "q": "Identify the adjective in the sentence: 'The metallic rover collected soil samples on the desolate surface of Mars.'",
+      "passage": "",
+      "options": [
+        "rover",
+        "collected",
+        "desolate",
+        "surface"
+      ],
+      "answer": "desolate",
+      "explanation": "'Desolate' is an adjective that describes the physical state of the noun 'surface'. 'Metallic' is also an adjective, but it is not an option here.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-153",
+      "q": "What is the meaning of the underlined word? 'The principal's rule was **absolute**, meaning no exceptions would be made for anyone.'",
+      "passage": "",
+      "options": [
+        "flexible",
+        "complete and final",
+        "confusing",
+        "temporary"
+      ],
+      "answer": "complete and final",
+      "explanation": "The context clue 'meaning no exceptions would be made' demonstrates that 'absolute' means firm, complete, and final.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-154",
+      "q": "Choose the best synonym for **bountiful**.",
+      "passage": "",
+      "options": [
+        "scarce",
+        "abundant",
+        "heavy",
+        "expensive"
+      ],
+      "answer": "abundant",
+      "explanation": "'Bountiful' means large in quantity or plentiful, making 'abundant' the correct synonym.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-155",
+      "q": "What does the suffix **-hood** mean in words like 'childhood' or 'neighborhood'?",
+      "passage": "",
+      "options": [
+        "the state or condition of being",
+        "a person who performs an action",
+        "without any protection",
+        "the study of a subject"
+      ],
+      "answer": "the state or condition of being",
+      "explanation": "The suffix '-hood' denotes a state, condition, or character of being (e.g., childhood is the state of being a child).",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-156",
+      "q": "What is the main idea of this paragraph about the history of silk?",
+      "passage": "For thousands of years, the secret of making silk fabric was carefully guarded by ancient China. Silk is produced from the delicate cocoons spun by silkworm caterpillars. Workers unraveled these tiny cocoons and wove the thin threads into an incredibly soft, shiny material. This luxury fabric became so highly prized that a vast trading route called the Silk Road was established to carry it across Asia to Europe. Revealing the secret of the silkworm to outsiders was strictly illegal and carried a severe punishment.",
+      "options": [
+        "Silkworms turn into caterpillars after spinning cocoons.",
+        "Ancient China closely guarded the valuable process of making and trading silk.",
+        "The Silk Road connected Asia and Europe for spice trading.",
+        "Weaving fabric is a difficult skill that took years to master."
+      ],
+      "answer": "Ancient China closely guarded the valuable process of making and trading silk.",
+      "explanation": "The paragraph outlines how silk was made, its value, the trading route created for it, and how secretly the production knowledge was protected.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-157",
+      "q": "According to the passage, how is silk fabric physically produced?",
+      "passage": "For thousands of years, the secret of making silk fabric was carefully guarded by ancient China. Silk is produced from the delicate cocoons spun by silkworm caterpillars. Workers unraveled these tiny cocoons and wove the thin threads into an incredibly soft, shiny material. This luxury fabric became so highly prized that a vast trading route called the Silk Road was established to carry it across Asia to Europe. Revealing the secret of the silkworm to outsiders was strictly illegal and carried a severe punishment.",
+      "options": [
+        "By processing cotton plants found along rivers.",
+        "By unraveling threads from cocoons spun by silkworm caterpillars.",
+        "By weaving plant fibers found in bamboo forests.",
+        "By melting down synthetic materials in ancient factories."
+      ],
+      "answer": "By unraveling threads from cocoons spun by silkworm caterpillars.",
+      "explanation": "The passage explicitly states that silk is produced from 'cocoons spun by silkworm caterpillars' which workers unraveled.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-158",
+      "q": "Which of these lines shows correct punctuation for the greeting and closing of a formal business letter?",
+      "passage": "",
+      "options": [
+        "Dear Principal Smith, / Sincerely Yours,",
+        "Dear Principal Smith: / Sincerely,",
+        "Dear Principal Smith! / Sincerely yours,",
+        "Dear Principal Smith; / Sincerely,"
+      ],
+      "answer": "Dear Principal Smith: / Sincerely,",
+      "explanation": "A business or formal letter uses a colon after the greeting, and a comma after the closing statement.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-159",
+      "q": "Identify the punctuation error: 'We visited the museum on June 15 2024 to see the dinosaur fossil exhibits.'",
+      "passage": "",
+      "options": [
+        "It needs a comma after 'museum'.",
+        "It needs a comma after '15' and after '2024'.",
+        "The word 'dinosaur' should be capitalized.",
+        "It needs a question mark at the end."
+      ],
+      "answer": "It needs a comma after '15' and after '2024'.",
+      "explanation": "When writing a date within a sentence, commas must separate the day from the year, and the year from the rest of the sentence.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-160",
+      "q": "Choose the sentence that does NOT contain any double negatives.",
+      "passage": "",
+      "options": [
+        "I don't have no homework to finish tonight.",
+        "She didn't see nobody at the park gates.",
+        "We haven't seen any birds in the garden today.",
+        "They couldn't find nothing inside the empty box."
+      ],
+      "answer": "We haven't seen any birds in the garden today.",
+      "explanation": "This sentence correctly pairs a negative contraction ('haven't') with the modifier 'any', avoiding a double negative.",
+      "dlevel": "medium"
+    }
+  ]
+}

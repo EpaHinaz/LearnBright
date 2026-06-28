@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 14",
+  "description": "Medium difficulty problems. Focus on complex plural nouns, structural prefix meanings, and inferential reading.",
+  "questions": [
+    {
+      "id": "ELA-131",
+      "q": "What is the correct plural spelling of the word 'thief'?",
+      "passage": "",
+      "options": [
+        "thiefs",
+        "thieves",
+        "thievese",
+        "thiefes"
+      ],
+      "answer": "thieves",
+      "explanation": "Nouns ending in '-f' or '-fe' typically form their plurals by changing the '-f' or '-fe' to '-ves'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-132",
+      "q": "Identify the prepositional phrase in this sentence: 'The nervous performer peered anxiously through the thick stage curtains.'",
+      "passage": "",
+      "options": [
+        "The nervous performer",
+        "peered anxiously",
+        "through the thick stage curtains",
+        "the thick stage curtains"
+      ],
+      "answer": "through the thick stage curtains",
+      "explanation": "'Through the thick stage curtains' is the complete prepositional phrase introduced by the preposition 'through'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-133",
+      "q": "Which pronoun acts as the subject pronoun in the sentence: 'During the school assembly, she explained how the solar panels collect clean energy.'",
+      "passage": "",
+      "options": [
+        "she",
+        "assembly",
+        "how",
+        "panels"
+      ],
+      "answer": "she",
+      "explanation": "'She' is the third-person singular subject pronoun performing the action of explaining.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-134",
+      "q": "What is the meaning of the prefix **sub-** in words like 'subway' or 'submarine'?",
+      "passage": "",
+      "options": [
+        "above or over",
+        "under or below",
+        "against or opposite",
+        "partially or half"
+      ],
+      "answer": "under or below",
+      "explanation": "The prefix 'sub-' means under or below, so a 'submarine' travels under the marine surface (water).",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-135",
+      "q": "Choose the best antonym for the word **clumsy**.",
+      "passage": "",
+      "options": [
+        "awkward",
+        "graceful",
+        "heavy",
+        "careful"
+      ],
+      "answer": "graceful",
+      "explanation": "'Clumsy' means uncoordinated or awkward; its exact opposite is 'graceful'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-136",
+      "q": "What can you infer about why scientists must use specialized tools to see bacteria?",
+      "passage": "In 1674, a Dutch scientist named Anton van Leeuwenhoek looked through a small, custom-made glass lens and discovered a completely hidden world. He saw tiny, single-celled organisms moving around in a drop of pond water. He called these microscopic creatures 'animalcules,' but today we know them as bacteria. Before his discovery, people had no idea that millions of tiny living things existed all around them. His simple glass lenses led to the invention of the modern microscope, completely changing how we understand medicine and human health.",
+      "options": [
+        "Bacteria only live in hidden underground caves.",
+        "Bacteria are far too small to be seen with the naked human eye.",
+        "Bacteria move too quickly to be caught easily.",
+        "Bacteria only appear under water droplets."
+      ],
+      "answer": "Bacteria are far too small to be seen with the naked human eye.",
+      "explanation": "The text notes that Leeuwenhoek discovered a 'hidden world' of 'microscopic creatures' using custom lenses, implying they are invisible without magnification.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-137",
+      "q": "What is the author's primary purpose for writing this paragraph?",
+      "passage": "In 1674, a Dutch scientist named Anton van Leeuwenhoek looked through a small, custom-made glass lens and discovered a completely hidden world. He saw tiny, single-celled organisms moving around in a drop of pond water. He called these microscopic creatures 'animalcules,' but today we know them as bacteria. Before his discovery, people had no idea that millions of tiny living things existed all around them. His simple glass lenses led to the invention of the modern microscope, completely changing how we understand medicine and human health.",
+      "options": [
+        "To persuade readers to buy custom glass lenses.",
+        "To inform readers about how bacteria were first discovered in history.",
+        "To entertain readers with a fictional story about pond monsters.",
+        "To explain the step-by-step process of curing diseases."
+      ],
+      "answer": "To inform readers about how bacteria were first discovered in history.",
+      "explanation": "The text provides factual historical context regarding Anton van Leeuwenhoek's early observations and their impact on science.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-138",
+      "q": "Which of these sentences contains a comma splice error?",
+      "passage": "",
+      "options": [
+        "The computer was old, but it still worked perfectly.",
+        "The computer was old, it still worked perfectly.",
+        "Because the computer was old, it worked slowly.",
+        "The old computer worked perfectly despite its age."
+      ],
+      "answer": "The computer was old, it still worked perfectly.",
+      "explanation": "Joining two independent clauses with only a comma creates a comma splice error. A coordinating conjunction or semicolon is required.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-139",
+      "q": "Identify the sentence that uses possessive apostrophes correctly.",
+      "passage": "",
+      "options": [
+        "The childrens' toys were scattered across the floor.",
+        "The children's toys were scattered across the floor.",
+        "The childrens toys' were scattered across the floor.",
+        "The childrens' toy's were scattered across the floor."
+      ],
+      "answer": "The children's toys were scattered across the floor.",
+      "explanation": "'Children' is already an irregular plural noun. To show possession, add an apostrophe followed by an 's'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-140",
+      "q": "What is the correct way to write the underlying verb in the future tense? 'By next October, construction workers ___ the new bridge.'",
+      "passage": "",
+      "options": [
+        "will finish",
+        "finished",
+        "will have finished",
+        "are finishing"
+      ],
+      "answer": "will finish",
+      "explanation": "'Will finish' is the standard simple future tense form to describe an action that will occur.",
+      "dlevel": "medium"
+    }
+  ]
+}

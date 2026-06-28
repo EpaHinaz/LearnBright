@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 13",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-013-01",
+"q": "Which animal is known as the 'ship of the desert'?",
+"type": "mcq",
+"options": ["Camel", "Horse", "Donkey", "Elephant"],
+"answer": "Camel",
+"explanation": "Camels are called the 'ship of the desert' because they can travel long distances in the desert without water.",
+"hint": "They have one or two humps on their backs.",
+"dlevel": "easy",
+"objective": "Identify common animals and their adaptations.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-013-02",
+"q": "What is the currency used in the United States?",
+"type": "input",
+"options": [],
+"answer": "Dollar",
+"explanation": "The US dollar is the official currency of the United States.",
+"hint": "It comes in coins and bills.",
+"dlevel": "medium",
+"objective": "Learn basic social studies facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-013-03",
+"q": "Which of these is a primary color?",
+"type": "mcq",
+"options": ["Green", "Purple", "Blue", "Orange"],
+"answer": "Blue",
+"explanation": "The three primary colors are red, blue, and yellow.",
+"hint": "It is the color of the clear sky.",
+"dlevel": "easy",
+"objective": "Understand basic art concepts.",
+"tags": ["art", "everyday science"]
+},
+{
+"id": "GK-013-04",
+"q": "How many days are there in a week?",
+"type": "input",
+"options": [],
+"answer": "7",
+"explanation": "There are seven days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.",
+"hint": "It is a small number.",
+"dlevel": "easy",
+"objective": "Learn basic units of time.",
+"tags": ["science", "fun facts"]
+},
+{
+"id": "GK-013-05",
+"q": "Which organ in the human body helps you breathe?",
+"type": "mcq",
+"options": ["Heart", "Lungs", "Brain", "Stomach"],
+"answer": "Lungs",
+"explanation": "Lungs take in oxygen when you breathe in and release carbon dioxide when you breathe out.",
+"hint": "They are located in your chest.",
+"dlevel": "easy",
+"objective": "Understand human body systems.",
+"tags": ["human body", "health"]
+},
+{
+"id": "GK-013-06",
+"q": "Which of these is a renewable resource?",
+"type": "mcq",
+"options": ["Coal", "Oil", "Sunlight", "Natural gas"],
+"answer": "Sunlight",
+"explanation": "Sunlight is renewable because it will keep shining for billions of years.",
+"hint": "It is free energy from the sky.",
+"dlevel": "hard",
+"objective": "Understand environmental science.",
+"tags": ["environment", "technology"]
+},
+{
+"id": "GK-013-07",
+"q": "What is the freezing point of water in degrees Fahrenheit?",
+"type": "input",
+"options": [],
+"answer": "32",
+"explanation": "Water freezes at 32 degrees Fahrenheit.",
+"hint": "It is the temperature at which snow starts to form.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-013-08",
+"q": "Who is the leader of a city?",
+"type": "mcq",
+"options": ["President", "Mayor", "Governor", "Principal"],
+"answer": "Mayor",
+"explanation": "A mayor is the head of the local government of a city or town.",
+"hint": "The word starts with 'M'.",
+"dlevel": "medium",
+"objective": "Understand community leadership.",
+"tags": ["community", "social studies"]
+},
+{
+"id": "GK-013-09",
+"q": "Which animal is the only mammal capable of true flight?",
+"type": "mcq",
+"options": ["Bird", "Bat", "Flying squirrel", "Bee"],
+"answer": "Bat",
+"explanation": "Bats are the only mammals that can actually fly, rather than just gliding.",
+"hint": "They are nocturnal and hang upside down.",
+"dlevel": "hard",
+"objective": "Classify animals.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-013-10",
+"q": "What is the chemical symbol for water?",
+"type": "input",
+"options": [],
+"answer": "H2O",
+"explanation": "Water is made of two hydrogen atoms and one oxygen atom, hence H2O.",
+"hint": "It is a very famous scientific formula.",
+"dlevel": "hard",
+"objective": "Learn basic chemistry facts.",
+"tags": ["science", "everyday science"]
+}
+]
+}

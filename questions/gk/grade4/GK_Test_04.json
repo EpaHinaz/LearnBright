@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 03",
+"description": "A mix of fun and educational questions covering famous landmarks, animals, science, healthy habits, and community for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-003-01",
+"q": "Which of these is a famous landmark located in India?",
+"type": "mcq",
+"options": ["The Great Pyramid", "The Taj Mahal", "The Leaning Tower of Pisa", "The Sydney Opera House"],
+"answer": "The Taj Mahal",
+"explanation": "The Taj Mahal is a beautiful white marble mausoleum located in Agra, India.",
+"hint": "It was built by an emperor for his wife.",
+"dlevel": "medium",
+"objective": "Recognize important world landmarks.",
+"tags": ["geography", "landmarks"]
+},
+{
+"id": "GK-003-02",
+"q": "What is the fastest land animal?",
+"type": "mcq",
+"options": ["Lion", "Cheetah", "Horse", "Gazelle"],
+"answer": "Cheetah",
+"explanation": "The cheetah can run at speeds up to 70 miles per hour.",
+"hint": "It has black spots and is very slender.",
+"dlevel": "easy",
+"objective": "Identify common animals and their traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-003-03",
+"q": "What is the main source of energy for all life on Earth?",
+"type": "input",
+"options": [],
+"answer": "Sun",
+"explanation": "The sun provides the light and heat energy necessary for plants and animals to survive.",
+"hint": "It appears in the sky every morning.",
+"dlevel": "easy",
+"objective": "Understand basic scientific facts about energy.",
+"tags": ["science", "nature"]
+},
+{
+"id": "GK-003-04",
+"q": "Which of the following is a healthy habit?",
+"type": "mcq",
+"options": ["Sleeping only 3 hours", "Eating vegetables", "Drinking soda all day", "Playing video games all night"],
+"answer": "Eating vegetables",
+"explanation": "Eating vegetables provides essential vitamins and minerals for a healthy body.",
+"hint": "It is something you should have on your dinner plate.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-003-05",
+"q": "Who is the person that helps put out fires in our community?",
+"type": "mcq",
+"options": ["Doctor", "Teacher", "Firefighter", "Police Officer"],
+"answer": "Firefighter",
+"explanation": "Firefighters are trained to fight fires and help keep the community safe.",
+"hint": "They drive big red trucks.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "safety"]
+},
+{
+"id": "GK-003-06",
+"q": "What planet is known as the 'Blue Planet'?",
+"type": "input",
+"options": [],
+"answer": "Earth",
+"explanation": "Earth is called the Blue Planet because its surface is mostly covered by water.",
+"hint": "It is the planet we live on.",
+"dlevel": "medium",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-003-07",
+"q": "Which instrument belongs to the percussion family?",
+"type": "mcq",
+"options": ["Flute", "Violin", "Drums", "Trumpet"],
+"answer": "Drums",
+"explanation": "Percussion instruments are played by being struck or scraped.",
+"hint": "You hit these to make a beat.",
+"dlevel": "medium",
+"objective": "Identify categories of musical instruments.",
+"tags": ["music", "art"]
+},
+{
+"id": "GK-003-08",
+"q": "What is the freezing point of water in Celsius?",
+"type": "input",
+"options": [],
+"answer": "0",
+"explanation": "Water turns into ice when it reaches 0 degrees Celsius.",
+"hint": "It is the starting number for temperature.",
+"dlevel": "hard",
+"objective": "Learn basic everyday science facts.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-003-09",
+"q": "Which of these is a non-renewable resource?",
+"type": "mcq",
+"options": ["Solar energy", "Wind", "Coal", "Water"],
+"answer": "Coal",
+"explanation": "Coal is a fossil fuel that takes millions of years to form and cannot be easily replaced.",
+"hint": "It is a black rock used to produce energy.",
+"dlevel": "hard",
+"objective": "Understand basic environmental science.",
+"tags": ["environment", "science"]
+},
+{
+"id": "GK-003-10",
+"q": "Which country is home to the Kangaroo?",
+"type": "mcq",
+"options": ["Canada", "Australia", "Brazil", "Germany"],
+"answer": "Australia",
+"explanation": "Australia is famous for unique animals like the kangaroo and koala.",
+"hint": "It is both a country and a continent.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "animals"]
+}
+]
+}

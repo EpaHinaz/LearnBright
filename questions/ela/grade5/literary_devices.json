@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "5",
+  "title": "Literary Devices & Poetry",
+  "description": "Analysing figurative language, story structure, theme, and poetic devices.",
+  "questions": [
+    { "q": "'The thunder grumbled like a grumpy old man.' This is an example of…", "options": ["Metaphor", "Simile", "Personification", "Alliteration"], "answer": "Simile", "explanation": "A comparison using 'like' or 'as' = simile." },
+    { "q": "What is the THEME of a story?", "options": ["The setting", "The main character's name", "The lesson or central message", "The plot events"], "answer": "The lesson or central message", "explanation": "Theme = the life lesson or central message the author wants to convey." },
+    { "q": "'Peter Piper picked a peck of pickled peppers.' This is an example of ___.", "options": [], "answer": "alliteration", "explanation": "Repetition of the same consonant sound ('P') at the start of words = alliteration." },
+    { "q": "In a story's plot, the CLIMAX is...", "options": ["The introduction of characters", "The most exciting turning point", "The resolution", "Background information"], "answer": "The most exciting turning point", "explanation": "The climax is the peak moment of conflict and tension." },
+    { "q": "'Life is a roller coaster.' This is an example of…", "options": ["Simile", "Metaphor", "Hyperbole", "Idiom"], "answer": "Metaphor", "explanation": "A direct comparison without 'like' or 'as' = metaphor." },
+    { "q": "What does POINT OF VIEW mean in literature?", "options": ["Where events take place", "The perspective from which the story is told", "How long the story is", "The type of language used"], "answer": "The perspective from which the story is told", "explanation": "Point of view = who is narrating and from whose perspective we experience the story." },
+    { "q": "A story told using 'I' and 'me' is written in ___ person.", "options": [], "answer": "first", "explanation": "Using I/me/my throughout = first person narration." },
+    { "q": "Which word is an example of ONOMATOPOEIA?", "options": ["Big", "Sizzle", "Run", "Happy"], "answer": "Sizzle", "explanation": "Onomatopoeia = words that sound like what they describe. 'Sizzle' sounds like frying." },
+    { "q": "What is the term for the time and place in which a story happens?", "options": [], "answer": "setting", "explanation": "Setting = when and where a story takes place." },
+    { "q": "'The old house groaned and sighed in the wind.' Which device is used?", "options": ["Hyperbole", "Simile", "Personification", "Alliteration"], "answer": "Personification", "explanation": "The house is given human actions (groaned, sighed) = personification." }
+  ]
+}

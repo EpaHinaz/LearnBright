@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 30",
+  "description": "Final capstone evaluation. Covers advanced syntax structures, inverted grammar mechanics, and high-level analytical inferences.",
+  "questions": [
+    {
+      "id": "ELA-291",
+      "q": "Which complex verb construction correctly completes the sentence to show continuous past action interrupted by an event? 'The data engineers ___ running their diagnostic automation code when the main terminal lost power.'",
+      "passage": "",
+      "options": [
+        "had been",
+        "were",
+        "have been",
+        "will have been"
+      ],
+      "answer": "were",
+      "explanation": "The past continuous tense ('were running') is used to express an ongoing past activity that was interrupted by another single past action ('lost power').",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-292",
+      "q": "Choose the option that handles subject-verb agreement flawlessly despite a complex intervening parenthetical clause.",
+      "passage": "",
+      "options": [
+        "The manager of the automated testing laboratories, along with her assistant directors, approve the release.",
+        "The manager of the automated testing laboratories, along with her assistant directors, approves the release.",
+        "The manager of the automated testing laboratories, along with her assistant directors, approving the release.",
+        "The manager of the automated testing laboratories, along with her assistant directors, have approved the release."
+      ],
+      "answer": "The manager of the automated testing laboratories, along with her assistant directors, approves the release.",
+      "explanation": "The subject 'manager' is singular. Intervening phrases introduced by 'along with' do not change the subject's number, so it requires the singular verb 'approves'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-293",
+      "q": "What is the meaning of the word **compromise** as used in this sentence? 'The security expert warned that a single weak password could **compromise** the entire automated database, exposing private customer files to hackers.'",
+      "passage": "",
+      "options": [
+        "To reach a friendly agreement where both sides give up something.",
+        "To weaken, endanger, or place a secure system at risk.",
+        "To write a brand new software program from scratch.",
+        "To print out an official copy of a data statement."
+      ],
+      "answer": "To weaken, endanger, or place a secure system at risk.",
+      "explanation": "The context clues 'weak password', 'exposing private... files', and 'to hackers' demonstrate that 'compromise' means to break or put at risk.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-294",
+      "q": "Choose the best synonym for the word **benevolent**.",
+      "passage": "",
+      "options": [
+        "cruel and angry",
+        "kind, generous, or well-meaning",
+        "highly intelligent",
+        "fast and energetic"
+      ],
+      "answer": "kind, generous, or well-meaning",
+      "explanation": "'Benevolent' describes a person or organization characterized by doing good, kindness, or giving generously.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-295",
+      "q": "Which suffix converts the adjective 'audacious' into a noun meaning 'boldness or daring behavior'?",
+      "passage": "",
+      "options": [
+        "-ity",
+        "-ment",
+        "-ful",
+        "-ness"
+      ],
+      "answer": "-ity",
+      "explanation": "Dropping the final syllables of 'audacious' and adding the suffix '-ity' creates the standard noun 'audacity'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-296",
+      "q": "What primary inference can be drawn from the text regarding why standard everyday light waves cannot be used to study atomic structures?",
+      "passage": "To explore the microscopic structures of atoms, scientists had to look beyond the limits of visible light waves. Because visible light waves have a physical wavelength that is thousands of times larger than an individual atom, the light simply flows around the particles without reflecting any clear picture. To solve this scientific barrier, physicists developed x-ray crystallography. X-rays possess an extremely short wavelength that matches the tiny spaces between atoms. When x-rays pass through a crystal sample, they strike the atoms and scatter into unique patterns that reveal the three-dimensional atomic structure.",
+      "options": [
+        "Visible light waves are too dangerous and melt the atomic sample.",
+        "Visible light wavelengths are too large to interact cleanly with or isolate individual atomic particles.",
+        "X-rays are less expensive to produce in typical science laboratories.",
+        "Atoms absorb all visible light and turn completely invisible."
+      ],
+      "answer": "Visible light wavelengths are too large to interact cleanly with or isolate individual atomic particles.",
+      "explanation": "The passage notes that because visible light wavelengths are 'thousands of times larger than an individual atom', they 'flow around the particles without reflecting any clear picture.'",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-297",
+      "q": "What is the author's primary purpose for writing this highly technical scientific passage?",
+      "passage": "To explore the microscopic structures of atoms, scientists had to look beyond the limits of visible light waves. Because visible light waves have a physical wavelength that is thousands of times larger than an individual atom, the light simply flows around the particles without reflecting any clear picture. To solve this scientific barrier, physicists developed x-ray crystallography. X-rays possess an extremely short wavelength that matches the tiny spaces between atoms. When x-rays pass through a crystal sample, they strike the atoms and scatter into unique patterns that reveal the three-dimensional atomic structure.",
+      "options": [
+        "To persuade readers to pursue a professional career path in atomic physics.",
+        "To inform readers about the operational mechanics and development of x-ray crystallography.",
+        "To entertain readers with a fictional tale about microscopic atomic engines.",
+        "To argue that x-rays are more useful to society than visible light waves."
+      ],
+      "answer": "To inform readers about the operational mechanics and development of x-ray crystallography.",
+      "explanation": "The text systematically details why visible light fails to resolve atoms and how x-ray technology works to image atomic-level structures.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-298",
+      "q": "Which sentence contains an editing error regarding coordinating conjunction punctuation?",
+      "passage": "",
+      "options": [
+        "The automated scripts ran successfully all night, and they generated clean reports.",
+        "The automated scripts ran successfully all night and generated clean reports.",
+        "The automated scripts ran successfully all night, and generated clean reports.",
+        "Since the scripts ran successfully all night, they generated clean reports."
+      ],
+      "answer": "The automated scripts ran successfully all night, and generated clean reports.",
+      "explanation": "A comma should not be used before a coordinating conjunction ('and') when it links a compound predicate ('ran... and generated') rather than two full independent clauses.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-299",
+      "q": "Identify the choice that is punctuated perfectly, including rules for parenthetical introductory phrases.",
+      "passage": "",
+      "options": [
+        "To successfully validate the database code, the quality assurance lead executed thirty tests.",
+        "To successfully validate the database code the quality assurance lead executed thirty tests.",
+        "To successfully validate, the database code the quality assurance lead executed thirty tests.",
+        "To successfully validate the database code the quality assurance lead, executed thirty tests."
+      ],
+      "answer": "To successfully validate the database code, the quality assurance lead executed thirty tests.",
+      "explanation": "An introductory infinitive phrase acting as an adverbial modifier ('To successfully validate the database code') must be followed by a comma before the main clause.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-300",
+      "q": "Choose the proper adjective that is written incorrectly due to a lack of capitalization.",
+      "passage": "",
+      "options": [
+        "African safari",
+        "japanese tea",
+        "European history",
+        "Hispanic community"
+      ],
+      "answer": "japanese tea",
+      "explanation": "'Japanese' is a proper adjective derived from the country name 'Japan' and must be capitalized.",
+      "dlevel": "hard"
+    }
+  ]
+}

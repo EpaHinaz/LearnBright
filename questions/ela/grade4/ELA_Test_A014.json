@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 12",
+  "description": "Medium difficulty practice focusing on irregular verbs, multiple meanings, chronological organization, and proper direct quotation styling.",
+  "questions": [
+    {
+      "id": "ELA-111",
+      "q": "Which irregular past-tense verb correctly completes the sentence? 'The heavy stone ___ straight to the bottom of the deep river.'",
+      "passage": "",
+      "options": [
+        "sinked",
+        "sank",
+        "sunken",
+        "sinks"
+      ],
+      "answer": "sank",
+      "explanation": "'Sank' is the correct past-tense form of the irregular verb 'sink'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-112",
+      "q": "Choose the sentence that shows proper subject-verb agreement with a compound subject joined by 'and'.",
+      "passage": "",
+      "options": [
+        "The teacher and the student works on the project together.",
+        "The teacher and the student working on the project together.",
+        "The teacher and the student work on the project together.",
+        "The teacher and the student has worked on the project together."
+      ],
+      "answer": "The teacher and the student work on the project together.",
+      "explanation": "Compound subjects joined by 'and' require a plural verb form ('work').",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-113",
+      "q": "What is the meaning of the word **draft** as used in this specific sentence? 'A cold draft crept under the old wooden door, causing everyone in the room to shiver.'",
+      "passage": "",
+      "options": [
+        "An early, unfinished version of a piece of writing.",
+        "A current of cool air moving through an enclosed space.",
+        "To select individuals for a specific sports team.",
+        "A system for forcing people to serve in the military."
+      ],
+      "answer": "A current of cool air moving through an enclosed space.",
+      "explanation": "The context clues 'crept under the old wooden door' and 'causing everyone... to shiver' indicate that 'draft' refers to cold air.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-114",
+      "q": "Choose the best antonym for the word **hazardous**.",
+      "passage": "",
+      "options": [
+        "dangerous",
+        "secure",
+        "difficult",
+        "invisible"
+      ],
+      "answer": "secure",
+      "explanation": "'Hazardous' means dangerous or risky; its opposite is 'secure' or safe.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-115",
+      "q": "What is the meaning of the suffix **-able** in words like 'breakable' or 'readable'?",
+      "passage": "",
+      "options": [
+        "the state of being",
+        "capable of or fit for",
+        "doing something poorly",
+        "full of a specific quality"
+      ],
+      "answer": "capable of or fit for",
+      "explanation": "The suffix '-able' means capable of being acted upon, so 'breakable' means capable of being broken.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-116",
+      "q": "What is the correct sequence of events when constructing a traditional log cabin?",
+      "passage": "Building a sturdy log cabin on the frontier required strict order. First, builders cleared the heavily wooded land and carefully dug a flat foundation out of dirt. Next, they selected thick oak trees, chopped them down, and notched the ends of the heavy timbers. After preparing the logs, they stacked them high to form four interlocking walls. Once the walls were secure, workers placed a steep wooden roof on top. Finally, they packed sticky mud into the small gaps between the logs to block cold winter winds.",
+      "options": [
+        "Chop down trees, dig the foundation, stack the logs, apply mud.",
+        "Dig the foundation, notch the logs, stack the logs, build the roof, apply mud.",
+        "Stack the logs, build the roof, clear the land, notch the logs.",
+        "Notch the logs, clear the land, build the roof, stack the logs."
+      ],
+      "answer": "Dig the foundation, notch the logs, stack the logs, build the roof, apply mud.",
+      "explanation": "According to the passage, the builders clear and dig first, select and notch logs next, stack them, add the roof, and finally pack gaps with mud.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-117",
+      "q": "What is the primary function of the sticky mud mentioned at the end of the text?",
+      "passage": "Building a sturdy log cabin on the frontier required strict order. First, builders cleared the heavily wooded land and carefully dug a flat foundation out of dirt. Next, they selected thick oak trees, chopped them down, and notched the ends of the heavy timbers. After preparing the logs, they stacked them high to form four interlocking walls. Once the walls were secure, workers placed a steep wooden roof on top. Finally, they packed sticky mud into the small gaps between the logs to block cold winter winds.",
+      "options": [
+        "To make the cabin look attractive.",
+        "To glue the roof structure to the walls.",
+        "To seal gaps and keep out cold winter winds.",
+        "To prevent insects from eating the oak wood."
+      ],
+      "answer": "To seal gaps and keep out cold winter winds.",
+      "explanation": "The text directly states they packed mud into gaps 'to block cold winter winds.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-118",
+      "q": "Which sentence has a mistake in its punctuation?",
+      "passage": "",
+      "options": [
+        "\"We should study for our exam,\" remarked Thomas.",
+        "Thomas remarked, \"We should study for our exam.\"",
+        "\"We should study,\" Thomas remarked, \"for our exam.\"",
+        "\"We should study for our exam\" Thomas remarked."
+      ],
+      "answer": "\"We should study for our exam\" Thomas remarked.",
+      "explanation": "This sentence lacks a required comma inside the closing quotation mark before the dialogue tag.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-119",
+      "q": "Identify the editing correction required for this sentence: 'The pack of wolves were running across the snow.'",
+      "passage": "",
+      "options": [
+        "Change 'wolves' to 'wolfs'.",
+        "Change 'were' to 'was'.",
+        "Capitalize the word 'snow'.",
+        "Insert a comma after 'wolves'."
+      ],
+      "answer": "Change 'were' to 'was'.",
+      "explanation": "'Pack' is a singular collective subject, so the verb must be singular ('was', not 'were').",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-120",
+      "q": "Choose the comparative adjective form that is written correctly.",
+      "passage": "",
+      "options": [
+        "gooder",
+        "more better",
+        "better",
+        "best"
+      ],
+      "answer": "better",
+      "explanation": "'Better' is the correct irregular comparative form of the adjective 'good'.",
+      "dlevel": "medium"
+    }
+  ]
+}

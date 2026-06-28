@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 20",
+  "description": "Comprehensive math practice questions for Day 20.",
+  "questions": [
+    {
+      "id": "MATHS-191",
+      "q": "What is 10 \u00d7 11?",
+      "passage": "",
+      "options": [
+        "115",
+        "105",
+        "110",
+        "120"
+      ],
+      "answer": "110",
+      "explanation": "The correct answer is 110 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-192",
+      "q": "What is 11 \u00d7 12?",
+      "passage": "",
+      "options": [
+        "142",
+        "127",
+        "137",
+        "132"
+      ],
+      "answer": "132",
+      "explanation": "The correct answer is 132 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-193",
+      "q": "What is 12 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "79",
+        "84",
+        "94",
+        "89"
+      ],
+      "answer": "84",
+      "explanation": "The correct answer is 84 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-194",
+      "q": "Ruby bought 7 packs of pencils. Each pack has 6 pencils. How many pencils did Ruby buy?",
+      "passage": "",
+      "options": [
+        "52",
+        "38",
+        "44",
+        "42"
+      ],
+      "answer": "42",
+      "explanation": "The correct answer is 42 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-195",
+      "q": "Sam bought 4 packs of pencils. Each pack has 7 pencils. How many pencils did Sam buy?",
+      "passage": "",
+      "options": [
+        "38",
+        "24",
+        "28",
+        "30"
+      ],
+      "answer": "28",
+      "explanation": "The correct answer is 28 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-196",
+      "q": "Evaluate: (5 + 5) - 0",
+      "passage": "",
+      "options": [
+        "22",
+        "13",
+        "8",
+        "10"
+      ],
+      "answer": "10",
+      "explanation": "The correct answer is 10 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-197",
+      "q": "Evaluate: (5 + 6) - 1",
+      "passage": "",
+      "options": [
+        "10",
+        "22",
+        "8",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "The correct answer is 10 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-198",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/3",
+        "1/4",
+        "3/4",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-199",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-200",
+      "q": "Find the perimeter of a rectangle with length 9 cm and width 4 cm.",
+      "passage": "",
+      "options": [
+        "52",
+        "28",
+        "26",
+        "25"
+      ],
+      "answer": "26",
+      "explanation": "The correct answer is 26 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

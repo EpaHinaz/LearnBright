@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 27",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-027-01",
+"q": "Which of these animals is known for changing its color to match its surroundings?",
+"type": "mcq",
+"options": ["Lion", "Chameleon", "Elephant", "Zebra"],
+"answer": "Chameleon",
+"explanation": "Chameleons have special cells in their skin that allow them to change color for communication and camouflage.",
+"hint": "It is a type of lizard.",
+"dlevel": "medium",
+"objective": "Identify animal adaptations.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-027-02",
+"q": "What is the capital city of Germany?",
+"type": "input",
+"options": [],
+"answer": "Berlin",
+"explanation": "Berlin is the capital and largest city of Germany.",
+"hint": "It was once divided by a famous wall.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-027-03",
+"q": "Which part of the plant holds the seeds and often tastes sweet?",
+"type": "mcq",
+"options": ["Root", "Stem", "Fruit", "Leaf"],
+"answer": "Fruit",
+"explanation": "The fruit develops from the flower and protects the seeds inside; many are delicious and sweet.",
+"hint": "You eat these as a snack.",
+"dlevel": "easy",
+"objective": "Understand basic plant parts.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-027-04",
+"q": "What do we call a person who studies the stars and planets?",
+"type": "input",
+"options": [],
+"answer": "Astronomer",
+"explanation": "An astronomer is a scientist who focuses on celestial objects, space, and the physical universe.",
+"hint": "The word starts with 'A'.",
+"dlevel": "medium",
+"objective": "Understand science careers.",
+"tags": ["science", "space"]
+},
+{
+"id": "GK-027-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Drinking only soda", "Drinking plenty of water", "Eating only sugar", "Never exercising"],
+"answer": "Drinking plenty of water",
+"explanation": "Water is essential for our body to function correctly, stay hydrated, and keep organs healthy.",
+"hint": "It has no sugar or calories.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "lifestyle"]
+},
+{
+"id": "GK-027-06",
+"q": "Which community helper helps to keep our teeth healthy?",
+"type": "mcq",
+"options": ["Dentist", "Teacher", "Chef", "Artist"],
+"answer": "Dentist",
+"explanation": "A dentist is a professional who checks your teeth and helps prevent cavities.",
+"hint": "They use a special chair and bright light.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "health"]
+},
+{
+"id": "GK-027-07",
+"q": "What is the largest continent in the world?",
+"type": "input",
+"options": [],
+"answer": "Asia",
+"explanation": "Asia is the largest and most populous continent on Earth.",
+"hint": "It contains the most people.",
+"dlevel": "medium",
+"objective": "Learn geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-027-08",
+"q": "Which of these is a form of energy that we get from the Sun?",
+"type": "mcq",
+"options": ["Wind", "Solar", "Nuclear", "Hydro"],
+"answer": "Solar",
+"explanation": "Solar energy is energy generated from sunlight.",
+"hint": "It comes from the word 'Sol'.",
+"dlevel": "medium",
+"objective": "Understand energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-027-09",
+"q": "What is the chemical symbol for water?",
+"type": "input",
+"options": [],
+"answer": "H2O",
+"explanation": "Water is composed of two hydrogen atoms and one oxygen atom.",
+"hint": "It has a '2' in it.",
+"dlevel": "hard",
+"objective": "Understand basic chemistry.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-027-10",
+"q": "Which season comes after autumn?",
+"type": "mcq",
+"options": ["Summer", "Winter", "Spring", "Fall"],
+"answer": "Winter",
+"explanation": "Winter follows autumn, bringing colder temperatures and sometimes snow.",
+"hint": "It starts with 'W'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

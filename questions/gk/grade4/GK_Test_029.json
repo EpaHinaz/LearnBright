@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 29",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-029-01",
+"q": "Which of these animals is known for having a long neck and living in the African savanna?",
+"type": "mcq",
+"options": ["Elephant", "Giraffe", "Zebra", "Lion"],
+"answer": "Giraffe",
+"explanation": "Giraffes have incredibly long necks to reach high tree branches to feed on leaves.",
+"hint": "It is the tallest animal on land.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-029-02",
+"q": "What is the capital city of France?",
+"type": "input",
+"options": [],
+"answer": "Paris",
+"explanation": "Paris is the capital of France, famous for landmarks like the Eiffel Tower.",
+"hint": "It is called the 'City of Light'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-029-03",
+"q": "Which part of the plant holds the plant upright?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Stem",
+"explanation": "The stem provides structural support and transports water and nutrients throughout the plant.",
+"hint": "It is like the 'spine' of the plant.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-029-04",
+"q": "What do we call a scientist who studies space?",
+"type": "input",
+"options": [],
+"answer": "Astronomer",
+"explanation": "An astronomer is someone who studies celestial bodies like stars, planets, and galaxies.",
+"hint": "The word starts with 'A'.",
+"dlevel": "medium",
+"objective": "Understand science careers.",
+"tags": ["science", "space"]
+},
+{
+"id": "GK-029-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Eating only candy", "Eating a variety of fruits and vegetables", "Watching TV all night", "Drinking soda all day"],
+"answer": "Eating a variety of fruits and vegetables",
+"explanation": "Eating colorful fruits and vegetables provides essential vitamins and minerals that keep you healthy.",
+"hint": "These are foods grown in nature.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-029-06",
+"q": "Who is the community helper that helps keep our teeth healthy?",
+"type": "mcq",
+"options": ["Dentist", "Teacher", "Doctor", "Firefighter"],
+"answer": "Dentist",
+"explanation": "A dentist is a healthcare professional who specializes in oral hygiene and treating tooth problems.",
+"hint": "They use special tools to clean your teeth.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "health"]
+},
+{
+"id": "GK-029-07",
+"q": "What is the name of our home galaxy?",
+"type": "input",
+"options": [],
+"answer": "Milky Way",
+"explanation": "The Milky Way is the galaxy that contains our entire solar system.",
+"hint": "It sounds like a popular chocolate bar.",
+"dlevel": "medium",
+"objective": "Understand basic facts about space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-029-08",
+"q": "Which of these is a form of energy from the Sun?",
+"type": "mcq",
+"options": ["Solar", "Wind", "Nuclear", "Hydro"],
+"answer": "Solar",
+"explanation": "Solar energy is energy captured from the Sun's light and heat.",
+"hint": "It comes from the word 'Sol'.",
+"dlevel": "medium",
+"objective": "Understand energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-029-09",
+"q": "What is the freezing point of water in degrees Celsius?",
+"type": "input",
+"options": [],
+"answer": "0",
+"explanation": "Water turns from liquid into solid ice at 0 degrees Celsius.",
+"hint": "It is the starting number for the Celsius scale.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-029-10",
+"q": "Which season is known for falling leaves?",
+"type": "mcq",
+"options": ["Autumn", "Winter", "Spring", "Summer"],
+"answer": "Autumn",
+"explanation": "Autumn is the season when trees lose their leaves as the weather gets cooler.",
+"hint": "Also known as 'Fall'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

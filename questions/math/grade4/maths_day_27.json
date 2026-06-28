@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 03",
+  "description": "Comprehensive math practice questions for Day 03.",
+  "questions": [
+    {
+      "id": "MATHS-021",
+      "q": "What is 24 + 29?",
+      "passage": "",
+      "options": [
+        "63",
+        "48",
+        "58",
+        "53"
+      ],
+      "answer": "53",
+      "explanation": "The correct answer is 53 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-022",
+      "q": "What is 90 - 21?",
+      "passage": "",
+      "options": [
+        "64",
+        "74",
+        "79",
+        "69"
+      ],
+      "answer": "69",
+      "explanation": "The correct answer is 69 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-023",
+      "q": "What is 26 + 31?",
+      "passage": "",
+      "options": [
+        "62",
+        "57",
+        "52",
+        "67"
+      ],
+      "answer": "57",
+      "explanation": "The correct answer is 57 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-024",
+      "q": "Ben has 22 marbles. They buy 13 more marbles. How many marbles does Ben have in total?",
+      "passage": "",
+      "options": [
+        "37",
+        "45",
+        "35",
+        "31"
+      ],
+      "answer": "35",
+      "explanation": "The correct answer is 35 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-025",
+      "q": "Chloe has 23 marbles. They buy 14 more marbles. How many marbles does Chloe have in total?",
+      "passage": "",
+      "options": [
+        "47",
+        "37",
+        "39",
+        "33"
+      ],
+      "answer": "37",
+      "explanation": "The correct answer is 37 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-026",
+      "q": "Evaluate: (5 + 4) - 1",
+      "passage": "",
+      "options": [
+        "20",
+        "11",
+        "6",
+        "8"
+      ],
+      "answer": "8",
+      "explanation": "The correct answer is 8 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-027",
+      "q": "What is the value of 3 \u00d7 (4 + 3)?",
+      "passage": "",
+      "options": [
+        "21",
+        "24",
+        "19",
+        "33"
+      ],
+      "answer": "21",
+      "explanation": "The correct answer is 21 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-028",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/3",
+        "3/4"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-029",
+      "q": "Which fraction represents a half?",
+      "passage": "",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "1/3"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "MATHS-030",
+      "q": "Find the perimeter of a rectangle with length 8 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "25",
+        "28",
+        "52",
+        "26"
+      ],
+      "answer": "26",
+      "explanation": "The correct answer is 26 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    }
+  ]
+}

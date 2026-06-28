@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 17",
+  "description": "Medium difficulty testing. Focus on coordinating conjunctions, multiple meanings, text transitions, and apostrophe rules.",
+  "questions": [
+    {
+      "id": "ELA-161",
+      "q": "Which conjunction best completes the sentence? 'Our class wanted to hold an outdoor field day, ___ the heavy downpour forced us to cancel.'",
+      "passage": "",
+      "options": [
+        "so",
+        "and",
+        "yet",
+        "or"
+      ],
+      "answer": "yet",
+      "explanation": "'Yet' functions as a coordinating conjunction that establishes a clear contrast or unexpected obstacle.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-162",
+      "q": "Identify the proper noun that represents a historical document.",
+      "passage": "",
+      "options": [
+        "constitution",
+        "The United States Constitution",
+        "historical papers",
+        "declaration"
+      ],
+      "answer": "The United States Constitution",
+      "explanation": "The specific title of a historic document is a proper noun and requires capitalization.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-163",
+      "q": "What is the meaning of the word **stern** as used in this sentence? 'The captain stood firmly at the **stern** of the sailing ship, watching the long white wake trail behind them in the ocean water.'",
+      "passage": "",
+      "options": [
+        "Strict, harsh, and serious in manner.",
+        "The rear or back part of a boat or ship.",
+        "A small wooden desk used in a classroom.",
+        "To steer a vehicle away from danger."
+      ],
+      "answer": "The rear or back part of a boat or ship.",
+      "explanation": "The context clues 'watching the long white wake trail behind them' show that 'stern' means the back of the vessel.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-164",
+      "q": "Choose the best antonym for the word **compress**.",
+      "passage": "",
+      "options": [
+        "squeeze",
+        "expand",
+        "flatten",
+        "hide"
+      ],
+      "answer": "expand",
+      "explanation": "'Compress' means to squeeze together or make smaller; its opposite is 'expand'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-165",
+      "q": "Which prefix can be added to the word 'appoint' to mean 'to break an agreement or fail to meet expectations'?",
+      "passage": "",
+      "options": [
+        "mis-",
+        "dis-",
+        "un-",
+        "re-"
+      ],
+      "answer": "dis-",
+      "explanation": "Adding the prefix 'dis-' to 'appoint' creates 'disappoint', meaning to fail to satisfy expectations.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-166",
+      "q": "Based on the text, what happened immediately after the massive glacier ice melted away thousands of years ago?",
+      "passage": "During the last Ice Age, massive sheets of thick ice covered much of North America. As the climate slowly warmed up thousands of years ago, these heavy glaciers began to melt and slide across the landscape. The immense weight of the moving ice carved deep bowls and valleys into the solid earth below. Immediately after the glaciers finished melting completely, water filled these enormous empty hollows. This monumental geological sequence formed the five Great Lakes we see today, creating the largest system of fresh surface water on the planet.",
+      "options": [
+        "The climate turned freezing cold again.",
+        "Water filled the deep bowls and hollows carved into the earth.",
+        "Glaciers froze solid and stopped moving completely.",
+        "Humans built deep canals to connect the valleys."
+      ],
+      "answer": "Water filled the deep bowls and hollows carved into the earth.",
+      "explanation": "The passage states: 'Immediately after the glaciers finished melting completely, water filled these enormous empty hollows.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-167",
+      "q": "What is the author's primary purpose for writing this geological passage?",
+      "passage": "During the last Ice Age, massive sheets of thick ice covered much of North America. As the climate slowly warmed up thousands of years ago, these heavy glaciers began to melt and slide across the landscape. The immense weight of the moving ice carved deep bowls and valleys into the solid earth below. Immediately after the glaciers finished melting completely, water filled these enormous empty hollows. This monumental geological sequence formed the five Great Lakes we see today, creating the largest system of fresh surface water on the planet.",
+      "options": [
+        "To persuade readers to take a vacation to the Great Lakes.",
+        "To inform readers about the natural historical formation of the Great Lakes.",
+        "To entertain readers with an ancient story about frozen mountains.",
+        "To explain how modern cities clean their drinking water."
+      ],
+      "answer": "To inform readers about the natural historical formation of the Great Lakes.",
+      "explanation": "The text explains the science and chronological sequence of how the Great Lakes were carved and filled during the post-Ice Age period.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-168",
+      "q": "Which sentence is written correctly with no apostrophe errors?",
+      "passage": "",
+      "options": [
+        "The tree lost all of it's green leaves during the storm.",
+        "The tree lost all of its green leaves during the storm.",
+        "The tree lost all of its' green leaves during the storm.",
+        "The tree's lost all of its green leaves during the storm."
+      ],
+      "answer": "The tree lost all of its green leaves during the storm.",
+      "explanation": "'Its' is the possessive pronoun showing ownership. 'It's' is a contraction meaning 'it is' or 'it has', which would be incorrect here.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-169",
+      "q": "Identify the correction needed for this sentence: 'maria and her cousin drove to yellowstone national park.'",
+      "passage": "",
+      "options": [
+        "Only capitalize 'Maria'.",
+        "Capitalize 'Maria' and 'Yellowstone National Park'.",
+        "Capitalize 'Maria', 'Counsin', and 'Yellowstone'.",
+        "The sentence is already capitalized correctly."
+      ],
+      "answer": "Capitalize 'Maria' and 'Yellowstone National Park'.",
+      "explanation": "'Maria' is a person's first name, and 'Yellowstone National Park' is the specific name of a national park; both are proper nouns.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-170",
+      "q": "Choose the correct preposition to complete the idiomatic phrase: 'The student was completely ___ track to graduate with honors.'",
+      "passage": "",
+      "options": [
+        "at",
+        "on",
+        "by",
+        "in"
+      ],
+      "answer": "on",
+      "explanation": "The correct idiomatic prepositional phrase is 'on track', meaning proceeding as planned or expected.",
+      "dlevel": "medium"
+    }
+  ]
+}

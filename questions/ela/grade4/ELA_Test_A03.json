@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 02",
+  "description": "Focus on singular/plural nouns, context clues, drawing inferences, and basic end punctuation.",
+  "questions": [
+    {
+      "id": "ELA-011",
+      "q": "What is the correct way to write the singular possessive form of 'puppy'?",
+      "passage": "",
+      "options": [
+        "puppys",
+        "puppy's",
+        "puppies'",
+        "puppies"
+      ],
+      "answer": "puppy's",
+      "explanation": "To show singular possession for a noun like 'puppy', add an apostrophe followed by an 's'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-012",
+      "q": "Identify the action verb in this sentence: 'The silver spacecraft landed smoothly on the dusty surface of Mars.'",
+      "passage": "",
+      "options": [
+        "silver",
+        "smoothly",
+        "landed",
+        "surface"
+      ],
+      "answer": "landed",
+      "explanation": "'Landed' is the action verb because it describes what the spacecraft physically did.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-013",
+      "q": "Which word correctly completes the sentence? 'The three ___ built a huge fort out of blankets in the living room.'",
+      "passage": "",
+      "options": [
+        "child",
+        "children",
+        "childrens",
+        "childs"
+      ],
+      "answer": "children",
+      "explanation": "'Children' is the correct irregular plural form of the singular noun 'child'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-014",
+      "q": "Using context clues, determine the meaning of the underlined word: 'The sky turned dark, and the wind began to howl, signaling an **imminent** thunderstorm.'",
+      "passage": "",
+      "options": [
+        "finished",
+        "upcoming",
+        "imaginary",
+        "beautiful"
+      ],
+      "answer": "upcoming",
+      "explanation": "The context clues 'sky turned dark' and 'wind began to howl' suggest that the thunderstorm is about to happen very soon.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-015",
+      "q": "Which suffix can be added to the base word 'help' to mean 'without help'?",
+      "passage": "",
+      "options": [
+        "-ful",
+        "-less",
+        "-ing",
+        "-ed"
+      ],
+      "answer": "-less",
+      "explanation": "The suffix '-less' means 'without', so 'helpless' means without help.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-016",
+      "q": "Based on the text, what can you infer about why Leo was breathing heavily?",
+      "passage": "Leo sprinted across the lush green field, his eyes locked onto the soccer ball rolling toward the goal line. Sweat dripped down his face, and his chest heaved as he pushed himself to run faster. With one final burst of energy, he extended his right foot and kicked the ball with all his might. The ball sailed past the goalkeeper's outstretched hands and hit the back of the net. The crowd exploded into loud cheers, and Leo's teammates rushed over to hug him.",
+      "options": [
+        "He was feeling very sick and tired.",
+        "He had been running fast to catch the soccer ball.",
+        "He was nervous about playing in front of a crowd.",
+        "He was trying to escape from his teammates."
+      ],
+      "answer": "He had been running fast to catch the soccer ball.",
+      "explanation": "The passage states Leo 'sprinted across the field' and 'pushed himself to run faster' to reach the ball, explaining his heavy breathing.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-017",
+      "q": "What is the author's primary purpose for writing this paragraph?",
+      "passage": "Leo sprinted across the lush green field, his eyes locked onto the soccer ball rolling toward the goal line. Sweat dripped down his face, and his chest heaved as he pushed himself to run faster. With one final burst of energy, he extended his right foot and kicked the ball with all his might. The ball sailed past the goalkeeper's outstretched hands and hit the back of the net. The crowd exploded into loud cheers, and Leo's teammates rushed over to hug him.",
+      "options": [
+        "To persuade readers to join a local soccer team.",
+        "To inform readers about the official rules of soccer.",
+        "To entertain readers with an exciting moment in a game.",
+        "To explain how to kick a soccer ball accurately."
+      ],
+      "answer": "To entertain readers with an exciting moment in a game.",
+      "explanation": "The passage uses descriptive, action-oriented story language to entertain the reader with a dramatic sports moment.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-018",
+      "q": "Which sentence is a complete sentence and is punctuated correctly?",
+      "passage": "",
+      "options": [
+        "Running down the sidewalk.",
+        "The brown dog barked loudly at the mail carrier.",
+        "Because the library was closed today?",
+        "My friend gave me a pencil, it was bright yellow."
+      ],
+      "answer": "The brown dog barked loudly at the mail carrier.",
+      "explanation": "This option contains a complete subject and predicate, expresses a complete thought, and ends with the correct punctuation.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-019",
+      "q": "Identify the run-on sentence from the choices below.",
+      "passage": "",
+      "options": [
+        "We wanted to go to the pool, but it started raining heavily.",
+        "The pizza was hot and cheesy.",
+        "I love to ride my bicycle I ride it around the neighborhood every afternoon.",
+        "After finishing his homework, Marcus played video games."
+      ],
+      "answer": "I love to ride my bicycle I ride it around the neighborhood every afternoon.",
+      "explanation": "This option combines two independent clauses without any punctuation or coordinating conjunction, making it a run-on sentence.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-020",
+      "q": "Choose the correct adjective to describe the noun in the sentence: 'The chef baked a ___ cake for the birthday party.'",
+      "passage": "",
+      "options": [
+        "deliciously",
+        "delicious",
+        "taste",
+        "sweetness"
+      ],
+      "answer": "delicious",
+      "explanation": "'Delicious' is the correct adjective form to modify the noun 'cake'. 'Deliciously' is an adverb.",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-06-30",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-071",
+      "q": "Which word in the sentence is an adjective? 'The eager students opened their science textbooks to page twenty.'",
+      "options": [
+        "eager",
+        "opened",
+        "textbooks",
+        "twenty"
+      ],
+      "answer": "eager",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-072",
+      "q": "Choose the correct past-tense form of the irregular verb: 'Yesterday, Kevin ___ his new bicycle to school.'",
+      "options": [
+        "rided",
+        "rode",
+        "riden",
+        "rides"
+      ],
+      "answer": "rode",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-073",
+      "q": "Identify the proper noun in this sentence: 'We traveled across the state to visit Lake Michigan last summer.'",
+      "options": [
+        "state",
+        "Lake Michigan",
+        "summer",
+        "traveled"
+      ],
+      "answer": "Lake Michigan",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-074",
+      "q": "What is a synonym for the word 'brisk' as used in this sentence? 'A brisk wind blew the autumn leaves across the playground.'",
+      "options": [
+        "warm",
+        "gentle",
+        "chilly and fast",
+        "silent"
+      ],
+      "answer": "chilly and fast",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-075",
+      "q": "What does the word 'dislike' mean based on its prefix?",
+      "options": [
+        "like a lot",
+        "like before",
+        "not like",
+        "like again"
+      ],
+      "answer": "not like",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-076",
+      "q": "Read the text: 'The internet is a massive global network that connects millions of computers together. It allows people to share information, talk to friends, and learn about any topic instantly. To use the internet safely, children should always ask a parent or teacher before visiting a new website. It is also important to protect your privacy by never sharing your real name, phone number, or home address with strangers online.' What is the author's primary purpose in writing this text?",
+      "options": [
+        "To explain how to build a fast computer.",
+        "To inform readers about the internet and how to use it safely.",
+        "To persuade families to buy expensive internet services.",
+        "To tell an entertaining story about a computer programmer."
+      ],
+      "answer": "To inform readers about the internet and how to use it safely.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-077",
+      "q": "Based on the internet safety text, what is a rule for protecting your privacy online?",
+      "options": [
+        "Always use a fast computer network.",
+        "Never share personal details like your real name or address.",
+        "Only visit websites during the school day.",
+        "Share your phone number with your online friends."
+      ],
+      "answer": "Never share personal details like your real name or address.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-078",
+      "q": "Which sentence uses an apostrophe correctly to show possession?",
+      "options": [
+        "The boy's dog barked loudly at the squirrel.",
+        "The boys' dog barked loudly at the squirrel.",
+        "The boys dog's barked loudly at the squirrel.",
+        "The boys dog barked loudly at the squirrel."
+      ],
+      "answer": "The boy's dog barked loudly at the squirrel.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-079",
+      "q": "Identify the complete sentence.",
+      "options": [
+        "Because she forgot her winter coat.",
+        "The bright yellow star in the night sky.",
+        "We are planning a surprise party for Liam.",
+        "Running down the long hallway."
+      ],
+      "answer": "We are planning a surprise party for Liam.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-080",
+      "q": "Choose the correct coordinating conjunction to complete the sentence: 'Mia wanted to play outside, ___ it started to pour rain.'",
+      "options": [
+        "so",
+        "or",
+        "but",
+        "for"
+      ],
+      "answer": "but",
+      "dlevel": "easy"
+    }
+  ]
+}

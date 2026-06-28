@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 20",
+  "description": "Final medium-level progressive day. Focuses on advanced tenses, irregular possessive plural alignment, and contextual inferences.",
+  "questions": [
+    {
+      "id": "ELA-191",
+      "q": "Which form of the verb 'run' correctly completes the future perfect construction? 'By this time tomorrow afternoon, Clara ___ the entire 5K race.'",
+      "passage": "",
+      "options": [
+        "will run",
+        "will have run",
+        "is running",
+        "has run"
+      ],
+      "answer": "will have run",
+      "explanation": "The future perfect tense ('will have run') is used to express an action that will be completed before a specific point in the future.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-192",
+      "q": "Identify the sentence that shows the correct plural possessive form for an irregular plural noun.",
+      "passage": "",
+      "options": [
+        "The geeses' nests were hidden along the edge of the pond.",
+        "The geese's nests were hidden along the edge of the pond.",
+        "The gooses' nests were hidden along the edge of the pond.",
+        "The geeses nests' were hidden along the edge of the pond."
+      ],
+      "answer": "The geese's nests were hidden along the edge of the pond.",
+      "explanation": "'Geese' is the irregular plural form of 'goose'. To show possession for an irregular plural noun that does not end in 's', add an apostrophe and an 's'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-193",
+      "q": "What is the meaning of the word **deposit** as used in this sentence? 'Rivers slowly drop sand and soil along the shoreline, creating a rich **deposit** of mud that helps delta plants thrive.'",
+      "passage": "",
+      "options": [
+        "To put money safely into a bank account.",
+        "A layer or mass of solid material left behind by a natural process.",
+        "To leave an item on a table for safekeeping.",
+        "A regular payment made to secure a rental house."
+      ],
+      "answer": "A layer or mass of solid material left behind by a natural process.",
+      "explanation": "The context words 'drop sand and soil' and 'rich deposit of mud' indicate that 'deposit' means an accumulation of natural materials left behind.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-194",
+      "q": "Choose the best antonym for **monumental**.",
+      "passage": "",
+      "options": [
+        "historical",
+        "insignificant",
+        "enormous",
+        "ancient"
+      ],
+      "answer": "insignificant",
+      "explanation": "'Monumental' means massive or highly important; its direct opposite is 'insignificant'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-195",
+      "q": "Which suffix can be added to the noun 'scandal' to mean 'to cause something to become shocked or outraged'?",
+      "passage": "",
+      "options": [
+        "-ize",
+        "-ous",
+        "-ful",
+        "-ment"
+      ],
+      "answer": "-ize",
+      "explanation": "The suffix '-ize' means to make or cause to become, so 'scandalize' means to cause a scandal or outrage.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-196",
+      "q": "What can you infer about why the inventor chose to use a bamboo filament inside his early lightbulb?",
+      "passage": "In 1879, Thomas Edison sat inside his quiet laboratory, testing thousands of different materials to create a practical electric lightbulb. He needed a threadlike filament that could glow brightly when electricity passed through it without burning out or melting instantly. He experimented with plant fibers, thread, and metals. Finally, he discovered that a carbonized bamboo filament could burn continuously for over twelve hundred hours. This single breakthrough transformed modern society, allowing factories, schools, and homes to safely operate long after the dark night fell.",
+      "options": [
+        "Bamboo was the least expensive material available in the laboratory.",
+        "Bamboo survived long hours of electrical heat without being destroyed instantly.",
+        "Bamboo glowed with different beautiful colors when electrified.",
+        "Bamboo was easier to cut into shape than metal wires."
+      ],
+      "answer": "Bamboo survived long hours of electrical heat without being destroyed instantly.",
+      "explanation": "The text states he needed a material that could glow 'without burning out or melting instantly' and notes bamboo successfully burned for 1,200 hours.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-197",
+      "q": "What is the author's primary purpose for writing this historical paragraph?",
+      "passage": "In 1879, Thomas Edison sat inside his quiet laboratory, testing thousands of different materials to create a practical electric lightbulb. He needed a threadlike filament that could glow brightly when electricity passed through it without burning out or melting instantly. He experimented with plant fibers, thread, and metals. Finally, he discovered that a carbonized bamboo filament could burn continuously for over twelve hundred hours. This single breakthrough transformed modern society, allowing factories, schools, and homes to safely operate long after the dark night fell.",
+      "options": [
+        "To persuade readers to use bamboo products instead of plastics.",
+        "To inform readers about the hard work and breakthrough involved in Edison inventing the lightbulb.",
+        "To entertain readers with a fictional tale about lightning strikes.",
+        "To explain the mathematical formula behind electrical power currents."
+      ],
+      "answer": "To inform readers about the hard work and breakthrough involved in Edison inventing the lightbulb.",
+      "explanation": "The passage details the deliberate experimentation and historical breakthrough that led to a functional lightbulb filament.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-198",
+      "q": "Which of these sentences uses punctuation perfectly with no errors?",
+      "passage": "",
+      "options": [
+        "Although, the weather was freezing we played outside anyway.",
+        "Although the weather was freezing, we played outside anyway.",
+        "Although the weather was freezing we played outside anyway.",
+        "Although the weather was freezing, we, played outside anyway."
+      ],
+      "answer": "Although the weather was freezing, we played outside anyway.",
+      "explanation": "A comma is required immediately after an introductory dependent clause ('Although the weather was freezing') before starting the independent clause.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-199",
+      "q": "Identify the sentence that contains an error in capitalization.",
+      "passage": "",
+      "options": [
+        "We are planning to visit the Lincoln Memorial in Washington, D.C.",
+        "My family celebrates Thanksgiving on the fourth Thursday of November.",
+        "I asked my Dad if he could help me study for my history exam.",
+        "The Atlantic Ocean contains many unique species of marine life."
+      ],
+      "answer": "I asked my Dad if he could help me study for my history exam.",
+      "explanation": "Family titles like 'dad' should not be capitalized when preceded by a possessive pronoun like 'my', as they are functioning as common nouns.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-200",
+      "q": "Choose the correct coordinating conjunction to show a clear option or choice: 'We can walk down to the historical museum, ___ we can tour the art gallery instead.'",
+      "passage": "",
+      "options": [
+        "but",
+        "and",
+        "or",
+        "so"
+      ],
+      "answer": "or",
+      "explanation": "'Or' is used to connect independent choices or clear alternatives.",
+      "dlevel": "medium"
+    }
+  ]
+}

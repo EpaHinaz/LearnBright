@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 19",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-019-01",
+"q": "Which of these animals is known for having a mane of hair around its neck?",
+"type": "mcq",
+"options": ["Tiger", "Lion", "Elephant", "Leopard"],
+"answer": "Lion",
+"explanation": "Male lions are famous for the thick mane of hair that grows around their necks.",
+"hint": "It is often called the 'King of the Jungle'.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-019-02",
+"q": "What is the capital of Spain?",
+"type": "input",
+"options": [],
+"answer": "Madrid",
+"explanation": "Madrid is the capital city of Spain and its largest city.",
+"hint": "It is located in the heart of the country.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-019-03",
+"q": "Which of these is a gas that we breathe out?",
+"type": "mcq",
+"options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+"answer": "Carbon dioxide",
+"explanation": "When we exhale, we release carbon dioxide, which is a waste product of our body's processes.",
+"hint": "Plants need this gas to make food.",
+"dlevel": "hard",
+"objective": "Understand basic human body functions.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-019-04",
+"q": "What is the name of the galaxy that contains our Solar System?",
+"type": "input",
+"options": [],
+"answer": "Milky Way",
+"explanation": "Our Solar System resides within the Milky Way galaxy.",
+"hint": "It has a name that sounds like a candy bar.",
+"dlevel": "medium",
+"objective": "Understand basic facts about space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-019-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Eating too much sugar", "Brushing your teeth twice a day", "Watching TV all day", "Sleeping only 4 hours"],
+"answer": "Brushing your teeth twice a day",
+"explanation": "Brushing your teeth daily helps remove plaque and keeps your mouth healthy.",
+"hint": "It involves a toothbrush and toothpaste.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "safety"]
+},
+{
+"id": "GK-019-06",
+"q": "Who is a community helper that helps sick animals?",
+"type": "mcq",
+"options": ["Doctor", "Dentist", "Veterinarian", "Teacher"],
+"answer": "Veterinarian",
+"explanation": "Veterinarians are trained to provide medical care for animals.",
+"hint": "It is often called a 'vet'.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "animals"]
+},
+{
+"id": "GK-019-07",
+"q": "What is the freezing point of water in Celsius?",
+"type": "input",
+"options": [],
+"answer": "0",
+"explanation": "Water turns to ice at 0 degrees Celsius.",
+"hint": "It is the starting number on the Celsius scale.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-019-08",
+"q": "Which continent is the largest by land area?",
+"type": "mcq",
+"options": ["Africa", "Asia", "Europe", "Australia"],
+"answer": "Asia",
+"explanation": "Asia is the largest continent in the world, covering about 30% of the Earth's land.",
+"hint": "It is very populous and large.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+},
+{
+"id": "GK-019-09",
+"q": "What force keeps our feet on the ground?",
+"type": "input",
+"options": [],
+"answer": "Gravity",
+"explanation": "Gravity is the force that attracts objects toward the center of the Earth.",
+"hint": "It starts with 'G'.",
+"dlevel": "medium",
+"objective": "Learn basic science concepts.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-019-10",
+"q": "Which of these is a community helper who puts out fires?",
+"type": "mcq",
+"options": ["Police officer", "Firefighter", "Baker", "Chef"],
+"answer": "Firefighter",
+"explanation": "Firefighters are responsible for extinguishing fires and helping in emergencies.",
+"hint": "They use water hoses and wear special gear.",
+"dlevel": "easy",
+"objective": "Understand community helper roles.",
+"tags": ["community", "safety"]
+}
+]
+}

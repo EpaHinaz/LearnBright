@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 25",
+  "description": "Comprehensive math practice questions for Day 25.",
+  "questions": [
+    {
+      "id": "MATHS-241",
+      "q": "What is 115 \u00d7 6?",
+      "passage": "",
+      "options": [
+        "695",
+        "700",
+        "690",
+        "685"
+      ],
+      "answer": "690",
+      "explanation": "The correct answer is 690 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-242",
+      "q": "What is 116 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "807",
+        "812",
+        "822",
+        "817"
+      ],
+      "answer": "812",
+      "explanation": "The correct answer is 812 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-243",
+      "q": "What is 117 \u00d7 8?",
+      "passage": "",
+      "options": [
+        "931",
+        "941",
+        "946",
+        "936"
+      ],
+      "answer": "936",
+      "explanation": "The correct answer is 936 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-244",
+      "q": "Jack bought 6 packs of pencils. Each pack has 6 pencils. How many pencils did Jack buy?",
+      "passage": "",
+      "options": [
+        "32",
+        "38",
+        "46",
+        "36"
+      ],
+      "answer": "36",
+      "explanation": "The correct answer is 36 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-245",
+      "q": "Ruby bought 7 packs of pencils. Each pack has 7 pencils. How many pencils did Ruby buy?",
+      "passage": "",
+      "options": [
+        "45",
+        "51",
+        "59",
+        "49"
+      ],
+      "answer": "49",
+      "explanation": "The correct answer is 49 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-246",
+      "q": "Solve: 50 - (4 \u00d7 6)",
+      "passage": "",
+      "options": [
+        "38",
+        "24",
+        "26",
+        "29"
+      ],
+      "answer": "26",
+      "explanation": "The correct answer is 26 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-247",
+      "q": "What is the value of 3 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "27",
+        "13",
+        "15",
+        "18"
+      ],
+      "answer": "15",
+      "explanation": "The correct answer is 15 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-248",
+      "q": "Which fraction is equivalent to 2/4?",
+      "passage": "",
+      "options": [
+        "1/3",
+        "2/3",
+        "3/4",
+        "1/2"
+      ],
+      "answer": "1/2",
+      "explanation": "The correct answer is 1/2 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-249",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "1/4",
+        "2/4",
+        "4/4",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-250",
+      "q": "Find the perimeter of a rectangle with length 9 cm and width 3 cm.",
+      "passage": "",
+      "options": [
+        "48",
+        "26",
+        "23",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "The correct answer is 24 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    }
+  ]
+}

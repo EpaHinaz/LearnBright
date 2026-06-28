@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 06",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-006-01",
+"q": "What is the primary function of the roots of a plant?",
+"type": "mcq",
+"options": ["To catch sunlight", "To make seeds", "To absorb water and nutrients from the soil", "To make the plant look pretty"],
+"answer": "To absorb water and nutrients from the soil",
+"explanation": "Roots grow underground to anchor the plant and soak up water and minerals that the plant needs to grow.",
+"hint": "They are the part of the plant hidden under the dirt.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-006-02",
+"q": "Which mountain is the highest in the world?",
+"type": "input",
+"options": [],
+"answer": "Mount Everest",
+"explanation": "Mount Everest is the highest mountain above sea level on Earth.",
+"hint": "It is located in the Himalayas.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "landmarks"]
+},
+{
+"id": "GK-006-03",
+"q": "Which of these is a social insect that lives in a colony?",
+"type": "mcq",
+"options": ["Spider", "Ant", "Fly", "Grasshopper"],
+"answer": "Ant",
+"explanation": "Ants are social insects that live in large, organized groups called colonies.",
+"hint": "They are very small and often carry crumbs.",
+"dlevel": "easy",
+"objective": "Identify common animals and their behaviors.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-006-04",
+"q": "What is the name of the force that pulls everything toward the center of the Earth?",
+"type": "input",
+"options": [],
+"answer": "Gravity",
+"explanation": "Gravity is the natural force that keeps us on the ground and causes things to fall.",
+"hint": "It starts with the letter 'G'.",
+"dlevel": "hard",
+"objective": "Learn basic scientific principles.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-006-05",
+"q": "Which nutrient is essential for building strong muscles?",
+"type": "mcq",
+"options": ["Sugar", "Protein", "Fat", "Starch"],
+"answer": "Protein",
+"explanation": "Protein is a building block for bones, muscles, cartilage, skin, and blood.",
+"hint": "Foods like eggs and beans are good sources of this.",
+"dlevel": "medium",
+"objective": "Understand healthy nutritional habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-006-06",
+"q": "What do we call a person who helps others by volunteering their time?",
+"type": "mcq",
+"options": ["Doctor", "Volunteer", "Customer", "Soldier"],
+"answer": "Volunteer",
+"explanation": "A volunteer is someone who works for free to help others or their community.",
+"hint": "The word is almost the same as the definition.",
+"dlevel": "easy",
+"objective": "Identify community roles and values.",
+"tags": ["community", "social studies"]
+},
+{
+"id": "GK-006-07",
+"q": "Which of the following is NOT a planet in our solar system?",
+"type": "mcq",
+"options": ["Venus", "Mars", "Pluto", "Saturn"],
+"answer": "Pluto",
+"explanation": "Pluto is classified as a 'dwarf planet,' not one of the eight major planets.",
+"hint": "It used to be called a planet but was reclassified.",
+"dlevel": "hard",
+"objective": "Understand basic facts about the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-006-08",
+"q": "What color do you get if you mix blue and yellow paint?",
+"type": "input",
+"options": [],
+"answer": "Green",
+"explanation": "When you mix blue and yellow together, you get green.",
+"hint": "It is the color of grass.",
+"dlevel": "easy",
+"objective": "Identify basic art concepts.",
+"tags": ["art", "everyday science"]
+},
+{
+"id": "GK-006-09",
+"q": "What is the primary language spoken in Brazil?",
+"type": "mcq",
+"options": ["Spanish", "French", "English", "Portuguese"],
+"answer": "Portuguese",
+"explanation": "Brazil is the only country in South America where Portuguese is the official language.",
+"hint": "It is not Spanish, even though it is in South America.",
+"dlevel": "medium",
+"objective": "Learn basic geography and language facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-006-10",
+"q": "Why is it important to wash your hands before eating?",
+"type": "mcq",
+"options": ["To keep them cool", "To remove germs", "To make them smell good", "To stop them from being dry"],
+"answer": "To remove germs",
+"explanation": "Washing hands helps remove germs that can make you sick.",
+"hint": "Think about what happens when you touch dirty surfaces.",
+"dlevel": "easy",
+"objective": "Identify healthy habits.",
+"tags": ["health", "safety"]
+}
+]
+}

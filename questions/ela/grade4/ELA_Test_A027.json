@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 25",
+  "description": "Hard-level testing parameters. Focuses on absolute pronouns, advanced context analysis, and editing nested punctuation errors.",
+  "questions": [
+    {
+      "id": "ELA-241",
+      "q": "Which relative pronoun should be used to show possession within a clause? 'The architect ___ structural blueprints won the design contest is speaking tonight.'",
+      "passage": "",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "answer": "whose",
+      "explanation": "'Whose' is the relative pronoun used to show possession or ownership over the blueprints.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-242",
+      "q": "Identify the proper categorization of the underlined word: 'The team **had been practicing** their routine for hours before the competition.'",
+      "passage": "",
+      "options": [
+        "Present perfect tense",
+        "Past perfect continuous tense",
+        "Future perfect tense",
+        "Past continuous tense"
+      ],
+      "answer": "Past perfect continuous tense",
+      "explanation": "The verb construction 'had been practicing' represents the past perfect continuous tense.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-243",
+      "q": "What is the meaning of the word **hostile** as used in this sentence? 'The barren moon has a highly **hostile** environment, completely lacking oxygen and experiencing extreme radiation.'",
+      "passage": "",
+      "options": [
+        "welcoming and warm",
+        "unfavorable, harsh, or dangerous to life",
+        "invisible to the human eye",
+        "fictional or imaginary"
+      ],
+      "answer": "unfavorable, harsh, or dangerous to life",
+      "explanation": "The context clues 'lacking oxygen' and 'extreme radiation' indicate that 'hostile' means harsh, unfriendly, or dangerous to survival.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-244",
+      "q": "Choose the best synonym for the word **corroborate**.",
+      "passage": "",
+      "options": [
+        "to challenge or deny",
+        "to confirm or support with evidence",
+        "to forget completely",
+        "to paint a detailed picture"
+      ],
+      "answer": "to confirm or support with evidence",
+      "explanation": "To corroborate means to confirm or give support to a statement, theory, or finding with evidence.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-245",
+      "q": "Which prefix means 'against' or 'opposing' in words like 'antisocial' or 'antidote'?",
+      "passage": "",
+      "options": [
+        "sub-",
+        "anti-",
+        "mis-",
+        "pre-"
+      ],
+      "answer": "anti-",
+      "explanation": "The prefix 'anti-' means against or opposing.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-246",
+      "q": "What is the main idea of this informative text about wolves?",
+      "passage": "Apex predators are crucial for maintaining the delicate balance of wild ecosystems. When grey wolves were reintroduced to Yellowstone National Park in 1995, they began hunting large elk herds that had been overgrazing the landscape. As the elk population decreased to natural levels, willow and aspen trees along riverbanks began to regrow rapidly. This newfound forest growth provided vital nesting habitats for migratory birds and allowed beavers to return and build wetlands. By managing prey numbers, wolves indirectly reshaped the physical geography of the entire park.",
+      "options": [
+        "Elk herds had been overgrazing trees along riverbanks.",
+        "Grey wolves were brought back to Yellowstone in 1995.",
+        "As apex predators, wolves are essential because they balance ecosystems and restore habitats.",
+        "Beavers need willow trees to construct sturdy dams."
+      ],
+      "answer": "As apex predators, wolves are essential because they balance ecosystems and restore habitats.",
+      "explanation": "The passage details how the reintroduction of wolves corrected overgrazing and caused a cascade of positive environmental restorations throughout the park.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-247",
+      "q": "According to the passage, what happened directly after the elk population returned to natural levels?",
+      "passage": "Apex predators are crucial for maintaining the delicate balance of wild ecosystems. When grey wolves were reintroduced to Yellowstone National Park in 1995, they began hunting large elk herds that had been overgrazing the landscape. As the elk population decreased to natural levels, willow and aspen trees along riverbanks began to regrow rapidly. This newfound forest growth provided vital nesting habitats for migratory birds and allowed beavers to return and build wetlands. By managing prey numbers, wolves indirectly reshaped the physical geography of the entire park.",
+      "options": [
+        "The wolves left the park boundaries.",
+        "Willow and aspen trees along riverbanks began to regrow quickly.",
+        "Beavers stopped building dams in the area.",
+        "Migratory birds left their nesting habitats."
+      ],
+      "answer": "Willow and aspen trees along riverbanks began to regrow quickly.",
+      "explanation": "The text directly states: 'As the elk population decreased to natural levels, willow and aspen trees along riverbanks began to regrow rapidly.'",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-248",
+      "q": "Which sentence is formatted correctly, adhering to formal rules for listing cities and states alongside dates?",
+      "passage": "",
+      "options": [
+        "On October 12, 2021, our company moved its offices to Miami, Florida, to expand operations.",
+        "On October 12 2021, our company moved its offices to Miami Florida to expand operations.",
+        "On October 12, 2021 our company moved its offices to Miami, Florida to expand operations.",
+        "On October 12, 2021, our company moved its offices to Miami, Florida to expand operations."
+      ],
+      "answer": "On October 12, 2021, our company moved its offices to Miami, Florida, to expand operations.",
+      "explanation": "Commas must isolate the year within a date ('October 12, 2021,') and isolate a state following a city name ('Miami, Florida,').",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-249",
+      "q": "Identify the sentence that represents a run-on sentence requiring a subordinating conjunction or semicolon.",
+      "passage": "",
+      "options": [
+        "The computer system crashed, but fortunately, we had saved our code.",
+        "The computer system crashed we lost all of our automated test designs.",
+        "Because the computer system crashed, we lost our automated data.",
+        "After the computer system crashed, the engineer rebuilt the database."
+      ],
+      "answer": "The computer system crashed we lost all of our automated test designs.",
+      "explanation": "This option smashes two independent clauses together without any punctuation or coordinating transition elements.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-250",
+      "q": "Choose the correct preposition to complete the spatial description: 'The stealthy submarine glided silently ___ the polar ice shelf.'",
+      "passage": "",
+      "options": [
+        "amongst",
+        "beneath",
+        "over",
+        "throughout"
+      ],
+      "answer": "beneath",
+      "explanation": "A submarine operates underwater, making 'beneath' the correct spatial preposition to describe its movement relative to an ice shelf.",
+      "dlevel": "hard"
+    }
+  ]
+}

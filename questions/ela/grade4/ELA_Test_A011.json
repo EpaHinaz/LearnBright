@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 09",
+  "description": "Focus on adverbs, prefixes, reading for details, and fixing punctuation errors.",
+  "questions": [
+    {
+      "id": "ELA-081",
+      "q": "Identify the adverb in the sentence: 'The tired student worked patiently to solve the multi-step math equation.'",
+      "passage": "",
+      "options": [
+        "tired",
+        "patiently",
+        "solve",
+        "multi-step"
+      ],
+      "answer": "patiently",
+      "explanation": "'Patiently' describes the manner in which the student performed the action of working.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-082",
+      "q": "Which prepositional phrase tells *where* the action happened? 'The golden retriever slept soundly under the kitchen table.'",
+      "passage": "",
+      "options": [
+        "The golden retriever",
+        "slept soundly",
+        "under the kitchen table",
+        "the kitchen table"
+      ],
+      "answer": "under the kitchen table",
+      "explanation": "'Under the kitchen table' is the complete prepositional phrase that modifies the verb 'slept' by indicating location.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-083",
+      "q": "What does the word **unpaved** mean in this sentence? 'Our car bounced continuously as we turned onto the unpaved country lane.'",
+      "passage": "",
+      "options": [
+        "paved before",
+        "not paved",
+        "paved poorly",
+        "easily paved"
+      ],
+      "answer": "not paved",
+      "explanation": "The prefix 'un-' means not, so an 'unpaved' road is one that is not covered with asphalt or concrete.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-084",
+      "q": "Choose the best antonym for the word **fragile**.",
+      "passage": "",
+      "options": [
+        "broken",
+        "delicate",
+        "sturdy",
+        "expensive"
+      ],
+      "answer": "sturdy",
+      "explanation": "'Fragile' means delicate and easily broken; its direct opposite is 'sturdy'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-085",
+      "q": "Which prefix can be added to the word 'honest' to give it the opposite meaning?",
+      "passage": "",
+      "options": [
+        "im-",
+        "un-",
+        "dis-",
+        "in-"
+      ],
+      "answer": "dis-",
+      "explanation": "The prefix 'dis-' added to 'honest' creates the antonym 'dishonest'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-086",
+      "q": "What is the primary reason why sea turtles crawl onto sandy beaches?",
+      "passage": "Sea turtles spend nearly their entire lives swimming in ocean waters, but they still retain a vital connection to dry land. Every summer, adult female sea turtles travel thousands of miles back to the exact beaches where they were born. Under the cover of dark night, they slowly crawl up past the high-tide line. Using their flippers, they dig a deep hole in the warm sand and lay about one hundred soft egg shells. Once finished, they cover the nest and return to the safety of the sea.",
+      "options": [
+        "To find food along the shoreline.",
+        "To rest and sunbathe in the warm sand.",
+        "To lay their eggs in a secure nest.",
+        "To escape from large ocean predators."
+      ],
+      "answer": "To lay their eggs in a secure nest.",
+      "explanation": "The text states they crawl onto the beach to 'dig a deep hole... and lay about one hundred soft egg shells.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-087",
+      "q": "What does the word **retain** mean based on its usage in the text?",
+      "passage": "Sea turtles spend nearly their entire lives swimming in ocean waters, but they still retain a vital connection to dry land. Every summer, adult female sea turtles travel thousands of miles back to the exact beaches where they were born. Under the cover of dark night, they slowly crawl up past the high-tide line. Using their flippers, they dig a deep hole in the warm sand and lay about one hundred soft egg shells. Once finished, they cover the nest and return to the safety of the sea.",
+      "options": [
+        "To lose over time",
+        "To keep or hold onto",
+        "To forget completely",
+        "To build something new"
+      ],
+      "answer": "To keep or hold onto",
+      "explanation": "The context shows that despite living in the ocean, they keep or hold onto ('retain') their biological connection to land.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-088",
+      "q": "Which sentence contains an error in capitalization?",
+      "passage": "",
+      "options": [
+        "We live in a nice house on Oak Street.",
+        "My favorite holiday is Thanksgiving.",
+        "We are going to watch the movie on Friday.",
+        "Last Month, my family went to Chicago."
+      ],
+      "answer": "Last Month, my family went to Chicago.",
+      "explanation": "The word 'month' is a common noun and should not be capitalized here.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-089",
+      "q": "Identify the sentence that uses punctuation correctly.",
+      "passage": "",
+      "options": [
+        "No I haven't seen the missing dog today.",
+        "No, I haven't seen the missing dog today.",
+        "No, I haven't seen the missing dog, today.",
+        "No I haven't seen, the missing dog today."
+      ],
+      "answer": "No, I haven't seen the missing dog today.",
+      "explanation": "An introductory word like 'No' must be followed by a comma, and the rest of the statement flows cleanly to the terminal period.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-090",
+      "q": "Choose the correct coordinating conjunction to complete the sentence: 'You can complete your science poster board today, ___ you can finish it tomorrow morning.'",
+      "passage": "",
+      "options": [
+        "but",
+        "and",
+        "or",
+        "for"
+      ],
+      "answer": "or",
+      "explanation": "'Or' is used to present an alternative choice between two times or activities.",
+      "dlevel": "easy"
+    }
+  ]
+}

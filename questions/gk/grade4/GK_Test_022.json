@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 22",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-022-01",
+"q": "Which of these animals is known for having a trunk?",
+"type": "mcq",
+"options": ["Tiger", "Lion", "Elephant", "Zebra"],
+"answer": "Elephant",
+"explanation": "Elephants use their long trunks for breathing, smelling, touching, grasping, and producing sound.",
+"hint": "It is the largest land animal.",
+"dlevel": "easy",
+"objective": "Identify common animal traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-022-02",
+"q": "What is the capital city of Italy?",
+"type": "input",
+"options": [],
+"answer": "Rome",
+"explanation": "Rome is the capital of Italy and is famous for its ancient history and landmarks like the Colosseum.",
+"hint": "It is called the 'Eternal City'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-022-03",
+"q": "Which part of the plant makes the seeds?",
+"type": "mcq",
+"options": ["Root", "Stem", "Leaf", "Flower"],
+"answer": "Flower",
+"explanation": "Flowers are the reproductive structures of plants, and they are responsible for creating seeds.",
+"hint": "They are often colorful and have petals.",
+"dlevel": "medium",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-022-04",
+"q": "What do we call an animal that eats both plants and meat?",
+"type": "input",
+"options": [],
+"answer": "Omnivore",
+"explanation": "An omnivore is an organism that can eat and survive on both plant and animal matter.",
+"hint": "The word starts with 'O'.",
+"dlevel": "hard",
+"objective": "Classify animals by diet.",
+"tags": ["animals", "science"]
+},
+{
+"id": "GK-022-05",
+"q": "Which of these is a good source of protein for muscle growth?",
+"type": "mcq",
+"options": ["Candy", "Soda", "Chicken", "Potato chips"],
+"answer": "Chicken",
+"explanation": "Chicken is a lean meat that is an excellent source of protein, which is vital for building and repairing muscles.",
+"hint": "It is a type of meat.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-022-06",
+"q": "Which community helper helps put out fires?",
+"type": "mcq",
+"options": ["Teacher", "Firefighter", "Doctor", "Architect"],
+"answer": "Firefighter",
+"explanation": "Firefighters are trained to suppress and extinguish fires to protect people and property.",
+"hint": "They wear red helmets and ride big trucks.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "safety"]
+},
+{
+"id": "GK-022-07",
+"q": "What is the name of the 'Red Planet'?",
+"type": "input",
+"options": [],
+"answer": "Mars",
+"explanation": "Mars is often called the Red Planet because of the iron oxide (rust) on its surface.",
+"hint": "It comes after Earth in our solar system.",
+"dlevel": "medium",
+"objective": "Understand the solar system.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-022-08",
+"q": "Which of these is a form of energy that we get from the Sun?",
+"type": "mcq",
+"options": ["Wind", "Solar", "Nuclear", "Hydro"],
+"answer": "Solar",
+"explanation": "Solar energy is energy that is harvested from the light and heat of the Sun.",
+"hint": "The word starts with 'S'.",
+"dlevel": "medium",
+"objective": "Understand basic energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-022-09",
+"q": "What is the boiling point of water in degrees Fahrenheit?",
+"type": "input",
+"options": [],
+"answer": "212",
+"explanation": "At sea level, water boils at 212 degrees Fahrenheit.",
+"hint": "It is a three-digit number.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-022-10",
+"q": "Which season is known for snow and cold weather?",
+"type": "mcq",
+"options": ["Summer", "Autumn", "Winter", "Spring"],
+"answer": "Winter",
+"explanation": "Winter is the coldest season, often associated with snow, frost, and short days.",
+"hint": "It starts with 'W'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

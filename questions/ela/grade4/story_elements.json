@@ -1,0 +1,19 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "Story Elements",
+  "description": "Characters, setting, plot, conflict, and theme in fiction.",
+  "passage": "The Lost Kite\n\nOn a breezy Saturday morning, Maya and her brother Luca ran to the park to fly their new kite. It was bright red with a golden tail and had taken them all week to build. They laughed as it climbed higher and higher into the blue sky.\n\nSuddenly, a strong gust of wind yanked the string out of Luca's hand. The kite soared over the trees and got tangled in the highest branch of an old oak tree. Maya's heart sank.\n\n'We'll never get it down,' Luca said, his voice full of disappointment.\n\nMaya looked around. She spotted Mr. Chen, their neighbour, trimming his garden nearby. She walked over and explained what happened. Mr. Chen smiled kindly. 'I have a ladder in my garage,' he said. 'Let's take a look.'\n\nWith Mr. Chen's help, they carefully freed the kite from the branches. It had a small tear, but Luca patched it up with tape from his pocket. By noon, the kite was flying again.\n\nThat evening, Maya wrote in her journal: 'Today I learned that asking for help is not a sign of weakness — it is a sign of wisdom.'",
+  "questions": [
+    { "q": "Who are the MAIN characters in this story?", "options": ["Maya and Mr. Chen", "Maya and Luca", "Luca and Mr. Chen", "Maya, Luca, and Mr. Chen"], "answer": "Maya, Luca, and Mr. Chen", "explanation": "All three play important roles in the story." },
+    { "q": "Where does most of the story take place? (two words)", "options": [], "answer": "the park", "explanation": "The story begins and mostly takes place at the park." },
+    { "q": "What is the main CONFLICT in the story?", "options": ["Maya and Luca argue", "The kite gets stuck in a tree", "Mr. Chen loses his ladder", "The kite is destroyed"], "answer": "The kite gets stuck in a tree", "explanation": "The central problem is the kite getting tangled in the oak tree." },
+    { "q": "How is the conflict RESOLVED?", "options": ["They buy a new kite", "They climb the tree", "Mr. Chen uses a ladder to free the kite", "The wind blows it down"], "answer": "Mr. Chen uses a ladder to free the kite", "explanation": "Mr. Chen brings a ladder and helps free the kite from the tree." },
+    { "q": "What is the THEME (lesson) of the story?", "options": ["Never fly kites on windy days", "Asking for help is a sign of wisdom", "Brothers and sisters always argue", "You should fix things yourself"], "answer": "Asking for help is a sign of wisdom", "explanation": "Maya writes this lesson in her journal at the very end." },
+    { "q": "What character TRAIT best describes Maya?", "options": ["Shy and timid", "Resourceful and brave", "Angry and impatient", "Lazy and careless"], "answer": "Resourceful and brave", "explanation": "Maya looks for a solution and bravely asks Mr. Chen for help." },
+    { "q": "What did Luca use to fix the tear in the kite?", "options": [], "answer": "tape", "explanation": "'Luca patched it up with tape from his pocket.'" },
+    { "q": "What is the SETTING (time) of this story?", "options": ["A weekday evening", "A Saturday morning", "A Sunday afternoon", "A Friday night"], "answer": "A Saturday morning", "explanation": "'On a breezy Saturday morning' — as stated in the first line." },
+    { "q": "What does the word DISAPPOINTMENT mean in this story?", "options": ["Excitement", "Confusion", "Sadness about something not going as hoped", "Anger at someone"], "answer": "Sadness about something not going as hoped", "explanation": "Luca's voice was 'full of disappointment' after the kite got stuck — he was sad." },
+    { "q": "This story is told from which POINT OF VIEW?", "options": ["First person (I, me)", "Second person (you)", "Third person (he, she, they)", "It cannot be determined"], "answer": "Third person (he, she, they)", "explanation": "The narrator uses 'Maya', 'Luca', 'her', 'his' — third person perspective." }
+  ]
+}

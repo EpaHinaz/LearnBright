@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 13",
+  "description": "Medium difficulty testing. Focus on coordinating vs subordinating conjunctions, structural context clues, and identifying vocabulary in context.",
+  "questions": [
+    {
+      "id": "ELA-121",
+      "q": "Identify the subordinating conjunction in the following sentence: 'We will stay inside the library until the heavy rain stops completely.'",
+      "passage": "",
+      "options": [
+        "inside",
+        "until",
+        "completely",
+        "stops"
+      ],
+      "answer": "until",
+      "explanation": "'Until' is a subordinating conjunction that connects the dependent adverbial clause to the main independent clause.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-122",
+      "q": "Which adjective correctly completes the sentence? 'The diamond was the ___ gemstone in the entire display case.'",
+      "passage": "",
+      "options": [
+        "rariest",
+        "most rarest",
+        "rarest",
+        "more rare"
+      ],
+      "answer": "rarest",
+      "explanation": "The proper superlative form of 'rare' is 'rarest'. 'Most rarest' creates a double superlative error.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-123",
+      "q": "What is the function of the adverb in this sentence? 'Mr. Patel completely disagreed with the plan.'",
+      "passage": "",
+      "options": [
+        "It describes *where* he disagreed.",
+        "It describes *when* he disagreed.",
+        "It describes *to what extent* or degree he disagreed.",
+        "It describes the appearance of Mr. Patel."
+      ],
+      "answer": "It describes *to what extent* or degree he disagreed.",
+      "explanation": "The adverb 'completely' modifies the verb 'disagreed' by showing the degree or extent of the disagreement.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-124",
+      "q": "Use context clues to find the meaning of the underlined word: 'The ancient scroll was incredibly **fragile**; even a gentle touch could cause the old paper to crumble.'",
+      "passage": "",
+      "options": [
+        "sturdy and strong",
+        "easily broken or damaged",
+        "valuable and expensive",
+        "brightly colored"
+      ],
+      "answer": "easily broken or damaged",
+      "explanation": "The context clue 'even a gentle touch could cause the old paper to crumble' indicates the scroll was highly delicate or fragile.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-125",
+      "q": "Which word is a synonym for the word **industrious**?",
+      "passage": "",
+      "options": [
+        "lazy",
+        "hardworking",
+        "noisy",
+        "wealthy"
+      ],
+      "answer": "hardworking",
+      "explanation": "'Industrious' means diligent and hardworking.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-126",
+      "q": "What is the meaning of the word **canopy** as it is used in the passage?",
+      "passage": "The Amazon rainforest is divided into distinct structural layers. The highest layer is the emergent layer, where giant trees tower over the rest of the jungle. Below that sits the canopy, a dense ceiling of leaves and interlocking branches located roughly one hundred feet above the ground. This thick green layer acts like a giant umbrella, blocking out most of the bright sunlight and catching heavy rainfall. Because it is full of colorful fruits and flowers, the canopy houses nearly ninety percent of all rainforest organisms, including monkeys, sloths, and toucans.",
+      "options": [
+        "A forest floor covered in rich soil.",
+        "The underground network of tree roots.",
+        "A dense, high ceiling layer made of leaves and branches.",
+        "A collection of small bushes growing near rivers."
+      ],
+      "answer": "A dense, high ceiling layer made of leaves and branches.",
+      "explanation": "The text explicitly defines the canopy layer as 'a dense ceiling of leaves and interlocking branches... like a giant umbrella.'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-127",
+      "q": "Which detail from the passage explains why so many animals live in the canopy layer?",
+      "passage": "The Amazon rainforest is divided into distinct structural layers. The highest layer is the emergent layer, where giant trees tower over the rest of the jungle. Below that sits the canopy, a dense ceiling of leaves and interlocking branches located roughly one hundred feet above the ground. This thick green layer acts like a giant umbrella, blocking out most of the bright sunlight and catching heavy rainfall. Because it is full of colorful fruits and flowers, the canopy houses nearly ninety percent of all rainforest organisms, including monkeys, sloths, and toucans.",
+      "options": [
+        "It sits directly below the emergent layer.",
+        "It catches heavy rainfall before it hits the ground.",
+        "It is full of colorful fruits and flowers for food.",
+        "It blocks out bright sunlight completely."
+      ],
+      "answer": "It is full of colorful fruits and flowers for food.",
+      "explanation": "The text states: 'Because it is full of colorful fruits and flowers, the canopy houses nearly ninety percent of all rainforest organisms...'",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-128",
+      "q": "Which sentence is written correctly with no errors in comma usage?",
+      "passage": "",
+      "options": [
+        "Although she was tired, Monica finished her chores.",
+        "Although she was tired Monica finished her chores.",
+        "Although, she was tired Monica finished her chores.",
+        "Although she was tired, Monica, finished her chores."
+      ],
+      "answer": "Although she was tired, Monica finished her chores.",
+      "explanation": "When a sentence begins with a dependent adverbial clause ('Although she was tired'), a comma must separate it from the main clause.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-129",
+      "q": "Identify the sentence that contains an error in capitalization.",
+      "passage": "",
+      "options": [
+        "My uncle plans to open a restaurant next winter.",
+        "We crossed the Golden Gate Bridge during our vacation.",
+        "I need to ask uncle Carlos if he can fix my bicycle.",
+        "We are learning about the historic American Revolutionary War."
+      ],
+      "answer": "I need to ask uncle Carlos if he can fix my bicycle.",
+      "explanation": "The title 'uncle' must be capitalized when used directly as part of a proper name ('Uncle Carlos').",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-130",
+      "q": "Choose the option that represents a complete sentence, avoiding any fragment or run-on errors.",
+      "passage": "",
+      "options": [
+        "The boy who ran all the way to the store.",
+        "While we were waiting in line at the theater.",
+        "Bake the cookies for fifteen minutes.",
+        "The cake was delicious it had chocolate frosting."
+      ],
+      "answer": "Bake the cookies for fifteen minutes.",
+      "explanation": "This is an imperative sentence. It has an implied subject ('You') and a complete predicate, making it a grammatically complete thought.",
+      "dlevel": "medium"
+    }
+  ]
+}

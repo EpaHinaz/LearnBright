@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 30",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-030-01",
+"q": "Which of these animals is known for having a very strong, prehensile tail and living in trees?",
+"type": "mcq",
+"options": ["Monkey", "Lion", "Giraffe", "Elephant"],
+"answer": "Monkey",
+"explanation": "Many monkeys have tails that can grip branches, which helps them move through the forest canopy.",
+"hint": "They are famous for climbing and eating bananas.",
+"dlevel": "easy",
+"objective": "Identify common animals and their physical traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-030-02",
+"q": "What is the capital city of the United States?",
+"type": "input",
+"options": [],
+"answer": "Washington, D.C.",
+"explanation": "Washington, D.C. is the capital of the United States, home to the White House and the Capitol building.",
+"hint": "It is named after the first U.S. President.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-030-03",
+"q": "Which part of the plant produces seeds and attracts pollinators?",
+"type": "mcq",
+"options": ["Root", "Stem", "Flower", "Leaf"],
+"answer": "Flower",
+"explanation": "Flowers use bright colors and scents to attract bees and butterflies, which help them produce seeds.",
+"hint": "They are often the most colorful part of a plant.",
+"dlevel": "medium",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-030-04",
+"q": "What do we call a person who is trained to help sick or injured people?",
+"type": "input",
+"options": [],
+"answer": "Doctor",
+"explanation": "A doctor is a professional trained to diagnose, treat, and prevent illnesses and injuries.",
+"hint": "They work in hospitals and clinics.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "health"]
+},
+{
+"id": "GK-030-05",
+"q": "Which of these is a healthy habit for your body?",
+"type": "mcq",
+"options": ["Eating sugar all day", "Washing your hands before eating", "Staying up all night", "Never drinking water"],
+"answer": "Washing your hands before eating",
+"explanation": "Washing your hands kills germs and prevents you from getting sick.",
+"hint": "You should do this after playing outside.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "safety"]
+},
+{
+"id": "GK-030-06",
+"q": "Which community helper is responsible for protecting our community and enforcing laws?",
+"type": "mcq",
+"options": ["Police Officer", "Teacher", "Chef", "Artist"],
+"answer": "Police Officer",
+"explanation": "Police officers are tasked with maintaining public order and ensuring citizens follow the law.",
+"hint": "They wear a uniform and carry a badge.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "safety"]
+},
+{
+"id": "GK-030-07",
+"q": "What is the name of the planet we live on?",
+"type": "input",
+"options": [],
+"answer": "Earth",
+"explanation": "Earth is the third planet from the Sun and the only one known to support life.",
+"hint": "It is often called the 'Blue Planet'.",
+"dlevel": "easy",
+"objective": "Understand basic space facts.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-030-08",
+"q": "Which of these is a form of energy that comes from the wind?",
+"type": "mcq",
+"options": ["Solar", "Wind", "Chemical", "Nuclear"],
+"answer": "Wind",
+"explanation": "Wind energy is produced by using large turbines to capture the energy from moving air.",
+"hint": "It starts with 'W'.",
+"dlevel": "medium",
+"objective": "Understand energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-030-09",
+"q": "What is the freezing point of water in degrees Fahrenheit?",
+"type": "input",
+"options": [],
+"answer": "32",
+"explanation": "At sea level, water freezes at 32 degrees Fahrenheit.",
+"hint": "It is a 2-digit number.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-030-10",
+"q": "Which season is known for being the coldest?",
+"type": "mcq",
+"options": ["Winter", "Summer", "Autumn", "Spring"],
+"answer": "Winter",
+"explanation": "Winter is characterized by the lowest temperatures of the year and often snow or ice.",
+"hint": "It starts with 'W'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

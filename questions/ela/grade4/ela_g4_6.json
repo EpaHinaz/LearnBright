@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-06-28",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-051",
+      "q": "Which option is a plural noun?",
+      "options": [
+        "guitar",
+        "pianos",
+        "flute",
+        "violin"
+      ],
+      "answer": "pianos",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-052",
+      "q": "What is the correct way to write the plural possessive form of 'birds'?",
+      "options": [
+        "bird's",
+        "birds's",
+        "birds'",
+        "birdses"
+      ],
+      "answer": "birds'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-053",
+      "q": "Identify the superlative adjective in this sentence: 'That was the most exciting soccer game of the season!'",
+      "options": [
+        "exciting",
+        "soccer",
+        "most exciting",
+        "season"
+      ],
+      "answer": "most exciting",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-054",
+      "q": "What does the word 'reheat' mean based on its prefix?",
+      "options": [
+        "heat before",
+        "heat again",
+        "not hot",
+        "too hot"
+      ],
+      "answer": "heat again",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-055",
+      "q": "What is a synonym for the word 'assist'?",
+      "options": [
+        "hinder",
+        "ignore",
+        "help",
+        "stop"
+      ],
+      "answer": "help",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-056",
+      "q": "Read the text: 'The violin is a popular string instrument with a high, beautiful sound. It is played by drawing a wooden bow across four tight strings. Violins are made mostly of hollow wood, which amplifies the sound waves inside. Musicians must practice holding the violin balanced carefully between their chin and shoulder. It takes time and patience to learn exactly where to place your fingers to play the right notes.' What can you infer about learning to play the violin?",
+      "options": [
+        "It is very easy and requires no practice.",
+        "It requires physical balance and dedication to master.",
+        "It is louder than a large brass instrument.",
+        "It was invented thousands of years ago in China."
+      ],
+      "answer": "It requires physical balance and dedication to master.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-057",
+      "q": "Based on the violin passage, what makes the sound of the violin louder?",
+      "options": [
+        "The steel strings on the fingerboard.",
+        "The hollow wood body that amplifies sound waves.",
+        "The length of the wooden bow.",
+        "The chin rest attached to the bottom."
+      ],
+      "answer": "The hollow wood body that amplifies sound waves.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-058",
+      "q": "Which sentence has correct punctuation?",
+      "options": [
+        "Did you see the painting of the solar system.",
+        "Did you see the painting of the solar system!",
+        "Did you see the painting of the solar system?",
+        "Did you see, the painting of the solar system?"
+      ],
+      "answer": "Did you see the painting of the solar system?",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-059",
+      "q": "Identify the sentence fragment that is missing a predicate.",
+      "options": [
+        "The clever detective solved the case.",
+        "Our teacher smiled warmly.",
+        "The giant old oak tree by the river.",
+        "They danced gracefully."
+      ],
+      "answer": "The giant old oak tree by the river.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-060",
+      "q": "Choose the correct coordinating conjunction: 'Sam wanted to paint a picture, ___ he couldn't find his paintbrushes.'",
+      "options": [
+        "so",
+        "but",
+        "or",
+        "for"
+      ],
+      "answer": "but",
+      "dlevel": "easy"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 01",
+  "description": "Focus on foundational grammar, basic vocabulary, introductory reading comprehension, and capital letters.",
+  "questions": [
+    {
+      "id": "ELA-001",
+      "q": "Identify the common noun in the following sentence: 'Dr. Silva drove her new truck to the medical clinic yesterday.'",
+      "passage": "",
+      "options": [
+        "Dr. Silva",
+        "yesterday",
+        "truck",
+        "drove"
+      ],
+      "answer": "truck",
+      "explanation": "'Truck' is a common noun because it names a general type of vehicle. 'Dr. Silva' is a proper noun, 'drove' is a verb, and 'yesterday' is an adverb.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-002",
+      "q": "Which noun should be capitalized because it is a proper noun?",
+      "passage": "",
+      "options": [
+        "ocean",
+        "tuesday",
+        "refrigerator",
+        "captain"
+      ],
+      "answer": "tuesday",
+      "explanation": "Days of the week, like 'Tuesday', are proper nouns and must always be capitalized.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-003",
+      "q": "Choose the correct plural form of the word 'bench' to complete the sentence: 'The park workers painted all the wooden ___ painted bright green.'",
+      "passage": "",
+      "options": [
+        "benches",
+        "benchs",
+        "benchez",
+        "benchies"
+      ],
+      "answer": "benches",
+      "explanation": "Nouns ending in '-ch' form their plural by adding '-es'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-004",
+      "q": "What is the synonym of the underlined word? 'Maya felt completely **weary** after running the entire mile during gym class.'",
+      "passage": "",
+      "options": [
+        "excited",
+        "tired",
+        "confused",
+        "proud"
+      ],
+      "answer": "tired",
+      "explanation": "'Weary' means feeling worn out or exhausted, which makes 'tired' the correct synonym.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-005",
+      "q": "What is the antonym of the underlined word? 'The smooth stone skipped across the surface of the quiet pond.'",
+      "passage": "",
+      "options": [
+        "rough",
+        "shiny",
+        "flat",
+        "heavy"
+      ],
+      "answer": "rough",
+      "explanation": "'Rough' is the exact opposite of 'smooth'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-006",
+      "q": "What is the main idea of the paragraph?",
+      "passage": "Honeybees are incredible workers that play a massive role in our environment. As they fly from flower to flower drinking sweet nectar, tiny grains of pollen stick to their fuzzy bodies. When they land on the next blossom, some of that pollen rubs off. This process is called pollination, and it allows plants to grow new seeds, fruits, and vegetables. Without the hard work of honeybees, many of the healthy foods we enjoy every single day would not be able to grow at all.",
+      "options": [
+        "Pollen sticks easily to a bee's fuzzy legs and body.",
+        "Honeybees drink sweet nectar from colorful flowers.",
+        "Honeybees are vital to our environment because they pollinate plants.",
+        "Many seeds and fruits taste delicious when eaten fresh."
+      ],
+      "answer": "Honeybees are vital to our environment because they pollinate plants.",
+      "explanation": "The entire passage focuses on how honeybees move pollen and why that process is necessary for plants and food growth.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-007",
+      "q": "According to the passage, what specific substance sticks to a honeybee's fuzzy body?",
+      "passage": "Honeybees are incredible workers that play a massive role in our environment. As they fly from flower to flower drinking sweet nectar, tiny grains of pollen stick to their fuzzy bodies. When they land on the next blossom, some of that pollen rubs off. This process is called pollination, and it allows plants to grow new seeds, fruits, and vegetables. Without the hard work of honeybees, many of the healthy foods we enjoy every single day would not be able to grow at all.",
+      "options": [
+        "Sweet nectar",
+        "Tiny seeds",
+        "Fresh fruit",
+        "Grains of pollen"
+      ],
+      "answer": "Grains of pollen",
+      "explanation": "The text directly states that 'tiny grains of pollen stick to their fuzzy bodies.'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-008",
+      "q": "Which sentence is capitalized correctly?",
+      "passage": "",
+      "options": [
+        "Last summer, my family visited the grand canyon with uncle Bob.",
+        "Last Summer, my family visited the Grand Canyon with uncle bob.",
+        "Last summer, my family visited the Grand Canyon with Uncle Bob.",
+        "Last summer, my Family visited the Grand Canyon with Uncle Bob."
+      ],
+      "answer": "Last summer, my family visited the Grand Canyon with Uncle Bob.",
+      "explanation": "'Grand Canyon' and 'Uncle Bob' are proper nouns requiring capitalization, while 'summer' and 'family' are common nouns that do not.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-009",
+      "q": "Identify the punctuation mistake in this sentence: 'Wow that shooting star was incredibly bright!'",
+      "passage": "",
+      "options": [
+        "It needs a period at the very end.",
+        "It needs a comma after the interjection 'Wow'.",
+        "The word 'shooting' should be capitalized.",
+        "It needs a question mark at the end."
+      ],
+      "answer": "It needs a comma after the interjection 'Wow'.",
+      "explanation": "An introductory interjection like 'Wow' should be followed by a comma when the emotional emphasis continues through the sentence.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-010",
+      "q": "Which pronoun correctly replaces the underlined words? '**The eager students** carried their science projects into the gym.'",
+      "passage": "",
+      "options": [
+        "He",
+        "They",
+        "Them",
+        "We"
+      ],
+      "answer": "They",
+      "explanation": "'They' is the correct third-person plural subject pronoun to replace 'The eager students'.",
+      "dlevel": "easy"
+    }
+  ]
+}

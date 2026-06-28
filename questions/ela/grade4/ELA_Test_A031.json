@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 29",
+  "description": "Hard-level ELA items focusing on complex conditional operators, precise suffix evaluation, and drawing textual conclusions from dense historical data.",
+  "questions": [
+    {
+      "id": "ELA-281",
+      "q": "Which verb construction correctly completes the conditional clause showing a hypothetical situation? 'If the engineering squad ___ the automated testing framework earlier, they would have caught the defect.'",
+      "passage": "",
+      "options": [
+        "developed",
+        "had developed",
+        "would develop",
+        "have developed"
+      ],
+      "answer": "had developed",
+      "explanation": "The past perfect subjunctive mood ('had developed') is used in conditional clauses to express a counterfactual past condition.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-282",
+      "q": "Identify the proper possessive construction for a compound subject showing joint ownership: 'The workspace belongs to both Marcus and Lucas. It is ___ workspace.'",
+      "passage": "",
+      "options": [
+        "Marcus' and Lucas'",
+        "Marcus and Lucas's",
+        "Marcus's and Lucas's",
+        "Marcus and Lucas'"
+      ],
+      "answer": "Marcus and Lucas's",
+      "explanation": "To show joint ownership where something belongs to two people together, add an apostrophe and an 's' only to the final name listed.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-283",
+      "q": "What is the meaning of the word **intricate** as used in this sentence? 'The master watchmaker constructed an **intricate** network of tiny interlocking gears and delicate springs, taking months to complete the assembly.'",
+      "passage": "",
+      "options": [
+        "simple and easy to build",
+        "highly detailed, complex, or complicated",
+        "made out of heavy iron bricks",
+        "broken beyond any repair"
+      ],
+      "answer": "highly detailed, complex, or complicated",
+      "explanation": "The context clues 'network of tiny interlocking gears' and 'taking months to complete' demonstrate that 'intricate' means complex or highly detailed.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-284",
+      "q": "Choose the best synonym for the word **judicious**.",
+      "passage": "",
+      "options": [
+        "foolish or quick",
+        "showing wisdom, good judgment, or care",
+        "highly legal",
+        "extremely loud"
+      ],
+      "answer": "showing wisdom, good judgment, or care",
+      "explanation": "'Judicious' means having, exercising, or characterized by sound judgment and wisdom.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-285",
+      "q": "Which suffix can be added to the adjective 'magnificent' to create a noun meaning 'grandeur or state of being magnificent'?",
+      "passage": "",
+      "options": [
+        "-ce",
+        "-ment",
+        "-ful",
+        "-ness"
+      ],
+      "answer": "-ce",
+      "explanation": "Dropping the terminal '-t' from 'magnificent' and adding '-ce' forms the standard noun 'magnificence'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-286",
+      "q": "What primary conclusion can you draw from the text regarding the construction challenges of the Panama Canal?",
+      "passage": "In 1904, workers began constructing the Panama Canal, an engineering marvel designed to connect the Atlantic and Pacific Oceans. The structural challenges were monumental. Engineering crews had to slice through miles of solid mountain rock and manage massive mudslides that constantly destroyed completed work. Furthermore, tropical diseases like yellow fever and malaria swept through work camps, sickening thousands of workers. To solve this, doctors drained standing pools of water to eliminate mosquito nesting zones. This combined medical and structural effort allowed the canal to open successfully in 1914.",
+      "options": [
+        "Building the canal was purely a structural issue that required heavy earthmoving tools.",
+        "The project required solving complex medical crises alongside immense structural engineering challenges.",
+        "The canal was built easily because of Panama's flat, desert geography.",
+        "Construction was permanently abandoned because of tropical blizzards."
+      ],
+      "answer": "The project required solving complex medical crises alongside immense structural engineering challenges.",
+      "explanation": "The text lists both geological problems (slicing rock, mudslides) and biological medical crises (malaria, yellow fever) that had to be resolved to build the canal.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-287",
+      "q": "What is the meaning of the word **eliminate** based on its context within the passage?",
+      "passage": "In 1904, workers began constructing the Panama Canal, an engineering marvel designed to connect the Atlantic and Pacific Oceans. The structural challenges were monumental. Engineering crews had to slice through miles of solid mountain rock and manage massive mudslides that constantly destroyed completed work. Furthermore, tropical diseases like yellow fever and malaria swept through work camps, sickening thousands of workers. To solve this, doctors drained standing pools of water to eliminate mosquito nesting zones. This combined medical and structural effort allowed the canal to open successfully in 1914.",
+      "options": [
+        "To expand or grow larger",
+        "To completely remove or get rid of something",
+        "To protect and feed something",
+        "To discover for the first time"
+      ],
+      "answer": "To completely remove or get rid of something",
+      "explanation": "Draining water pools to handle mosquito zones shows that 'eliminate' means to destroy or completely remove their breeding habits.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-288",
+      "q": "Which sentence handles semicolons and transition words perfectly to avoid any editing errors?",
+      "passage": "",
+      "options": [
+        "The automated script failed; however, the programmer quickly isolated the defect.",
+        "The automated script failed, however, the programmer quickly isolated the defect.",
+        "The automated script failed; however the programmer quickly isolated the defect.",
+        "The automated script failed however; the programmer quickly isolated the defect."
+      ],
+      "answer": "The automated script failed; however, the programmer quickly isolated the defect.",
+      "explanation": "A semicolon must separate two independent clauses linked by a conjunctive adverb ('however'), and a comma must follow the adverb.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-289",
+      "q": "Identify the sentence that contains a dangling modifier error.",
+      "passage": "",
+      "options": [
+        "Peering through the telescope lens, the craters of the moon were clearly visible.",
+        "Peering through the telescope lens, the astronomer clearly saw the moon's craters.",
+        "While the astronomer was peering through the telescope, the moon's craters came into view.",
+        "The astronomer focused the lens before peering through the telescope."
+      ],
+      "answer": "Peering through the telescope lens, the craters of the moon were clearly visible.",
+      "explanation": "The opening modifier 'Peering through the telescope lens' describes an action, but the subject that immediately follows is 'the craters', creating a dangling modifier error.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-290",
+      "q": "Choose the type of noun that is underlined in this sentence: 'The sudden **failure** of the electrical grid surprised the technicians.'",
+      "passage": "",
+      "options": [
+        "Proper noun",
+        "Collective noun",
+        "Abstract noun",
+        "Possessive noun"
+      ],
+      "answer": "Abstract noun",
+      "explanation": "'Failure' is an abstract noun because it represents a concept, state, or event that cannot be experienced directly through the physical senses.",
+      "dlevel": "hard"
+    }
+  ]
+}

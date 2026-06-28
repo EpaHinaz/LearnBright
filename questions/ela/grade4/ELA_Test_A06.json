@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 04",
+  "description": "Focus on comparative/superlative adjectives, context clues, supporting details, and punctuation within list structures.",
+  "questions": [
+    {
+      "id": "ELA-031",
+      "q": "Which word correctly completes the sentence? 'The local library is ___ than the corner bookstore.'",
+      "passage": "",
+      "options": [
+        "big",
+        "bigger",
+        "biggest",
+        "more bigger"
+      ],
+      "answer": "bigger",
+      "explanation": "When comparing two objects, the comparative form '-er' is used. 'More bigger' is a double comparative error.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-032",
+      "q": "Choose the superlative adjective that correctly completes the sentence: 'Mount Everest is the ___ mountain peak in the entire world.'",
+      "passage": "",
+      "options": [
+        "high",
+        "higher",
+        "highest",
+        "most highest"
+      ],
+      "answer": "highest",
+      "explanation": "When comparing three or more things, the superlative form '-est' is used.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-033",
+      "q": "Identify the adverb in the following sentence: 'The sleek cheetah ran swiftly across the grassy plain.'",
+      "passage": "",
+      "options": [
+        "sleek",
+        "cheetah",
+        "swiftly",
+        "grassy"
+      ],
+      "answer": "swiftly",
+      "explanation": "'Swiftly' is an adverb because it modifies the verb 'ran' by explaining how the cheetah ran.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-034",
+      "q": "Use context clues to find the meaning of the underlined word: 'The hikers had to be careful because the steep cliff trail was narrow and **treacherous**.'",
+      "passage": "",
+      "options": [
+        "safe",
+        "dangerous",
+        "beautiful",
+        "wide"
+      ],
+      "answer": "dangerous",
+      "explanation": "The context clues 'steep cliff trail' and 'had to be careful' indicate that the trail was hazardous or dangerous.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-035",
+      "q": "Which word is a synonym for **gigantic**?",
+      "passage": "",
+      "options": [
+        "tiny",
+        "enormous",
+        "scary",
+        "heavy"
+      ],
+      "answer": "enormous",
+      "explanation": "'Enormous' means extremely large, which is a direct synonym for 'gigantic'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-036",
+      "q": "Which detail from the passage best supports the idea that castles were built for protection?",
+      "passage": "During the Middle Ages, kings and lords lived in massive stone castles. These grand buildings were not just fancy homes; they were strong fortresses designed to keep enemies out. Castle walls were often ten feet thick and surrounded by a wide water ditch called a moat. High guard towers allowed soldiers to see approaching armies from miles away. Inside, heavy wooden doors with iron bars prevented attackers from bursting into the courtyard.",
+      "options": [
+        "Kings and lords lived inside them.",
+        "Castle walls were ten feet thick and surrounded by a moat.",
+        "Castles were built during the Middle Ages.",
+        "The buildings were grand and fancy homes."
+      ],
+      "answer": "Castle walls were ten feet thick and surrounded by a moat.",
+      "explanation": "Thick walls and a water-filled moat are concrete architectural details that demonstrate defensive protection against enemies.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-037",
+      "q": "What does the word **fortresses** mean based on its use in the text?",
+      "passage": "During the Middle Ages, kings and lords lived in massive stone castles. These grand buildings were not just fancy homes; they were strong fortresses designed to keep enemies out. Castle walls were often ten feet thick and surrounded by a wide water ditch called a moat. High guard towers allowed soldiers to see approaching armies from miles away. Inside, heavy wooden doors with iron bars prevented attackers from bursting into the courtyard.",
+      "options": [
+        "Open parks for tournaments",
+        "Highly secure, protected buildings",
+        "Royal dining halls",
+        "Ruined stone houses"
+      ],
+      "answer": "Highly secure, protected buildings",
+      "explanation": "The context clue 'designed to keep enemies out' indicates that a fortress is a safe, fortified structure.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-038",
+      "q": "Which sentence uses commas correctly to separate items in a list?",
+      "passage": "",
+      "options": [
+        "We bought milk eggs bread, and cheese at the grocery store.",
+        "We bought milk, eggs, bread, and cheese at the grocery store.",
+        "We bought milk, eggs, bread and, cheese at the grocery store.",
+        "We bought milk eggs, bread, and cheese at the grocery store."
+      ],
+      "answer": "We bought milk, eggs, bread, and cheese at the grocery store.",
+      "explanation": "Commas are required after each item in a list of three or more things, including before the coordinating conjunction (the Oxford comma).",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-039",
+      "q": "Identify the sentence error in the following selection: 'The children played outside all afternoon they forgot to eat their snacks.'",
+      "passage": "",
+      "options": [
+        "It is a sentence fragment.",
+        "It is a run-on sentence.",
+        "It has incorrect subject-verb agreement.",
+        "It misses an apostrophe."
+      ],
+      "answer": "It is a run-on sentence.",
+      "explanation": "This runs together two independent thoughts without any punctuation or connecting words.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-040",
+      "q": "What type of noun is underlined in the sentence? 'The entire **class** went on a field trip to the science museum.'",
+      "passage": "",
+      "options": [
+        "Proper noun",
+        "Possessive noun",
+        "Collective noun",
+        "Plural noun"
+      ],
+      "answer": "Collective noun",
+      "explanation": "'Class' is a collective noun because it refers to a group of individuals acting as a single unit.",
+      "dlevel": "easy"
+    }
+  ]
+}

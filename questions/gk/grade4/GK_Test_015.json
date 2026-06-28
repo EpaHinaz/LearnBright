@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 15",
+"description": "A mix of fun and educational questions covering animals, geography, science, community, and health for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-015-01",
+"q": "Which of these animals is known for having a pouch to carry its young?",
+"type": "mcq",
+"options": ["Tiger", "Kangaroo", "Monkey", "Bear"],
+"answer": "Kangaroo",
+"explanation": "Kangaroos are marsupials, meaning they carry their young, called joeys, in a pouch.",
+"hint": "It is famous for jumping.",
+"dlevel": "easy",
+"objective": "Identify common animals and their characteristics.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-015-02",
+"q": "What is the largest ocean on Earth?",
+"type": "input",
+"options": [],
+"answer": "Pacific Ocean",
+"explanation": "The Pacific Ocean is the largest and deepest ocean on our planet.",
+"hint": "It covers more than one-third of the Earth's surface.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "oceans"]
+},
+{
+"id": "GK-015-03",
+"q": "Which of these is a vegetable that is good for your eyes?",
+"type": "mcq",
+"options": ["Potato", "Carrot", "Corn", "Onion"],
+"answer": "Carrot",
+"explanation": "Carrots are rich in beta-carotene, which the body converts into Vitamin A, essential for good vision.",
+"hint": "It is crunchy and orange.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-015-04",
+"q": "What is the name of our home galaxy?",
+"type": "input",
+"options": [],
+"answer": "Milky Way",
+"explanation": "Our Solar System is located within the Milky Way galaxy.",
+"hint": "It has a name that includes a dairy product.",
+"dlevel": "medium",
+"objective": "Understand basic facts about space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-015-05",
+"q": "Which of these is a non-renewable energy source?",
+"type": "mcq",
+"options": ["Solar", "Wind", "Coal", "Water"],
+"answer": "Coal",
+"explanation": "Coal is a fossil fuel and is a non-renewable energy source because it takes millions of years to form.",
+"hint": "It is a black rock used to make electricity.",
+"dlevel": "hard",
+"objective": "Understand environmental science.",
+"tags": ["environment", "science"]
+},
+{
+"id": "GK-015-06",
+"q": "Which community helper works in a library?",
+"type": "mcq",
+"options": ["Librarian", "Farmer", "Architect", "Scientist"],
+"answer": "Librarian",
+"explanation": "A librarian manages the library and helps people find books and information.",
+"hint": "They work with books.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "books"]
+},
+{
+"id": "GK-015-07",
+"q": "What gas is essential for humans to breathe?",
+"type": "input",
+"options": [],
+"answer": "Oxygen",
+"explanation": "Oxygen is the gas that humans and many animals need to breathe in to survive.",
+"hint": "It makes up about 21% of the Earth's atmosphere.",
+"dlevel": "medium",
+"objective": "Understand human body systems.",
+"tags": ["human body", "science"]
+},
+{
+"id": "GK-015-08",
+"q": "Which of these is a solid state of water?",
+"type": "mcq",
+"options": ["Rain", "Steam", "Ice", "Mist"],
+"answer": "Ice",
+"explanation": "Ice is water in its solid form, occurring at temperatures below 0 degrees Celsius.",
+"hint": "You put it in drinks to make them cold.",
+"dlevel": "easy",
+"objective": "Understand states of matter.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-015-09",
+"q": "What is the speed of light approximately?",
+"type": "input",
+"options": [],
+"answer": "300,000",
+"explanation": "Light travels at about 300,000 kilometers per second in a vacuum.",
+"hint": "It is a very, very large number.",
+"dlevel": "hard",
+"objective": "Learn advanced scientific facts.",
+"tags": ["science", "space"]
+},
+{
+"id": "GK-015-10",
+"q": "Which of these is the coldest continent?",
+"type": "mcq",
+"options": ["Asia", "Africa", "Antarctica", "Australia"],
+"answer": "Antarctica",
+"explanation": "Antarctica is the coldest, windiest, and driest continent on Earth.",
+"hint": "It is covered in ice.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "world"]
+}
+]
+}

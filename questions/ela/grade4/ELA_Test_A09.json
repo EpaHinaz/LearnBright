@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 07",
+  "description": "Focus on pronouns, context clues, making inferences, and correcting basic spelling/grammar errors.",
+  "questions": [
+    {
+      "id": "ELA-061",
+      "q": "Which relative pronoun correctly completes the sentence? 'The woman ___ designed the new playground lives on our street.'",
+      "passage": "",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "answer": "who",
+      "explanation": "'Who' is the correct relative pronoun to refer to a person acting as the subject of the relative clause.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-062",
+      "q": "Identify the possessive pronoun in this sentence: 'That glossy blue binder on the teacher's desk is mine.'",
+      "passage": "",
+      "options": [
+        "That",
+        "teacher's",
+        "mine",
+        "blue"
+      ],
+      "answer": "mine",
+      "explanation": "'Mine' is a standalone possessive pronoun showing ownership of the binder.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-063",
+      "q": "What is the meaning of the underlined word? 'The map was so old that the faint text was nearly **illegible**.'",
+      "passage": "",
+      "options": [
+        "impossible to read",
+        "bright and colorful",
+        "written in another language",
+        "easy to understand"
+      ],
+      "answer": "impossible to read",
+      "explanation": "The context clues 'old' and 'faint text' suggest that the text could not be clearly seen or read.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-064",
+      "q": "Find the best antonym for the word **expand**.",
+      "passage": "",
+      "options": [
+        "grow",
+        "shrink",
+        "stretch",
+        "fill"
+      ],
+      "answer": "shrink",
+      "explanation": "'Expand' means to make larger; its opposite is 'shrink'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-065",
+      "q": "What does the suffix **-ful** mean in words like 'careful' or 'joyful'?",
+      "passage": "",
+      "options": [
+        "without",
+        "full of",
+        "one who does",
+        "the study of"
+      ],
+      "answer": "full of",
+      "explanation": "The suffix '-ful' means full of, so 'joyful' means full of joy.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-066",
+      "q": "Based on the text, why did the author feel nervous at first?",
+      "passage": "Stepping onto the stage, my heart hammered like a drum against my ribs. The bright lights blinded me for a second, and I could hear a soft murmur from the crowded auditorium. I took a deep, shaky breath and looked down at my shiny violin. For weeks, I had practiced this difficult concerto until my fingers ached. As I drew the bow across the strings, the first beautiful note rang out clear and true. Instantly, the tension left my shoulders, and my fingers moved across the instrument with confidence.",
+      "options": [
+        "The stage lights were uncomfortably hot.",
+        "They were about to perform music before a large crowd.",
+        "They forgot to bring their music book.",
+        "Their violin was damaged and out of tune."
+      ],
+      "answer": "They were about to perform music before a large crowd.",
+      "explanation": "The narrator's pounding heart and shaky breath while standing before a 'crowded auditorium' indicate performance anxiety.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-067",
+      "q": "What can you infer happened after the first beautiful note rang out?",
+      "passage": "Stepping onto the stage, my heart hammered like a drum against my ribs. The bright lights blinded me for a second, and I could hear a soft murmur from the crowded auditorium. I took a deep, shaky breath and looked down at my shiny violin. For weeks, I had practiced this difficult concerto until my fingers ached. As I drew the bow across the strings, the first beautiful note rang out clear and true. Instantly, the tension left my shoulders, and my fingers moved across the instrument with confidence.",
+      "options": [
+        "The narrator stopped playing and ran away.",
+        "The narrator became more relaxed and played well.",
+        "The audience interrupted by laughing loudly.",
+        "The violin bow snapped in half."
+      ],
+      "answer": "The narrator became more relaxed and played well.",
+      "explanation": "The text states that the tension left the narrator's shoulders and they began to play with confidence.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-068",
+      "q": "Which sentence contains a spelling or grammatical error?",
+      "passage": "",
+      "options": [
+        "Their house is located at the end of the street.",
+        "They're going to the amusement park tomorrow.",
+        "I looked over there and saw a wild deer.",
+        "There ready to start the spelling bee now."
+      ],
+      "answer": "There ready to start the spelling bee now.",
+      "explanation": "It should use the contraction 'They're' (They are) instead of the adverb/place word 'There'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-069",
+      "q": "What is the best way to correct this run-on sentence? 'The weather was cold we decided to drink hot cocoa.'",
+      "passage": "",
+      "options": [
+        "The weather was cold, so we decided to drink hot cocoa.",
+        "The weather was cold so we decided to drink hot cocoa.",
+        "The weather was cold, we decided to drink hot cocoa.",
+        "The weather was cold because we decided to drink hot cocoa."
+      ],
+      "answer": "The weather was cold, so we decided to drink hot cocoa.",
+      "explanation": "Using a comma followed by the coordinating conjunction 'so' properly links these two independent clauses.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-070",
+      "q": "Identify the abstract noun from the options below.",
+      "passage": "",
+      "options": [
+        "trophy",
+        "bravery",
+        "soldier",
+        "medal"
+      ],
+      "answer": "bravery",
+      "explanation": "'Bravery' is an abstract noun because it is an idea, quality, or state that cannot be seen, heard, or touched.",
+      "dlevel": "easy"
+    }
+  ]
+}

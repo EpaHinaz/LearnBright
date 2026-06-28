@@ -1,0 +1,128 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "ELA Test - 2026-07-05",
+  "description": "Grade 4 ELA practice assignment.",
+  "questions": [
+    {
+      "id": "ELA-121",
+      "q": "Identify the prepositional phrase in the following sentence: 'The clever fox hid quietly behind the thick bushes.'",
+      "options": [
+        "The clever fox",
+        "hid quietly",
+        "behind the thick bushes",
+        "thick bushes"
+      ],
+      "answer": "behind the thick bushes",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-122",
+      "q": "Which plural noun is spelled incorrectly?",
+      "options": [
+        "libraries",
+        "matches",
+        "tomatoes",
+        "keyes"
+      ],
+      "answer": "keyes",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-123",
+      "q": "Choose the best pronoun to replace the underlined phrase: '<u>The local volunteers</u> cleaned up the trash along the riverbanks.'",
+      "options": [
+        "They",
+        "Them",
+        "We",
+        "Us"
+      ],
+      "answer": "They",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-124",
+      "q": "What is an antonym for the word 'rigid'?",
+      "options": [
+        "stiff",
+        "flexible",
+        "broken",
+        "solid"
+      ],
+      "answer": "flexible",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-125",
+      "q": "Use context clues to determine the meaning of the word 'perched': 'The small bluebird was perched on the high telephone wire, looking down at the grassy yard.'",
+      "options": [
+        "flying fast",
+        "sitting or resting",
+        "building a nest",
+        "singing loudly"
+      ],
+      "answer": "sitting or resting",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-126",
+      "q": "Read the text: 'The first successful hot air balloon flight took place in Paris, France, in 1783. Instead of carrying human passengers, the balloon carried a sheep, a duck, and a rooster. The designers wanted to see if animals could survive high in the air before risking a human life. The large balloon was made of paper and cloth, and it used hot air from a wood fire to float into the sky. The flight lasted for eight minutes and covered two miles before landing safely in a meadow.' What was the author's primary purpose in writing this text?",
+      "options": [
+        "To convince readers to go on a hot air balloon ride.",
+        "To inform readers about the historic first hot air balloon flight and its passengers.",
+        "To explain how to build a modern hot air balloon using paper.",
+        "To tell a funny fictional story about animals escaping from a farm."
+      ],
+      "answer": "To inform readers about the historic first hot air balloon flight and its passengers.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-127",
+      "q": "Based on the hot air balloon text, what can you infer about the balloon's designers?",
+      "options": [
+        "They were careless inventors who did not plan ahead.",
+        "They valued human safety and wanted to test the flight conditions first.",
+        "They were farmers who wanted to transport animals across France.",
+        "They preferred flying over land rather than water."
+      ],
+      "answer": "They valued human safety and wanted to test the flight conditions first.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-128",
+      "q": "Which sentence is punctuated correctly?",
+      "options": [
+        "We needed to find water, shelter and dry firewood before the sun set.",
+        "We needed to find water, shelter, and dry firewood before the sun set.",
+        "We needed to find water shelter and dry firewood before the sun set.",
+        "We needed to find, water, shelter, and dry firewood, before the sun set."
+      ],
+      "answer": "We needed to find water, shelter, and dry firewood before the sun set.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-129",
+      "q": "Identify the complete sentence that does NOT contain a fragment or run-on.",
+      "options": [
+        "While we were walking down the long trail toward the lake.",
+        "The computer network went down, the technician arrived quickly to fix it.",
+        "The historical society archive contains hundreds of antique maps.",
+        "Through the lens of the powerful science lab microscope."
+      ],
+      "answer": "The historical society archive contains hundreds of antique maps.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-130",
+      "q": "Choose the option that correctly identifies the part of speech of the underlined word: 'The heavy rain fell <u>steadily</u> throughout the long night.'",
+      "options": [
+        "adjective",
+        "verb",
+        "adverb",
+        "preposition"
+      ],
+      "answer": "adverb",
+      "dlevel": "easy"
+    }
+  ]
+}

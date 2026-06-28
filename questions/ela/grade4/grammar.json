@@ -1,0 +1,18 @@
+{
+  "subject": "ELA",
+  "grade": "4",
+  "title": "Grammar & Parts of Speech",
+  "description": "Nouns, verbs, adjectives, adverbs, and sentence types.",
+  "questions": [
+    { "q": "Which word is a NOUN in: 'The playful puppy chased the red ball.'", "options": ["playful", "chased", "puppy", "red"], "answer": "puppy", "explanation": "'Puppy' names an animal = noun." },
+    { "q": "Choose the correct verb: 'She ___ to school every day.'", "options": ["walk", "walks", "walking", "walked"], "answer": "walks", "explanation": "Singular subject 'She' needs 'walks'." },
+    { "q": "What part of speech is 'quickly' in 'He ran quickly'?", "options": [], "answer": "adverb", "explanation": "'Quickly' tells HOW he ran — adverb modifies a verb." },
+    { "q": "Which sentence uses an ADJECTIVE?", "options": ["The dog ran fast.", "She sang beautifully.", "The huge elephant splashed.", "He quickly ate lunch."], "answer": "The huge elephant splashed.", "explanation": "'Huge' describes the noun 'elephant' = adjective." },
+    { "q": "What type of sentence is: 'Wow, what a beautiful sunset!'", "options": ["Declarative", "Interrogative", "Exclamatory", "Imperative"], "answer": "Exclamatory", "explanation": "Strong emotion + exclamation mark = exclamatory sentence." },
+    { "q": "Correct the verb: 'Yesterday, I goed to the park.' Replace 'goed'.", "options": [], "answer": "went", "explanation": "'Go' is irregular; its past tense is 'went'." },
+    { "q": "Which is a COMPOUND sentence?", "options": ["I love reading.", "The cat slept.", "I wanted pizza, but we had pasta.", "Running is fun."], "answer": "I wanted pizza, but we had pasta.", "explanation": "Two independent clauses joined by the conjunction 'but'." },
+    { "q": "What does the prefix 'un-' mean?", "options": ["Again", "Not or opposite", "Before", "After"], "answer": "Not or opposite", "explanation": "Un- means not/opposite. Example: unhappy = not happy." },
+    { "q": "Which word is a VERB in: 'The bright stars shone in the dark sky.'", "options": ["bright", "stars", "shone", "dark"], "answer": "shone", "explanation": "'Shone' is the action the stars performed = verb." },
+    { "q": "What type of sentence is: 'Please close the door.'", "options": ["Declarative", "Interrogative", "Exclamatory", "Imperative"], "answer": "Imperative", "explanation": "A command directed at someone = imperative sentence." }
+  ]
+}

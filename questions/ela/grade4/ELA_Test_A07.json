@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 05",
+  "description": "Focus on prepositions, base words with affixes, author's purpose, and basic apostrophe placement.",
+  "questions": [
+    {
+      "id": "ELA-041",
+      "q": "Identify the preposition in this sentence: 'The curious cat hid under the soft kitchen rug.'",
+      "passage": "",
+      "options": [
+        "curious",
+        "hid",
+        "under",
+        "soft"
+      ],
+      "answer": "under",
+      "explanation": "'Under' is a preposition because it describes the spatial relationship between the cat and the rug.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-042",
+      "q": "Which article correctly completes the sentence? 'We saw ___ unusual bird sitting on our back fence this morning.'",
+      "passage": "",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "answer": "an",
+      "explanation": "Use 'an' before words that begin with a vowel sound, like 'unusual'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-043",
+      "q": "In the sentence 'The workers completed the construction early,' what is the base word of **construction**?",
+      "passage": "",
+      "options": [
+        "struct",
+        "construct",
+        "constrict",
+        "underconstruction"
+      ],
+      "answer": "construct",
+      "explanation": "'Construct' is the base verb to which the suffix '-ion' is appended.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-044",
+      "q": "What is the meaning of the word **misunderstand**?",
+      "passage": "",
+      "options": [
+        "To understand perfectly",
+        "To understand before someone explains",
+        "To understand incorrectly",
+        "To fail to hear someone speak"
+      ],
+      "answer": "To understand incorrectly",
+      "explanation": "The prefix 'mis-' means wrong or badly, so 'misunderstand' means to interpret or understand incorrectly.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-045",
+      "q": "Which word is an antonym for the word **timid**?",
+      "passage": "",
+      "options": [
+        "shy",
+        "bold",
+        "quiet",
+        "scared"
+      ],
+      "answer": "bold",
+      "explanation": "'Timid' means shy or easily frightened; its opposite is 'bold'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-046",
+      "q": "What is the author's main purpose for writing this passage?",
+      "passage": "Recycling is an easy way that everyone can help protect our fragile planet. When we toss plastic bottles, soda cans, and clean paper into recycling bins, these items are sent to factories to be turned into brand new products. This simple habit keeps trash out of huge landfills and saves precious natural resources like trees and water. Take a moment to sort your trash today—it makes a massive difference for our world!",
+      "options": [
+        "To explain how factories process heavy machinery.",
+        "To entertain readers with a story about a recycling center.",
+        "To persuade readers to practice recycling items.",
+        "To inform readers about how landfills are built."
+      ],
+      "answer": "To persuade readers to practice recycling items.",
+      "explanation": "The passage uses persuasive language ('easy way', 'precious natural resources', 'sort your trash today!') to encourage readers to recycle.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-047",
+      "q": "Based on the text, what is one positive result of recycling?",
+      "passage": "Recycling is an easy way that everyone can help protect our fragile planet. When we toss plastic bottles, soda cans, and clean paper into recycling bins, these items are sent to factories to be turned into brand new products. This simple habit keeps trash out of huge landfills and saves precious natural resources like trees and water. Take a moment to sort your trash today—it makes a massive difference for our world!",
+      "options": [
+        "It makes trash cans look cleaner.",
+        "It keeps garbage out of large landfills.",
+        "It allows people to buy expensive products.",
+        "It cleans up polluted neighborhood parks."
+      ],
+      "answer": "It keeps garbage out of large landfills.",
+      "explanation": "The text explicitly states: 'This simple habit keeps trash out of huge landfills...'",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-048",
+      "q": "Which sentence shows correct apostrophe usage for a plural possessive noun?",
+      "passage": "",
+      "options": [
+        "The player's jerseys were all red.",
+        "The players jersey's were all red.",
+        "The players' jerseys were all red.",
+        "The playerses jerseys were all red."
+      ],
+      "answer": "The players' jerseys were all red.",
+      "explanation": "For a regular plural noun ending in 's' (players), show possession by placing the apostrophe after the final 's'.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-049",
+      "q": "Identify the sentence that contains a capitalization error.",
+      "passage": "",
+      "options": [
+        "We went to the zoo on Friday afternoon.",
+        "My cousin lives near the Mississippi River.",
+        "We are studying the planet mars in science class.",
+        "Dr. Evans checked my sprained ankle."
+      ],
+      "answer": "We are studying the planet mars in science class.",
+      "explanation": "The specific name of a planet, 'Mars', is a proper noun and must be capitalized.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "ELA-050",
+      "q": "Choose the coordinating conjunction that best shows cause and effect: 'Sophia put on her warm winter coat, ___ the temperature outside had dropped below freezing.'",
+      "passage": "",
+      "options": [
+        "but",
+        "or",
+        "for",
+        "so"
+      ],
+      "answer": "for",
+      "explanation": "'For' acts as a conjunction meaning 'because' to connect the action with its underlying cause.",
+      "dlevel": "easy"
+    }
+  ]
+}

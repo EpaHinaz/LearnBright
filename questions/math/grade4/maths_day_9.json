@@ -1,0 +1,147 @@
+{
+  "subject": "Maths",
+  "title": "Maths Test - Day 21",
+  "description": "Comprehensive math practice questions for Day 21.",
+  "questions": [
+    {
+      "id": "MATHS-201",
+      "q": "What is 103 \u00d7 7?",
+      "passage": "",
+      "options": [
+        "726",
+        "721",
+        "716",
+        "731"
+      ],
+      "answer": "721",
+      "explanation": "The correct answer is 721 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-202",
+      "q": "What is 104 \u00d7 8?",
+      "passage": "",
+      "options": [
+        "842",
+        "827",
+        "832",
+        "837"
+      ],
+      "answer": "832",
+      "explanation": "The correct answer is 832 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-203",
+      "q": "What is 105 \u00d7 4?",
+      "passage": "",
+      "options": [
+        "430",
+        "420",
+        "425",
+        "415"
+      ],
+      "answer": "420",
+      "explanation": "The correct answer is 420 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-204",
+      "q": "Leo had $166. After buying a game, Leo has $61 left. How much did the game cost?",
+      "passage": "",
+      "options": [
+        "115",
+        "101",
+        "107",
+        "105"
+      ],
+      "answer": "105",
+      "explanation": "The correct answer is 105 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-205",
+      "q": "Mia bought 7 packs of pencils. Each pack has 8 pencils. How many pencils did Mia buy?",
+      "passage": "",
+      "options": [
+        "58",
+        "56",
+        "52",
+        "66"
+      ],
+      "answer": "56",
+      "explanation": "The correct answer is 56 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-206",
+      "q": "Solve: 50 - (4 \u00d7 6)",
+      "passage": "",
+      "options": [
+        "24",
+        "26",
+        "29",
+        "38"
+      ],
+      "answer": "26",
+      "explanation": "The correct answer is 26 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "MATHS-207",
+      "q": "What is the value of 3 \u00d7 (4 + 1)?",
+      "passage": "",
+      "options": [
+        "18",
+        "27",
+        "15",
+        "13"
+      ],
+      "answer": "15",
+      "explanation": "The correct answer is 15 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-208",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "2/4",
+        "1/4",
+        "3/4",
+        "4/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-209",
+      "q": "If a pizza is cut into 4 equal slices and Leo eats 3 slices, what fraction of the pizza did he eat?",
+      "passage": "",
+      "options": [
+        "2/4",
+        "1/4",
+        "4/4",
+        "3/4"
+      ],
+      "answer": "3/4",
+      "explanation": "The correct answer is 3/4 based on standard Grade 4 mathematical rules.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "MATHS-210",
+      "q": "Find the perimeter of a rectangle with length 7 cm and width 5 cm.",
+      "passage": "",
+      "options": [
+        "26",
+        "48",
+        "23",
+        "24"
+      ],
+      "answer": "24",
+      "explanation": "The correct answer is 24 based on standard Grade 4 mathematical rules.",
+      "dlevel": "hard"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 18",
+  "description": "Medium difficulty questions targeting collective nouns, precise contextual meaning, character motivation, and comma splicing.",
+  "questions": [
+    {
+      "id": "ELA-171",
+      "q": "Choose the plural noun form that is spelled correctly.",
+      "passage": "",
+      "options": [
+        "potatos",
+        "potatoes",
+        "potatoies",
+        "potatose"
+      ],
+      "answer": "potatoes",
+      "explanation": "Nouns ending in an 'o' preceded by a consonant typically form their plural by adding '-es'.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-172",
+      "q": "Identify the collective noun in this sentence: 'The audience clapped enthusiastically at the end of the musical performance.'",
+      "passage": "",
+      "options": [
+        "audience",
+        "clapped",
+        "performance",
+        "enthusiastically"
+      ],
+      "answer": "audience",
+      "explanation": "'Audience' is a collective noun because it names a single group of individual spectators or listeners.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-173",
+      "q": "What is the meaning of the underlined word? 'The desert plants have adapted to survive in an **arid** climate where rain rarely falls.'",
+      "passage": "",
+      "options": [
+        "freezing and cold",
+        "extremely dry",
+        "tropical and wet",
+        "mountainous"
+      ],
+      "answer": "extremely dry",
+      "explanation": "The context clue 'where rain rarely falls' indicates that 'arid' means extremely dry.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-174",
+      "q": "Choose the best synonym for the word **fatigued**.",
+      "passage": "",
+      "options": [
+        "scared",
+        "exhausted",
+        "hungry",
+        "injured"
+      ],
+      "answer": "exhausted",
+      "explanation": "'Fatigued' means feeling completely overtired or worn out, making 'exhausted' its synonym.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-175",
+      "q": "Which suffix can transform the verb 'depend' into an adjective meaning 'reliable'?",
+      "passage": "",
+      "options": [
+        "-able",
+        "-ment",
+        "-ful",
+        "-less"
+      ],
+      "answer": "-able",
+      "explanation": "Adding the suffix '-able' to the verb 'depend' creates the adjective 'dependable', which means reliable.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-176",
+      "q": "What can you infer about the narrator's motivation for waking up early?",
+      "passage": "At 5:00 AM, my alarm clock buzzed loudly, breaking the silent stillness of the house. Instead of hitting the snooze button like I normally do, I leaped out of bed with a huge smile. I quickly pulled on my warmest wool socks, grabbed my camera gear from the desk, and checked my backpack twice. My grandfather was already waiting in the kitchen, pouring warm tea into a metal thermos. Today was finally the day we were climbing up to Echo Peak to photograph the sunrise over the valley.",
+      "options": [
+        "The narrator had to attend school early.",
+        "The narrator was excited about a photography trip to Echo Peak with their grandfather.",
+        "The narrator was running away from an unwanted chore.",
+        "The narrator's grandfather forced them to wake up early."
+      ],
+      "answer": "The narrator was excited about a photography trip to Echo Peak with their grandfather.",
+      "explanation": "The narrator's behavior ('leaped out of bed with a huge smile', checking camera gear, heading out to photograph a sunrise) shows strong personal excitement for the excursion.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-177",
+      "q": "What does the word **stillness** mean based on its usage in the passage?",
+      "passage": "At 5:00 AM, my alarm clock buzzed loudly, breaking the silent stillness of the house. Instead of hitting the snooze button like I normally do, I leaped out of bed with a huge smile. I quickly pulled on my warmest wool socks, grabbed my camera gear from the desk, and checked my backpack twice. My grandfather was already waiting in the kitchen, pouring warm tea into a metal thermos. Today was finally the day we were climbing up to Echo Peak to photograph the sunrise over the valley.",
+      "options": [
+        "A state of loud noise",
+        "A state of quiet and lack of motion",
+        "A state of intense confusion",
+        "A state of cold temperature"
+      ],
+      "answer": "A state of quiet and lack of motion",
+      "explanation": "The modifier 'silent' pairing with 'stillness' reinforces that the house was quiet and calm before the alarm went off.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-178",
+      "q": "Which sentence contains a comma splice error?",
+      "passage": "",
+      "options": [
+        "The match was canceled because the field was completely flooded.",
+        "The field was completely flooded, the soccer match was canceled.",
+        "The field was flooded, so the soccer match was canceled.",
+        "Since the field was flooded, the match was canceled."
+      ],
+      "answer": "The field was completely flooded, the soccer match was canceled.",
+      "explanation": "This option joins two complete independent thoughts with only a comma, creating a classic comma splice error.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-179",
+      "q": "Identify the sentence that uses correct punctuation and quotation marks.",
+      "passage": "",
+      "options": [
+        "\"Are you ready to see the exhibit?\" asked the tour guide.",
+        "\"Are you ready to see the exhibit,\" asked the tour guide?",
+        "\"Are you ready to see the exhibit\" asked the tour guide?",
+        "Are you ready to see the exhibit? \"asked the tour guide.\""
+      ],
+      "answer": "\"Are you ready to see the exhibit?\" asked the tour guide.",
+      "explanation": "Because the quoted text is a direct question, the question mark belongs inside the closing quotation mark, followed by a lowercase dialogue tag.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "ELA-180",
+      "q": "What type of pronoun is underlined in this sentence? 'The students wrapped the gifts **themselves**.'",
+      "passage": "",
+      "options": [
+        "Relative pronoun",
+        "Intensive pronoun",
+        "Possessive pronoun",
+        "Object pronoun"
+      ],
+      "answer": "Intensive pronoun",
+      "explanation": "'Themselves' is an intensive pronoun here because it emphasizes the noun 'students' to show they performed the action alone.",
+      "dlevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+"subject": "GeneralKnowledge",
+"title": "GeneralKnowledge Test - 23",
+"description": "A mix of fun and educational questions covering animals, geography, science, health, and technology for Grade 4 students.",
+"grade": 4,
+"questions": [
+{
+"id": "GK-023-01",
+"q": "Which of these animals is known for having a long neck and spots?",
+"type": "mcq",
+"options": ["Elephant", "Lion", "Giraffe", "Zebra"],
+"answer": "Giraffe",
+"explanation": "Giraffes have exceptionally long necks to reach leaves high in trees and distinct spot patterns.",
+"hint": "It is the tallest land animal.",
+"dlevel": "easy",
+"objective": "Identify common animal traits.",
+"tags": ["animals", "nature"]
+},
+{
+"id": "GK-023-02",
+"q": "What is the capital city of Canada?",
+"type": "input",
+"options": [],
+"answer": "Ottawa",
+"explanation": "Ottawa is the capital city of Canada and is located in the province of Ontario.",
+"hint": "It starts with an 'O'.",
+"dlevel": "medium",
+"objective": "Learn basic geography facts.",
+"tags": ["geography", "countries"]
+},
+{
+"id": "GK-023-03",
+"q": "Which part of a plant is usually found above ground and supports leaves and flowers?",
+"type": "mcq",
+"options": ["Root", "Stem", "Seed", "Soil"],
+"answer": "Stem",
+"explanation": "The stem supports the plant's leaves, flowers, and fruits, and transports water and nutrients from the roots.",
+"hint": "It is like the 'stalk' of the plant.",
+"dlevel": "easy",
+"objective": "Understand basic plant biology.",
+"tags": ["plants", "science"]
+},
+{
+"id": "GK-023-04",
+"q": "What do we call an animal that eats only meat?",
+"type": "input",
+"options": [],
+"answer": "Carnivore",
+"explanation": "A carnivore is an animal that feeds primarily on the flesh of other animals.",
+"hint": "The word starts with 'C'.",
+"dlevel": "medium",
+"objective": "Classify animals by diet.",
+"tags": ["animals", "science"]
+},
+{
+"id": "GK-023-05",
+"q": "Which of these is a healthy snack choice?",
+"type": "mcq",
+"options": ["Candy Bar", "Potato Chips", "Carrot Sticks", "Soda"],
+"answer": "Carrot Sticks",
+"explanation": "Carrots are vegetables that provide fiber and vitamins, making them a much healthier snack than sugary or processed options.",
+"hint": "They are crunchy and orange.",
+"dlevel": "easy",
+"objective": "Identify healthy lifestyle habits.",
+"tags": ["health", "food"]
+},
+{
+"id": "GK-023-06",
+"q": "Which community helper helps to teach students in a school?",
+"type": "mcq",
+"options": ["Doctor", "Teacher", "Firefighter", "Chef"],
+"answer": "Teacher",
+"explanation": "Teachers are professionals who help students learn new concepts, skills, and subjects in an educational setting.",
+"hint": "They work in a classroom.",
+"dlevel": "easy",
+"objective": "Understand community roles.",
+"tags": ["community", "school"]
+},
+{
+"id": "GK-023-07",
+"q": "What is the name of our home galaxy?",
+"type": "input",
+"options": [],
+"answer": "Milky Way",
+"explanation": "The Milky Way is the galaxy that contains our Solar System, including Earth.",
+"hint": "It has a name like a popular candy bar.",
+"dlevel": "medium",
+"objective": "Understand basic facts about space.",
+"tags": ["space", "science"]
+},
+{
+"id": "GK-023-08",
+"q": "Which of these is a form of energy that we get from the wind?",
+"type": "mcq",
+"options": ["Solar", "Wind", "Chemical", "Nuclear"],
+"answer": "Wind",
+"explanation": "Wind energy is created by using wind turbines to harness the power of moving air.",
+"hint": "It is named after the air movement itself.",
+"dlevel": "medium",
+"objective": "Understand basic energy sources.",
+"tags": ["science", "environment"]
+},
+{
+"id": "GK-023-09",
+"q": "What is the freezing point of water in degrees Fahrenheit?",
+"type": "input",
+"options": [],
+"answer": "32",
+"explanation": "At sea level, water freezes at 32 degrees Fahrenheit.",
+"hint": "It is a two-digit number.",
+"dlevel": "hard",
+"objective": "Understand scientific measurements.",
+"tags": ["science", "everyday science"]
+},
+{
+"id": "GK-023-10",
+"q": "Which season is known for flowers blooming and warming temperatures?",
+"type": "mcq",
+"options": ["Summer", "Autumn", "Winter", "Spring"],
+"answer": "Spring",
+"explanation": "Spring is the season that transitions from winter to summer, bringing new plant growth and warmer weather.",
+"hint": "It starts with 'S'.",
+"dlevel": "easy",
+"objective": "Understand seasons.",
+"tags": ["weather", "nature"]
+}
+]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "Ela",
+  "title": "ELA Test - Day 26",
+  "description": "Hard-level ELA problems testing advanced subject-verb inversion, multiple meanings, chronological mapping, and dialogue punctuation constraints.",
+  "questions": [
+    {
+      "id": "ELA-251",
+      "q": "Which verb forms correctly complete the inverted sentence? 'High above the craggy mountain peaks ___ the majestic golden eagles.'",
+      "passage": "",
+      "options": [
+        "soar",
+        "soars",
+        "soaring",
+        "is soaring"
+      ],
+      "answer": "soar",
+      "explanation": "The subject is 'majestic golden eagles' (plural). In an inverted sentence structure, the verb must still agree with the plural subject, hence 'soar'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-252",
+      "q": "Choose the singular possessive form that is written incorrectly.",
+      "passage": "",
+      "options": [
+        "boss's",
+        "class's",
+        "cactus's",
+        "walrus'"
+      ],
+      "answer": "walrus'",
+      "explanation": "For a singular noun ending in 's', formal grammar requires adding an apostrophe and an 's' ('walrus's'). Leaving it as 'walrus'' is considered non-standard for a singular noun.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-253",
+      "q": "What is the meaning of the word **bureau** as used in this sentence? 'We filed an official missing property report with the city's municipal law enforcement **bureau**.'",
+      "passage": "",
+      "options": [
+        "A heavy chest of drawers used for storing clothes.",
+        "A specialized government department or administrative agency.",
+        "A writing desk equipped with small hidden drawers.",
+        "A historical map collection locked inside a vault."
+      ],
+      "answer": "A specialized government department or administrative agency.",
+      "explanation": "The context clues 'official missing property report' and 'municipal law enforcement' establish that 'bureau' refers to an administrative agency.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-254",
+      "q": "Choose the best antonym for the word **frivolous**.",
+      "passage": "",
+      "options": [
+        "silly",
+        "serious",
+        "expensive",
+        "hidden"
+      ],
+      "answer": "serious",
+      "explanation": "'Frivolous' means lacking any serious purpose or value; its direct opposite is 'serious'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-255",
+      "q": "What does the suffix **-cracy** mean in words like 'democracy' or 'aristocracy'?",
+      "passage": "",
+      "options": [
+        "the study of a science",
+        "a form of government or rule",
+        "without any rules or order",
+        "a person who writes laws"
+      ],
+      "answer": "a form of government or rule",
+      "explanation": "The suffix '-cracy' means government or rule (e.g., democracy is rule by the people).",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-256",
+      "q": "What is the correct chronological sequence of steps executed to extract maple syrup?",
+      "passage": "Harvesting authentic maple syrup requires patience and specific seasonal timing. First, in early spring, workers drill small holes into mature maple tree trunks and insert hollow spouts. Next, they hang heavy metal buckets underneath the spouts to collect the clear, watery sap. After gathering the sap daily, workers transport it to a boiling house. There, they heat the liquid continuously over a roaring fire to evaporate the excess water. Finally, once the liquid thickens into a golden, sugary syrup, it is filtered and bottled.",
+      "options": [
+        "Boil the liquid, gather sap daily, drill holes, filter and bottle.",
+        "Drill holes, hang collection buckets, boil the collected sap, filter and bottle.",
+        "Hang buckets, drill holes, filter the sap, boil it over a fire.",
+        "Drill holes, filter the liquid, hang collection buckets, boil the sap."
+      ],
+      "answer": "Drill holes, hang collection buckets, boil the collected sap, filter and bottle.",
+      "explanation": "The text states workers drill holes first, hang buckets next, gather and boil the liquid to evaporate water, and finally filter and bottle it.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-257",
+      "q": "According to the passage, what specific physical process occurs when the maple sap is boiled over a fire?",
+      "passage": "Harvesting authentic maple syrup requires patience and specific seasonal timing. First, in early spring, workers drill small holes into mature maple tree trunks and insert hollow spouts. Next, they hang heavy metal buckets underneath the spouts to collect the clear, watery sap. After gathering the sap daily, workers transport it to a boiling house. There, they heat the liquid continuously over a roaring fire to evaporate the excess water. Finally, once the liquid thickens into a golden, sugary syrup, it is filtered and bottled.",
+      "options": [
+        "The sap changes color from golden to dark brown.",
+        "Excess water evaporates, causing the liquid to thicken.",
+        "The clear sap freezes solid instantly.",
+        "The heat destroys the natural sugar content."
+      ],
+      "answer": "Excess water evaporates, causing the liquid to thicken.",
+      "explanation": "The text explicitly states they heat the liquid 'to evaporate the excess water' until it 'thickens into a golden, sugary syrup.'",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-258",
+      "q": "Which sentence handles quotation marks, commas, and capital letters flawlessly for a split dialogue quotation?",
+      "passage": "",
+      "options": [
+        "\"We should check the map,\" suggested Lucas \"Because we might be lost.\"",
+        "\"We should check the map,\" suggested Lucas, \"because we might be lost.\"",
+        "\"We should check the map\" suggested Lucas, \"because we might be lost.\"",
+        "\"We should check the map,\" suggested Lucas, \"Because we might be lost.\""
+      ],
+      "answer": "\"We should check the map,\" suggested Lucas, \"because we might be lost.\"",
+      "explanation": "In a split quotation where the second half continues the same single sentence, a comma follows the tag and the first word of the continuation ('because') is lowercase.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-259",
+      "q": "Identify the editing correction required for this ungrammatical sentence: 'None of the field scientists were able to locate the specimen.'",
+      "passage": "",
+      "options": [
+        "Change 'scientists' to 'scientist's'.",
+        "Change 'were' to 'was'.",
+        "Capitalize the word 'specimen'.",
+        "Insert a semicolon after 'scientists'."
+      ],
+      "answer": "Change 'were' to 'was'.",
+      "explanation": "The indefinite pronoun 'None' functions as a singular subject in formal standard English, which requires the singular verb 'was'.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "ELA-260",
+      "q": "Choose the intensive pronoun that matches the compound subject: 'The lead engineer and I built the automated testing framework ___.'",
+      "passage": "",
+      "options": [
+        "himself",
+        "themselves",
+        "ourselves",
+        "myself"
+      ],
+      "answer": "ourselves",
+      "explanation": "The compound subject 'The lead engineer and I' translates to the first-person plural pronoun 'we', which takes the intensive pronoun 'ourselves'.",
+      "dlevel": "hard"
+    }
+  ]
+}
