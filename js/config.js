@@ -1,5 +1,5 @@
 export const QUESTIONS_PATH = '/LearnBright/questions/';
-export const MANIFEST_PATH = '/questions/manifest.json';
+export const MANIFEST_PATH = '/LearnBright/questions/manifest.json';
 
 export const SUBJECTS = [
   { id: 'math', icon: '🔢', label: 'Mathematics', short: 'Math', color: 'var(--sky)', banner: 'Math' },
