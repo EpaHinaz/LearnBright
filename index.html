@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="css/styles.css">
+<title>LearnBright – Grade 4 & 5</title>
+</head>
+<body>
+<div id="toast"></div>
+
+<!-- LOGIN -->
+<div id="s-login" class="screen active">
+  <div class="lcard">
+    <div class="logo">Learn<span>Bright</span></div>
+    <div class="tagline">Grade 4 & 5 · Math + ELA Practice</div>
+    <h2 id="auth-h">Create Account</h2>
+    <div id="f-reg">
+      <div class="fg"><label>Your Name</label><input id="r-name" type="text" placeholder="e.g. Alex Johnson"/></div>
+      <div class="fg"><label>Grade</label><select id="r-grade"><option value="">Select grade…</option><option value="4">Grade 4</option><option value="5">Grade 5</option></select></div>
+      <div class="fg"><label>Parent Email (optional)</label><input id="r-email" type="email" placeholder="parent@email.com"/></div>
+      <button class="btn-p" onclick="doRegister()">Start Learning! 🚀</button>
+      <p class="lsw">Already registered? <a onclick="sw('f-signin')">Sign in</a> &nbsp;|&nbsp; <a onclick="sw('f-admin')">Admin</a></p>
+    </div>
+    <div id="f-signin" style="display:none">
+      <div class="fg"><label>Your Name</label><input id="si-name" type="text" placeholder="Enter your name exactly"/></div>
+      <button class="btn-p" onclick="doSignin()">Continue →</button>
+      <p class="lsw">New here? <a onclick="sw('f-reg')">Create account</a> &nbsp;|&nbsp; <a onclick="sw('f-admin')">Admin</a></p>
+    </div>
+    <div id="f-admin" style="display:none">
+      <div class="fg"><label>Admin Password</label><input id="adm-pw" type="password" placeholder="Password"/></div>
+      <button class="btn-p" style="background:linear-gradient(135deg,var(--coral),var(--sun))" onclick="doAdminLogin()">Admin Login 🔐</button>
+      <p class="lsw"><a onclick="sw('f-reg')">← Back</a> &nbsp;· default: <strong>admin123</strong></p>
+    </div>
+  </div>
+</div>
+
+<!-- STUDENT APP -->
+<div id="s-app" class="screen">
+  <div class="hdr">
+    <div class="hlogo">Learn<span>Bright</span></div>
+    <div class="husr">
+      <div class="av" id="hav">A</div>
+      <span class="uname" id="hname">Student</span>
+      <button class="btn-lo" onclick="logout()">Log out</button>
+    </div>
+  </div>
+  <div class="ntabs">
+    <div class="ntab active" onclick="showTab('dash')">🏠 Home</div>
+    <div class="ntab" onclick="showTab('math')">🔢 Math</div>
+    <div class="ntab" onclick="showTab('ela')">📖 ELA</div>
+    <div class="ntab" onclick="showTab('science')">🔬 Science</div>
+    <div class="ntab" onclick="showTab('gk')">🌍 General Knowledge</div>
+    <div class="ntab" onclick="showTab('prog')">📊 Progress</div>
+  </div>
+  <div class="mc" id="t-dash"></div>
+  <div class="mc" id="t-math" style="display:none"></div>
+  <div class="mc" id="t-ela" style="display:none"></div>
+  <div class="mc" id="t-science" style="display:none"></div>
+  <div class="mc" id="t-gk" style="display:none"></div>
+  <div class="mc" id="t-prog" style="display:none"></div>
+</div>
+
+<!-- QUIZ -->
+<div id="s-quiz" class="screen">
+  <div class="hdr">
+    <button class="btn-bk" onclick="exitQuiz()">← Back</button>
+    <div class="hlogo" style="font-size:1.15rem">Learn<span>Bright</span></div>
+  </div>
+  <div class="mc" id="quiz-c"></div>
+</div>
+
+<!-- ADMIN -->
+<div id="s-admin" class="screen">
+  <div class="hdr">
+    <div class="hlogo">Learn<span>Bright</span></div>
+    <div class="husr"><div class="av adm">👑</div><span class="uname">Admin</span><button class="btn-lo" onclick="logout()">Log out</button></div>
+  </div>
+  <div class="ntabs">
+    <div class="ntab admt active" onclick="showAdminTab('students')">👥 Students</div>
+    <div class="ntab admt" onclick="showAdminTab('builder')">➕ Add Assignment</div>
+    <div class="ntab admt" onclick="showAdminTab('custom')">📋 Custom</div>
+    <div class="ntab admt" onclick="showAdminTab('settings')">⚙️ Settings</div>
+  </div>
+  <div class="mc">
+    <div id="ap-students" class="apanel active"></div>
+    <div id="ap-builder" class="apanel"></div>
+    <div id="ap-custom" class="apanel"></div>
+    <div id="ap-settings" class="apanel"></div>
+  </div>
+</div>
+
+<!-- STUDENT DETAIL MODAL -->
+<div class="movl" id="stmodal"><div class="mbox" id="stmodal-body"></div></div>
+
+<script>
+function doRegister() { console.error('LearnBright module not ready: doRegister'); }
+function doSignin() { console.error('LearnBright module not ready: doSignin'); }
+function doAdminLogin() { console.error('LearnBright module not ready: doAdminLogin'); }
+function sw(formId) { console.error('LearnBright module not ready: sw', formId); }
+</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
