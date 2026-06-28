@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_12.json",
+  "description": "Grade 4 Science Assessment - Day 12: Forms of Energy and Conservation",
+  "questions": [
+    {
+      "id": "SCI-111",
+      "type": "mcq",
+      "q": "What type of energy is stored inside a battery, a slice of pizza, or a wooden log?",
+      "options": [
+        "Chemical energy",
+        "Kinetic energy",
+        "Light energy",
+        "Sound energy"
+      ],
+      "answer": "Chemical energy",
+      "hint": "This energy is held inside the bonds of matter and is released during chemical reactions or digestion.",
+      "explanation": "Chemical energy is a form of potential energy stored in the bonds of chemical compounds, which can be released during a reaction (like burning or digestion).",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-112",
+      "type": "mcq",
+      "q": "Which of the following is an example of mechanical kinetic energy?",
+      "options": [
+        "A bicycle rolling down a paved path",
+        "A flashlight sitting inside a drawer",
+        "A battery pack waiting to be used",
+        "A radio that is completely turned off"
+      ],
+      "answer": "A bicycle rolling down a paved path",
+      "hint": "Look for the object that is actively moving.",
+      "explanation": "Kinetic energy is the energy an object possesses due to its motion. A rolling bicycle is actively moving, representing mechanical kinetic energy.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-113",
+      "type": "input",
+      "q": "What form of energy travels in waves and can be detected by the human eye?",
+      "options": [],
+      "answer": "Light energy",
+      "hint": "The Sun, lightbulbs, and fireflies all produce this form of energy so we can see.",
+      "explanation": "Light energy (or radiant energy) is a type of electromagnetic radiation that is visible to human eyes.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-114",
+      "type": "mcq",
+      "q": "When you plug a toaster into a wall outlet and press the lever down to toast bread, what energy transformation takes place?",
+      "options": [
+        "Electrical energy transforms into thermal energy.",
+        "Sound energy transforms into chemical energy.",
+        "Kinetic energy transforms into magnetic energy.",
+        "Nuclear energy transforms into mechanical energy."
+      ],
+      "answer": "Electrical energy transforms into thermal energy.",
+      "hint": "Think about what goes into the toaster through the cord, and what gets hot inside to cook the bread.",
+      "explanation": "The toaster uses electricity from the outlet (electrical energy) and passes it through wires that heat up (thermal energy) to toast the bread.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-115",
+      "type": "mcq",
+      "q": "The scientific rule stating that energy cannot be created or destroyed, but can only change from one form to another, is called the:",
+      "options": [
+        "Law of Conservation of Energy",
+        "Law of Gravitational Pull",
+        "Law of Magnetic Attraction",
+        "Law of Cellular Replication"
+      ],
+      "answer": "Law of Conservation of Energy",
+      "hint": "To 'conserve' means to save or keep the total amount the same.",
+      "explanation": "The Law of Conservation of Energy states that the total amount of energy in an isolated system remains constant; it can change forms but cannot be made from nothing or destroyed.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-116",
+      "type": "input",
+      "q": "What form of energy is created by the movement of electrons through a conductor?",
+      "options": [],
+      "answer": "Electrical energy",
+      "hint": "This energy powers televisions, computers, and household appliances.",
+      "explanation": "Electrical energy is the power an electric current carries through the movement of tiny charged particles called electrons.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-117",
+      "type": "mcq",
+      "q": "Why does a metal spoon left inside a hot bowl of soup eventually become warm to the touch?",
+      "options": [
+        "Thermal energy moves from the hot liquid into the cooler metal spoon.",
+        "The spoon absorbs light energy from the kitchen lamps.",
+        "The soup creates magnetic forces that heat up the metal.",
+        "The cold from the spoon is destroying the heat of the soup."
+      ],
+      "answer": "Thermal energy moves from the hot liquid into the cooler metal spoon.",
+      "hint": "Heat always travels spontaneously from warmer objects to cooler objects.",
+      "explanation": "Thermal energy transfers from an object with a higher temperature (soup) to an object with a lower temperature (spoon) via a process called conduction.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-118",
+      "type": "mcq",
+      "q": "Which resource is considered a renewable source of energy that will never run out?",
+      "options": [
+        "Wind energy",
+        "Coal",
+        "Petroleum oil",
+        "Natural gas"
+      ],
+      "answer": "Wind energy",
+      "hint": "Think about a source that is constantly replenished by nature's weather patterns.",
+      "explanation": "Renewable energy comes from natural resources that regenerate quickly, such as wind, sunlight, and water. Fossil fuels like coal and oil take millions of years to form.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-119",
+      "type": "mcq",
+      "q": "What unwanted form of energy is almost always generated as a byproduct when mechanical parts rub together in a machine?",
+      "options": [
+        "Thermal energy due to friction",
+        "Chemical energy due to digestion",
+        "Magnetic energy due to currents",
+        "Solar energy due to clouds"
+      ],
+      "answer": "Thermal energy due to friction",
+      "hint": "Think about how your hands get warm when you rub them together quickly.",
+      "explanation": "Friction between moving parts opposes motion and converts some of the mechanical kinetic energy into thermal energy (heat), which is often lost to the surrounding air.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-120",
+      "type": "input",
+      "q": "What form of energy is produced by vibrations traveling through a medium, which we can hear with our ears?",
+      "options": [],
+      "answer": "Sound energy",
+      "hint": "A clapping hand or a ringing bell releases this type of kinetic wave energy.",
+      "explanation": "Sound energy is the movement of energy through a substance (like air or water) in waves, produced when an object vibrates.",
+      "dlevel": "medium"
+    }
+  ]
+}

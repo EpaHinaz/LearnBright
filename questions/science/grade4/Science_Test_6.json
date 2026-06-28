@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_11.json",
+  "description": "Grade 4 Science Assessment - Day 11: Properties of Matter and Physical Changes",
+  "questions": [
+    {
+      "id": "SCI-101",
+      "type": "mcq",
+      "q": "What property of matter can be measured using a graduated cylinder filled with water?",
+      "options": [
+        "Volume",
+        "Weight",
+        "Temperature",
+        "Magnetism"
+      ],
+      "answer": "Volume",
+      "hint": "Think about measuring the amount of physical space an object occupies.",
+      "explanation": "Volume is the amount of three-dimensional space matter occupies, and it can be measured for liquids or irregular solids using water displacement in a graduated cylinder.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-102",
+      "type": "mcq",
+      "q": "Which of the following describes a purely physical change in matter?",
+      "options": [
+        "Chopping a wooden log into smaller kindling pieces",
+        "Burning a piece of notebook paper in a campfire",
+        "An iron nail rusting after being left out in the rain",
+        "Baking a mixture of flour, sugar, and eggs into a cake"
+      ],
+      "answer": "Chopping a wooden log into smaller kindling pieces",
+      "hint": "Look for the option where the appearance changes but no brand-new substance is formed.",
+      "explanation": "Physical changes alter the form or appearance of matter but do not transform the underlying substance into something chemically new.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-103",
+      "type": "input",
+      "q": "What scientific instrument or tool is used to measure the mass of an object?",
+      "options": [],
+      "answer": "Balance scale",
+      "hint": "It compares an unknown mass to a set of known standard weights, or uses two matching pans.",
+      "explanation": "A balance scale (or triple-beam balance) is used to accurately measure mass by balancing an object against standard metric units.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-104",
+      "type": "mcq",
+      "q": "If you place an unknown solid object into a tub of water and it sinks straight to the bottom, what does this tell you about the object's density?",
+      "options": [
+        "The object is denser than the water.",
+        "The water is denser than the object.",
+        "The object has no mass or volume.",
+        "The object and water have identical densities."
+      ],
+      "answer": "The object is denser than the water.",
+      "hint": "Think about how heavy the molecules are packed together compared to the water around them.",
+      "explanation": "Objects sink in a fluid if their density (mass per unit volume) is greater than the density of the fluid.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-105",
+      "type": "mcq",
+      "q": "What state of matter has no fixed shape and no fixed volume, expanding completely to fill whatever container it is placed in?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Ice"
+      ],
+      "answer": "Gas",
+      "hint": "The air around you or the steam escaping a boiling kettle are examples.",
+      "explanation": "Gas particles have high kinetic energy and weak attractions, allowing them to move freely, break apart, and spread out to fill any volume.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-106",
+      "type": "input",
+      "q": "What is the term for the amount of matter packed inside a physical object?",
+      "options": [],
+      "answer": "Mass",
+      "hint": "Unlike weight, this measurement does not change even if you travel to the moon.",
+      "explanation": "Mass is a fundamental measurement of the total amount of matter or material contained within an object.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-107",
+      "type": "mcq",
+      "q": "What phase change occurs when a solid turns directly into a liquid due to an increase in thermal energy?",
+      "options": [
+        "Melting",
+        "Freezing",
+        "Evaporation",
+        "Condensation"
+      ],
+      "answer": "Melting",
+      "hint": "This is what happens to an ice cube left out on the kitchen counter.",
+      "explanation": "Melting is the physical process where adding heat increases particle movement, causing a solid to transition into a liquid.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-108",
+      "type": "mcq",
+      "q": "Why does a hot air balloon rise upward into the sky when the air inside the balloon is heated by a burner?",
+      "options": [
+        "Heating the air makes it less dense than the cooler surrounding air.",
+        "The heat destroys the gravitational pull acting on the fabric balloon.",
+        "The fire creates extra mass that pushes down on the ground.",
+        "The air inside turns into a solid that bounces off atmospheric dust."
+      ],
+      "answer": "Heating the air makes it less dense than the cooler surrounding air.",
+      "hint": "Think about how thermal energy causes gas molecules to spread out, making them lighter per volume.",
+      "explanation": "As gas is heated, its molecules move faster and spread farther apart. This makes the warm air less dense than the cold air outside, causing the balloon to float upward.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-109",
+      "type": "mcq",
+      "q": "Which of the following is considered a mixture rather than a pure element or compound?",
+      "options": [
+        "A bowl of salad containing lettuce, tomatoes, and croutons",
+        "A piece of solid gold jewelry",
+        "Pure distilled water inside a sterile vial",
+        "The carbon dioxide gas inside a sealed tank"
+      ],
+      "answer": "A bowl of salad containing lettuce, tomatoes, and croutons",
+      "hint": "Look for something where you can still see and separate the individual, different pieces easily.",
+      "explanation": "A mixture is a material composed of two or more substances that are physically combined but not chemically bonded, meaning they retain their individual properties.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-110",
+      "type": "input",
+      "q": "What temperature on the Celsius scale is the boiling point of pure liquid water?",
+      "options": [],
+      "answer": "100 degrees Celsius",
+      "hint": "It is exactly one hundred units above the freezing point on the same scale.",
+      "explanation": "At sea level, pure liquid water boils and rapidly turns into steam at a standard temperature of 100 degrees Celsius.",
+      "dlevel": "hard"
+    }
+  ]
+}

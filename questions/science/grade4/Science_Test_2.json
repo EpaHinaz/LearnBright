@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_14.json",
+  "description": "Grade 4 Science Assessment - Day 14: Electrical Circuits and Safety",
+  "questions": [
+    {
+      "id": "SCI-131",
+      "type": "mcq",
+      "q": "What component in an electrical circuit is designed to easily open or close the path of electricity?",
+      "options": [
+        "A switch",
+        "A battery",
+        "A lightbulb",
+        "A plastic wire cover"
+      ],
+      "answer": "A switch",
+      "hint": "You flip this on a wall to turn on the classroom lights.",
+      "explanation": "A switch controls the flow of electricity by interrupting the circuit path when open and completing it when closed.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-132",
+      "type": "mcq",
+      "q": "Why is household wiring usually wrapped in a layer of plastic or rubber?",
+      "options": [
+        "To insulate the wires and prevent electrical shocks",
+        "To make the electricity travel much faster",
+        "To keep the copper metal cool so it does not melt",
+        "To generate extra power for the appliances"
+      ],
+      "answer": "To insulate the wires and prevent electrical shocks",
+      "hint": "Plastic and rubber do not let electrical currents pass through them easily.",
+      "explanation": "Plastic and rubber are excellent insulators. They wrap around conductive wires to contain the electrical current safely.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-133",
+      "type": "input",
+      "q": "What source of stored chemical energy provides the voltage to push electrons through a portable circuit?",
+      "options": [],
+      "answer": "Battery",
+      "hint": "Flashlights, remote controls, and toys use them to get power.",
+      "explanation": "A battery converts stored chemical energy into electrical energy, acting as the power source in a direct-current circuit.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-134",
+      "type": "mcq",
+      "q": "What type of circuit has multiple separate pathways for electricity to flow, so that if one lightbulb burns out, the others stay lit?",
+      "options": [
+        "Parallel circuit",
+        "Series circuit",
+        "Open circuit",
+        "Disconnected circuit"
+      ],
+      "answer": "Parallel circuit",
+      "hint": "Think about lines that run side-by-side next to each other, like tracks.",
+      "explanation": "In a parallel circuit, components are connected along separate branches, allowing the current to bypass a broken component.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-135",
+      "type": "mcq",
+      "q": "If a circuit has a gap or a broken wire in its loop, it is called a(n):",
+      "options": [
+        "Open circuit",
+        "Closed circuit",
+        "Parallel circuit",
+        "Short circuit"
+      ],
+      "answer": "Open circuit",
+      "hint": "Think about a drawbridge being raised; cars can no longer cross over it.",
+      "explanation": "An open circuit has a break or discontinuity in the path, which prevents electrons from flowing at all.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-136",
+      "type": "input",
+      "q": "What specific metal is most commonly used inside electrical wires because it is a fantastic conductor and bends easily?",
+      "options": [],
+      "answer": "Copper",
+      "hint": "It has a reddish-orange metallic color and is found inside power cords.",
+      "explanation": "Copper is highly conductive, relatively cheap, and flexible, making it the industry standard for electrical wiring.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-137",
+      "type": "mcq",
+      "q": "Which of the following is a dangerous practice when dealing with household electricity?",
+      "options": [
+        "Yanking a power cord out of the wall by pulling on the wire instead of the plug",
+        "Using a plastic switch to turn off a desk lamp",
+        "Unplugging a toaster before cleaning inside it with a dry paper towel",
+        "Covering a wire gap with thick, heavy-duty electrical tape"
+      ],
+      "answer": "Yanking a power cord out of the wall by pulling on the wire instead of the plug",
+      "hint": "This action can tear the internal wires loose from their safety coating.",
+      "explanation": "Pulling by the cord can tear the internal copper wires away from the plug contacts, creating a short-circuit or shock hazard.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-138",
+      "type": "mcq",
+      "q": "A safety device that melts and breaks a circuit if too much electricity flows through it is called a:",
+      "options": [
+        "Fuse",
+        "Resistor",
+        "Generator",
+        "Insulator"
+      ],
+      "answer": "Fuse",
+      "hint": "Its name sounds like it joined things together, but it actually breaks them to keep you safe from fires.",
+      "explanation": "A fuse contains a thin strip of metal designed to melt and open the circuit if the electrical current exceeds a safe level.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-139",
+      "type": "mcq",
+      "q": "Why is it dangerous to touch an electrical appliance or switch with completely wet hands?",
+      "options": [
+        "Water with dissolved minerals conducts electricity, which can shock you.",
+        "Water makes the electricity travel too slowly to work properly.",
+        "Water dissolves the plastic casing around the household switch.",
+        "Water turns electrical energy into nuclear magnetic rays."
+      ],
+      "answer": "Water with dissolved minerals conducts electricity, which can shock you.",
+      "hint": "Think about how water acts as a bridge for an electric current to reach your body.",
+      "explanation": "Tap water contains impurities and minerals that allow it to act as an electrical conductor, increasing the risk of severe shocks.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-140",
+      "type": "input",
+      "q": "What do we call a path of low resistance that accidentally bypasses the normal load in a circuit, often causing it to overheat?",
+      "options": [],
+      "answer": "Short circuit",
+      "hint": "It takes a shortcut back to the battery, making things dangerously hot.",
+      "explanation": "A short circuit occurs when current flows down an unintended, low-resistance path, bypassing the appliance and causing excessive heat.",
+      "dlevel": "medium"
+    }
+  ]
+}

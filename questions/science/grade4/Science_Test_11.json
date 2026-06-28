@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_6.json",
+  "description": "Grade 4 Science Assessment - Day 6: Earth Layers, Weathering, and Soil",
+  "questions": [
+    {
+      "id": "SCI-051",
+      "type": "mcq",
+      "q": "Which of Earth's layers is the thinnest, solid outermost layer where humans live and plants grow?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Outer Core",
+        "Inner Core"
+      ],
+      "answer": "Crust",
+      "hint": "Think of it like the outer skin of an apple or the shell of an egg.",
+      "explanation": "The crust is Earth's outermost compositional layer, varying from about 5 to 70 kilometers in thickness.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-052",
+      "type": "mcq",
+      "q": "What is the primary difference between weathering and erosion?",
+      "options": [
+        "Weathering breaks down rock into smaller pieces, while erosion moves those pieces to a new place.",
+        "Weathering only happens at night, while erosion only happens during a sunny day.",
+        "Erosion creates new rocks from lava, while weathering dissolves them entirely into water.",
+        "Weathering is caused by wind, while erosion is caused exclusively by underground earthquakes."
+      ],
+      "answer": "Weathering breaks down rock into smaller pieces, while erosion moves those pieces to a new place.",
+      "hint": "Think about which word sounds like 'wearing down' versus 'moving away'.",
+      "explanation": "Weathering is the mechanical or chemical breakdown of rocks, whereas erosion is the transport of that weathered material by wind, water, ice, or gravity.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-053",
+      "type": "input",
+      "q": "What dark, organic material forms in soil when plant and animal matter decays completely?",
+      "options": [],
+      "answer": "Humus",
+      "hint": "It sounds like a popular Mediterranean dipping snack, but it provides rich nutrients for growing crops.",
+      "explanation": "Humus is the dark, nutrient-rich organic component of soil formed by the decomposition of leaves and other plant material by soil microorganisms.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-054",
+      "type": "mcq",
+      "q": "When water freezes inside a small crack in a boulder, it expands and forces the crack to widen. This process is called:",
+      "options": [
+        "Ice wedging",
+        "Chemical oxidation",
+        "Soil deposition",
+        "Volcanic eruption"
+      ],
+      "answer": "Ice wedging",
+      "hint": "Water expands when it turns into ice, acting like a hammer and chisel.",
+      "explanation": "Ice wedging (or frost wedging) is a form of physical weathering where water seeps into cracks, freezes, expands by about 9%, and splits the rock apart.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-055",
+      "type": "mcq",
+      "q": "Which type of soil has the smallest particle size, holds a lot of water, and feels sticky when wet?",
+      "options": [
+        "Clay",
+        "Sand",
+        "Silt",
+        "Gravel"
+      ],
+      "answer": "Clay",
+      "hint": "Artists use this fine-grained material to sculpt pottery because it shapes easily.",
+      "explanation": "Clay consists of extremely fine mineral particles with minimal space between them, giving it high water retention and a sticky texture.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-056",
+      "type": "input",
+      "q": "What do we call the remains or impressions of prehistoric organisms preserved inside sedimentary rock?",
+      "options": [],
+      "answer": "Fossils",
+      "hint": "Dinosaur bones found by paleontologists are prime examples.",
+      "explanation": "Fossils are the preserved remains, traces, or imprints of ancient life forms that provide structural clues about Earth's history.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-057",
+      "type": "mcq",
+      "q": "How do plants directly help prevent the erosion of topsoil on steep hillsides?",
+      "options": [
+        "Their roots hold the soil tightly together against wind and rain.",
+        "Their leaves absorb the pulling force of gravity.",
+        "They turn the topsoil into hard metamorphic rock.",
+        "They block all sunlight from reaching the ground surfaces."
+      ],
+      "answer": "Their roots hold the soil tightly together against wind and rain.",
+      "hint": "Think about how an underground network of roots acts like a net.",
+      "explanation": "Plant roots anchor the soil in place and their foliage reduces the impact of heavy raindrops, significantly lowering erosion rates.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-058",
+      "type": "mcq",
+      "q": "Which rock type forms directly from the cooling and solidification of molten magma or lava?",
+      "options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Organic"
+      ],
+      "answer": "Igneous",
+      "hint": "The word comes from a Latin term meaning 'fire'. Obsidian and basalt are examples.",
+      "explanation": "Igneous rocks form when hot, molten rock crystallizes and solidifies either beneath the surface or after erupting as lava.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-059",
+      "type": "mcq",
+      "q": "Why do sedimentary rocks often contain distinct, parallel layers or strata?",
+      "options": [
+        "Sediment particles settle out of water or wind over long periods, piling up layer by layer.",
+        "Earthquakes squeeze the stone into flat sheets instantly.",
+        "The heat of the Earth's inner core paints lines onto the rocks.",
+        "Burrowing animals dig flat tunnels that compress into lines."
+      ],
+      "answer": "Sediment particles settle out of water or wind over long periods, piling up layer by layer.",
+      "hint": "Think about what happens to dust settling on a shelf over many years.",
+      "explanation": "Sedimentary rocks form from the accumulation, compaction, and cementation of mineral and organic particles deposited in sequential stages over time.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-060",
+      "type": "input",
+      "q": "What liquid, molten rock exists deep beneath the Earth's crust before it erupts onto the surface?",
+      "options": [],
+      "answer": "Magma",
+      "hint": "Once it breaks through a volcano's vent and flows outside, it is called lava.",
+      "explanation": "Magma is molten or semi-molten rock located under the Earth's surface; when it escapes to the surface, it is reclassified as lava.",
+      "dlevel": "hard"
+    }
+  ]
+}

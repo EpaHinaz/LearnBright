@@ -1,0 +1,143 @@
+{
+  "subject": "science",
+  "title": "science_1.json",
+  "description": "Grade 4 Science Assessment - Day 1: Plants, Ecosystems, and Matter",
+  "questions": [
+    {
+      "id": "SCI-001",
+      "type": "mcq",
+      "q": "What is the primary purpose of a plant's chlorophyll during photosynthesis?",
+      "passage": "Plants are autotrophs, meaning they create their own food. Through a process called photosynthesis, they capture light energy to transform water and carbon dioxide into glucose and oxygen.",
+      "options": [
+        "To absorb sunlight energy",
+        "To absorb water from the soil",
+        "To release oxygen into the air",
+        "To protect the plant from pests"
+      ],
+      "answer": "To absorb sunlight energy",
+      "hint": "Think about what gives leaves their green color and catches the sun's rays.",
+      "explanation": "Chlorophyll is the green pigment in plants that absorbs light energy from the sun, which is necessary for photosynthesis to occur.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-002",
+      "type": "mcq",
+      "q": "Which part of the plant is mainly responsible for anchoring it to the ground and absorbing water?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Leaves",
+        "Flowers"
+      ],
+      "answer": "Roots",
+      "hint": "This part is hidden underground.",
+      "explanation": "Roots anchor the plant securely into the soil and draw up water and nutrients needed for growth.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-003",
+      "type": "input",
+      "q": "What gas do plants absorb from the air to perform photosynthesis?",
+      "options": [],
+      "answer": "Carbon dioxide",
+      "hint": "It is the gas that humans and animals breathe out.",
+      "explanation": "Plants take in carbon dioxide from the atmosphere through tiny pores in their leaves to build sugars.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-004",
+      "type": "mcq",
+      "q": "If a plant's xylem tissue is damaged, what will the plant most likely struggle to transport?",
+      "options": [
+        "Water from the roots to the leaves",
+        "Sugars from the leaves to the roots",
+        "Oxygen from the air to the stem",
+        "Pollen from flower to flower"
+      ],
+      "answer": "Water from the roots to the leaves",
+      "hint": "Think about the specialized tubes running upward from the underground systems.",
+      "explanation": "Xylem is the vascular tissue responsible for upward conduction of water and nutrients from the roots.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-005",
+      "type": "mcq",
+      "q": "Which animal group is characterized by having a backbone, being warm-blooded, and feeding its young with milk?",
+      "options": [
+        "Mammals",
+        "Reptiles",
+        "Amphibians",
+        "Birds"
+      ],
+      "answer": "Mammals",
+      "hint": "Humans, dogs, and whales belong to this specific group.",
+      "explanation": "Mammals are vertebrates that have fur or hair, are warm-blooded, and nurse their young with milk.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-006",
+      "type": "input",
+      "q": "How many legs does a true insect have?",
+      "options": [],
+      "answer": "6",
+      "hint": "Count the legs of an ant or a beetle.",
+      "explanation": "All adult insects belong to the class Insecta and possess exactly six jointed legs.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-007",
+      "type": "mcq",
+      "q": "An organism that breaks down dead plants and animals into simpler nutrients is known as a:",
+      "options": [
+        "Decomposer",
+        "Producer",
+        "Herbivore",
+        "Carnivore"
+      ],
+      "answer": "Decomposer",
+      "hint": "Mushrooms, fungi, and certain bacteria do this recycling work.",
+      "explanation": "Decomposers break down organic matter from dead organisms, returning valuable nutrients back into the soil.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-008",
+      "type": "mcq",
+      "q": "Why do desert animals like the fennec fox have exceptionally large ears?",
+      "options": [
+        "To help radiate body heat and stay cool",
+        "To store excess water for dry periods",
+        "To look intimidating to larger predators",
+        "To blend in with the sandy environment"
+      ],
+      "answer": "To help radiate body heat and stay cool",
+      "hint": "Think about how heat moves away from a wide surface area.",
+      "explanation": "Large ears have a high surface area filled with blood vessels, allowing the animal to release excess body heat in hot desert climates.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-009",
+      "type": "mcq",
+      "q": "Which state of matter has a definite volume but takes the shape of its container?",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": "Liquid",
+      "hint": "Think about water when you pour it from a pitcher into a glass.",
+      "explanation": "Liquids have a fixed volume, but their particles can move past each other, allowing them to flow and change shape based on the container.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-010",
+      "type": "input",
+      "q": "At what temperature on the Celsius scale does pure liquid water freeze into ice?",
+      "options": [],
+      "answer": "0 degrees Celsius",
+      "hint": "It is the baseline value for the freezing point of water.",
+      "explanation": "Water changes its state from liquid to solid ice at its freezing point of 0 degrees Celsius.",
+      "dlevel": "hard"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_7.json",
+  "description": "Grade 4 Science Assessment - Day 7: Plant Structures and Adaptations",
+  "questions": [
+    {
+      "id": "SCI-061",
+      "type": "mcq",
+      "q": "What is the primary role of a flower on a plant?",
+      "options": [
+        "To produce seeds for reproduction",
+        "To absorb nutrients from the soil",
+        "To breathe in carbon dioxide gas",
+        "To anchor the plant to the ground"
+      ],
+      "answer": "To produce seeds for reproduction",
+      "hint": "Think about why flowers attract bees and butterflies with their bright colors.",
+      "explanation": "The flower contains the reproductive organs of a plant, designed to produce seeds that will grow into new plants.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-062",
+      "type": "mcq",
+      "q": "Which part of a plant cell contains the green pigment chlorophyll and acts as the site for food production?",
+      "options": [
+        "Chloroplast",
+        "Cell Wall",
+        "Nucleus",
+        "Vacuole"
+      ],
+      "answer": "Chloroplast",
+      "hint": "This tiny structure acts like a solar panel inside the leaf cell.",
+      "explanation": "Chloroplasts are the organelles within plant cells where photosynthesis takes place, capturing light energy using chlorophyll.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-063",
+      "type": "input",
+      "q": "What is the name of the process where a seed begins to sprout and grow into a young plant?",
+      "options": [],
+      "answer": "Germination",
+      "hint": "It happens after a seed absorbs enough water and warmth in the soil.",
+      "explanation": "Germination is the early stage of plant development when a seed awakens from dormancy and starts growing roots and shoots.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-064",
+      "type": "mcq",
+      "q": "Why do some rainforest plants have large, wide leaves while desert plants like cacti have sharp needles?",
+      "options": [
+        "Wide leaves capture maximum sunlight in shady forests, while needles reduce water loss in dry deserts.",
+        "Wide leaves repel insects, while needles absorb underground water vapor.",
+        "Rainforest plants have too much soil nutrition, making their leaves swell up.",
+        "Desert needles grow wide at night to catch heavy tropical downpours."
+      ],
+      "answer": "Wide leaves capture maximum sunlight in shady forests, while needles reduce water loss in dry deserts.",
+      "hint": "Think about how the environment dictates what a plant needs to survive or save.",
+      "explanation": "In a dark rainforest floor, wide leaves catch limited sunlight. In a desert, needles (modified leaves) have minimal surface area to prevent water from evaporating.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-065",
+      "type": "mcq",
+      "q": "What do we call the male reproductive powder produced by the anther of a flower?",
+      "options": [
+        "Pollen",
+        "Nectar",
+        "Spore",
+        "Sap"
+      ],
+      "answer": "Pollen",
+      "hint": "Bees collect this yellow dust while moving from bloom to bloom.",
+      "explanation": "Pollen grains carry the male plant cells required to fertilize the female ovules inside a flower.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-066",
+      "type": "input",
+      "q": "What sweet liquid do flowers produce to attract pollinators like birds and butterflies?",
+      "options": [],
+      "answer": "Nectar",
+      "hint": "Bees turn this sugary fluid into honey back at their hive.",
+      "explanation": "Nectar is a sugary fluid secreted by plants within flowers to encourage insects and animals to assist with cross-pollination.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-067",
+      "type": "mcq",
+      "q": "Which of the following is a non-flowering plant that reproduces using spores instead of seeds?",
+      "options": [
+        "Fern",
+        "Rosemary bush",
+        "Apple tree",
+        "Sunflower"
+      ],
+      "answer": "Fern",
+      "hint": "Look closely at the underside of their feathery green leaves for tiny brown dots.",
+      "explanation": "Ferns and mosses are vascular plants that do not produce flowers or seeds; instead, they reproduce via tiny structures called spores.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-068",
+      "type": "mcq",
+      "q": "What is the function of a plant's stem?",
+      "options": [
+        "To support leaves and transport water and nutrients throughout the plant",
+        "To absorb sunlight directly into the underground root systems",
+        "To keep the plant warm during freezing winter nights",
+        "To turn into a fruit once pollination is complete"
+      ],
+      "answer": "To support leaves and transport water and nutrients throughout the plant",
+      "hint": "It acts like the main backbone and plumbing system of the plant above ground.",
+      "explanation": "The stem structurally holds up the plant parts and contains vascular tissues (xylem and phloem) to move fluids.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-069",
+      "type": "mcq",
+      "q": "A plant is placed in a window box, and over two weeks, its stem bends sharply toward the glass. What is this growth response to light called?",
+      "options": [
+        "Phototropism",
+        "Photosynthesis",
+        "Transpiration",
+        "Hibernation"
+      ],
+      "answer": "Phototropism",
+      "hint": "The prefix 'photo-' means light, and '-tropism' means turning or moving toward.",
+      "explanation": "Phototropism is a plant growth mechanism where cells farthest from the light elongate, causing the stem to curve toward the light source.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-070",
+      "type": "input",
+      "q": "What microscopic pores on the underside of leaves allow gases to enter and exit?",
+      "options": [],
+      "answer": "Stomata",
+      "hint": "They act like tiny mouths that open and close to control water loss and breathing.",
+      "explanation": "Stomata are specialized microscopic openings on leaves that regulate gas exchange and the release of water vapor.",
+      "dlevel": "medium"
+    }
+  ]
+}

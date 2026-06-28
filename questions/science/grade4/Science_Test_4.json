@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_13.json",
+  "description": "Grade 4 Science Assessment - Day 13: Magnets and Magnetic Interactions",
+  "questions": [
+    {
+      "id": "SCI-121",
+      "type": "mcq",
+      "q": "What happens when you place the south pole of one magnet near the north pole of another magnet?",
+      "options": [
+        "They pull toward each other and stick.",
+        "They push away from each other.",
+        "They lose all of their magnetic power.",
+        "They create an electric spark between them."
+      ],
+      "answer": "They pull toward each other and stick.",
+      "hint": "Remember the basic rule: opposite poles perform this action.",
+      "explanation": "Opposite magnetic poles (North and South) attract each other, pulling the magnets together.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-122",
+      "type": "mcq",
+      "q": "Which of the following items can be picked up by a standard school magnet?",
+      "options": [
+        "An iron nail",
+        "A plastic button",
+        "A wooden block",
+        "A rubber eraser"
+      ],
+      "answer": "An iron nail",
+      "hint": "Magnets only attract certain types of metals.",
+      "explanation": "Iron is a ferromagnetic material, meaning it is strongly attracted to magnets.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-123",
+      "type": "input",
+      "q": "What do we call the two ends of a magnet where the magnetic force is the strongest?",
+      "options": [],
+      "answer": "Poles",
+      "hint": "Every magnet has a North one and a South one.",
+      "explanation": "The magnetic forces are concentrated at the ends of a magnet, which are called the magnetic poles.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-124",
+      "type": "mcq",
+      "q": "Why does a magnetic compass needle always point toward the geographic North Pole of the Earth?",
+      "options": [
+        "The Earth acts like a giant magnet with its own magnetic field.",
+        "The North Pole is the warmest place on Earth, attracting metal.",
+        "The sun pulls all magnetic objects toward the top of the globe.",
+        "Ocean currents drag the lightweight needle toward the Arctic."
+      ],
+      "answer": "The Earth acts like a giant magnet with its own magnetic field.",
+      "hint": "Think about what is hidden deep inside the Earth's iron core.",
+      "explanation": "Earth has a liquid iron outer core that generates a global magnetic field, turning the planet into a giant magnet that interacts with compass needles.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-125",
+      "type": "mcq",
+      "q": "If you break a bar magnet perfectly in half, what will you have?",
+      "options": [
+        "Two smaller magnets, each with a north and a south pole",
+        "One magnet that is only a north pole and one that is only a south pole",
+        "Two pieces of regular metal that are no longer magnetic at all",
+        "One working magnet and one piece of non-magnetic scrap metal"
+      ],
+      "answer": "Two smaller magnets, each with a north and a south pole",
+      "hint": "Magnetic poles always exist in matching pairs.",
+      "explanation": "Breaking a magnet does not separate the poles; instead, new poles form at the broken ends, creating two complete, smaller magnets.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-126",
+      "type": "input",
+      "q": "What term describes the force that pushes two matching magnetic poles away from each other?",
+      "options": [],
+      "answer": "Repulsion",
+      "hint": "It is the opposite word of attraction.",
+      "explanation": "Repulsion is the magnetic force that drives like poles (North-North or South-South) apart.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-127",
+      "type": "mcq",
+      "q": "Which metal is NOT attracted to a magnet?",
+      "options": [
+        "Aluminum",
+        "Iron",
+        "Nickel",
+        "Cobalt"
+      ],
+      "answer": "Aluminum",
+      "hint": "Think about soda cans or kitchen foil; they do not stick to magnets.",
+      "explanation": "While iron, nickel, and cobalt are ferromagnetic metals, aluminum is non-magnetic and does not react to a magnet's field.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-128",
+      "type": "mcq",
+      "q": "How can you show the invisible magnetic field lines surrounding a bar magnet during a classroom experiment?",
+      "options": [
+        "By sprinkling fine iron filings on a sheet of paper over the magnet",
+        "By pouring warm water over the magnet to see the steam lines",
+        "By shining a bright purple flashlight directly at the magnet's base",
+        "By rubbing the magnet with a piece of silk fabric until it glows"
+      ],
+      "answer": "By sprinkling fine iron filings on a sheet of paper over the magnet",
+      "hint": "Tiny bits of magnetic metal will line up along the force paths.",
+      "explanation": "Iron filings act like tiny compass needles, aligning themselves along the magnetic field lines to map out the shape of the field.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-129",
+      "type": "mcq",
+      "q": "What is a major advantage of using an electromagnet instead of a permanent bar magnet in a junkyard crane?",
+      "options": [
+        "An electromagnet can be turned on and off by controlling the electricity.",
+        "An electromagnet never needs a metal core to function.",
+        "An electromagnet is completely unaffected by water or rain.",
+        "An electromagnet stays magnetic forever without any power source."
+      ],
+      "answer": "An electromagnet can be turned on and off by controlling the electricity.",
+      "hint": "Think about how a crane needs to drop a heavy car after picking it up.",
+      "explanation": "Because its magnetic field is produced by an electric current, turning the current off demagnetizes the crane, allowing it to drop picked-up scrap metal easily.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-130",
+      "type": "input",
+      "q": "What happens to the strength of a magnet's pull as you move an object further away from it?",
+      "options": [],
+      "answer": "It decreases",
+      "hint": "Think about whether the pull gets weaker or stronger when the distance increases.",
+      "explanation": "The magnetic force is strongest close to the magnet and drops off significantly as the distance increases.",
+      "dlevel": "medium"
+    }
+  ]
+}

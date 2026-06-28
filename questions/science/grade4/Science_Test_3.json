@@ -1,0 +1,55 @@
+{
+  "subject": "science",
+  "title": "science_14.json",
+  "description": "Grade 4 Science Assessment - Day 14: Electrical Circuits and Safety",
+  "questions": [
+    {
+      "id": "SCI-131",
+      "type": "mcq",
+      "q": "What component in an electrical circuit is designed to easily open or close the path of electricity?",
+      "options": [
+        "A switch",
+        "A battery",
+        "A lightbulb",
+        "A plastic wire cover"
+      ],
+      "answer": "A switch",
+      "hint": "You flip this on a wall to turn on the classroom lights.",
+      "explanation": "A switch controls the flow of electricity by interrupting the circuit path when open and completing it when closed.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-132",
+      "type": "mcq",
+      "q": "Why is household wiring usually wrapped in a layer of plastic or rubber?",
+      "options": [
+        "To insulate the wires and prevent electrical shocks",
+        "To make the electricity travel much faster",
+        "To keep the copper metal cool so it does not melt",
+        "To generate extra power for the appliances"
+      ],
+      "answer": "To insulate the wires and prevent electrical shocks",
+      "hint": "Plastic and rubber do not let electrical currents pass through them easily.",
+      "explanation": "Plastic and rubber are excellent insulators. They wrap around conductive wires to contain the electrical current safely.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-133",
+      "type": "input",
+      "q": "What source of stored chemical energy provides the voltage to push electrons through a portable circuit?",
+      "options": [],
+      "answer": "Battery",
+      "hint": "Flashlights, remote controls, and toys use them to get power.",
+      "explanation": "A battery converts stored chemical energy into electrical energy, acting as the power source in a direct-current circuit.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-134",
+      "type": "mcq",
+      "q": "What type of circuit has multiple separate pathways for electricity to flow, so that if one lightbulb burns out, the others stay lit?",
+      "options": [
+        "Parallel circuit",
+        "Series circuit",
+        "Open circuit",
+        "Disconnected circuit"
+      ],

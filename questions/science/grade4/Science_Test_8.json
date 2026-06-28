@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_9.json",
+  "description": "Grade 4 Science Assessment - Day 9: Ecosystems and Food Chains",
+  "questions": [
+    {
+      "id": "SCI-081",
+      "type": "mcq",
+      "q": "What is the primary source of energy for nearly all food chains on Earth?",
+      "options": [
+        "The Sun",
+        "The ocean tides",
+        "Underground volcanoes",
+        "Decomposing leaves"
+      ],
+      "answer": "The Sun",
+      "hint": "This bright object in the sky provides the initial energy that plants capture.",
+      "explanation": "The sun provides the radiant solar energy that producers (plants) use to make food, which then flows through the rest of the ecosystem.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-082",
+      "type": "mcq",
+      "q": "An organism that makes its own food using sunlight is called a:",
+      "options": [
+        "Producer",
+        "Consumer",
+        "Decomposer",
+        "Scavenger"
+      ],
+      "answer": "Producer",
+      "hint": "Green trees, grass, and algae are all examples.",
+      "explanation": "Producers are organisms that generate their own organic nutrients through photosynthesis, serving as the base of food chains.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-083",
+      "type": "input",
+      "q": "What do we call an animal that eats both plants and other animals?",
+      "options": [],
+      "answer": "Omnivore",
+      "hint": "Grizzly bears, crows, and most humans belong to this category.",
+      "explanation": "An omnivore is a consumer whose regular diet consists of both significant plant matter and animal tissue.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-084",
+      "type": "mcq",
+      "q": "What would most likely happen to an ecosystem if the population of primary consumers (herbivores) completely disappeared?",
+      "options": [
+        "The producer population would grow unchecked, while secondary consumers would starve.",
+        "The carnivores would instantly start eating grass and trees.",
+        "Decomposers would stop working entirely because nothing would die.",
+        "The entire habitat would receive double its normal rainfall."
+      ],
+      "answer": "The producer population would grow unchecked, while secondary consumers would starve.",
+      "hint": "Think about who eats the plants and who eats the herbivores.",
+      "explanation": "Without herbivores, plants (producers) are not grazed upon and can overgrow, while carnivores (secondary consumers) lose their primary food source and decline.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-085",
+      "type": "mcq",
+      "q": "Which of the following demonstrates a correct energy path in a simple pond food chain?",
+      "options": [
+        "Algae -> Small Fish -> Heron",
+        "Heron -> Algae -> Small Fish",
+        "Small Fish -> Heron -> Algae",
+        "Algae -> Heron -> Small Fish"
+      ],
+      "answer": "Algae -> Small Fish -> Heron",
+      "hint": "Energy moves from the producer to the smaller consumer, then to the larger predator.",
+      "explanation": "Algae (producer) is eaten by the small fish (primary consumer), which is then consumed by the heron (secondary consumer).",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-086",
+      "type": "input",
+      "q": "What scientific term describes a network of overlapping and interconnected food chains within an entire ecosystem?",
+      "options": [],
+      "answer": "Food web",
+      "hint": "It looks like a complex tangle of strings or lines showing many animal interactions.",
+      "explanation": "A food web is a comprehensive diagram showing all the intersecting feeding pathways within a biological community.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-087",
+      "type": "mcq",
+      "q": "An earthworm lives in the soil, feeds on organic matter, and keeps the ground aerated. This specific role an organism plays in its habitat is called its:",
+      "options": [
+        "Niche",
+        "Biome",
+        "Population",
+        "Community"
+      ],
+      "answer": "Niche",
+      "hint": "It is an organism's functional job or occupation in nature.",
+      "explanation": "A niche describes how an organism responds to the distribution of resources and competitors, and how it alters those factors.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-088",
+      "type": "mcq",
+      "q": "Which of the following is an example of an abiotic (non-living) factor that influences a forest ecosystem?",
+      "options": [
+        "The amount of rainfall",
+        "The population of oak trees",
+        "The presence of earthworms",
+        "The nesting habits of owls"
+      ],
+      "answer": "The amount of rainfall",
+      "hint": "Look for something that is not alive, never was alive, but is crucial for life.",
+      "explanation": "Abiotic factors are non-living chemical and physical parts of the environment, such as water, sunlight, temperature, and soil minerals.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-089",
+      "type": "mcq",
+      "q": "What type of relationship is shown when a honeybee collects nectar from a flower, pollinating the plant in the process?",
+      "options": [
+        "Mutualism (both benefit)",
+        "Parasitism (one is harmed)",
+        "Predation (one kills another)",
+        "Competition (both struggle for resources)"
+      ],
+      "answer": "Mutualism (both benefit)",
+      "hint": "The bee gets delicious food and the flower gets to reproduce.",
+      "explanation": "Mutualism is a symbiotic interaction where both participating species derive a fitness or survival benefit.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-090",
+      "type": "input",
+      "q": "What basic unit of ecological organization describes all the individuals of a single species living together in a specific area?",
+      "options": [],
+      "answer": "Population",
+      "hint": "For example, all the grey squirrels living in a single city park.",
+      "explanation": "A population consists of all the organisms of the same group or species who live in a particular geographical area at the same time.",
+      "dlevel": "medium"
+    }
+  ]
+}

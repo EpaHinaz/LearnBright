@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_3.json",
+  "description": "Grade 4 Science Assessment - Day 3: Energy, Forces, and Magnets",
+  "questions": [
+    {
+      "id": "SCI-021",
+      "type": "mcq",
+      "q": "What type of energy is stored in an object due to its position or height above the ground?",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Thermal energy",
+        "Sound energy"
+      ],
+      "answer": "Potential energy",
+      "hint": "Think about a roller coaster car sitting completely still at the very top of a steep hill.",
+      "explanation": "Potential energy is stored energy based on an object's position or structure, which can be released as kinetic energy when it moves.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-022",
+      "type": "mcq",
+      "q": "When a ball rolls down a smooth hill, what energy transformation is primarily taking place?",
+      "options": [
+        "Potential energy is converting into kinetic energy.",
+        "Kinetic energy is converting into chemical energy.",
+        "Electrical energy is converting into potential energy.",
+        "Thermal energy is converting into nuclear energy."
+      ],
+      "answer": "Potential energy is converting into kinetic energy.",
+      "hint": "The stored energy of being high up changes into the energy of active motion.",
+      "explanation": "As the ball moves downward, its height decreases (losing potential energy) and its speed increases (gaining kinetic energy).",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-023",
+      "type": "input",
+      "q": "What force acts between two surfaces rubbing against each other, working to slow down moving objects?",
+      "options": [],
+      "answer": "Friction",
+      "hint": "Rub your hands together quickly; this force causes them to warm up.",
+      "explanation": "Friction is a resistive force that opposes motion when two physical surfaces slide or roll past one another.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-024",
+      "type": "mcq",
+      "q": "Why do ice skates slide smoothly over ice while sneakers grip the gym floor?",
+      "options": [
+        "The blades create less friction with ice than rubber soles do with wood.",
+        "Ice eliminates gravity entirely for the skater.",
+        "Sneakers produce more potential energy than thin metal blades.",
+        "The gym floor creates a strong magnetic pull on the sneakers."
+      ],
+      "answer": "The blades create less friction with ice than rubber soles do with wood.",
+      "hint": "Think about which combination of surfaces allows things to slide easily.",
+      "explanation": "Smooth metal blades on slick ice generate minimal friction, allowing easy gliding, whereas textured rubber soles create high friction to prevent slipping.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-025",
+      "type": "mcq",
+      "q": "What will happen if you bring the north pole of one bar magnet close to the north pole of another bar magnet?",
+      "options": [
+        "They will push away from each other.",
+        "They will stick firmly together.",
+        "They will cancel each other out and lose magnetism.",
+        "They will rotate until they point directly toward the moon."
+      ],
+      "answer": "They will push away from each other.",
+      "hint": "Remember the fundamental law of magnetism: 'Like poles...'",
+      "explanation": "Like magnetic poles (North-North or South-South) repel each other, while opposite poles attract.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-026",
+      "type": "input",
+      "q": "What mineral or natural magnetic rock was first discovered by ancient civilizations to attract iron pieces?",
+      "options": [],
+      "answer": "Lodestone",
+      "hint": "It translates to 'leading stone' and contains the mineral magnetite.",
+      "explanation": "Lodestone is a naturally magnetized piece of the mineral magnetite, which historical navigators used as early compasses.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-027",
+      "type": "mcq",
+      "q": "If you wrap a copper wire around an iron nail and attach the ends to a battery, you have created a temporary magnet called a(n):",
+      "options": [
+        "Electromagnet",
+        "Permanent magnet",
+        "Natural magnet",
+        "Bar magnet"
+      ],
+      "answer": "Electromagnet",
+      "hint": "Its power relies entirely on the flow of electricity through the wire loop.",
+      "explanation": "An electromagnet is a type of magnet where the magnetic field is produced by an electric current running through a coil.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-028",
+      "type": "mcq",
+      "q": "Which of the following objects would be strongly attracted to a household refrigerator magnet?",
+      "options": [
+        "A steel paperclip",
+        "A plastic ruler",
+        "A copper penny",
+        "A wooden toothpick"
+      ],
+      "answer": "A steel paperclip",
+      "hint": "Magnets attract specific metals like iron, nickel, and steel.",
+      "explanation": "Steel contains iron, which is a ferromagnetic material that responds strongly to magnetic fields.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-029",
+      "type": "mcq",
+      "q": "How does an engineer increase the strength of a basic school-project electromagnet?",
+      "options": [
+        "By winding more coils of wire around the central core",
+        "By shortening the wire so it stays away from the nail",
+        "By switching to a smaller plastic core instead of iron",
+        "By cooling the battery down in an ice bath"
+      ],
+      "answer": "By winding more coils of wire around the central core",
+      "hint": "Think about how adding more loops multiplies the magnetic effect of the electrical current.",
+      "explanation": "Increasing the number of wire turns around the core concentrates the magnetic field lines, making the electromagnet significantly stronger.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-030",
+      "type": "input",
+      "q": "What invisible area surrounding a magnet exerts a force on other magnetic materials?",
+      "options": [],
+      "answer": "Magnetic field",
+      "hint": "It is the region where magnetic lines of force can be detected.",
+      "explanation": "The magnetic field is the spatial region around a magnetic material where the magnetic force is active and measurable.",
+      "dlevel": "medium"
+    }
+  ]
+}

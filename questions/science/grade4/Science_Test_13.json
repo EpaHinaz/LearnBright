@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_4.json",
+  "description": "Grade 4 Science Assessment - Day 4: Electricity, Light, and Circuits",
+  "questions": [
+    {
+      "id": "SCI-031",
+      "type": "mcq",
+      "q": "What is required to make an electric current flow to light up a bulb?",
+      "options": [
+        "A complete, closed circuit path",
+        "An open circuit with a broken wire",
+        "A plastic switch in the off position",
+        "An insulated rubber grounding mat"
+      ],
+      "answer": "A complete, closed circuit path",
+      "hint": "Electrical energy needs an unbroken loop to travel from the source and back.",
+      "explanation": "Electricity requires a continuous, closed path (circuit) made of conducting materials for the electrons to flow.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-032",
+      "type": "mcq",
+      "q": "Which material is an excellent conductor of electricity?",
+      "options": [
+        "Copper wire",
+        "Glass rod",
+        "Rubber band",
+        "Wooden stick"
+      ],
+      "answer": "Copper wire",
+      "hint": "Most electrical cords have this metal hidden inside them.",
+      "explanation": "Metals like copper allow electrical energy to pass through them easily, making them excellent conductors.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-033",
+      "type": "input",
+      "q": "What term describes a material that does not allow electricity to pass through it easily?",
+      "options": [],
+      "answer": "Insulator",
+      "hint": "Rubber, plastic, and wood are examples of this type of material.",
+      "explanation": "An insulator prevents or highly resists the flow of electrical current, protecting us from shocks.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-034",
+      "type": "mcq",
+      "q": "If you remove one lightbulb from a series circuit containing three bulbs, what happens to the remaining bulbs?",
+      "options": [
+        "The other two bulbs go out completely.",
+        "The other two bulbs burn twice as bright.",
+        "Only the bulb closest to the battery stays lit.",
+        "The remaining bulbs start blinking rapidly."
+      ],
+      "answer": "The other two bulbs go out completely.",
+      "hint": "In this specific type of circuit, all components are connected in a single, continuous loop.",
+      "explanation": "In a series circuit, there is only one path for electricity. Removing a bulb breaks the path, creating an open circuit that stops the current entirely.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-035",
+      "type": "mcq",
+      "q": "How does light travel from a light source like a flashlight?",
+      "options": [
+        "In straight lines called rays",
+        "In curved lines that bend around objects",
+        "In random, zig-zag patterns across the room",
+        "Only in upward circles toward the ceiling"
+      ],
+      "answer": "In straight lines called rays",
+      "hint": "Think about how shadows are sharp and clear when you block a beam.",
+      "explanation": "Light energy travels outward from its source in straight lines known as light rays until it strikes an object.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-036",
+      "type": "input",
+      "q": "What behavior of light is shown when a mirror bounces light rays back into a room?",
+      "options": [],
+      "answer": "Reflection",
+      "hint": "This word describes what you see when you look at yourself in a calm lake.",
+      "explanation": "Reflection occurs when light waves bounce off a smooth, shiny surface like a mirror.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-037",
+      "type": "mcq",
+      "q": "Why does a straw placed in a clear glass of water look bent or broken at the surface?",
+      "options": [
+        "Light waves bend as they change speed moving from air to water.",
+        "The water dissolves the structural strength of plastic straws.",
+        "The glass magnifies the top half while shrinking the bottom half.",
+        "Light is completely absorbed by the water molecules."
+      ],
+      "answer": "Light waves bend as they change speed moving from air to water.",
+      "hint": "This optical illusion is caused by the refraction of light.",
+      "explanation": "Refraction is the bending of light as it passes from one medium (like air) into another medium of a different density (like water), which alters its speed.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-038",
+      "type": "mcq",
+      "q": "An object that allows some light to pass through but scatters it so you cannot see clearly through it is:",
+      "options": [
+        "Translucent",
+        "Transparent",
+        "Opaque",
+        "Reflective"
+      ],
+      "answer": "Translucent",
+      "hint": "Frosted glass windows or wax paper are good examples.",
+      "explanation": "Translucent materials allow light to pass through imperfectly, scattering the rays so objects on the other side appear blurry.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-039",
+      "type": "mcq",
+      "q": "Which type of material completely blocks light from passing through, creating a dark shadow behind it?",
+      "options": [
+        "Opaque",
+        "Transparent",
+        "Translucent",
+        "Luminous"
+      ],
+      "answer": "Opaque",
+      "hint": "A brick wall, a wooden door, or your own body are examples.",
+      "explanation": "Opaque materials absorb or reflect all incident light, preventing any light from passing through them.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-040",
+      "type": "input",
+      "q": "What transparent, triangular glass tool can separate white light into the full spectrum of colors?",
+      "options": [],
+      "answer": "Prism",
+      "hint": "It creates a mini-rainbow by bending different colors of light at slightly different angles.",
+      "explanation": "A prism refracts white light, separating it into its component wavelengths to reveal the rainbow colors of the visible spectrum.",
+      "dlevel": "medium"
+    }
+  ]
+}

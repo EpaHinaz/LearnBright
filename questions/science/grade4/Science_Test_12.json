@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_5.json",
+  "description": "Grade 4 Science Assessment - Day 5: Sound Waves and the Solar System",
+  "questions": [
+    {
+      "id": "SCI-041",
+      "type": "mcq",
+      "q": "How is sound energy produced?",
+      "options": [
+        "By an object vibrating back and forth",
+        "By light bouncing off a flat mirror",
+        "By cooling an object down quickly",
+        "By mixing two chemical solutions together"
+      ],
+      "answer": "By an object vibrating back and forth",
+      "hint": "Touch your throat gently while humming a low tune.",
+      "explanation": "Sound is a form of energy produced by vibrations, which create longitudinal waves through a medium like air or water.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-042",
+      "type": "mcq",
+      "q": "Through which state of matter does sound travel the fastest?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Vacuum"
+      ],
+      "answer": "Solid",
+      "hint": "Think about how tightly packed the atoms are in a steel rail versus the open air.",
+      "explanation": "Sound travels fastest through solids because the molecules are packed tightly together, allowing the vibration to pass quickly from one particle to the next.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-043",
+      "type": "input",
+      "q": "What term describes the highness or lowness of a sound, determined by its frequency?",
+      "options": [],
+      "answer": "Pitch",
+      "hint": "A tiny bird chirp has a high one, while a large drum has a low one.",
+      "explanation": "Pitch depends on the frequency of the sound waves. Fast vibrations produce a high pitch, and slower vibrations produce a low pitch.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-044",
+      "type": "mcq",
+      "q": "Why is there absolute silence in outer space?",
+      "options": [
+        "Space is a vacuum with no air molecules to carry sound vibrations.",
+        "The stars absorb all the sound energy with their heat.",
+        "Space is too cold for objects to vibrate properly.",
+        "Astronaut helmets block out all cosmic frequencies."
+      ],
+      "answer": "Space is a vacuum with no air molecules to carry sound vibrations.",
+      "hint": "Sound waves require a physical medium (matter) to travel through.",
+      "explanation": "Because space is a near-perfect vacuum, there are no air particles to compress and expand, meaning sound waves cannot travel at all.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-045",
+      "type": "mcq",
+      "q": "Which object sits at the exact center of our solar system, providing heat and light to the planets?",
+      "options": [
+        "The Sun",
+        "Jupiter",
+        "The Moon",
+        "The Milky Way"
+      ],
+      "answer": "The Sun",
+      "hint": "It is our local star.",
+      "explanation": "The Sun is the massive star at the center of our solar system, around which all the planets orbit due to its immense gravity.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-046",
+      "type": "input",
+      "q": "What planet is famously known as the Red Planet due to iron oxide on its surface?",
+      "options": [],
+      "answer": "Mars",
+      "hint": "It is the fourth planet from the Sun, located right after Earth.",
+      "explanation": "Mars is known as the Red Planet because its surface is covered in iron oxide, commonly known as rust.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-047",
+      "type": "mcq",
+      "q": "What is the primary difference between the inner planets and the outer planets?",
+      "options": [
+        "Inner planets are rocky and solid, while outer planets are mostly giant spheres of gas.",
+        "Inner planets have many rings, while outer planets have no rings at all.",
+        "Inner planets take much longer to orbit the Sun than outer planets.",
+        "Outer planets are much hotter because they trap solar winds."
+      ],
+      "answer": "Inner planets are rocky and solid, while outer planets are mostly giant spheres of gas.",
+      "hint": "Think about the composition of Earth and Mars compared to Jupiter and Saturn.",
+      "explanation": "The four inner planets (Mercury, Venus, Earth, Mars) are terrestrial and made of rock, while the four outer planets (Jupiter, Saturn, Uranus, Neptune) are gas giants.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-048",
+      "type": "mcq",
+      "q": "What causes the patterns of day and night on Earth?",
+      "options": [
+        "The rotation of Earth on its axis",
+        "The revolution of Earth around the Sun",
+        "The moon blocking out sunlight every twelve hours",
+        "The sun moving physically up and down in space"
+      ],
+      "answer": "The rotation of Earth on its axis",
+      "hint": "Think about a spinning top turning around in one spot.",
+      "explanation": "Earth completes one full rotation on its axis roughly every 24 hours. The side facing the Sun experiences day, while the side facing away experiences night.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-049",
+      "type": "mcq",
+      "q": "How long does it take for Earth to complete one full revolution around the Sun?",
+      "options": [
+        "365 days (one year)",
+        "24 hours (one day)",
+        "30 days (one month)",
+        "12 hours (half a day)"
+      ],
+      "answer": "365 days (one year)",
+      "hint": "This time span matches our entire calendar cycle.",
+      "explanation": "Earth's orbit or revolution around the sun takes approximately 365.25 days, which forms the basis of our calendar year.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-050",
+      "type": "input",
+      "q": "What huge, rocky space fragments orbit the Sun mostly in a wide belt between Mars and Jupiter?",
+      "options": [],
+      "answer": "Asteroids",
+      "hint": "This region is named the '_______ Belt'.",
+      "explanation": "Asteroids are rocky, airless remnants left over from the early formation of our solar system, primarily found in the Asteroid Belt.",
+      "dlevel": "hard"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_2.json",
+  "description": "Grade 4 Science Assessment - Day 2: Habitats, Weather, and Water Cycle",
+  "questions": [
+    {
+      "id": "SCI-011",
+      "type": "mcq",
+      "q": "Which habitat is characterized by a very dry climate, sparse vegetation, and animals adapted to conserve water?",
+      "options": [
+        "Desert",
+        "Tundra",
+        "Rainforest",
+        "Wetland"
+      ],
+      "answer": "Desert",
+      "hint": "Cacti and camels thrive in this hot, dry biome.",
+      "explanation": "Deserts receive very little rainfall each year, requiring plants and animals to have special adaptations to survive with minimal water.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-012",
+      "type": "mcq",
+      "q": "What is the primary role of an animal's camouflage in its habitat?",
+      "options": [
+        "To blend into the surroundings to hide from predators or prey",
+        "To attract mates during the breeding season",
+        "To help the animal absorb more sunlight for energy",
+        "To keep the animal warm during winter months"
+      ],
+      "answer": "To blend into the surroundings to hide from predators or prey",
+      "hint": "Think about how a green tree frog looks sitting on a green leaf.",
+      "explanation": "Camouflage allows an animal to remain unnoticed by blending with its environment, providing a survival advantage.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-013",
+      "type": "mcq",
+      "q": "What direct effect would clear-cutting an entire forest ecosystem most likely have on the local wildlife?",
+      "options": [
+        "Animals would lose their natural shelter and food sources.",
+        "The animal population would instantly double.",
+        "Predators would naturally become herbivores.",
+        "Plants would grow faster due to more ground space."
+      ],
+      "answer": "Animals would lose their natural shelter and food sources.",
+      "hint": "Consider what trees provide for birds, squirrels, and insects.",
+      "explanation": "Deforestation destroys the microhabitats, nesting grounds, and food webs that local animals depend on for survival.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-014",
+      "type": "input",
+      "q": "What instrument do meteorologists use to measure atmospheric air pressure?",
+      "options": [],
+      "answer": "Barometer",
+      "hint": "Its name starts with 'baro-' and changes when weather systems move in.",
+      "explanation": "A barometer measures air pressure. High pressure usually indicates clear skies, while low pressure indicates approaching storms.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-015",
+      "type": "mcq",
+      "q": "During which stage of the water cycle does liquid water turn into water vapor due to heat from the sun?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Precipitation",
+        "Runoff"
+      ],
+      "answer": "Evaporation",
+      "hint": "This happens to puddles on a sunny afternoon.",
+      "explanation": "Evaporation occurs when thermal energy changes liquid water into gas (water vapor).",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-016",
+      "type": "input",
+      "q": "What form of precipitation falls as small, hard balls of ice during severe summer thunderstorms?",
+      "options": [],
+      "answer": "Hail",
+      "hint": "It is different from winter sleet or snow and can damage cars.",
+      "explanation": "Hail forms in strong thunderstorm updrafts that carry raindrops up into extremely cold areas of the atmosphere where they freeze into ice pellets.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-017",
+      "type": "mcq",
+      "q": "Why do clouds usually form high in the sky rather than right at ground level?",
+      "options": [
+        "Rising warm air cools down and condenses at higher altitudes.",
+        "Gravity pulls all water vapor upward into space.",
+        "The sun's heat is only strong enough to melt ice high up.",
+        "Air pressure is too high near the ground for water to gather."
+      ],
+      "answer": "Rising warm air cools down and condenses at higher altitudes.",
+      "hint": "Think about what happens to warm, moist air as it travels upward where the temperature is lower.",
+      "explanation": "As warm, moist air rises, it expands and cools. The cooling causes the water vapor to condense onto tiny dust particles, forming clouds.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-018",
+      "type": "mcq",
+      "q": "Which type of cloud appears white, puffy, and like cotton balls, typically indicating fair weather?",
+      "options": [
+        "Cumulus",
+        "Stratus",
+        "Cirrus",
+        "Cumulonimbus"
+      ],
+      "answer": "Cumulus",
+      "hint": "The name means 'heap' or 'pile' in Latin.",
+      "explanation": "Cumulus clouds are fluffy, bright white clouds that signify nice weather, though they can grow into storm clouds if conditions change.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-019",
+      "type": "mcq",
+      "q": "What type of severe weather is a violent, rotating column of air extending from a thunderstorm to the ground?",
+      "options": [
+        "Tornado",
+        "Hurricane",
+        "Blizzard",
+        "Monsoon"
+      ],
+      "answer": "Tornado",
+      "hint": "It forms a funnel shape and moves quickly across land.",
+      "explanation": "A tornado is a rapidly spinning funnel of air that drops down from a severe thunderstorm and can cause extreme wind damage.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-020",
+      "type": "input",
+      "q": "What do we call the average weather conditions of a specific region measured over a long period of time?",
+      "options": [],
+      "answer": "Climate",
+      "hint": "While weather changes daily, this describes the overall long-term pattern.",
+      "explanation": "Climate is the statistical pattern of weather conditions (like temperature and precipitation) recorded over 30 or more years.",
+      "dlevel": "medium"
+    }
+  ]
+}

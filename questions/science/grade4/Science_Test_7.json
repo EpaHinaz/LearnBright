@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_10.json",
+  "description": "Grade 4 Science Assessment - Day 10: Weather Patterns and Instruments",
+  "questions": [
+    {
+      "id": "SCI-091",
+      "type": "mcq",
+      "q": "Which weather instrument is specifically designed to measure the current temperature of the air?",
+      "options": [
+        "Thermometer",
+        "Anemometer",
+        "Rain gauge",
+        "Barometer"
+      ],
+      "answer": "Thermometer",
+      "hint": "It contains a liquid that rises or falls inside a glass tube as the environment gets warmer or colder.",
+      "explanation": "A thermometer is an instrument used to measure temperature gradients or degree of hotness and coldness.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-092",
+      "type": "mcq",
+      "q": "What type of weather conditions are typically associated with a low-pressure air mass moving into your area?",
+      "options": [
+        "Cloudy skies, wind, and stormy weather",
+        "Clear, sunny skies with calm air",
+        "Freezing cold temperatures with completely dry air",
+        "Thick early morning fog that clears within five minutes"
+      ],
+      "answer": "Cloudy skies, wind, and stormy weather",
+      "hint": "Low pressure allows warm air to rise easily, forming large moisture clouds.",
+      "explanation": "Low-pressure systems are characterized by rising air, which cools and condenses into clouds, often resulting in precipitation and windy weather.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-093",
+      "type": "input",
+      "q": "What instrument uses spinning cups to measure the speed of the wind?",
+      "options": [],
+      "answer": "Anemometer",
+      "hint": "Its name starts with 'anemo-', which comes from the ancient Greek word for wind.",
+      "explanation": "An anemometer is a device used for measuring wind speed and is a common instrument at meteorological stations.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-094",
+      "type": "mcq",
+      "q": "How does a sea breeze form along the coastline during a hot summer afternoon?",
+      "options": [
+        "The land heats up faster than the ocean, causing warm air over land to rise and cool air from the sea to blow inland.",
+        "The ocean heats up faster than the dry land, pulling all atmospheric winds out toward the deep water.",
+        "The moon's gravitational pull drags surface winds away from the beaches toward coastal forests.",
+        "Underground tectonic movements push waves of cool air upward through coastal sand dunes."
+      ],
+      "answer": "The land heats up faster than the ocean, causing warm air over land to rise and cool air from the sea to blow inland.",
+      "hint": "Think about how warm air rises because it is less dense, creating a space for cooler air to rush in.",
+      "explanation": "During the day, land surfaces absorb solar heat faster than water. The air above the land warms up and rises, creating a low-pressure zone that pulls cooler, denser air from the ocean toward the shore.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-095",
+      "type": "mcq",
+      "q": "Which of the following describes precipitation?",
+      "options": [
+        "Rain, snow, sleet, or hail falling from clouds to the ground",
+        "Water vapor turning into liquid droplets to form a cloud",
+        "Puddles drying up on a hot blacktop driveway",
+        "Groundwater soaking deep into underground rock layers"
+      ],
+      "answer": "Rain, snow, sleet, or hail falling from clouds to the ground",
+      "hint": "It is the stage of the water cycle where water actually drops out of the sky.",
+      "explanation": "Precipitation is any product of the condensation of atmospheric water vapor that falls under gravitational pull from clouds.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-096",
+      "type": "input",
+      "q": "What weather instrument consists of an open tube that catches and measures the amount of liquid rainfall?",
+      "options": [],
+      "answer": "Rain gauge",
+      "hint": "The second word in its name rhymes with 'page' and means a tool for measuring.",
+      "explanation": "A rain gauge is a meteorological instrument used to gather and measure the amount of liquid precipitation over a set period of time.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-097",
+      "type": "mcq",
+      "q": "What does a wind vane show you when you look at it on top of a barn?",
+      "options": [
+        "The direction the wind is blowing from",
+        "The temperature of the incoming air mass",
+        "The percentage of moisture held in the air",
+        "The speed at which a storm system is travelling"
+      ],
+      "answer": "The direction the wind is blowing from",
+      "hint": "It features an arrow pointing toward North, South, East, or West.",
+      "explanation": "A wind vane (also known as a weather vane) rotates freely to point into the wind, showing the geographical direction the wind is coming from.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-098",
+      "type": "mcq",
+      "q": "Which type of thin, wispy cloud forms very high in the atmosphere where the air is freezing, and is made entirely of ice crystals?",
+      "options": [
+        "Cirrus",
+        "Stratus",
+        "Cumulus",
+        "Fog"
+      ],
+      "answer": "Cirrus",
+      "hint": "These clouds look like delicate feathers or horse tails high in the blue sky.",
+      "explanation": "Cirrus clouds are high-altitude clouds characterized by thin, hair-like strands, formed where temperatures are below freezing.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-099",
+      "type": "mcq",
+      "q": "What severe weather system develops over warm tropical ocean waters, featuring massive spinning winds and torrential rains?",
+      "options": [
+        "Hurricane",
+        "Blizzard",
+        "Drought",
+        "Avalanche"
+      ],
+      "answer": "Hurricane",
+      "hint": "These enormous storms are given names each year and have a calm center called an 'eye'.",
+      "explanation": "A hurricane is a rapidly rotating storm system characterized by a low-pressure center, strong winds, and heavy rain, fueled by warm ocean moisture.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-100",
+      "type": "input",
+      "q": "What term describes the amount of water vapor or moisture present in the air?",
+      "options": [],
+      "answer": "Humidity",
+      "hint": "When this is high, the air feels sticky, and your sweat does not evaporate easily.",
+      "explanation": "Humidity is the measure of the concentration of water vapor present in the air, heavily influencing how hot or cold weather feels.",
+      "dlevel": "hard"
+    }
+  ]
+}

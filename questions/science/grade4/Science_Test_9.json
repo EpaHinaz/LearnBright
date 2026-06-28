@@ -1,0 +1,142 @@
+{
+  "subject": "science",
+  "title": "science_8.json",
+  "description": "Grade 4 Science Assessment - Day 8: Animal Life Cycles and Adaptations",
+  "questions": [
+    {
+      "id": "SCI-071",
+      "type": "mcq",
+      "q": "Which of the following animals undergoes complete metamorphosis during its life cycle?",
+      "options": [
+        "Butterfly",
+        "Grasshopper",
+        "Human",
+        "Frog"
+      ],
+      "answer": "Butterfly",
+      "hint": "This insect goes through four distinct stages: egg, larva, pupa, and adult.",
+      "explanation": "Butterflies undergo complete metamorphosis, changing completely from a caterpillar (larva) inside a chrysalis (pupa) into a winged adult.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-072",
+      "type": "mcq",
+      "q": "What is an example of a behavioral adaptation that helps an animal survive a freezing winter?",
+      "options": [
+        "Migration to a warmer climate",
+        "Growing thicker fur on its back",
+        "Having a layer of fat beneath the skin",
+        "Changing its skin color to match snow"
+      ],
+      "answer": "Migration to a warmer climate",
+      "hint": "Look for an action or choice the animal makes rather than a physical body part.",
+      "explanation": "Migration is a behavioral adaptation where animals physically move from one region to another to find food or better weather conditions.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-073",
+      "type": "input",
+      "q": "What do we call an animal that only eats plants for its food energy?",
+      "options": [],
+      "answer": "Herbivore",
+      "hint": "Cows, deer, and rabbits belong to this nutritional category.",
+      "explanation": "An herbivore is an organism anatomically and physiologically adapted to eating plant material as its main food source.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-074",
+      "type": "mcq",
+      "q": "Why do deep-sea fish often possess organs that exhibit bioluminescence (the ability to glow in the dark)?",
+      "options": [
+        "To attract prey or communicate in complete darkness",
+        "To warm up the surrounding freezing water",
+        "To absorb solar radiation passing through the ocean",
+        "To help deep-sea plants perform photosynthesis"
+      ],
+      "answer": "To attract prey or communicate in complete darkness",
+      "hint": "Think about how a flashlight helps you in a pitch-black room.",
+      "explanation": "In the deep ocean where no sunlight penetrates, bioluminescence helps animals attract food, confuse predators, or find mates.",
+      "dlevel": "hard"
+    },
+    {
+      "id": "SCI-075",
+      "type": "mcq",
+      "q": "What is the primary function of a bird's hollow bones?",
+      "options": [
+        "To make the bird lighter for easier flight",
+        "To store extra water for long journeys",
+        "To allow the bird to sing louder notes",
+        "To keep the bird cool in hot climates"
+      ],
+      "answer": "To make the bird lighter for easier flight",
+      "hint": "Think about how extra weight affects an aircraft or flying object.",
+      "explanation": "Hollow bones reduce a bird's total body weight without sacrificing strength, which lowers the energy required to fly.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-076",
+      "type": "input",
+      "q": "What is the resting stage of an insect life cycle called when it is inside a chrysalis or cocoon?",
+      "options": [],
+      "answer": "Pupa",
+      "hint": "It comes right after the larva (caterpillar) stage.",
+      "explanation": "The pupa is the non-feeding transformational stage of holometabolous insects, during which major cellular remodeling occurs.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-077",
+      "type": "mcq",
+      "q": "Which group of animals is cold-blooded, has scaly skin, and typically lays leathery eggs on land?",
+      "options": [
+        "Reptiles",
+        "Amphibians",
+        "Mammals",
+        "Fish"
+      ],
+      "answer": "Reptiles",
+      "hint": "Lizards, snakes, and alligators belong to this group.",
+      "explanation": "Reptiles are ectothermic (cold-blooded) vertebrates characterized by scales or scutes, and they breathe air with lungs.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-078",
+      "type": "mcq",
+      "q": "What is the main biological advantage of an animal mimicking a poisonous species?",
+      "options": [
+        "Predators avoid eating them, thinking they are dangerous.",
+        "It allows them to gather food from poisonous plants safely.",
+        "It helps them absorb heat better from their habitat.",
+        "They can blend in completely with standard green leaves."
+      ],
+      "answer": "Predators avoid eating them, thinking they are dangerous.",
+      "hint": "Think of the harmless Viceroy butterfly looking almost exactly like the bad-tasting Monarch butterfly.",
+      "explanation": "Mimicry allows a harmless animal to trick predators into thinking it is toxic, aggressive, or unpalatable, increasing its chances of survival.",
+      "dlevel": "medium"
+    },
+    {
+      "id": "SCI-079",
+      "type": "mcq",
+      "q": "An animal that hunts and kills other animals for food is classified as a:",
+      "options": [
+        "Predator",
+        "Prey",
+        "Producer",
+        "Scavenger"
+      ],
+      "answer": "Predator",
+      "hint": "Lions, hawks, and wolves are notable examples.",
+      "explanation": "A predator is any organism that kills and consumes other living organisms (its prey) for sustenance.",
+      "dlevel": "easy"
+    },
+    {
+      "id": "SCI-080",
+      "type": "input",
+      "q": "What specialized respiratory organs do fish use to extract dissolved oxygen directly from water?",
+      "options": [],
+      "answer": "Gills",
+      "hint": "These are slits located on the sides of a fish's head.",
+      "explanation": "Gills are vascularized tissue structures that allow aquatic organisms to exchange gases by absorbing oxygen from passing water.",
+      "dlevel": "hard"
+    }
+  ]
+}
