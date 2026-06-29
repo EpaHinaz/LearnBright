@@ -82,7 +82,7 @@ export function renderAdminStudents() {
       <td><div class="sbarw"><div class="sbarbg"><div class="sbarfg" style="width:${avg}%;background:${bc}"></div></div><strong>${avg}%</strong></div></td>
       <td><strong style="color:var(--sun)">${pts}</strong></td>
       <td>${last}</td>
-      <td><button class="btn-sm" onclick="openStudentDetail('${n}')">View</button> <button class="btn-sm dng" onclick="delStudent('${n}')">Delete</button></td>
+      <td><button class="btn-sm" onclick="openStudent('${n}')">View</button> <button class="btn-sm dng" onclick="delStudent('${n}')">Delete</button></td>
     </tr>`;
   }).join('');
 
@@ -282,197 +282,122 @@ export function renderAnalytics() {
 }
 
 /**
- * NEW STUDENT DETAILS TAB - Shows per-student analytics
+ * FIXED DAILY SUMMARY (was broken)
  */
-export function renderStudentDetails() {
+export function renderDailySummary() {
   const users = getUsers();
-  const studentNames = Object.keys(users);
+  const rows = Object.values(users);
+  const todayKey = new Date().toISOString().slice(0, 10);
   
-  if (!studentNames.length) {
-    document.getElementById('ap-student-details').innerHTML = '<div class="empty"><div class="ei">👤</div><p>No students yet.</p></div>';
+  if (!rows.length) {
+    const container = document.getElementById('ap-daily-summary');
+    if (container) {
+      container.innerHTML = `
+        <div class="admhdr"><div><h2>📅 Daily Summary</h2><p>No students yet.</p></div></div>
+        <div class="empty"><div class="ei">📭</div><p>No data available</p></div>
+      `;
+    }
     return;
   }
 
-  // Build filter
-  const filterHtml = `
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center">
-      <div style="flex:1;min-width:200px">
-        <label style="display:block;font-weight:700;font-size:.9rem;margin-bottom:5px">Student</label>
-        <select id="student-filter" style="width:100%;padding:8px;border:2px solid var(--border);border-radius:8px;font-family:'Nunito',sans-serif">
-          <option value="">-- Select Student --</option>
-          ${studentNames.map(name => `<option value="${name}">${esc(name)}</option>`).join('')}
-        </select>
-      </div>
-      <div style="flex:1;min-width:150px">
-        <label style="display:block;font-weight:700;font-size:.9rem;margin-bottom:5px">Subject</label>
-        <select id="subject-filter" style="width:100%;padding:8px;border:2px solid var(--border);border-radius:8px;font-family:'Nunito',sans-serif">
-          <option value="">-- All Subjects --</option>
-          ${SUBJECTS.map(s => `<option value="${s.id}">${s.icon} ${s.label}</option>`).join('')}
-        </select>
-      </div>
-      <div style="flex:1;min-width:150px">
-        <label style="display:block;font-weight:700;font-size:.9rem;margin-bottom:5px">Date Range</label>
-        <select id="daterange-filter" style="width:100%;padding:8px;border:2px solid var(--border);border-radius:8px;font-family:'Nunito',sans-serif">
-          <option value="all">All Time</option>
-          <option value="today">Today</option>
-          <option value="week">This Week</option>
-          <option value="month">This Month</option>
-        </select>
-      </div>
-      <div style="padding-top:22px">
-        <button class="btn-sv" onclick="renderStudentDetailsData()">Filter</button>
-      </div>
-    </div>
-  `;
+  const entries = rows.map(u => {
+    const completed = Object.entries(u.completedAssignments || {})
+      .filter(([id, rec]) => rec.date && String(rec.date).slice(0, 10) === todayKey)
+      .map(([id, rec]) => ({ id, date: rec.date }));
+    
+    const assignedCount = (u.todayAssignmentsDate === todayKey && u.todayAssignments) 
+      ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) 
+      : 0;
+    
+    const completedCount = completed.length;
+    const pending = Math.max(0, assignedCount - completedCount);
 
-  document.getElementById('ap-student-details').innerHTML = `
-    <div class="admhdr"><div><h2>👤 Student Details & Analytics</h2><p>View per-student performance and history</p></div></div>
-    ${filterHtml}
-    <div id="student-details-content" style="min-height:200px;color:#6B7280;text-align:center;padding:40px">Select a student to view details</div>
-  `;
-}
-
-export function renderStudentDetailsData() {
-  const studentName = document.getElementById('student-filter')?.value;
-  const subjectFilter = document.getElementById('subject-filter')?.value || '';
-  const dateRange = document.getElementById('daterange-filter')?.value || 'all';
-
-  if (!studentName) {
-    toast('Please select a student');
-    return;
-  }
-
-  const users = getUsers();
-  const student = users[studentName];
-  if (!student) return;
-
-  // Calculate date range
-  const now = new Date();
-  let startDate = null;
-  if (dateRange === 'today') {
-    startDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  } else if (dateRange === 'week') {
-    startDate = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
-  } else if (dateRange === 'month') {
-    startDate = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
-  }
-
-  // Get filtered assignments
-  let completions = Object.entries(student.completedAssignments || {})
-    .map(([id, rec]) => {
-      const assignment = getAllA().find(a => a.id === id);
-      return { id, rec, assignment };
-    })
-    .filter(item => {
-      if (!item.assignment) return false;
-      if (subjectFilter && item.assignment.subject !== subjectFilter) return false;
-      if (startDate && new Date(item.rec.date) < startDate) return false;
-      return true;
-    });
-
-  // Sort by date descending
-  completions.sort((a, b) => new Date(b.rec.date) - new Date(a.rec.date));
-
-  // Calculate metrics
-  const totalAttempts = completions.length;
-  const avgScore = totalAttempts ? Math.round(completions.reduce((s, c) => s + (c.rec.pct || 0), 0) / totalAttempts) : 0;
-  const bestScore = totalAttempts ? Math.max(...completions.map(c => c.rec.pct || 0)) : 0;
-  const worstScore = totalAttempts ? Math.min(...completions.map(c => c.rec.pct || 0)) : 0;
-  const perfectScores = completions.filter(c => c.rec.pct === 100).length;
-
-  // Subject breakdown
-  const subjectBreakdown = {};
-  SUBJECTS.forEach(s => {
-    const subjectComps = completions.filter(c => c.assignment.subject === s.id);
-    const scores = subjectComps.map(c => c.rec.pct || 0);
-    subjectBreakdown[s.id] = {
-      subject: s,
-      count: subjectComps.length,
-      avg: scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0
+    return {
+      name: u.name,
+      grade: u.grade,
+      completedCount,
+      assignedCount,
+      pending,
+      studentSafe: u.name.replace(/'/g, "\\'")
     };
-  });
+  }).filter(e => e.assignedCount > 0 || e.completedCount > 0);
 
-  const subjectHtml = Object.values(subjectBreakdown)
-    .filter(sb => sb.count > 0)
-    .map(sb => `
-      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px;background:var(--soft);border-radius:8px;margin-bottom:8px">
-        <div>
-          <strong>${sb.subject.icon} ${sb.subject.short}</strong>
-          <div style="font-size:.82rem;color:#6B7280">${sb.count} attempts</div>
-        </div>
-        <div style="text-align:right">
-          <div style="font-weight:900;color:var(--sky)">${sb.avg}%</div>
-          <div style="font-size:.82rem;color:#6B7280">average</div>
-        </div>
+  const totalAssigned = entries.reduce((sum, e) => sum + e.assignedCount, 0);
+  const totalCompleted = entries.reduce((sum, e) => sum + e.completedCount, 0);
+  const totalPending = entries.reduce((sum, e) => sum + e.pending, 0);
+
+  const rowsHtml = entries.map(e => `<tr>
+    <td><strong>${esc(e.name)}</strong></td>
+    <td><span class="pill pg${e.grade}">Gr ${e.grade}</span></td>
+    <td>${e.completedCount}</td>
+    <td>${e.assignedCount}</td>
+    <td>${e.pending}</td>
+    <td><button class="btn-sm" onclick="openDailySummaryDetail('${e.studentSafe}','${todayKey}')">Details</button></td>
+  </tr>`).join('') || '<tr><td colspan="6" style="padding:18px;color:#6B7280;text-align:center">No assignments assigned today.</td></tr>';
+
+  const container = document.getElementById('ap-daily-summary');
+  if (container) {
+    container.innerHTML = `
+      <div class="admhdr"><div><h2>📅 Daily Summary</h2><p>${todayKey} · ${totalCompleted}/${totalAssigned} completed</p></div></div>
+      <div class="sgrid" style="margin-bottom:18px">
+        <div class="scard"><div class="snum" style="color:var(--sky)">${totalAssigned}</div><div class="slbl">Assigned</div></div>
+        <div class="scard"><div class="snum" style="color:var(--mint)">${totalCompleted}</div><div class="slbl">Completed</div></div>
+        <div class="scard"><div class="snum" style="color:var(--sun)">${totalPending}</div><div class="slbl">Pending</div></div>
+        <div class="scard"><div class="snum" style="color:var(--lav)">${entries.length}</div><div class="slbl">Students</div></div>
       </div>
-    `).join('');
-
-  // Timeline of completions
-  const timelineHtml = completions.map(c => {
-    const date = new Date(c.rec.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' });
-    const scoreColor = c.rec.pct >= 80 ? 'var(--mint)' : c.rec.pct >= 60 ? 'var(--sun)' : 'var(--coral)';
-    const meta = getSubjectMeta(c.assignment.subject);
-    return `
-      <div style="display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--border);border-radius:8px;margin-bottom:8px">
-        <div style="font-size:1.3rem">${meta.icon}</div>
-        <div style="flex:1">
-          <div style="font-weight:700">${esc(c.assignment.title)}</div>
-          <div style="font-size:.82rem;color:#6B7280">${meta.label} · ${date}</div>
+      <div class="dtw">
+        <h3>Student Progress Today</h3>
+        <div style="overflow-x:auto">
+          <table><thead><tr><th>Student</th><th>Grade</th><th>Completed</th><th>Assigned</th><th>Pending</th><th>Details</th></tr></thead>
+          <tbody>${rowsHtml}</tbody></table>
         </div>
-        <div style="text-align:right;font-weight:900;color:${scoreColor};font-size:1.1rem">${c.rec.pct}%</div>
       </div>
     `;
-  }).join('');
-
-  const contentHtml = `
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px">
-      <div class="scard">
-        <div class="snum" style="color:var(--sky)">${totalAttempts}</div>
-        <div class="slbl">Attempts</div>
-      </div>
-      <div class="scard">
-        <div class="snum" style="color:var(--mint)">${avgScore}%</div>
-        <div class="slbl">Average</div>
-      </div>
-      <div class="scard">
-        <div class="snum" style="color:var(--sun)">${bestScore}%</div>
-        <div class="slbl">Best Score</div>
-      </div>
-      <div class="scard">
-        <div class="snum" style="color:var(--coral)">${worstScore}%</div>
-        <div class="slbl">Worst Score</div>
-      </div>
-      <div class="scard">
-        <div class="snum" style="color:var(--lav)">${perfectScores}</div>
-        <div class="slbl">Perfect (100%)</div>
-      </div>
-    </div>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px">
-      <div class="bcard">
-        <h3>📚 Subject Performance</h3>
-        ${subjectHtml || '<p style="color:#6B7280">No data</p>'}
-      </div>
-      <div class="bcard">
-        <h3>📋 Student Info</h3>
-        <div style="font-size:.9rem;line-height:1.8">
-          <div><strong>Name:</strong> ${esc(student.name)}</div>
-          <div><strong>Grade:</strong> ${student.grade}</div>
-          <div><strong>Email:</strong> ${esc(student.email || 'Not provided')}</div>
-          <div><strong>Total Points:</strong> ${student.totalPoints || 0}</div>
-          <div><strong>Last Login:</strong> ${student.lastLogin ? new Date(student.lastLogin).toLocaleDateString() : 'Never'}</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bcard">
-      <h3>📅 Assignment Timeline</h3>
-      ${timelineHtml || '<p style="color:#6B7280;text-align:center;padding:20px">No assignments found for selected filters</p>'}
-    </div>
-  `;
-
-  document.getElementById('student-details-content').innerHTML = contentHtml;
+  }
 }
+
+export function openDailySummaryDetail(name, date) {
+  const users = getUsers();
+  const u = users[name];
+  if (!u) return;
+  
+  const assigned = (u.todayAssignmentsDate === date && u.todayAssignments) ? u.todayAssignments : {};
+  const completed = Object.entries(u.completedAssignments || {})
+    .filter(([id, rec]) => String(rec.date).slice(0, 10) === date)
+    .map(([id, rec]) => ({ id, rec }));
+
+  const htmlAssigned = SUBJECTS.map(sub => {
+    const ids = Array.isArray(assigned[sub.id]) ? assigned[sub.id] : [];
+    if (!ids.length) return '';
+    const items = ids.map(id => {
+      const rec = (u.completedAssignments || {})[id];
+      const a = getAllA().find(x => x.id === id);
+      const title = a ? esc(a.title) : esc(id);
+      return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><span style="font-size:.95rem">${rec ? '✅' : '⬜'}</span><div>${title}</div></div>`;
+    }).join('');
+    return `<h4 style="margin:.4rem 0">${sub.icon} ${sub.short}</h4><div>${items}</div>`;
+  }).filter(Boolean).join('') || '<div style="color:#6B7280">No assigned items for this date.</div>';
+
+  document.getElementById('stmodal-body').innerHTML = `
+    <h3>📅 ${esc(name)} — ${esc(date)} <button class="mcls" onclick="closeModal()">✕</button></h3>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px">
+      <div style="flex:1;min-width:240px">
+        <h4 style="margin:.2rem 0">Assigned (${Object.values(assigned).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0)})</h4>
+        ${htmlAssigned}
+      </div>
+      <div style="flex:1;min-width:240px">
+        <h4 style="margin:.2rem 0">Completed (${completed.length})</h4>
+        ${completed.length ? completed.map(c => {
+          const a = getAllA().find(x => x.id === c.id);
+          const title = a ? esc(a.title) : esc(c.id);
+          return `<div style="border-bottom:1px solid var(--border);padding:8px 0"><strong>${title}</strong> · ${c.rec.pct || '—'}%</div>`;
+        }).join('') : '<div style="color:#6B7280">No completions for this date.</div>'}
+      </div>
+    </div>`;
+  document.getElementById('stmodal').classList.add('open');
+}
+
+window.openDailySummaryDetail = openDailySummaryDetail;
 
 /**
  * JSON IMPORT FUNCTIONALITY FOR QUESTIONS
@@ -494,14 +419,14 @@ export function renderImportSection() {
     "title": "Assignment Title",
     "description": "Description",
     "subject": "math",
-    "grade": 4,
+    "grade": "4",
     "questions": [
       {
-        "q": "Question text?",
-        "type": "mcq",
+        "type": "mc",
+        "text": "Question text?",
         "options": ["A", "B", "C", "D"],
-        "answer": "B",
-        "explanation": "Why B is correct"
+        "answerIndex": 0,
+        "explanation": "Why A is correct"
       }
     ]
   }
@@ -548,7 +473,7 @@ export function importJSON() {
       data.forEach((item, idx) => {
         try {
           // Validate required fields
-          if (!item.title || !item.subject || item.grade === undefined || !Array.isArray(item.questions)) {
+          if (!item.title || !item.subject || !item.grade || !Array.isArray(item.questions)) {
             throw new Error(`Item ${idx}: Missing required fields`);
           }
 
@@ -556,42 +481,35 @@ export function importJSON() {
             id: 'imported-' + Date.now() + '-' + idx,
             title: item.title.substring(0, 100),
             description: item.description || '',
-            subject: item.subject.toLowerCase(),
+            subject: item.subject,
             grade: String(item.grade),
             passage: item.passage || null,
             questions: item.questions.map((q, qidx) => {
-              if (!q.q && !q.text) throw new Error(`Q${qidx + 1}: Missing question text`);
-              if (!q.type) throw new Error(`Q${qidx + 1}: Missing type`);
+              if (!q.text || !q.type) throw new Error(`Q${qidx + 1}: Missing text or type`);
               
-              const questionType = q.type === 'mcq' ? 'mc' : q.type === 'fill' ? 'fill' : q.type;
-              
-              if (questionType === 'mc') {
+              if (q.type === 'mc') {
                 if (!Array.isArray(q.options) || q.options.length < 2) {
                   throw new Error(`Q${qidx + 1}: MC questions need at least 2 options`);
                 }
-                const answerIndex = q.options.indexOf(q.answer);
-                if (answerIndex === -1) {
-                  throw new Error(`Q${qidx + 1}: Answer not found in options`);
-                }
                 return {
                   type: 'mc',
-                  text: q.q || q.text,
+                  text: q.text,
                   options: q.options,
-                  answer: q.answer,
-                  answerIndex: answerIndex,
+                  answer: q.options[q.answerIndex || 0],
+                  answerIndex: q.answerIndex || 0,
                   explanation: q.explanation || ''
                 };
-              } else if (questionType === 'fill') {
+              } else if (q.type === 'fill') {
                 if (!q.answer) throw new Error(`Q${qidx + 1}: Fill questions need an answer`);
                 return {
                   type: 'fill',
-                  text: q.q || q.text,
+                  text: q.text,
                   options: [],
                   answer: q.answer,
                   explanation: q.explanation || ''
                 };
               }
-              throw new Error(`Q${qidx + 1}: Unknown question type: ${q.type}`);
+              throw new Error(`Q${qidx + 1}: Unknown question type`);
             })
           };
 
@@ -667,7 +585,7 @@ export function exportAnalyticsCSV() {
 /**
  * EXISTING FUNCTIONS (kept from original)
  */
-export function openStudentDetail(name) {
+export function openStudent(name) {
   const u = getUsers()[name];
   if (!u) return;
   const done = u.completedAssignments || {};
@@ -838,7 +756,7 @@ export async function clrCustom() {
   if (window.renderCustomList) window.renderCustomList();
 }
 
-window.openStudentDetail = openStudentDetail;
+window.openStudent = openStudent;
 window.closeModal = closeModal;
 window.delStudent = delStudent;
 window.exportCSV = exportCSV;
@@ -847,5 +765,3 @@ window.chgPass = chgPass;
 window.saveTodaySettings = saveTodaySettings;
 window.clrStudents = clrStudents;
 window.clrCustom = clrCustom;
-window.renderStudentDetails = renderStudentDetails;
-window.renderStudentDetailsData = renderStudentDetailsData;
