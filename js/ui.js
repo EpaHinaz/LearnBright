@@ -18,15 +18,14 @@ function getUncompletedAssignmentsForSubject(subject, grade) {
 }
 
 function buildTodayRow(rowIndex, uncompletedBySubject) {
-  return `<div style="display:grid;grid-template-columns:repeat(${SUBJECTS.length},minmax(0,1fr));gap:12px;margin-bottom:12px">${SUBJECTS.map(subject => {
+  return `<div class="today-grid">${SUBJECTS.map(subject => {
     const assignment = uncompletedBySubject[subject.id][rowIndex];
     if (!assignment) {
-      return `<div class="acard" style="opacity:.65;min-height:160px"><div class="atype">${subject.icon} ${subject.short}</div><div style="font-size:.95rem;color:#6B7280;margin-top:10px">No more uncompleted tests.</div></div>`;
+      return `<div class="today-card acard" style="opacity:.65;min-height:120px"><div class="atype">${subject.icon} ${subject.short}</div><div style="font-size:.9rem;color:#6B7280;margin-top:8px">No more uncompleted tests.</div></div>`;
     }
-    return `<div class="acard" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:160px">
+    return `<div class="today-card acard" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:120px">
       <div class="atype">${subject.icon} ${subject.short}</div>
       <div class="atitle" style="font-size:1rem;margin-top:8px">${esc(assignment.title)}</div>
-      <div style="font-size:.82rem;color:#6B7280;margin-top:6px">${esc(assignment.description)}</div>
       <div class="ameta" style="margin-top:10px"><span>📝 ${assignment.questions.length} Qs</span><span>⭐ ${assignment.questions.length * 10} pts</span></div>
     </div>`;
   }).join('')}</div>`;
@@ -99,7 +98,7 @@ export function renderDash() {
       <div class="scard"><div class="snum" style="color:var(--mint)">${avg}%</div><div class="slbl">Avg Score</div></div>
       <div class="scard"><div class="snum" style="color:var(--lav)">${all.length - done}</div><div class="slbl">Remaining</div></div>
     </div>
-    <div class="shdr" style="margin-top:22px"><h2>📅 Today’s Assigned Tests</h2><p>Two rows of one uncompleted test per subject.</p></div>
+    <div class="shdr" style="margin-top:22px"><h2>📅 Today’s Assigned Tests</h2><p>Complete your daily tests to earn points!</p></div>
     ${todayRows}
     <div class="subcards">${subjectCards}</div>`;
 }
