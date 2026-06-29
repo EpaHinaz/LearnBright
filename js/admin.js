@@ -1,7 +1,7 @@
 import { state } from './state.js';
 import { getUsers, saveUsers, getAllA, getCustom, getAdminPass, saveAdminPass, clearUsers, clearCustom, getSetting, setSetting } from './storage.js';
 import { esc, toast } from './utils.js';
-import { getSubjectMeta } from './config.js';
+import { getSubjectMeta, SUBJECTS } from './config.js';
 
 export function renderAdminStudents() {
   const users = getUsers();
@@ -14,6 +14,9 @@ export function renderAdminStudents() {
   const tRows = rows.map(u => {
     const vals = Object.values(u.completedAssignments || {});
     const done = vals.length;
+    const todayKey = new Date().toISOString().slice(0,10);
+    const todayDone = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === todayKey).length;
+    const todayAssigned = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : 0;
     const avg = done ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / done) : 0;
     const pts = u.totalPoints || 0;
     const last = u.lastLogin ? new Date(u.lastLogin).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—';
@@ -24,6 +27,7 @@ export function renderAdminStudents() {
       <td><span class="pill pg${u.grade}">Gr ${u.grade}</span></td>
       <td>${esc(u.email || '—')}</td>
       <td>${done}</td>
+      <td>${todayDone}/${todayAssigned}</td>
       <td><div class="sbarw"><div class="sbarbg"><div class="sbarfg" style="width:${avg}%;background:${bc}"></div></div><strong>${avg}%</strong></div></td>
       <td><strong style="color:var(--sun)">${pts}</strong></td>
       <td>${last}</td>
@@ -33,6 +37,33 @@ export function renderAdminStudents() {
 
   const tot = rows.length;
   const totDone = rows.reduce((sum, u) => sum + Object.keys(u.completedAssignments || {}).length, 0);
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const totTodayDone = rows.reduce((sum, u) => {
+    const done = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === todayKey).length;
+    return sum + done;
+  }, 0);
+  const totTodayAssigned = rows.reduce((sum, u) => {
+    if (u.todayAssignmentsDate === todayKey && u.todayAssignments) {
+      return sum + Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0);
+    }
+    return sum;
+  }, 0);
+  // Build per-subject list of students who still have pending Today items
+  const perSubjectPending = SUBJECTS.map(sub => {
+    const list = rows.reduce((acc, u) => {
+      if (u.todayAssignmentsDate === todayKey && u.todayAssignments && Array.isArray(u.todayAssignments[sub.id])) {
+        const pending = u.todayAssignments[sub.id].filter(id => !u.completedAssignments?.[id]).length;
+        if (pending > 0) acc.push({ name: u.name, n: u.name.replace(/'/g, "\\'"), pending });
+      }
+      return acc;
+    }, []);
+    return { id: sub.id, short: sub.short, icon: sub.icon, list };
+  });
+  const dailySummaryHtml = perSubjectPending.map(s => {
+    if (!s.list.length) return '';
+    const names = s.list.map(it => `<a href="#" onclick="openStudent('${it.n}')" style="margin-right:8px">${esc(it.name)}</a> <small style="color:#6B7280">(${it.pending})</small>`).join(', ');
+    return `<div style="margin-bottom:6px"><strong>${s.icon} ${s.short}:</strong> ${names}</div>`;
+  }).filter(Boolean).join('') || '<div style="color:#6B7280">No pending today assignments for any subject.</div>';
   const avgs = rows.map(u => {
     const values = Object.values(u.completedAssignments || {});
     return values.length ? values.reduce((sum, x) => sum + (x.pct || 0), 0) / values.length : null;
@@ -48,11 +79,143 @@ export function renderAdminStudents() {
       <div class="scard"><div class="snum" style="color:var(--lav)">${getAllA().length}</div><div class="slbl">Assignments</div></div>
     </div>
     <div class="dtw"><h3>📋 All Students</h3>
+    <div style="margin-bottom:8px;color:#6B7280;font-size:.92rem">Today's completions: <strong>${totTodayDone}</strong> · Today assigned: <strong>${totTodayAssigned}</strong></div>
+    <div style="margin-bottom:10px">${dailySummaryHtml}</div>
       <div style="overflow-x:auto">
-      <table><thead><tr><th>Name</th><th>Grade</th><th>Email</th><th>Done</th><th>Avg</th><th>Pts</th><th>Last Login</th><th>Actions</th></tr></thead>
+      <table><thead><tr><th>Name</th><th>Grade</th><th>Email</th><th>Done</th><th>Today</th><th>Avg</th><th>Pts</th><th>Last Login</th><th>Actions</th></tr></thead>
       <tbody>${tRows}</tbody></table></div></div>
     <button class="btn-sm" onclick="exportCSV()" style="padding:9px 18px;font-size:.86rem">📥 Export CSV</button>`;
 }
+
+// Render the daily summary table with filters
+export function renderDailySummaryTable(nameFilter = '', dateFilter = '') {
+  const users = Object.values(getUsers());
+  const dateKey = dateFilter || new Date().toISOString().slice(0,10);
+  const rows = users.filter(u => !nameFilter || u.name.toLowerCase().includes(nameFilter.toLowerCase()));
+  const tr = rows.map(u => {
+    const completedOnDate = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === dateKey);
+    const completedCount = completedOnDate.length;
+    const assignedCount = (u.todayAssignmentsDate === dateKey && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : null;
+    const pendingCount = assignedCount != null ? Math.max(0, assignedCount - completedCount) : '—';
+    const n = u.name.replace(/'/g, "\\'");
+    return `<tr>
+      <td><strong>${esc(u.name)}</strong></td>
+      <td><span class="pill pg${u.grade}">Gr ${u.grade}</span></td>
+      <td>${dateKey}</td>
+      <td>${completedCount}</td>
+      <td>${pendingCount}</td>
+      <td><button class="btn-sm" onclick="openDailySummary('${n}','${dateKey}')">Details</button></td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="6" style="padding:18px;color:#6B7280">No students match filter.</td></tr>';
+  const table = `<div style="margin-top:18px">
+    <div style="display:flex;gap:10px;align-items:center;margin-bottom:8px">
+      <input id="ds-name" placeholder="Filter student" value="${esc(nameFilter || '')}" style="padding:8px;border-radius:8px;border:1px solid var(--border)" />
+      <input id="ds-date" type="date" value="${dateKey}" style="padding:8px;border-radius:8px;border:1px solid var(--border)" />
+      <button class="btn-sm" onclick="renderDailySummaryTable(document.getElementById('ds-name').value, document.getElementById('ds-date').value)">Filter</button>
+      <button class="btn-sm" onclick="renderDailySummaryTable('','')">Today</button>
+    </div>
+    <div style="overflow-x:auto">
+      <table><thead><tr><th>Student Name</th><th>Grade</th><th>Date</th><th>Completed</th><th>Pending</th><th>Details</th></tr></thead><tbody>${tr}</tbody></table>
+    </div>
+  </div>`;
+  const container = document.getElementById('ap-daily-summary');
+  if (container) container.innerHTML = table;
+}
+
+
+// daily summary renderer helper used by admin UI
+export function renderDailySummary() {
+  const users = getUsers();
+  const rows = Object.values(users);
+  const nameFilter = (document.getElementById('ds-filter-name')?.value || '').trim().toLowerCase();
+  const dateFilter = (document.getElementById('ds-filter-date')?.value || '').trim();
+  const entries = [];
+  rows.forEach(u => {
+    const completed = Object.entries(u.completedAssignments || {}).map(([id, rec]) => ({ id, date: rec.date }));
+    const datesSet = new Set(completed.map(c => String(c.date).slice(0,10)));
+    if (u.todayAssignmentsDate) datesSet.add(String(u.todayAssignmentsDate).slice(0,10));
+    Array.from(datesSet).forEach(dt => {
+      if (!dt) return;
+      if (nameFilter && !u.name.toLowerCase().includes(nameFilter)) return;
+      if (dateFilter && dateFilter !== dt) return;
+      const completedCount = completed.filter(c => String(c.date).slice(0,10) === dt).length;
+      const assignedCount = (u.todayAssignmentsDate === dt && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : 0;
+      const pending = Math.max(0, assignedCount - completedCount);
+      entries.push({ name: u.name, grade: u.grade, date: dt, completedCount, pending, studentSafe: u.name.replace(/'/g, "\\'") });
+    });
+  });
+  entries.sort((a,b) => a.name.localeCompare(b.name) || b.date.localeCompare(a.date));
+
+  const rowsHtml = entries.map(e => `<tr>
+    <td>${esc(e.name)}</td>
+    <td><span class="pill pg${e.grade}">Gr ${e.grade}</span></td>
+    <td>${e.date}</td>
+    <td>${e.completedCount}</td>
+    <td>${e.pending}</td>
+    <td><button class="btn-sm" onclick="openDailySummary('${e.studentSafe}','${e.date}')">Details</button></td>
+  </tr>`).join('') || '<tr><td colspan="6" style="color:#6B7280;padding:12px">No data for selected filters.</td></tr>';
+
+  const container = document.getElementById('ap-daily-summary');
+  if (container) {
+    container.innerHTML = `
+      <div class="admhdr" style="margin-top:18px"><div><h2>📅 Daily Summary</h2><p>Per-student per-day completion overview.</p></div></div>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:10px">
+        <input id="ds-filter-name" placeholder="Filter by student name" style="padding:8px;border-radius:8px;border:1px solid var(--border);min-width:180px" value="${esc(document.getElementById('ds-filter-name')?.value || '')}" onchange="renderDailySummary()" />
+        <input id="ds-filter-date" type="date" style="padding:8px;border-radius:8px;border:1px solid var(--border)" value="${esc(document.getElementById('ds-filter-date')?.value || '')}" onchange="renderDailySummary()" />
+        <button class="btn-sm" onclick="(document.getElementById('ds-filter-name').value='',(document.getElementById('ds-filter-date').value=''),renderDailySummary())">Reset</button>
+      </div>
+      <div style="overflow-x:auto">
+        <table><thead><tr><th>Student Name</th><th>Grade</th><th>Date</th><th>Completed</th><th>Pending</th><th>Details</th></tr></thead>
+        <tbody>${rowsHtml}</tbody></table>
+      </div>`;
+  }
+}
+
+// open per-student per-date details
+export function openDailySummary(name, date) {
+  const users = getUsers();
+  const u = users[name];
+  if (!u) return;
+  const todayKey = date;
+  const assigned = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? u.todayAssignments : {};
+  const completed = Object.entries(u.completedAssignments || {}).filter(([id, rec]) => String(rec.date).slice(0,10) === todayKey).map(([id, rec]) => ({ id, rec }));
+  const htmlAssigned = SUBJECTS.map(sub => {
+    const ids = Array.isArray(assigned[sub.id]) ? assigned[sub.id] : [];
+    if (!ids.length) return '';
+    const items = ids.map(id => {
+      const rec = (u.completedAssignments || {})[id];
+      const a = getAllA().find(x => x.id === id);
+      const title = a ? esc(a.title) : esc(id);
+      return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><span style="font-size:.95rem">${rec ? '✓' : '◻︎'}</span><div>${title}</div></div>`;
+    }).join('');
+    return `<h4 style="margin:.4rem 0">${sub.icon} ${sub.short}</h4><div>${items}</div>`;
+  }).filter(Boolean).join('') || '<div style="color:#6B7280">No assigned items for this date.</div>';
+
+  const htmlCompleted = completed.map(c => {
+    const a = getAllA().find(x => x.id === c.id);
+    const title = a ? esc(a.title) : esc(c.id);
+    const pct = c.rec.pct || '—';
+    return `<div style="border-bottom:1px solid var(--border);padding:8px 0"><strong>${title}</strong> · ${pct}%</div>`;
+  }).join('') || '<div style="color:#6B7280">No completions for this date.</div>';
+
+  document.getElementById('stmodal-body').innerHTML = `
+    <h3>📅 ${esc(name)} — ${esc(date)} <button class="mcls" onclick="closeModal()">✕</button></h3>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px">
+      <div style="flex:1;min-width:240px">
+        <h4 style="margin:.2rem 0">Assigned</h4>
+        ${htmlAssigned}
+      </div>
+      <div style="flex:1;min-width:240px">
+        <h4 style="margin:.2rem 0">Completed</h4>
+        ${htmlCompleted}
+      </div>
+    </div>`;
+  document.getElementById('stmodal').classList.add('open');
+}
+
+// expose helper on window for inline handlers
+window.renderDailySummary = renderDailySummary;
+window.openDailySummary = openDailySummary;
 
 export function openStudent(name) {
   const u = getUsers()[name];
@@ -61,6 +224,21 @@ export function openStudent(name) {
   const vals = Object.values(done);
   const avg = vals.length ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length) : 0;
   let aRows = '';
+
+  // prepare today's assignment summary for this student
+  const todayKey = new Date().toISOString().slice(0,10);
+  const todayObj = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? u.todayAssignments : {};
+  const todayHtml = SUBJECTS.map(sub => {
+    const ids = Array.isArray(todayObj[sub.id]) ? todayObj[sub.id] : [];
+    if (!ids.length) return '';
+    const items = ids.map(id => {
+      const rec = u.completedAssignments?.[id];
+      const a = getAllA().find(x => x.id === id);
+      const title = a ? esc(a.title) : esc(id);
+      return `<div style="display:inline-flex;align-items:center;gap:8px;margin-right:10px"><span style="font-size:.9rem">${rec ? '✓' : '◻︎'}</span><span style="font-size:.9rem;color:#111">${title}</span></div>`;
+    }).join('');
+    return `<div style="margin-bottom:8px"><strong>${sub.icon} ${sub.short}:</strong> ${items}</div>`;
+  }).filter(Boolean).join('') || '<div style="font-size:.9rem;color:#6B7280">No Today assignments for this student.</div>';
 
   getAllA().forEach(a => {
     const rec = done[a.id];
@@ -100,6 +278,10 @@ export function openStudent(name) {
     </div>
     <div style="font-size:.85rem;color:#6B7280;margin-bottom:16px">
       Grade ${u.grade} · ${esc(u.email || 'No email')} · Last login: ${u.lastLogin ? new Date(u.lastLogin).toLocaleDateString() : '—'}
+    </div>
+    <div style="margin-bottom:12px;padding:10px;background:#fff;border-radius:10px"> 
+      <h4 style="margin:0 0 8px 0;font-size:1rem">📅 Today's Assignments</h4>
+      ${todayHtml}
     </div>
     <h4 style="font-weight:800;margin-bottom:11px">Assignment Answers</h4>
     ${aRows || '<div class="empty" style="padding:14px"><p>No assignments completed yet.</p></div>'}`;

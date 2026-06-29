@@ -12,6 +12,8 @@ function checkFill(user, correct) {
 export function startAssignment(id) {
   const assignment = getAllA().find(item => item.id === id);
   if (!assignment) return;
+  // remember where the user started so Back returns to the same tab
+  state._originTab = state.currentTab || null;
   state.quiz = { a: assignment, cur: 0, answers: new Array(assignment.questions.length).fill(null), score: 0, answered: false };
   showScreen('s-quiz');
   renderQ();
@@ -181,5 +183,7 @@ export function exitQuiz() {
     return;
   }
   showScreen('s-app');
-  showTab(state.quiz.a?.subject || 'dash');
+  const target = state._originTab || state.quiz.a?.subject || 'dash';
+  state._originTab = null;
+  showTab(target);
 }

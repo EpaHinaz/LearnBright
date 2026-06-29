@@ -97,6 +97,8 @@ export function showScreen(id) {
 }
 
 export function showTab(tab) {
+  // record current tab for navigation context
+  state.currentTab = tab;
   const tabs = document.querySelectorAll('#s-app .ntab');
   tabs.forEach((tabElement, index) => {
     const tabId = ALL_TABS[index];
@@ -113,13 +115,14 @@ export function showTab(tab) {
 
 export function showAdminTab(tab) {
   document.querySelectorAll('.admt').forEach((button, index) => {
-    const name = ['students', 'builder', 'custom', 'settings'][index];
+    const name = ['students', 'daily', 'builder', 'custom', 'settings'][index];
     button.classList.toggle('active', name === tab);
   });
   document.querySelectorAll('.apanel').forEach(panel => panel.classList.remove('active'));
   const target = document.getElementById('ap-' + tab);
   if (target) target.classList.add('active');
   if (tab === 'students') renderAdminStudents();
+  if (tab === 'daily' && window.renderDailySummaryTable) window.renderDailySummaryTable();
   if (tab === 'builder') renderBuilder();
   if (tab === 'custom') renderCustomList();
   if (tab === 'settings') renderSettings();
