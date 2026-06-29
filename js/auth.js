@@ -35,9 +35,10 @@ export function doSignin() {
   loginUser(users[name]);
 }
 
-export function doAdminLogin() {
+export async function doAdminLogin() {
   const pw = document.getElementById('adm-pw')?.value;
-  if (pw === getAdminPass()) {
+  const currentPass = await getAdminPass();
+  if (pw === currentPass) {
     state.isAdmin = true;
     showScreen('s-admin');
     showAdminTab('students');

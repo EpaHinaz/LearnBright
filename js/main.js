@@ -36,8 +36,11 @@ window.viewCustom = builder.viewCustom;
 window.setFilter = ui.setFilter;
 window.renderDash = ui.renderDash;
 
+import { syncFromSupabase } from './storage.js';
+
 async function init() {
   await loadAssignments();
+  await syncFromSupabase();
   const loadedCount = state.allAssignments.length;
   if (!loadedCount) {
     console.warn('No assignments loaded.');

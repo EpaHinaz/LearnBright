@@ -1,7 +1,6 @@
 import { state } from './state.js';
-import { getUsers, saveUsers, getAllA, getCustom } from './storage.js';
+import { getUsers, saveUsers, getAllA, getCustom, getAdminPass, saveAdminPass, clearUsers, clearCustom } from './storage.js';
 import { esc, toast } from './utils.js';
-import { getAdminPass, ADMIN_KEY, CUSTOM_KEY, USERS_KEY } from './storage.js';
 import { getSubjectMeta } from './config.js';
 
 export function renderAdminStudents() {
@@ -164,27 +163,28 @@ export function renderSettings() {
     </div>`;
 }
 
-export function chgPass() {
+export async function chgPass() {
   const current = document.getElementById('sc')?.value;
   const next = document.getElementById('sn')?.value;
   const confirmValue = document.getElementById('sf')?.value;
-  if (current !== getAdminPass()) { toast('Current password wrong!'); return; }
+  const storedPass = await getAdminPass();
+  if (current !== storedPass) { toast('Current password wrong!'); return; }
   if (next.length < 6) { toast('New password must be 6+ chars.'); return; }
   if (next !== confirmValue) { toast('Passwords do not match!'); return; }
-  localStorage.setItem(ADMIN_KEY, next);
+  saveAdminPass(next);
   toast('Password updated! ✅');
 }
 
-export function clrStudents() {
+export async function clrStudents() {
   if (!confirm('Delete ALL student data?')) return;
-  localStorage.removeItem(USERS_KEY);
+  await clearUsers();
   toast('All students cleared.');
   renderSettings();
 }
 
-export function clrCustom() {
+export async function clrCustom() {
   if (!confirm('Delete ALL custom assignments?')) return;
-  localStorage.removeItem(CUSTOM_KEY);
+  await clearCustom();
   toast('Custom assignments cleared.');
   renderSettings();
 }
