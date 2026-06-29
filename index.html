@@ -14,15 +14,15 @@
   <div class="lcard">
     <div class="logo">Learn<span>Bright</span></div>
     <div class="tagline">Grade 4 & 5 · Math + ELA Practice</div>
-    <h2 id="auth-h">Create Account</h2>
-    <div id="f-reg">
+    <h2 id="auth-h">Welcome Back!</h2>
+    <div id="f-reg" style="display:none">
       <div class="fg"><label>Your Name</label><input id="r-name" type="text" placeholder="e.g. Alex Johnson"/></div>
       <div class="fg"><label>Grade</label><select id="r-grade"><option value="">Select grade…</option><option value="4">Grade 4</option><option value="5">Grade 5</option></select></div>
       <div class="fg"><label>Parent Email (optional)</label><input id="r-email" type="email" placeholder="parent@email.com"/></div>
       <button class="btn-p" onclick="doRegister()">Start Learning! 🚀</button>
       <p class="lsw">Already registered? <a onclick="sw('f-signin')">Sign in</a> &nbsp;|&nbsp; <a onclick="sw('f-admin')">Admin</a></p>
     </div>
-    <div id="f-signin" style="display:none">
+    <div id="f-signin">
       <div class="fg"><label>Your Name</label><input id="si-name" type="text" placeholder="Enter your name exactly"/></div>
       <button class="btn-p" onclick="doSignin()">Continue →</button>
       <p class="lsw">New here? <a onclick="sw('f-reg')">Create account</a> &nbsp;|&nbsp; <a onclick="sw('f-admin')">Admin</a></p>
