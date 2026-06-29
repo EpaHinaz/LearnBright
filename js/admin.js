@@ -3,25 +3,76 @@ import { getUsers, saveUsers, getAllA, getCustom, getAdminPass, saveAdminPass, c
 import { esc, toast } from './utils.js';
 import { getSubjectMeta, SUBJECTS } from './config.js';
 
+/**
+ * ENHANCED STUDENT DASHBOARD WITH METRICS
+ */
 export function renderAdminStudents() {
   const users = getUsers();
   const rows = Object.values(users);
+  
   if (!rows.length) {
     document.getElementById('ap-students').innerHTML = '<div class="empty"><div class="ei">👥</div><p>No students yet.</p></div>';
     return;
   }
 
+  // Calculate comprehensive metrics
+  const totalStudents = rows.length;
+  const totalAssignmentsDone = rows.reduce((sum, u) => sum + Object.keys(u.completedAssignments || {}).length, 0);
+  const avgsByStudent = rows.map(u => {
+    const vals = Object.values(u.completedAssignments || {});
+    return vals.length ? vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length : null;
+  }).filter(x => x !== null);
+  const classAverage = avgsByStudent.length ? Math.round(avgsByStudent.reduce((s, v) => s + v, 0) / avgsByStudent.length) : 0;
+  
+  // Grade distribution
+  const gradeDistribution = rows.reduce((acc, u) => {
+    acc[u.grade] = (acc[u.grade] || 0) + 1;
+    return acc;
+  }, {});
+
+  // Subject performance
+  const subjectStats = SUBJECTS.map(subject => {
+    const subjectAssignments = getAllA().filter(a => a.subject === subject.id);
+    const completions = rows.reduce((sum, u) => {
+      const completed = subjectAssignments.filter(a => u.completedAssignments?.[a.id]).length;
+      return sum + completed;
+    }, 0);
+    const totalPossible = subjectAssignments.length * totalStudents;
+    const completion = totalPossible > 0 ? Math.round((completions / totalPossible) * 100) : 0;
+    return { subject, completion, completions };
+  });
+
+  // Top performers
+  const topPerformers = rows
+    .map(u => {
+      const vals = Object.values(u.completedAssignments || {});
+      return { name: u.name, avg: vals.length ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length) : 0, done: vals.length };
+    })
+    .sort((a, b) => b.avg - a.avg)
+    .slice(0, 5);
+
+  // Activity this week
+  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+  const activeThisWeek = rows.filter(u => u.lastLogin && new Date(u.lastLogin) > weekAgo).length;
+
+  // Build table rows
   const tRows = rows.map(u => {
     const vals = Object.values(u.completedAssignments || {});
     const done = vals.length;
-    const todayKey = new Date().toISOString().slice(0,10);
-    const todayDone = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === todayKey).length;
-    const todayAssigned = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : 0;
+    const todayKey = new Date().toISOString().slice(0, 10);
+    const todayDone = Object.values(u.completedAssignments || {})
+      .filter(r => r.date && String(r.date).slice(0, 10) === todayKey).length;
+    const todayAssigned = (u.todayAssignmentsDate === todayKey && u.todayAssignments) 
+      ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) 
+      : 0;
     const avg = done ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / done) : 0;
     const pts = u.totalPoints || 0;
-    const last = u.lastLogin ? new Date(u.lastLogin).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—';
+    const last = u.lastLogin 
+      ? new Date(u.lastLogin).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) 
+      : '—';
     const bc = avg >= 80 ? 'var(--mint)' : avg >= 60 ? 'var(--sun)' : 'var(--coral)';
     const n = u.name.replace(/'/g, "\\'");
+    
     return `<tr>
       <td><strong>${esc(u.name)}</strong></td>
       <td><span class="pill pg${u.grade}">Gr ${u.grade}</span></td>
@@ -35,150 +86,286 @@ export function renderAdminStudents() {
     </tr>`;
   }).join('');
 
-  const tot = rows.length;
-  const totDone = rows.reduce((sum, u) => sum + Object.keys(u.completedAssignments || {}).length, 0);
-  const todayKey = new Date().toISOString().slice(0, 10);
-  const totTodayDone = rows.reduce((sum, u) => {
-    const done = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === todayKey).length;
-    return sum + done;
-  }, 0);
-  const totTodayAssigned = rows.reduce((sum, u) => {
-    if (u.todayAssignmentsDate === todayKey && u.todayAssignments) {
-      return sum + Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0);
-    }
-    return sum;
-  }, 0);
-  // Build per-subject list of students who still have pending Today items
-  const perSubjectPending = SUBJECTS.map(sub => {
-    const list = rows.reduce((acc, u) => {
-      if (u.todayAssignmentsDate === todayKey && u.todayAssignments && Array.isArray(u.todayAssignments[sub.id])) {
-        const pending = u.todayAssignments[sub.id].filter(id => !u.completedAssignments?.[id]).length;
-        if (pending > 0) acc.push({ name: u.name, n: u.name.replace(/'/g, "\\'"), pending });
-      }
-      return acc;
-    }, []);
-    return { id: sub.id, short: sub.short, icon: sub.icon, list };
-  });
-  const dailySummaryHtml = perSubjectPending.map(s => {
-    if (!s.list.length) return '';
-    const names = s.list.map(it => `<a href="#" onclick="openStudent('${it.n}')" style="margin-right:8px">${esc(it.name)}</a> <small style="color:#6B7280">(${it.pending})</small>`).join(', ');
-    return `<div style="margin-bottom:6px"><strong>${s.icon} ${s.short}:</strong> ${names}</div>`;
-  }).filter(Boolean).join('') || '<div style="color:#6B7280">No pending today assignments for any subject.</div>';
-  const avgs = rows.map(u => {
-    const values = Object.values(u.completedAssignments || {});
-    return values.length ? values.reduce((sum, x) => sum + (x.pct || 0), 0) / values.length : null;
-  }).filter(x => x !== null);
-  const cAvg = avgs.length ? Math.round(avgs.reduce((sum, v) => sum + v, 0) / avgs.length) : 0;
+  // Top performers HTML
+  const topHtml = topPerformers.map((p, i) => `
+    <div style="display:flex;align-items:center;gap:10px;padding:10px;border-radius:9px;background:var(--soft)">
+      <span style="font-weight:900;font-size:1.2rem;color:var(--sun)">#${i + 1}</span>
+      <div style="flex:1">
+        <strong>${esc(p.name)}</strong>
+        <div style="font-size:.82rem;color:#6B7280">${p.done} completed</div>
+      </div>
+      <span style="font-weight:900;color:var(--sky)">${p.avg}%</span>
+    </div>
+  `).join('');
+
+  // Subject performance bar chart
+  const subjectHtml = subjectStats.map(s => `
+    <div style="margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;font-size:.9rem">
+        <strong>${s.subject.icon} ${s.subject.short}</strong>
+        <span style="color:#6B7280">${s.completions} completions · ${s.completion}%</span>
+      </div>
+      <div style="background:var(--border);height:8px;border-radius:8px;overflow:hidden">
+        <div style="background:${s.subject.color};height:100%;width:${s.completion}%;border-radius:8px;transition:width .3s"></div>
+      </div>
+    </div>
+  `).join('');
 
   document.getElementById('ap-students').innerHTML = `
-    <div class="admhdr"><div><h2>👥 Student Dashboard</h2><p>${tot} students · ${totDone} assignments done · Class avg ${cAvg}%</p></div></div>
+    <div class="admhdr"><div><h2>👥 Student Dashboard</h2><p>${totalStudents} students · ${totalAssignmentsDone} assignments done · Class avg ${classAverage}%</p></div></div>
+    
     <div class="sgrid" style="margin-bottom:18px">
-      <div class="scard"><div class="snum" style="color:var(--sky)">${tot}</div><div class="slbl">Students</div></div>
-      <div class="scard"><div class="snum" style="color:var(--mint)">${totDone}</div><div class="slbl">Done</div></div>
-      <div class="scard"><div class="snum" style="color:var(--sun)">${cAvg}%</div><div class="slbl">Class Avg</div></div>
-      <div class="scard"><div class="snum" style="color:var(--lav)">${getAllA().length}</div><div class="slbl">Assignments</div></div>
+      <div class="scard"><div class="snum" style="color:var(--sky)">${totalStudents}</div><div class="slbl">Students</div></div>
+      <div class="scard"><div class="snum" style="color:var(--mint)">${totalAssignmentsDone}</div><div class="slbl">Assignments Done</div></div>
+      <div class="scard"><div class="snum" style="color:var(--sun)">${classAverage}%</div><div class="slbl">Class Average</div></div>
+      <div class="scard"><div class="snum" style="color:var(--lav)">${activeThisWeek}</div><div class="slbl">Active This Week</div></div>
     </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:22px;max-width:800px">
+      <div class="bcard">
+        <h3>🏆 Top Performers</h3>
+        <div style="display:flex;flex-direction:column;gap:8px">${topHtml || '<p style="color:#6B7280">No data yet</p>'}</div>
+      </div>
+      <div class="bcard">
+        <h3>📚 Subject Completion</h3>
+        ${subjectHtml}
+      </div>
+    </div>
+
     <div class="dtw"><h3>📋 All Students</h3>
-    <div style="margin-bottom:8px;color:#6B7280;font-size:.92rem">Today's completions: <strong>${totTodayDone}</strong> · Today assigned: <strong>${totTodayAssigned}</strong></div>
-    <div style="margin-bottom:10px">${dailySummaryHtml}</div>
+    <div style="margin-bottom:8px;color:#6B7280;font-size:.92rem">Grade distribution: ${Object.entries(gradeDistribution).map(([g, c]) => `Grade ${g}: ${c}`).join(' · ')}</div>
       <div style="overflow-x:auto">
       <table><thead><tr><th>Name</th><th>Grade</th><th>Email</th><th>Done</th><th>Today</th><th>Avg</th><th>Pts</th><th>Last Login</th><th>Actions</th></tr></thead>
       <tbody>${tRows}</tbody></table></div></div>
     <button class="btn-sm" onclick="exportCSV()" style="padding:9px 18px;font-size:.86rem">📥 Export CSV</button>`;
 }
 
-// Render the daily summary table with filters
-export function renderDailySummaryTable(nameFilter = '', dateFilter = '') {
+/**
+ * ANALYTICS & REPORTS SECTION
+ */
+export function renderAnalytics() {
   const users = Object.values(getUsers());
-  const dateKey = dateFilter || new Date().toISOString().slice(0,10);
-  const rows = users.filter(u => !nameFilter || u.name.toLowerCase().includes(nameFilter.toLowerCase()));
-  const tr = rows.map(u => {
-    const completedOnDate = Object.values(u.completedAssignments || {}).filter(r => r.date && String(r.date).slice(0,10) === dateKey);
-    const completedCount = completedOnDate.length;
-    const assignedCount = (u.todayAssignmentsDate === dateKey && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : null;
-    const pendingCount = assignedCount != null ? Math.max(0, assignedCount - completedCount) : '—';
-    const n = u.name.replace(/'/g, "\\'");
+  const allAssignments = getAllA();
+  
+  if (!users.length) {
+    document.getElementById('ap-analytics').innerHTML = '<div class="empty"><div class="ei">📊</div><p>No student data yet.</p></div>';
+    return;
+  }
+
+  // Time-based analytics
+  const today = new Date().toISOString().slice(0, 10);
+  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const monthAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
+  const getCompletionsInPeriod = (startDate) => {
+    return users.reduce((sum, u) => {
+      const completions = Object.values(u.completedAssignments || {})
+        .filter(r => r.date && String(r.date).slice(0, 10) >= startDate)
+        .length;
+      return sum + completions;
+    }, 0);
+  };
+
+  const completionsToday = getCompletionsInPeriod(today);
+  const completionsWeek = getCompletionsInPeriod(weekAgo);
+  const completionsMonth = getCompletionsInPeriod(monthAgo);
+
+  // Performance distribution
+  const allScores = users.reduce((acc, u) => {
+    const scores = Object.values(u.completedAssignments || {}).map(r => r.pct || 0);
+    return [...acc, ...scores];
+  }, []);
+
+  const scoreDistribution = {
+    excellent: allScores.filter(s => s >= 90).length,
+    good: allScores.filter(s => s >= 80 && s < 90).length,
+    satisfactory: allScores.filter(s => s >= 60 && s < 80).length,
+    needsWork: allScores.filter(s => s < 60).length
+  };
+
+  // Subject engagement
+  const subjectEngagement = SUBJECTS.map(subject => {
+    const assignments = allAssignments.filter(a => a.subject === subject.id);
+    const totalAttempts = users.reduce((sum, u) => {
+      return sum + assignments.filter(a => u.completedAssignments?.[a.id]).length;
+    }, 0);
+    return { subject, attempts: totalAttempts, avgScore: calculateSubjectAvg(users, subject.id) };
+  }).sort((a, b) => b.attempts - a.attempts);
+
+  // Most active students
+  const activityRanking = users
+    .map(u => ({
+      name: u.name,
+      completions: Object.keys(u.completedAssignments || {}).length,
+      avgScore: calculateUserAvg(u),
+      lastActive: u.lastLogin
+    }))
+    .sort((a, b) => b.completions - a.completions)
+    .slice(0, 10);
+
+  const perfDistributionHtml = `
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:14px">
+      <div style="background:#ECFDF5;padding:14px;border-radius:9px;text-align:center">
+        <div style="font-size:1.8rem;font-weight:900;color:var(--mint)">${scoreDistribution.excellent}</div>
+        <div style="font-size:.82rem;color:#065F46">Excellent (90%+)</div>
+      </div>
+      <div style="background:#EBF5FF;padding:14px;border-radius:9px;text-align:center">
+        <div style="font-size:1.8rem;font-weight:900;color:var(--sky)">${scoreDistribution.good}</div>
+        <div style="font-size:.82rem;color:#1E40AF">Good (80-89%)</div>
+      </div>
+      <div style="background:#FFFBEB;padding:14px;border-radius:9px;text-align:center">
+        <div style="font-size:1.8rem;font-weight:900;color:var(--sun)">${scoreDistribution.satisfactory}</div>
+        <div style="font-size:.82rem;color:#92400E">Satisfactory (60-79%)</div>
+      </div>
+      <div style="background:#FFF1F1;padding:14px;border-radius:9px;text-align:center">
+        <div style="font-size:1.8rem;font-weight:900;color:var(--coral)">${scoreDistribution.needsWork}</div>
+        <div style="font-size:.82rem;color:#991B1B">Needs Work (<60%)</div>
+      </div>
+    </div>
+  `;
+
+  const subjectEngagementHtml = subjectEngagement.map(s => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px;background:var(--soft);border-radius:9px;margin-bottom:8px">
+      <div>
+        <strong>${s.subject.icon} ${s.subject.short}</strong>
+        <div style="font-size:.82rem;color:#6B7280">${s.attempts} attempts</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-weight:900;color:var(--sky)">${s.avgScore}%</div>
+        <div style="font-size:.82rem;color:#6B7280">avg score</div>
+      </div>
+    </div>
+  `).join('');
+
+  const activityHtml = activityRanking.map(a => {
+    const lastDate = a.lastActive ? new Date(a.lastActive).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'Never';
     return `<tr>
-      <td><strong>${esc(u.name)}</strong></td>
-      <td><span class="pill pg${u.grade}">Gr ${u.grade}</span></td>
-      <td>${dateKey}</td>
-      <td>${completedCount}</td>
-      <td>${pendingCount}</td>
-      <td><button class="btn-sm" onclick="openDailySummary('${n}','${dateKey}')">Details</button></td>
+      <td><strong>${esc(a.name)}</strong></td>
+      <td>${a.completions}</td>
+      <td><strong style="color:${a.avgScore >= 80 ? 'var(--mint)' : a.avgScore >= 60 ? 'var(--sun)' : 'var(--coral)'}">${a.avgScore}%</strong></td>
+      <td>${lastDate}</td>
     </tr>`;
-  }).join('') || '<tr><td colspan="6" style="padding:18px;color:#6B7280">No students match filter.</td></tr>';
-  const table = `<div style="margin-top:18px">
-    <div style="display:flex;gap:10px;align-items:center;margin-bottom:8px">
-      <input id="ds-name" placeholder="Filter student" value="${esc(nameFilter || '')}" style="padding:8px;border-radius:8px;border:1px solid var(--border)" />
-      <input id="ds-date" type="date" value="${dateKey}" style="padding:8px;border-radius:8px;border:1px solid var(--border)" />
-      <button class="btn-sm" onclick="renderDailySummaryTable(document.getElementById('ds-name').value, document.getElementById('ds-date').value)">Filter</button>
-      <button class="btn-sm" onclick="renderDailySummaryTable('','')">Today</button>
+  }).join('');
+
+  document.getElementById('ap-analytics').innerHTML = `
+    <div class="admhdr"><div><h2>📊 Analytics & Reports</h2><p>Comprehensive learning analytics and insights</p></div></div>
+
+    <div class="sgrid" style="margin-bottom:18px">
+      <div class="scard"><div class="snum" style="color:var(--sky)">${completionsToday}</div><div class="slbl">Today</div></div>
+      <div class="scard"><div class="snum" style="color:var(--sun)">${completionsWeek}</div><div class="slbl">This Week</div></div>
+      <div class="scard"><div class="snum" style="color:var(--mint)">${completionsMonth}</div><div class="slbl">This Month</div></div>
+      <div class="scard"><div class="snum" style="color:var(--lav)">${allScores.length}</div><div class="slbl">Total Attempts</div></div>
     </div>
-    <div style="overflow-x:auto">
-      <table><thead><tr><th>Student Name</th><th>Grade</th><th>Date</th><th>Completed</th><th>Pending</th><th>Details</th></tr></thead><tbody>${tr}</tbody></table>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:22px">
+      <div class="bcard">
+        <h3>📈 Performance Distribution</h3>
+        ${perfDistributionHtml}
+      </div>
+      <div class="bcard">
+        <h3>🎯 Subject Engagement</h3>
+        ${subjectEngagementHtml}
+      </div>
     </div>
-  </div>`;
-  const container = document.getElementById('ap-daily-summary');
-  if (container) container.innerHTML = table;
+
+    <div class="bcard">
+      <h3>⭐ Most Active Students</h3>
+      <div style="overflow-x:auto">
+        <table style="width:100%">
+          <thead><tr><th>Student</th><th>Completions</th><th>Avg Score</th><th>Last Active</th></tr></thead>
+          <tbody>${activityHtml}</tbody>
+        </table>
+      </div>
+    </div>
+    <button class="btn-sm" onclick="exportAnalyticsCSV()" style="padding:9px 18px;font-size:.86rem;margin-top:10px">📥 Export Analytics</button>
+  `;
 }
 
-
-// daily summary renderer helper used by admin UI
+/**
+ * FIXED DAILY SUMMARY (was broken)
+ */
 export function renderDailySummary() {
   const users = getUsers();
   const rows = Object.values(users);
-  const nameFilter = (document.getElementById('ds-filter-name')?.value || '').trim().toLowerCase();
-  const dateFilter = (document.getElementById('ds-filter-date')?.value || '').trim();
-  const entries = [];
-  rows.forEach(u => {
-    const completed = Object.entries(u.completedAssignments || {}).map(([id, rec]) => ({ id, date: rec.date }));
-    const datesSet = new Set(completed.map(c => String(c.date).slice(0,10)));
-    if (u.todayAssignmentsDate) datesSet.add(String(u.todayAssignmentsDate).slice(0,10));
-    Array.from(datesSet).forEach(dt => {
-      if (!dt) return;
-      if (nameFilter && !u.name.toLowerCase().includes(nameFilter)) return;
-      if (dateFilter && dateFilter !== dt) return;
-      const completedCount = completed.filter(c => String(c.date).slice(0,10) === dt).length;
-      const assignedCount = (u.todayAssignmentsDate === dt && u.todayAssignments) ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) : 0;
-      const pending = Math.max(0, assignedCount - completedCount);
-      entries.push({ name: u.name, grade: u.grade, date: dt, completedCount, pending, studentSafe: u.name.replace(/'/g, "\\'") });
-    });
-  });
-  entries.sort((a,b) => a.name.localeCompare(b.name) || b.date.localeCompare(a.date));
+  const todayKey = new Date().toISOString().slice(0, 10);
+  
+  if (!rows.length) {
+    const container = document.getElementById('ap-daily-summary');
+    if (container) {
+      container.innerHTML = `
+        <div class="admhdr"><div><h2>📅 Daily Summary</h2><p>No students yet.</p></div></div>
+        <div class="empty"><div class="ei">📭</div><p>No data available</p></div>
+      `;
+    }
+    return;
+  }
+
+  const entries = rows.map(u => {
+    const completed = Object.entries(u.completedAssignments || {})
+      .filter(([id, rec]) => rec.date && String(rec.date).slice(0, 10) === todayKey)
+      .map(([id, rec]) => ({ id, date: rec.date }));
+    
+    const assignedCount = (u.todayAssignmentsDate === todayKey && u.todayAssignments) 
+      ? Object.values(u.todayAssignments).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0) 
+      : 0;
+    
+    const completedCount = completed.length;
+    const pending = Math.max(0, assignedCount - completedCount);
+
+    return {
+      name: u.name,
+      grade: u.grade,
+      completedCount,
+      assignedCount,
+      pending,
+      studentSafe: u.name.replace(/'/g, "\\'")
+    };
+  }).filter(e => e.assignedCount > 0 || e.completedCount > 0);
+
+  const totalAssigned = entries.reduce((sum, e) => sum + e.assignedCount, 0);
+  const totalCompleted = entries.reduce((sum, e) => sum + e.completedCount, 0);
+  const totalPending = entries.reduce((sum, e) => sum + e.pending, 0);
 
   const rowsHtml = entries.map(e => `<tr>
-    <td>${esc(e.name)}</td>
+    <td><strong>${esc(e.name)}</strong></td>
     <td><span class="pill pg${e.grade}">Gr ${e.grade}</span></td>
-    <td>${e.date}</td>
     <td>${e.completedCount}</td>
+    <td>${e.assignedCount}</td>
     <td>${e.pending}</td>
-    <td><button class="btn-sm" onclick="openDailySummary('${e.studentSafe}','${e.date}')">Details</button></td>
-  </tr>`).join('') || '<tr><td colspan="6" style="color:#6B7280;padding:12px">No data for selected filters.</td></tr>';
+    <td><button class="btn-sm" onclick="openDailySummaryDetail('${e.studentSafe}','${todayKey}')">Details</button></td>
+  </tr>`).join('') || '<tr><td colspan="6" style="padding:18px;color:#6B7280;text-align:center">No assignments assigned today.</td></tr>';
 
   const container = document.getElementById('ap-daily-summary');
   if (container) {
     container.innerHTML = `
-      <div class="admhdr" style="margin-top:18px"><div><h2>📅 Daily Summary</h2><p>Per-student per-day completion overview.</p></div></div>
-      <div style="display:flex;gap:8px;align-items:center;margin-bottom:10px">
-        <input id="ds-filter-name" placeholder="Filter by student name" style="padding:8px;border-radius:8px;border:1px solid var(--border);min-width:180px" value="${esc(document.getElementById('ds-filter-name')?.value || '')}" onchange="renderDailySummary()" />
-        <input id="ds-filter-date" type="date" style="padding:8px;border-radius:8px;border:1px solid var(--border)" value="${esc(document.getElementById('ds-filter-date')?.value || '')}" onchange="renderDailySummary()" />
-        <button class="btn-sm" onclick="(document.getElementById('ds-filter-name').value='',(document.getElementById('ds-filter-date').value=''),renderDailySummary())">Reset</button>
+      <div class="admhdr"><div><h2>📅 Daily Summary</h2><p>${todayKey} · ${totalCompleted}/${totalAssigned} completed</p></div></div>
+      <div class="sgrid" style="margin-bottom:18px">
+        <div class="scard"><div class="snum" style="color:var(--sky)">${totalAssigned}</div><div class="slbl">Assigned</div></div>
+        <div class="scard"><div class="snum" style="color:var(--mint)">${totalCompleted}</div><div class="slbl">Completed</div></div>
+        <div class="scard"><div class="snum" style="color:var(--sun)">${totalPending}</div><div class="slbl">Pending</div></div>
+        <div class="scard"><div class="snum" style="color:var(--lav)">${entries.length}</div><div class="slbl">Students</div></div>
       </div>
-      <div style="overflow-x:auto">
-        <table><thead><tr><th>Student Name</th><th>Grade</th><th>Date</th><th>Completed</th><th>Pending</th><th>Details</th></tr></thead>
-        <tbody>${rowsHtml}</tbody></table>
-      </div>`;
+      <div class="dtw">
+        <h3>Student Progress Today</h3>
+        <div style="overflow-x:auto">
+          <table><thead><tr><th>Student</th><th>Grade</th><th>Completed</th><th>Assigned</th><th>Pending</th><th>Details</th></tr></thead>
+          <tbody>${rowsHtml}</tbody></table>
+        </div>
+      </div>
+    `;
   }
 }
 
-// open per-student per-date details
-export function openDailySummary(name, date) {
+export function openDailySummaryDetail(name, date) {
   const users = getUsers();
   const u = users[name];
   if (!u) return;
-  const todayKey = date;
-  const assigned = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? u.todayAssignments : {};
-  const completed = Object.entries(u.completedAssignments || {}).filter(([id, rec]) => String(rec.date).slice(0,10) === todayKey).map(([id, rec]) => ({ id, rec }));
+  
+  const assigned = (u.todayAssignmentsDate === date && u.todayAssignments) ? u.todayAssignments : {};
+  const completed = Object.entries(u.completedAssignments || {})
+    .filter(([id, rec]) => String(rec.date).slice(0, 10) === date)
+    .map(([id, rec]) => ({ id, rec }));
+
   const htmlAssigned = SUBJECTS.map(sub => {
     const ids = Array.isArray(assigned[sub.id]) ? assigned[sub.id] : [];
     if (!ids.length) return '';
@@ -186,37 +373,218 @@ export function openDailySummary(name, date) {
       const rec = (u.completedAssignments || {})[id];
       const a = getAllA().find(x => x.id === id);
       const title = a ? esc(a.title) : esc(id);
-      return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><span style="font-size:.95rem">${rec ? '✓' : '◻︎'}</span><div>${title}</div></div>`;
+      return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><span style="font-size:.95rem">${rec ? '✅' : '⬜'}</span><div>${title}</div></div>`;
     }).join('');
     return `<h4 style="margin:.4rem 0">${sub.icon} ${sub.short}</h4><div>${items}</div>`;
   }).filter(Boolean).join('') || '<div style="color:#6B7280">No assigned items for this date.</div>';
-
-  const htmlCompleted = completed.map(c => {
-    const a = getAllA().find(x => x.id === c.id);
-    const title = a ? esc(a.title) : esc(c.id);
-    const pct = c.rec.pct || '—';
-    return `<div style="border-bottom:1px solid var(--border);padding:8px 0"><strong>${title}</strong> · ${pct}%</div>`;
-  }).join('') || '<div style="color:#6B7280">No completions for this date.</div>';
 
   document.getElementById('stmodal-body').innerHTML = `
     <h3>📅 ${esc(name)} — ${esc(date)} <button class="mcls" onclick="closeModal()">✕</button></h3>
     <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px">
       <div style="flex:1;min-width:240px">
-        <h4 style="margin:.2rem 0">Assigned</h4>
+        <h4 style="margin:.2rem 0">Assigned (${Object.values(assigned).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0)})</h4>
         ${htmlAssigned}
       </div>
       <div style="flex:1;min-width:240px">
-        <h4 style="margin:.2rem 0">Completed</h4>
-        ${htmlCompleted}
+        <h4 style="margin:.2rem 0">Completed (${completed.length})</h4>
+        ${completed.length ? completed.map(c => {
+          const a = getAllA().find(x => x.id === c.id);
+          const title = a ? esc(a.title) : esc(c.id);
+          return `<div style="border-bottom:1px solid var(--border);padding:8px 0"><strong>${title}</strong> · ${c.rec.pct || '—'}%</div>`;
+        }).join('') : '<div style="color:#6B7280">No completions for this date.</div>'}
       </div>
     </div>`;
   document.getElementById('stmodal').classList.add('open');
 }
 
-// expose helper on window for inline handlers
-window.renderDailySummary = renderDailySummary;
-window.openDailySummary = openDailySummary;
+window.openDailySummaryDetail = openDailySummaryDetail;
 
+/**
+ * JSON IMPORT FUNCTIONALITY FOR QUESTIONS
+ */
+export function renderImportSection() {
+  const importHtml = `
+    <div class="bcard">
+      <h3>📥 Import Questions from JSON</h3>
+      <p style="color:#6B7280;font-size:.9rem;margin-bottom:14px">Upload a JSON file with custom questions. File should be an array of assignment objects.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <input type="file" id="json-file-input" accept=".json" style="flex:1;padding:8px;border:2px solid var(--border);border-radius:8px;min-width:200px"/>
+        <button class="btn-sv" onclick="importJSON()">📤 Import JSON</button>
+      </div>
+      <div id="import-status" style="margin-top:14px;font-size:.9rem;color:#6B7280"></div>
+      <div style="margin-top:14px;padding:12px;background:var(--soft);border-radius:9px;border-left:4px solid var(--sky)">
+        <strong style="font-size:.9rem">Expected JSON Format:</strong>
+        <pre style="font-size:.75rem;overflow-x:auto;margin-top:8px;padding:8px;background:#fff;border-radius:6px">[
+  {
+    "title": "Assignment Title",
+    "description": "Description",
+    "subject": "math",
+    "grade": "4",
+    "questions": [
+      {
+        "type": "mc",
+        "text": "Question text?",
+        "options": ["A", "B", "C", "D"],
+        "answerIndex": 0,
+        "explanation": "Why A is correct"
+      }
+    ]
+  }
+]</pre>
+      </div>
+    </div>
+  `;
+
+  const settingsPanel = document.getElementById('ap-settings');
+  if (settingsPanel) {
+    // Find where to insert - after the main settings header
+    const beforeBtn = settingsPanel.querySelector('.btn-sv');
+    const importDiv = document.createElement('div');
+    importDiv.innerHTML = importHtml;
+    if (beforeBtn && beforeBtn.parentElement) {
+      beforeBtn.parentElement.insertBefore(importDiv.firstElementChild, beforeBtn);
+    }
+  }
+}
+
+export function importJSON() {
+  const fileInput = document.getElementById('json-file-input');
+  const statusDiv = document.getElementById('import-status');
+  
+  if (!fileInput || !fileInput.files.length) {
+    if (statusDiv) statusDiv.innerHTML = '<span style="color:var(--coral)">❌ Please select a file</span>';
+    return;
+  }
+
+  const file = fileInput.files[0];
+  const reader = new FileReader();
+
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      
+      if (!Array.isArray(data)) {
+        throw new Error('JSON must be an array of assignments');
+      }
+
+      const customAssignments = getCustom();
+      let importedCount = 0;
+
+      data.forEach((item, idx) => {
+        try {
+          // Validate required fields
+          if (!item.title || !item.subject || !item.grade || !Array.isArray(item.questions)) {
+            throw new Error(`Item ${idx}: Missing required fields`);
+          }
+
+          const assignment = {
+            id: 'imported-' + Date.now() + '-' + idx,
+            title: item.title.substring(0, 100),
+            description: item.description || '',
+            subject: item.subject,
+            grade: String(item.grade),
+            passage: item.passage || null,
+            questions: item.questions.map((q, qidx) => {
+              if (!q.text || !q.type) throw new Error(`Q${qidx + 1}: Missing text or type`);
+              
+              if (q.type === 'mc') {
+                if (!Array.isArray(q.options) || q.options.length < 2) {
+                  throw new Error(`Q${qidx + 1}: MC questions need at least 2 options`);
+                }
+                return {
+                  type: 'mc',
+                  text: q.text,
+                  options: q.options,
+                  answer: q.options[q.answerIndex || 0],
+                  answerIndex: q.answerIndex || 0,
+                  explanation: q.explanation || ''
+                };
+              } else if (q.type === 'fill') {
+                if (!q.answer) throw new Error(`Q${qidx + 1}: Fill questions need an answer`);
+                return {
+                  type: 'fill',
+                  text: q.text,
+                  options: [],
+                  answer: q.answer,
+                  explanation: q.explanation || ''
+                };
+              }
+              throw new Error(`Q${qidx + 1}: Unknown question type`);
+            })
+          };
+
+          customAssignments.push(assignment);
+          importedCount++;
+        } catch (err) {
+          console.error(`Error processing item ${idx}:`, err);
+        }
+      });
+
+      if (importedCount > 0) {
+        saveCustom(customAssignments);
+        if (statusDiv) {
+          statusDiv.innerHTML = `<span style="color:var(--mint)">✅ Successfully imported ${importedCount} assignment${importedCount !== 1 ? 's' : ''}</span>`;
+        }
+        toast(`Imported ${importedCount} questions! 🎉`);
+        fileInput.value = '';
+        // Refresh custom assignments list
+        setTimeout(() => {
+          if (window.renderCustomList) window.renderCustomList();
+        }, 500);
+      } else {
+        if (statusDiv) statusDiv.innerHTML = '<span style="color:var(--coral)">❌ No valid assignments found</span>';
+      }
+    } catch (err) {
+      if (statusDiv) statusDiv.innerHTML = `<span style="color:var(--coral)">❌ Invalid JSON: ${err.message}</span>`;
+    }
+  };
+
+  reader.readAsText(file);
+}
+
+window.importJSON = importJSON;
+
+/**
+ * HELPER FUNCTIONS
+ */
+function calculateUserAvg(user) {
+  const vals = Object.values(user.completedAssignments || {});
+  return vals.length ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length) : 0;
+}
+
+function calculateSubjectAvg(users, subjectId) {
+  const scores = [];
+  users.forEach(u => {
+    Object.entries(u.completedAssignments || {}).forEach(([id, rec]) => {
+      const assignment = getAllA().find(a => a.id === id);
+      if (assignment && assignment.subject === subjectId) {
+        scores.push(rec.pct || 0);
+      }
+    });
+  });
+  return scores.length ? Math.round(scores.reduce((s, v) => s + v, 0) / scores.length) : 0;
+}
+
+export function exportAnalyticsCSV() {
+  const users = Object.values(getUsers());
+  let csv = 'Student,Grade,Completions,Average Score,Last Active,Points\n';
+  
+  users.forEach(u => {
+    const vals = Object.values(u.completedAssignments || {});
+    const avg = vals.length ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length) : 0;
+    const lastActive = u.lastLogin ? new Date(u.lastLogin).toLocaleDateString() : 'Never';
+    csv += `"${u.name}",${u.grade},${vals.length},${avg}%,"${lastActive}",${u.totalPoints || 0}\n`;
+  });
+
+  const a = document.createElement('a');
+  a.href = 'data:text/csv;charset=utf-8,' + encodeURIComponent(csv);
+  a.download = 'learnbright_analytics_' + new Date().toISOString().slice(0, 10) + '.csv';
+  a.click();
+}
+
+/**
+ * EXISTING FUNCTIONS (kept from original)
+ */
 export function openStudent(name) {
   const u = getUsers()[name];
   if (!u) return;
@@ -225,8 +593,7 @@ export function openStudent(name) {
   const avg = vals.length ? Math.round(vals.reduce((s, v) => s + (v.pct || 0), 0) / vals.length) : 0;
   let aRows = '';
 
-  // prepare today's assignment summary for this student
-  const todayKey = new Date().toISOString().slice(0,10);
+  const todayKey = new Date().toISOString().slice(0, 10);
   const todayObj = (u.todayAssignmentsDate === todayKey && u.todayAssignments) ? u.todayAssignments : {};
   const todayHtml = SUBJECTS.map(sub => {
     const ids = Array.isArray(todayObj[sub.id]) ? todayObj[sub.id] : [];
@@ -235,7 +602,7 @@ export function openStudent(name) {
       const rec = u.completedAssignments?.[id];
       const a = getAllA().find(x => x.id === id);
       const title = a ? esc(a.title) : esc(id);
-      return `<div style="display:inline-flex;align-items:center;gap:8px;margin-right:10px"><span style="font-size:.9rem">${rec ? '✓' : '◻︎'}</span><span style="font-size:.9rem;color:#111">${title}</span></div>`;
+      return `<div style="display:inline-flex;align-items:center;gap:8px;margin-right:10px"><span style="font-size:.9rem">${rec ? '✅' : '⬜'}</span><span style="font-size:.9rem;color:#111">${title}</span></div>`;
     }).join('');
     return `<div style="margin-bottom:8px"><strong>${sub.icon} ${sub.short}:</strong> ${items}</div>`;
   }).filter(Boolean).join('') || '<div style="font-size:.9rem;color:#6B7280">No Today assignments for this student.</div>';
@@ -250,7 +617,7 @@ export function openStudent(name) {
         <span class="aidx">Q${i + 1}</span>
         <span class="aqt">${esc(ans.questionText || '')}</span>
         <span class="aval" style="color:${ans.correct ? 'var(--mint)' : 'var(--coral)'}">
-          ${ans.correct ? '✓ Correct' : '✗ ' + esc(ans.userAnswer || '—')}
+          ${ans.correct ? '✅ Correct' : '❌ ' + esc(ans.userAnswer || '—')}
         </span>
       </div>`
     ).join('') : '';
@@ -349,6 +716,8 @@ export function renderSettings() {
         See <strong>HOW_TO_ADD_QUESTIONS.md</strong> for full instructions.
       </p>
     </div>`;
+  // Add import section
+  renderImportSection();
 }
 
 export async function chgPass() {
@@ -377,12 +746,22 @@ export async function clrStudents() {
   if (!confirm('Delete ALL student data?')) return;
   await clearUsers();
   toast('All students cleared.');
-  renderSettings();
+  renderAdminStudents();
 }
 
 export async function clrCustom() {
   if (!confirm('Delete ALL custom assignments?')) return;
   await clearCustom();
   toast('Custom assignments cleared.');
-  renderSettings();
+  if (window.renderCustomList) window.renderCustomList();
 }
+
+window.openStudent = openStudent;
+window.closeModal = closeModal;
+window.delStudent = delStudent;
+window.exportCSV = exportCSV;
+window.exportAnalyticsCSV = exportAnalyticsCSV;
+window.chgPass = chgPass;
+window.saveTodaySettings = saveTodaySettings;
+window.clrStudents = clrStudents;
+window.clrCustom = clrCustom;
