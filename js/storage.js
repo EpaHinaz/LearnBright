@@ -9,6 +9,7 @@ const SETTINGS_TABLE = 'settings';
 export const ADMIN_KEY = 'lb_admin_pass';
 export const USERS_KEY = 'lb_users';
 export const CUSTOM_KEY = 'lb_custom';
+export const SETTINGS_KEY = 'lb_settings';
 const DEFAULT_ADMIN_PASS = 'admin123';
 
 let cachedAdminPass = localStorage.getItem(ADMIN_KEY) || DEFAULT_ADMIN_PASS;
@@ -59,11 +60,32 @@ export const saveCustom = assignments => {
   if (hasSupabase()) syncCustomToSupabase(assignments).catch(() => {});
 };
 
+export const getSettings = () => {
+  try { return JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}'); } catch { return {}; }
+};
+
+export const saveSettings = async settings => {
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+  if (hasSupabase()) await syncSettingsToSupabase(settings).catch(() => {});
+};
+
+export const getSetting = (key, defaultValue) => {
+  const settings = getSettings();
+  return settings[key] != null ? settings[key] : defaultValue;
+};
+
+export const setSetting = async (key, value) => {
+  const settings = getSettings();
+  settings[key] = value;
+  await saveSettings(settings);
+  return settings;
+};
+
 export const getAllA = () => [...state.allAssignments, ...getCustom()];
 
 export async function syncFromSupabase() {
   if (!hasSupabase()) return;
-  await Promise.all([syncUsersFromSupabase(), syncCustomFromSupabase(), syncAdminPassFromSupabase()]);
+  await Promise.all([syncUsersFromSupabase(), syncCustomFromSupabase(), syncSettingsFromSupabase(), syncAdminPassFromSupabase()]);
 }
 
 async function syncUsersFromSupabase() {
@@ -85,6 +107,17 @@ async function syncCustomFromSupabase() {
   if (assignments.length) {
     localStorage.setItem(CUSTOM_KEY, JSON.stringify(assignments));
   }
+}
+
+async function syncSettingsFromSupabase() {
+  const { data, error } = await supabase.from(SETTINGS_TABLE).select('key,value');
+  if (error || !data) return;
+  const settings = data.reduce((acc, row) => {
+    if (!row?.key || row.key === 'admin_password') return acc;
+    acc[row.key] = row.value;
+    return acc;
+  }, {});
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
 }
 
 async function syncAdminPassFromSupabase() {
@@ -120,4 +153,13 @@ async function syncUsersToSupabase(users) {
 async function syncCustomToSupabase(assignments) {
   const rows = assignments.map(data => ({ id: data.id, data }));
   await supabase.from(CUSTOM_TABLE).upsert(rows, { onConflict: 'id' });
+}
+
+async function syncSettingsToSupabase(settings) {
+  const rows = Object.entries(settings).map(([key, value]) => ({ key, value: String(value) }));
+  await supabase.from(SETTINGS_TABLE).upsert(rows, { onConflict: 'key' });
+}
+
+async function syncSettingToSupabase(key, value) {
+  return supabase.from(SETTINGS_TABLE).upsert({ key, value: String(value) }, { onConflict: 'key' });
 }

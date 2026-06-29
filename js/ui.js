@@ -1,7 +1,7 @@
 import { state } from './state.js';
-import { getAllA, getCustom } from './storage.js';
+import { getAllA, getCustom, getUsers, saveUsers, getSetting } from './storage.js';
 import { esc } from './utils.js';
-import { SUBJECTS, ALL_TABS, GRADE_OPTIONS, getSubjectMeta } from './config.js';
+import { SUBJECTS, ALL_TABS, GRADE_OPTIONS, TODAY_ROWS, getSubjectMeta } from './config.js';
 import { renderAdminStudents, renderSettings } from './admin.js';
 import { renderBuilder , renderCustomList } from './builder.js';
 
@@ -17,13 +17,72 @@ function getUncompletedAssignmentsForSubject(subject, grade) {
   return getAllA().filter(a => a.subject === subject && a.grade === grade && !state.currentUser.completedAssignments?.[a.id]);
 }
 
-function buildTodayRow(rowIndex, uncompletedBySubject) {
+function getTodayRows() {
+  const value = Number(getSetting('today_rows', TODAY_ROWS));
+  return Number.isInteger(value) && value > 0 ? value : TODAY_ROWS;
+}
+
+function todayDate() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function ensureTodayAssignments(user) {
+  const users = getUsers();
+  let changed = false;
+  const grade = user.grade;
+  const rowCount = getTodayRows();
+  const currentDate = todayDate();
+  const assignmentsBySubject = SUBJECTS.reduce((acc, subject) => {
+    acc[subject.id] = getAllA().filter(a => a.subject === subject.id && a.grade === grade);
+    return acc;
+  }, {});
+
+  if (!user.todayAssignments || typeof user.todayAssignments !== 'object') {
+    user.todayAssignments = {};
+    changed = true;
+  }
+
+  if (user.todayAssignmentsDate !== currentDate || user.todayAssignmentsRows !== rowCount) {
+    user.todayAssignments = {};
+    user.todayAssignmentsDate = currentDate;
+    user.todayAssignmentsRows = rowCount;
+    changed = true;
+  }
+
+  SUBJECTS.forEach(subject => {
+    const allForSubject = assignmentsBySubject[subject.id];
+    const uncompleted = allForSubject.filter(a => !user.completedAssignments?.[a.id]);
+    const saved = Array.isArray(user.todayAssignments[subject.id]) ? [...user.todayAssignments[subject.id]] : [];
+    const validSaved = saved.filter(id => allForSubject.some(a => a.id === id));
+    if (validSaved.length !== saved.length) changed = true;
+
+    const used = new Set(validSaved);
+    const available = uncompleted.filter(a => !used.has(a.id));
+    const fill = available.slice(0, Math.max(0, rowCount - validSaved.length)).map(a => a.id);
+    const finalIds = [...validSaved, ...fill].slice(0, rowCount);
+
+    if (!Array.isArray(user.todayAssignments[subject.id]) || user.todayAssignments[subject.id].join(',') !== finalIds.join(',')) {
+      user.todayAssignments[subject.id] = finalIds;
+      changed = true;
+    }
+  });
+
+  if (changed) {
+    users[user.name] = user;
+    saveUsers(users);
+  }
+
+  return user.todayAssignments;
+}
+
+function buildTodayRow(rowIndex, todayAssignmentsBySubject) {
   return `<div class="today-grid">${SUBJECTS.map(subject => {
-    const assignment = uncompletedBySubject[subject.id][rowIndex];
+    const assignmentId = todayAssignmentsBySubject[subject.id]?.[rowIndex];
+    const assignment = assignmentId ? getAllA().find(a => a.id === assignmentId) : null;
     if (!assignment) {
       return `<div class="today-card acard" style="opacity:.65;min-height:120px"><div class="atype">${subject.icon} ${subject.short}</div><div style="font-size:.9rem;color:#6B7280;margin-top:8px">No more uncompleted tests.</div></div>`;
     }
-    return `<div class="today-card acard" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:120px">
+    return `<div class="today-card acard${state.currentUser.completedAssignments?.[assignment.id] ? ' done' : ''}" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:120px">
       <div class="atype">${subject.icon} ${subject.short}</div>
       <div class="atitle" style="font-size:1rem;margin-top:8px">${esc(assignment.title)}</div>
       <div class="ameta" style="margin-top:10px"><span>📝 ${assignment.questions.length} Qs</span><span>⭐ ${assignment.questions.length * 10} pts</span></div>
@@ -84,11 +143,14 @@ export function renderDash() {
     </div>`;
   }).join('');
 
-  const uncompletedBySubject = SUBJECTS.reduce((acc, subject) => {
-    acc[subject.id] = getUncompletedAssignmentsForSubject(subject.id, state.currentUser.grade);
-    return acc;
-  }, {});
-  const todayRows = [0, 1].map(index => buildTodayRow(index, uncompletedBySubject)).join('');
+  const todayAssignments = ensureTodayAssignments(state.currentUser);
+  const rowCount = getTodayRows();
+  const todayRows = Array.from({ length: rowCount }).map((_, index) => buildTodayRow(index, todayAssignments)).join('');
+  const todayTotal = SUBJECTS.length * rowCount;
+  const todayCompleted = SUBJECTS.reduce((sum, subject) => {
+    const completedIds = todayAssignments[subject.id]?.filter(id => state.currentUser.completedAssignments?.[id]) || [];
+    return sum + completedIds.length;
+  }, 0);
 
   document.getElementById('t-dash').innerHTML = `
     <div class="wbanner"><h2>Hello, ${esc(state.currentUser.name)}! 👋</h2><p>Grade ${state.currentUser.grade} · Keep it up!</p><div class="wstar">⭐</div></div>
@@ -98,7 +160,7 @@ export function renderDash() {
       <div class="scard"><div class="snum" style="color:var(--mint)">${avg}%</div><div class="slbl">Avg Score</div></div>
       <div class="scard"><div class="snum" style="color:var(--lav)">${all.length - done}</div><div class="slbl">Remaining</div></div>
     </div>
-    <div class="shdr" style="margin-top:22px"><h2>📅 Today’s Assigned Tests</h2><p>Complete your daily tests to earn points!</p></div>
+    <div class="shdr" style="margin-top:22px"><h2>📅 Today’s Assigned Tests</h2><p>${todayCompleted}/${todayTotal} of today’s assignments completed.</p></div>
     ${todayRows}
     <div class="subcards">${subjectCards}</div>`;
 }

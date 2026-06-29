@@ -24,6 +24,7 @@ window.closeModal = admin.closeModal;
 window.delStudent = admin.delStudent;
 window.exportCSV = admin.exportCSV;
 window.chgPass = admin.chgPass;
+window.saveTodaySettings = admin.saveTodaySettings;
 window.clrStudents = admin.clrStudents;
 window.clrCustom = admin.clrCustom;
 window.bAddQ = builder.bAddQ;

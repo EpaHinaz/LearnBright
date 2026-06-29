@@ -16,4 +16,5 @@ export function getSubjectMeta(id) {
 
 export const SUBJECT_IDS = SUBJECTS.map(s => s.id);
 export const GRADE_OPTIONS = ['4', '5'];
+export const TODAY_ROWS = 2;
 export const ALL_TABS = ['dash', ...SUBJECT_IDS, 'prog'];

@@ -1,5 +1,5 @@
 import { state } from './state.js';
-import { getUsers, saveUsers, getAllA, getCustom, getAdminPass, saveAdminPass, clearUsers, clearCustom } from './storage.js';
+import { getUsers, saveUsers, getAllA, getCustom, getAdminPass, saveAdminPass, clearUsers, clearCustom, getSetting, setSetting } from './storage.js';
 import { esc, toast } from './utils.js';
 import { getSubjectMeta } from './config.js';
 
@@ -134,6 +134,7 @@ export function exportCSV() {
 
 export function renderSettings() {
   const totalJsonFiles = state.allAssignments.length;
+  const todayRows = getSetting('today_rows', 2);
   document.getElementById('ap-settings').innerHTML = `
     <div class="admhdr"><div><h2>⚙️ Settings</h2><p>Manage LearnBright.</p></div></div>
     <div class="bcard"><h3>🔐 Change Admin Password</h3>
@@ -149,6 +150,11 @@ export function renderSettings() {
         <button class="btn-sm dng" style="padding:9px 16px" onclick="clrStudents()">🗑 Clear All Students</button>
         <button class="btn-sm dng" style="padding:9px 16px" onclick="clrCustom()">🗑 Clear Custom Assignments</button>
       </div>
+    </div>
+    <div class="bcard"><h3>🧠 Today Assignment Settings</h3>
+      <div class="fg"><label>Rows per subject</label><input id="today-rows" type="number" min="1" step="1" style="width:100px;" value="${todayRows}"/></div>
+      <button class="btn-sv" onclick="saveTodaySettings()">Save Today Settings</button>
+      <p style="color:#6B7280;font-size:.9rem;margin-top:12px">This controls how many rows of daily assignments are generated for each subject.</p>
     </div>
     <div class="bcard"><h3>📁 Question Bank Status</h3>
       <p style="color:#6B7280;font-size:.9rem;line-height:1.8">
@@ -173,6 +179,16 @@ export async function chgPass() {
   if (next !== confirmValue) { toast('Passwords do not match!'); return; }
   saveAdminPass(next);
   toast('Password updated! ✅');
+}
+
+export async function saveTodaySettings() {
+  const input = document.getElementById('today-rows');
+  if (!input) { toast('Could not find Today settings input.'); return; }
+  const rows = parseInt(input.value, 10);
+  if (Number.isNaN(rows) || rows < 1) { toast('Enter a valid number of rows.'); return; }
+  await setSetting('today_rows', rows);
+  toast(`Saved Today assignment rows: ${rows}`);
+  renderSettings();
 }
 
 export async function clrStudents() {
