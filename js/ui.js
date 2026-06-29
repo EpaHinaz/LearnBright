@@ -2,7 +2,7 @@ import { state } from './state.js';
 import { getAllA, getCustom, getUsers, saveUsers, getSetting } from './storage.js';
 import { esc } from './utils.js';
 import { SUBJECTS, ALL_TABS, GRADE_OPTIONS, TODAY_ROWS, getSubjectMeta } from './config.js';
-import { renderAdminStudents, renderSettings } from './admin.js';
+import { renderAdminStudents, renderSettings, renderAnalytics, renderDailySummary } from './admin.js';
 import { renderBuilder , renderCustomList } from './builder.js';
 
 function getSubjectLabel(subject) {
@@ -80,9 +80,9 @@ function buildTodayRow(rowIndex, todayAssignmentsBySubject) {
     const assignmentId = todayAssignmentsBySubject[subject.id]?.[rowIndex];
     const assignment = assignmentId ? getAllA().find(a => a.id === assignmentId) : null;
     if (!assignment) {
-      return `<div class="today-card acard" style="opacity:.65;min-height:120px"><div class="atype">${subject.icon} ${subject.short}</div><div style="font-size:.9rem;color:#6B7280;margin-top:8px">No more uncompleted tests.</div></div>`;
+      return `<div class="today-card acard" style="opacity:.65;min-height:120px"><div class="atype">${subject.icon} ${subject.short}</div><div style="font-size:.9rem;color:#6B7280;margin-top:8px">—</div></div>`;
     }
-    return `<div class="today-card acard${state.currentUser.completedAssignments?.[assignment.id] ? ' done' : ''}" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:120px">
+    return `<div class="today-card acard${state.currentUser.completedAssignments?.[assignment.id] ? ' done' : ''}" onclick="startAssignment('${assignment.id}')" style="cursor:pointer;min-height:120px;padding:12px">
       <div class="atype">${subject.icon} ${subject.short}</div>
       <div class="atitle" style="font-size:1rem;margin-top:8px">${esc(assignment.title)}</div>
       <div class="ameta" style="margin-top:10px"><span>📝 ${assignment.questions.length} Qs</span><span>⭐ ${assignment.questions.length * 10} pts</span></div>
@@ -115,14 +115,15 @@ export function showTab(tab) {
 
 export function showAdminTab(tab) {
   document.querySelectorAll('.admt').forEach((button, index) => {
-    const name = ['students', 'daily', 'builder', 'custom', 'settings'][index];
+    const name = ['students', 'analytics', 'daily', 'builder', 'custom', 'settings'][index];
     button.classList.toggle('active', name === tab);
   });
   document.querySelectorAll('.apanel').forEach(panel => panel.classList.remove('active'));
   const target = document.getElementById('ap-' + tab);
   if (target) target.classList.add('active');
   if (tab === 'students') renderAdminStudents();
-  if (tab === 'daily' && window.renderDailySummaryTable) window.renderDailySummaryTable();
+  if (tab === 'analytics') renderAnalytics();
+  if (tab === 'daily') renderDailySummary();
   if (tab === 'builder') renderBuilder();
   if (tab === 'custom') renderCustomList();
   if (tab === 'settings') renderSettings();
@@ -163,7 +164,7 @@ export function renderDash() {
       <div class="scard"><div class="snum" style="color:var(--mint)">${avg}%</div><div class="slbl">Avg Score</div></div>
       <div class="scard"><div class="snum" style="color:var(--lav)">${all.length - done}</div><div class="slbl">Remaining</div></div>
     </div>
-    <div class="shdr" style="margin-top:22px"><h2>📅 Today’s Assigned Tests</h2><p>${todayCompleted}/${todayTotal} of today’s assignments completed.</p></div>
+    <div class="shdr" style="margin-top:22px"><h2>📅 Today's Assigned Tests</h2><p>${todayCompleted}/${todayTotal} of today's assignments completed.</p></div>
     ${todayRows}
     <div class="subcards">${subjectCards}</div>`;
 }
